@@ -1,6 +1,6 @@
   
   .animate__animated.animate__bounceInUp {
-    --animate-duration: 7.5s;
+    --animate-duration: 5s;
   }
   .animate__animated {
     font-family: Cambria, Georgia;
@@ -20,7 +20,6 @@
    
    
   a {
-    text-decoration: none;
     color: rgb(136, 172, 224)
   }
 
