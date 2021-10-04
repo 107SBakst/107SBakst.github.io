@@ -14,12 +14,7 @@
   a {
     text-decoration: none;
   }
-  body {
-    background-color: rgba(231, 231, 231, 0.89);
-    font-family: Verdana, sans-serif;
-    font-size: 16px;
-    color: rgb(44, 44, 44);
-  }
+
   
   h1 {
     font-family: Georgia, serif;
@@ -30,4 +25,10 @@
   .chart_head {
       font-weight: bold;
       color: rgb(43, 148, 235);
+  }
+  body {
+    background-color: rgba(231, 231, 231, 0.89);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(44, 44, 44);
   }
