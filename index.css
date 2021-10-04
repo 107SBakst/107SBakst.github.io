@@ -1,7 +1,10 @@
   
   .animate__animated.animate__bounceInUp {
-    --animate-duration: 5s;
+    --animate-duration: 7s;
   }
+  .animate__animated.animate__fadeInDownBig {
+  --animate-duration: 7s;
+}
   .animate__animated {
     font-family: Cambria, Georgia;
     font-size: 60px;
