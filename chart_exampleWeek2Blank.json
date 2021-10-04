@@ -19,7 +19,7 @@
         
         {"filter": {
           "field": "areaName", 
-          "oneOf": ["X", "Y", "Z"]}
+          "oneOf": ["Barnet", "Brent", "Camden"]}
           }
   
   
