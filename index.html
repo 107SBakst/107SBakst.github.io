@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+
+
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+<!-- the title goes in the browser bar.-->
+    <title>SB DS website</title>
+<!-- This links to the stylesheet in CSS.-->
+    <link href="C:\Users\vw191\OneDrive - University of Bristol\Course\3rd year\Data Science\Website\repository" type="text/css" rel="stylesheet">
+<!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+</head>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+<background-color: rgba(211,211,211,0.33);body>
+
+<h1 class="web_name">SAMUEL BAKST DATA SCIENCE</h1>
+<!--Chart 1 -->
+  <div class="chart" id="chart1">
+      <!--Heading to explain chart-->
+      <h3 class="chart_head">Week 1: Upload the chart from Rapidcharts.io</h3>
+      <script>
+        var myChart1 = "chart1_covidUKRegions.json";
+        vegaEmbed('#chart1', myChart1);
+      </script>
+  </div>
+
+<!--Chart 2 -->
+<div class="chart" id="chart2">
+    <!--Heading to explain chart-->
+    <h3 class="chart_head">Week 1: Upload a different chart from Rapidcharts.io</h3>
+    <script>
+      var myChart2 = "chart2_ukProductivity.json";
+      vegaEmbed('#chart2', myChart2);
+    </script>
+</div>
+
+  <!--Chart 3 -->
+<div class="chart" id="chart3">
+    <!--Heading to explain chart-->
+    <h3 class="chart_head">Week 1: Upload a different chart from Rapidcharts.io</h3>
+    <script>
+      var myChart3 = "Chartscatter3.json";
+      vegaEmbed('#chart3', myChart3);
+    </script>
+</div>
+
+  <!--Chart 4 -->
+<div class="chart" id="chart4">
+    <!--Heading to explain chart-->
+    <h3 class="chart_head">Week 2: Upload a chart using an API</h3>
+    <script>
+      var myChart4 = "chart_exampleWeek2Blank.json";
+      vegaEmbed('#chart4', myChart4);
+    </script>
+</div>
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>
