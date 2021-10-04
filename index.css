@@ -5,17 +5,19 @@
     font-size: 60px;
     color: rgb(136, 172, 224);
   }
-  .animate__animated.animate__fadeInDownBig {
-  --animate-duration: 7s;
-  color: rgb(54, 117, 136);
-  font-family: Cambria, Georgia;
-}
-  .animate__animated {
+  .animate__animated animate__bounceInUp {
     font-family: Cambria, Georgia;
     font-size: 60px;
     color: rgb(136, 172, 224);
   }
-  .pagelinks {
+  .animate__animated.animate__fadeInDownBig {
+  --animate-duration: 7s;
+}
+.animate__animated animate__fadeInDownBig {
+  color: rgb(54, 117, 136);
+  font-family: Cambria, Georgia;
+}
+ .pagelinks {
     color: rgb(54, 117, 136);
     font-family: Cambria, Georgia;
   }
