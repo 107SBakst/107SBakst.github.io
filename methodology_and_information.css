@@ -1,0 +1,38 @@
+  
+   
+  .methodology_and_information_page_name {
+    color: rgb(85, 79, 167);
+  }
+  .pagelinks {
+    color: rgb(0, 105, 148);
+  }
+   
+  p, 
+  li {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, serif;
+  }
+   
+   
+  a {
+    text-decoration: none;
+  }
+
+  
+  h1 {
+    font-family: Cambria, Georgia;
+    font-size: 60px;
+    color: rgb(136, 172, 224);
+  }
+
+  .chart_head {
+      font-weight: bold;
+      color: rgb(44, 44, 44);
+      font-size: 16px;
+  }
+  body {
+    background-color: rgba(211, 211, 211);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(44, 44, 44);
+  }
