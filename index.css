@@ -1,16 +1,16 @@
   
-  .animate__animated.animate__bounceInUp {
+  .animate__animated_head.animate__bounceInUp {
     --animate-duration: 7s;
   }
-  .animate__animated animate__bounceInUp {
+  .animate__animated_head animate__bounceInUp {
     font-family: Cambria, Georgia;
     font-size: 60px;
     color: rgb(136, 172, 224);
   }
-  .animate__animated.animate__fadeInDownBig {
+  .animate__animated_links.animate__fadeInDownBig {
   --animate-duration: 7s;
 }
-.animate__animated animate__fadeInDownBig {
+.animate__animated_links animate__fadeInDownBig {
   color: rgb(54, 117, 136);
   font-family: Cambria, Georgia;
 }
