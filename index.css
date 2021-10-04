@@ -1,8 +1,11 @@
   
   .animate__animated.animate__bounceInUp {
-    --animate-duration: 7.5s;}
+    --animate-duration: 7.5s;
+  }
   .animate__animated {
-    color: rgb(85, 79, 167);
+    font-family: Cambria, Georgia;
+    font-size: 60px;
+    color: rgb(136, 172, 224);
   }
   .pagelinks {
     color: rgb(54, 117, 136);
@@ -22,9 +25,7 @@
 
   
   h1 {
-    font-family: Cambria, Georgia;
-    font-size: 60px;
-    color: rgb(136, 172, 224);
+
   }
 
   .chart_head {
