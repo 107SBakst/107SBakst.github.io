@@ -1,4 +1,4 @@
-   
+  
    
   .web_name {
     color: rgb(85, 79, 167);
@@ -6,9 +6,17 @@
     font-size: 25px;
   }
   .pagelinks {
-    color: rgb(54, 117, 136);
+    color: rgb( 54, 117, 136);
     font-family: Cambria, Georgia;
   }
+   
+  p, 
+  li {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, serif;
+  }
+   
+   
   a {
     text-decoration: none;
   }
@@ -19,18 +27,12 @@
     font-size: 60px;
     color: rgb(136, 172, 224);
   }
-  p, 
-  li {
-    font-size: 18px;
-    font-family:Cambria, Cochin, Georgia, serif;
-  }
-   
-   
-  a {
-    color: rgb(136, 172, 224)
-  }
 
-
+  .chart_head {
+      font-weight: bold;
+      color: rgb(44, 44, 44);
+      font-size: 16px;
+  }
   body {
     background-color: rgba(211, 211, 211);
     font-family: Verdana, sans-serif;
