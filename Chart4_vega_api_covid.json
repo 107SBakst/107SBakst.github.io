@@ -14,7 +14,7 @@
   },
   "transform": [
 
-    {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of"]}}
+    {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]}}
   ],
   "height": 300,
   "width": 310,
