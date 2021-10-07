@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+
+
+
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+<head>
+<!-- the title goes in the browser bar.-->
+    <title>Portfolio</title>
+<!-- This links to the stylesheet in CSS.-->
+    <link href="Portfolio_page.css" type="text/css" rel="stylesheet">
+<!--The next three lines allow the Vega embed-->
+<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+</head>
+
+<!-- ///////////////////  HEAD //////////////////////////////////// -->
+
+
+
+<!-- ///////////////////  START BODY //////////////////////////////////// -->
+
+
+
+<h1 class="website_name">Our Concrete World</h1>
+
+<!--Page name-->
+<h2 class="portfolio_page_name">Samuel Bakst Course Portfolio</h1>
+
+<!--Pagelinks: links to the other pages-->
+<h4 class="pagelinks">
+    <a href="index.html">Home,</a>
+    <a>Portfolio,</a>
+    <a href="urban_stories.html" >Urban Stories,</a>
+    <a href="methodology_and_information.html" >Methodoloy & Information,</a>
+    <a href="about_me.html">About Me,</a>
+  </h4>
+    
+<!--Chart 1 -->
+
+<!--This div groups the chart heading with the chart-->
+<div class="head_plus_chart">
+
+<!--Heading to explain chart-->
+<h3 class="chart_head"> Week 1: Upload the chart from Rapidcharts.io</h3>
+  <div class="chart" id="chart1">
+      <script>
+        var myChart1 = "chart1_covidUKRegions.json";
+        vegaEmbed('#chart1', myChart1);
+      </script>
+  </div>
+</div>
+
+<!--Chart 2 -->
+
+<!--This div groups the chart heading with the chart-->
+<div class="head_plus_chart">
+<!--Heading to explain chart-->
+<h3 class="chart_head"> Week 1: Upload a different chart from Rapidcharts.io</h3>
+    <div class="chart" id="chart2">
+    <script>
+      var myChart2 = "chart2_ukProductivity.json";
+      vegaEmbed('#chart2', myChart2);
+    </script>
+    </div>
+</div>
+
+  <!--Chart 3 -->
+
+<!--Heading to explain chart-->
+<!--This div groups the chart heading with the chart-->
+<div class="head_plus_chart">
+<h3 class="chart_head"> Week 1: Upload a different chart from Rapidcharts.io</h3>
+    <div class="chart" id="chart3">
+    <script>
+      var myChart3 = "Chartscatter3.json";
+      vegaEmbed('#chart3', myChart3);
+    </script>
+    </div>
+</div>
+
+  <!--Chart 4 -->
+<!--This div groups the chart heading with the chart-->
+<div class="head_plus_chart">
+<!--Heading to explain chart-->
+<h3 class="chart_head"> Week 2: Upload a chart using an API</h3>
+    <div class="chart" id="chart4">
+    <script>
+      var myChart4 = "chart_exampleWeek2Blank.json";
+      vegaEmbed('#chart4', myChart4);
+    </script>
+    </div>
+</div>
+</body>
+<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+</html>
