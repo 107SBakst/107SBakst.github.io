@@ -1,25 +1,21 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {
-    "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&format=csv",
-    "format": {"type": "csv"}
-  },
+  "data": {"url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&format=csv",
+    "format": {"type": "csv"}},
   "transform": [
     {
-      "filter": {
-        "field": "areaName",
-        "oneOf": ["Barnet", "Bristol, City of", "Camden"]
-      }
+      "filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]
     }
+  }
   ],
   "width": 400,
   "height": 300,
   "layer": [
     {
       "encoding": {
-        "x": {"field": "date", "type": "temporal"},
-        "y": {"field": "cumCasesBySpecimenDate", "type": "quantitative"},
-        "color": {"field": "areaName", "type": "nominal"}
+      "x": {"field": "date", "type": "temporal"},
+      "y": {"field": "cumCasesBySpecimenDate", "type": "quantitative"},
+      "color": {"field": "areaName", "type": "nominal"}
       },
       "layer": [
         {"mark": "line"},
@@ -28,18 +24,18 @@
             {
               "name": "label",
               "select": {
-                "type": "point",
-                "encodings": ["x"],
-                "nearest": true,
-                "on": "mouseover"
+              "type": "point",
+              "encodings": ["x"],
+              "nearest": true,
+              "on": "mouseover"
               }
             }
           ],
           "mark": "point",
           "encoding": {
-            "opacity": {
-              "condition": {"param": "label", "empty": false, "value": 1},
-              "value": 0
+          "opacity": {
+          "condition": {"param": "label", "empty": false, "value": 1},
+          "value": 0
             }
           }
         }
