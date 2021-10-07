@@ -1,26 +1,31 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&format=csv",
-      "format": {"type": "csv"}
-    },
-    "transform": [
-  
-      {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]}}
-    ],
-    "width": 400,
-    "height": 300,
-    "layer": [
-      {
-        "encoding": {
-          "x": {"field": "date", "type": "temporal"},
-          "y": {"field": "cumCasesBySpecimenDate", "type": "quantitative"},
-          "color": {"field": "areaName", "type": "nominal"}
-        },
-        "layer": [
-          {"mark": "line"},
-          {
-            "params": [{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&format=csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "areaName",
+        "oneOf": ["Barnet", "Bristol, City of", "Camden"]
+      }
+    }
+  ],
+  "width": 400,
+  "height": 300,
+  "layer": [
+    {
+      "encoding": {
+        "x": {"field": "date", "type": "temporal"},
+        "y": {"field": "cumCasesBySpecimenDate", "type": "quantitative"},
+        "color": {"field": "areaName", "type": "nominal"}
+      },
+      "layer": [
+        {"mark": "line"},
+        {
+          "params": [
+            {
               "name": "label",
               "select": {
                 "type": "point",
@@ -28,56 +33,52 @@
                 "nearest": true,
                 "on": "mouseover"
               }
-            }],
-            "mark": "point",
-            "encoding": {
-              "opacity": {
-                "condition": {
-                  "param": "label",
-                  "empty": false,
-                  "value": 1
-                },
-                "value": 0
-              }
+            }
+          ],
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {"param": "label", "empty": false, "value": 1},
+              "value": 0
             }
           }
-        ]
-      },
-      {
-        "transform": [{"filter": {"param": "label", "empty": false}}],
-        "layer": [
-          {
-            "mark": {"type": "rule", "color": "gray"},
-            "encoding": {
-              "x": {"type": "temporal", "field": "date", "aggregate": "min"}
-            }
+        }
+      ]
+    },
+    {
+      "transform": [{"filter": {"param": "label", "empty": false}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {"type": "temporal", "field": "date", "aggregate": "min"}
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "cumCasesBySpecimenDate"},
+            "x": {"type": "temporal", "field": "date"},
+            "y": {"type": "quantitative", "field": "cumCasesBySpecimenDate"}
           },
-          {
-            "encoding": {
-              "text": {"type": "quantitative", "field": "cumCasesBySpecimenDate"},
-              "x": {"type": "temporal", "field": "date"},
-              "y": {"type": "quantitative", "field": "cumCasesBySpecimenDate"}
-            },
-            "layer": [
-              {
-                "mark": {
-                  "type": "text",
-                  "stroke": "white",
-                  "strokeWidth": 2,
-                  "align": "left",
-                  "dx": 5,
-                  "dy": -5
-                }
-              },
-              {
-                "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
-                "encoding": {
-                  "color": {"type": "nominal", "field": "areaName"}
-                }
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {"color": {"type": "nominal", "field": "areaName"}}
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {}
+}
