@@ -9,7 +9,7 @@
       "color": "black"
     },
     "data": {
-      "url": "Chart5_download_csv_data.csv",
+      "name": "Chart5_download_csv_data.csv",
       "format": {"type": "csv"}
     },
     "transform": [
