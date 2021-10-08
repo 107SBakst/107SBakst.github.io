@@ -9,12 +9,12 @@
       "color": "black"
     },
     "data": {
-      "url": "c.csv",
+      "url": "Chart5_download_csv_data.csv",
       "format": {"type": "csv"}
     },
     "transform": [
   
-      {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of"]}}
+      {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]}}
     ],
     "height": 300,
     "width": 310,
