@@ -11,10 +11,6 @@
     "data": {
       "values": [{"date": "21/03/2020", "newDeaths28DaysByDeathDate": 1}, {"date": "22/03/2020", "newDeaths28DaysByDeathDate": 1}, {"date": "23/03/2020", "newDeaths28DaysByDeathDate": 2}, {"date": "24/03/2020", "newDeaths28DaysByDeathDate": 0}, {"date": "25/03/2020", "newDeaths28DaysByDeathDate": 2}, {"date": "26/03/2020", "newDeaths28DaysByDeathDate": 3}, {"date": "27/03/2020", "newDeaths28DaysByDeathDate": 0}, {"date": "28/03/2020", "newDeaths28DaysByDeathDate": 4}, {"date": "29/03/2020", "newDeaths28DaysByDeathDate": 3}]
     },
-    "transform": [
-  
-      {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]}}
-    ],
     "height": 300,
     "width": 310,
     "mark": {"type": "point", "point": false},
