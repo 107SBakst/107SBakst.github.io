@@ -6,7 +6,7 @@
   },
   "mark": "point",
   "encoding": {
-    "x": {"field": "x_axis", "type": "quantitative"},
-    "y": {"field": "y_axis", "type": "quantitative"}
+    "x": {"field": "x_axis", "type": "quantitative", "axis": {"grid": false}},
+    "y": {"field": "y_axis", "type": "quantitative", "axis": {"grid": false}}
   }
 }
