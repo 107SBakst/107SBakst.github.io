@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
   "data": {
-    "values": [{"x_axis": -2, "y_axis": 121}, {"x_axis": -1, "y_axis": 100}, {"x_axis": 0, "y_axis": 81}, {"x_axis": 1, "y_axis": 64}, {"x_axis": 2, "y_axis": 49}, {"x_axis": 3, "y_axis": 36}, {"x_axis": 4, "y_axis": 49}, {"x_axis": 5, "y_axis": 64},{"x_axis": 6, "y_axis": 81}, {"x_axis": 7, "y_axis": 100}, {"x_axis": 8, "y_axis": 121}]
+    "values": [{"x_axis": -2, "y_axis": -8}, {"x_axis": -1, "y_axis": -1}, {"x_axis": 0, "y_axis": 0}, {"x_axis": 1, "y_axis": 1}, {"x_axis": 2, "y_axis": 8}, {"x_axis": 3, "y_axis": 27}, {"x_axis": 4, "y_axis": 64}, {"x_axis": 5, "y_axis": 125},{"x_axis": 6, "y_axis": 216}, {"x_axis": 7, "y_axis": 343}, {"x_axis": 8, "y_axis": 512}]
   },
   "mark": "point",
   "encoding": {
