@@ -35,6 +35,12 @@
       font-size: 16px;
       font-family: Cambria, Georgia;
       max-width: 450px;
+  }
+
+  .chart {
+    height: auto;
+    width: max-content;
+  }
 
   }
   body {
