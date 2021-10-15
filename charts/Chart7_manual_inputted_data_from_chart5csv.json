@@ -26,13 +26,6 @@
         "type": "quantitative",
         "title": null,
         "axis": {"grid": false}
-      },
-      "color": {
-        "field": "areaName",
-        "type": "nominal",
-        "scale": {"scheme": "set1"},
-        "title": "LEGEND TITLE",
-        "legend": {"orient": "top-left", "fillColor": "#FcFdFd"}
       }
     }
   }
