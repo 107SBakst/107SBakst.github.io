@@ -1,15 +1,15 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "Covid-19 new deaths",
-      "subtitle": "Sub-title here",
+      "text": "Covid-19 new deaths.",
+      "subtitle": "Deaths that ocurred within 28 days of a positive test.",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
       "color": "black"
     },
     "data": {
-      "values": [{"date": "21/03/2020", "newDeaths28DaysByDeathDate": 1}, {"date": "22/03/2020", "newDeaths28DaysByDeathDate": 1}, {"date": "23/03/2020", "newDeaths28DaysByDeathDate": 2}, {"date": "24/03/2020", "newDeaths28DaysByDeathDate": 0}, {"date": "25/03/2020", "newDeaths28DaysByDeathDate": 2}, {"date": "26/03/2020", "newDeaths28DaysByDeathDate": 3}, {"date": "27/03/2020", "newDeaths28DaysByDeathDate": 0}, {"date": "28/03/2020", "newDeaths28DaysByDeathDate": 4}, {"date": "29/03/2020", "newDeaths28DaysByDeathDate": 3}]
+      "values": [{"date": "21/03/2020", "newDeaths28DaysByDeathDate": 1}, {"date": "22/03/2020", "newDeaths28DaysByDeathDate": 1}, {"date": "03/23/2020", "newDeaths28DaysByDeathDate": 2}, {"date": "03/24/2020", "newDeaths28DaysByDeathDate": 0}, {"date": "03/25/2020", "newDeaths28DaysByDeathDate": 2}, {"date": "03/26/2020", "newDeaths28DaysByDeathDate": 3}, {"date": "03/27/2020", "newDeaths28DaysByDeathDate": 0}, {"date": "03/28/2020", "newDeaths28DaysByDeathDate": 4}, {"date": "03/29/2020", "newDeaths28DaysByDeathDate": 3}]
     },
     "height": 300,
     "width": 310,
