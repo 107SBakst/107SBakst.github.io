@@ -1,6 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/charts/Hospital_admissions_covid19.csv"},
+  "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/charts/Hospital_admissions_covid19.csv",
+  "format": {"type": "csv"}},
   "width": 400,
   "height": 300,
   "layer": [
