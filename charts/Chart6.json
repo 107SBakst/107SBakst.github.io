@@ -1,9 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {
-    "url": "Hospital_admissions_covid19.csv",
-    "format": {"type": "csv"}
-  },
+  "data": {"url": "Hospital_admissions_covid19.csv"},
   "width": 400,
   "height": 300,
   "layer": [
