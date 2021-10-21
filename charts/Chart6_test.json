@@ -1,20 +1,16 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=cumCasesBySpecimenDate&format=csv",
+    "url": "Hospital_admissions_covid19.csv",
     "format": {"type": "csv"}
   },
-  "transform": [
-
-    {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]}}
-  ],
   "width": 400,
   "height": 300,
   "layer": [
     {
       "encoding": {
         "x": {"field": "date", "type": "temporal"},
-        "y": {"field": "cumCasesBySpecimenDate", "type": "quantitative"},
+        "y": {"field": "newAdmissions", "type": "quantitative"},
         "color": {"field": "areaName", "type": "nominal"}
       },
       "layer": [
@@ -54,9 +50,9 @@
         },
         {
           "encoding": {
-            "text": {"type": "quantitative", "field": "cumCasesBySpecimenDate"},
+            "text": {"type": "quantitative", "field": "newAdmissions"},
             "x": {"type": "temporal", "field": "date"},
-            "y": {"type": "quantitative", "field": "cumCasesBySpecimenDate"}
+            "y": {"type": "quantitative", "field": "newAdmissions"}
           },
           "layer": [
             {
