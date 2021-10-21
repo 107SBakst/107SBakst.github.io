@@ -11,7 +11,7 @@
         "color": {"field": "areaName", "type": "nominal"}
       },
       "layer": [
-        {"mark": "line"},
+        {"mark": "point"},
         {
           "params": [{
             "name": "label",
