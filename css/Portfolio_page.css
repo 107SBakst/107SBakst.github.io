@@ -50,6 +50,10 @@
     max-width: 340px;
     text-align: justify;
   }
+  #chart6head {
+    max-width: 340px;
+    text-align: justify;
+  }
   body {
     background-color: rgba(211, 211, 211);
     font-family: Verdana, sans-serif;
