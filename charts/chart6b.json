@@ -9,7 +9,7 @@
       "color": "black"
     },
     "data": {
-      "url": "Hospital_admissions_covid19.csv"},
+      "url": "charts/Hospital_admissions_covid19.csv"},
     "height": 300,
     "width": 310,
     "mark": {"type": "point", "point": false},
