@@ -9,7 +9,7 @@
     "color": "black"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/ltla_2021-10-14_chart5data.csv",
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/charts/ltla_2021-10-14_chart5data.csv",
     "format": {"type": "csv"}
   },
   "transform": [
