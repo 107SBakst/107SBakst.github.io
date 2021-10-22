@@ -9,7 +9,7 @@
     "color": "black"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/charts/ltla_2021-10-14_chart5data.csv",
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/charts/ltla_2021-10-22.csv",
     "format": {"type": "csv"}
   },
   "transform": [
@@ -27,7 +27,7 @@
       "axis": {"grid": false}
     },
     "y": {
-      "field": "newDeaths28DaysByDeathDate",
+      "field": "newCasesBySpecimenDate",
       "type": "quantitative",
       "title": null,
       "axis": {"grid": false}
