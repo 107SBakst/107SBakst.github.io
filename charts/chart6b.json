@@ -12,10 +12,6 @@
       "url": "Hospital_admissions_covid19.csv",
       "format": {"type": "csv"}
     },
-    "transform": [
-  
-      {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]}}
-    ],
     "height": 300,
     "width": 310,
     "mark": {"type": "point", "point": false},
@@ -27,7 +23,7 @@
         "axis": {"grid": false}
       },
       "y": {
-        "field": "newDeaths28DaysByDeathDate",
+        "field": "newAdmissions",
         "type": "quantitative",
         "title": null,
         "axis": {"grid": false}
