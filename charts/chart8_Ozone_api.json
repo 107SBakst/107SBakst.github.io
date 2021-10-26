@@ -17,7 +17,7 @@
     "encoding": {
       "x": {
         "field": "start",
-        "type": "nominal",
+        "type": "temporal",
         "title": null,
         "axis": {"grid": false}
       },
