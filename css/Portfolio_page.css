@@ -67,3 +67,8 @@
     max-width: 600px;
     text-align: justify;
   }
+
+  #emissions_dashboard {
+    background-color: rgb(238, 235, 222);
+    min-width: 850px;
+  }
