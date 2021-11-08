@@ -1,6 +1,7 @@
 import requests
 import os
 import json
+from google.colab import files
 
 url_base = "https://api.v2.emissions-api.org/api/v2/ozone/average.json?country={}&begin=2019-02-10&end=2021-02-11&limit=100&offset=0"
 
@@ -18,3 +19,5 @@ print(fileName)
 
 with open(fileName, 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=4)
+
+files.download('{}'.format(fileName))
