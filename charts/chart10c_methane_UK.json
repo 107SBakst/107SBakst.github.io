@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK Methane levels",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/data_UK_methane.json"
+  },
+  "height": 300,
+  "width": 310,
+  "mark": {"type": "line", "point": false},
+  "encoding": {
+    "x": {
+      "field": "start",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "average",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    }
+    }
+  }
