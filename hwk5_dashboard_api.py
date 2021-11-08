@@ -17,4 +17,4 @@ fileName = "data_airquality_ozone_"+str(i)+".json"
 print(fileName)
 
 with open(fileName, 'w', encoding='utf-8') as f:
-    json.dump(data, f, ensure_acsii=False, indent=4)
+    json.dump(data, f, ensure_ascii=False, indent=4)
