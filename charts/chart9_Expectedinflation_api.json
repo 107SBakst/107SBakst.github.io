@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Covid-19 cumulative case rate",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://www.alphavantage.co/query?function=INFLATION_EXPECTATION&apikey=OPI4CDQ0WDUIWS9D"},
+  "height": 300,
+  "width": 310,
+  "mark": {"type": "line", "point": false},
+  "encoding": {
+    "x": {
+      "field": "data.date",
+      "type": "temporal",
+      "title": null,
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "data.value",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"grid": false}
+    }
+  }
+}
