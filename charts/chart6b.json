@@ -10,8 +10,8 @@
     },
     "data": {
       "url": "charts/Hospital_admissions_covid19.csv"},
-    "height": 300,
-    "width": 310,
+    "height": 500,
+    "width": 710,
     "mark": {"type": "point", "point": false},
     "encoding": {
       "x": {
