@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "UK Methane levels",
+    "text": "Methane",
+    "subtitle": "Pa"
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
