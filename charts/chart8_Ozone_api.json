@@ -11,8 +11,8 @@
     }, 
     "data": {
       "url": "https://api.v2.emissions-api.org/api/v2/ozone/average.json?country=USA&begin=2019-02-10&end=2021-02-11&limit=100&offset=0"},
-    "height": 300,
-    "width": 310,
+    "height": 500,
+    "width": 710,
     "mark": {"type": "point", "point": false},
     "encoding": {
       "x": {
