@@ -1,29 +1,33 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Covid-19 cumulative case rate",
-    "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "start",
-    "color": "black"
-  },
-  "data": {
-    "url": "https://www.alphavantage.co/query?function=INFLATION_EXPECTATION&apikey=OPI4CDQ0WDUIWS9D"},
-  "height": 300,
-  "width": 310,
-  "mark": {"type": "line", "point": false},
-  "encoding": {
-    "x": {
-      "field": "data.date",
-      "type": "temporal",
-      "title": null,
-      "axis": {"grid": false}
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Expected inflation in the US as measured by the median expected price change over the next 12 months.",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
     },
-    "y": {
-      "field": "data.value",
-      "type": "quantitative",
-      "title": null,
-      "axis": {"grid": false}
+    "data": {
+      "url": "https://www.alphavantage.co/query?function=INFLATION_EXPECTATION&apikey=OPI4CDQ0WDUIWS9D", "format": {
+      "property": "data"
+        }},
+    "height": 500,
+    "width": 710,
+    "mark": {"type": "point"},
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false},
+        "sort": "ascending"
+      },
+      
+      "y": {
+        "field": "value",
+        "type": "quantitative",
+        "title": null,
+        "axis": {"grid": false}
+      }
     }
   }
-}
