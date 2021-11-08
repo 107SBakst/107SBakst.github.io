@@ -23,6 +23,7 @@
     "y": {
       "field": "average",
       "type": "quantitative",
+      "scale": {"domain":[1400,2000]},
       "title": null,
       "axis": {"grid": false}
     }
