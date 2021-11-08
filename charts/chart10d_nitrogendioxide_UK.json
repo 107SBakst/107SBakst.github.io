@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "UK Nitrogen Dioxide levels",
+    "text": "Nitrogen Dioxide",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
