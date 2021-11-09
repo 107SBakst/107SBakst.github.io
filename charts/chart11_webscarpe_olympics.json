@@ -5,6 +5,6 @@
   "mark": "bar",
   "encoding": {
     "x": {"field": "Team (IOC Code)", "type": "nominal"},
-    "y": {"field": "Combined_silver", "type": "quantitative"}
+    "y": {"field": "Combined_total", "type": "quantitative"}
   }
 }
