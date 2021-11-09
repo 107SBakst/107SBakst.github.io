@@ -212,9 +212,21 @@
     </div> 
 </body>
 
+ <!--Chart 11 -->
+<!--This div groups the chart heading with the chart-->
+<div class="head_plus_chart">
+  <!--Heading to explain chart-->
+  <h3 class="chart_head" id="chart11head"> Chart 11: Expected inflation in the US 1980-2021 API</h3>
+      <div class="chart" id="chart11">
+      <!--// This api comes from https://api.v2.emissions-api.org/ui/#/default/emissionsapi.web.get_average:-->
+      <script>
+        var myChart11 = "charts/chart11_webscape_olympics.json";
+        vegaEmbed('#chart11', myChart11);
+      </script>
+      </div>
+  </div> 
+</body>
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
 
-<!-- HWK JSON file chart. HAve a local CSV file instead. the url should be mydata.csv. Then you should have a mydata file and insert the data. Take this file and download it. Add new datapoint. Then in chart spec to reference to mydata.csv. Then go to json spec and add the name of the csv file. In this case the vega spec will look for the file that is in the same folder. -->
-<!-- HWK for week 4 is APIs. Again two charts. Anything that doesn't end in .csv is an api. or if it contains an api in the url it is an api. -->
 
 </html>
