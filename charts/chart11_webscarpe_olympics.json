@@ -2,6 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Total Olympic medals by IOC members.",
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Olympic.csv"},
+  "height": 300,
+  "width": 1510,
   "mark": "bar",
   "encoding": {
     "x": {"field": "Team (IOC Code)", "type": "nominal"},
