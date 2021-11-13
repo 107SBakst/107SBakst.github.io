@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
+  "title": {
     "text": "Carbon emissions per capita vs population density",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
@@ -8,8 +8,20 @@
     "color": "black"
   },
   "data": {
-"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Emission_city_density_dataset.csv"},
-  "transform": [{"filter": {"field": "population_density_by_city_Population_density_by_city", "range": [1, 11450]}}],
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Emission_city_density_dataset.csv"
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "Population",
+        "range": [0,200000000]
+        },
+      "filter": {
+        "field": "population_density_by_city_Population_density_by_city",
+        "range": [0.1,20000]
+        }
+    }
+  ],
   "mark": "point",
   "height": 400,
   "width": 600,
@@ -17,9 +29,14 @@
     "x": {
       "field": "population_density_by_city_Population_density_by_city",
       "type": "quantitative",
-      "scale": {"domain": [0, 11450]},
-      "axis": {"grid":false}}
-    ,
-    "y": {"field": "Footprint_per_capita_(t CO2_cap)", "type": "quantitative", "axis": {"grid":false}}
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "Footprint_per_capita_(t CO2_cap)",
+      "type": "quantitative",
+      "scale": {"domain": [8, 24]},
+      "axis": {"grid": false}
+    },
+    "size": {"field": "Population", "type": "quantitative"}
   }
 }
