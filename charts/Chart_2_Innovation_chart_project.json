@@ -1,33 +1,39 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "Patents per capita vs population density",
-    "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "start",
-    "color": "black"
-  },
-  "data": {
-    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Chart2_complete_data.csv"
-  },
-  "transform": [
-      {"filter": "datum.Patents_per_capita > 0"}
-  ],
-  "mark": "point",
-  "height": 400,
-  "width": 600,
-  "encoding": {
-    "x": {
-      "field": "Population_density_by_city",
-      "type": "quantitative",
-      "scale": {"domain": [0, 28000]},
-      "axis": {"grid": false}
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Patents per capita vs density",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
     },
-    "y": {
-      "field": "Patents_per_capita",
-      "type": "quantitative",
-      "scale": {"domain": [0,1]},
-      "axis": {"grid": false}
+    "data": {
+      "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Chart2_project_full_dataset.csv"
+    },
+    "transform": [
+      {"calculate": "datum.Population_2018", "as": "Pop18"},
+      {"filter": "datum.Population_2018 > 250000"},
+      {"filter": {
+          "field": "CO2_Emissions_per_Capita_2018__(tons)",
+          "range": [0,18]
+          }}
+    ],
+    "mark": "point",
+    "height": 400,
+    "width": 600,
+    "encoding": {
+      "x": {
+        "field": "Density__2018",
+        "type": "quantitative",
+        "scale": {"domain": [2500, 7500]},
+        "axis": {"grid": false}
+      },
+      "y": {
+        "field": "CO2_Emissions_per_Capita_2018__(tons)",
+        "type": "quantitative",
+        "scale": {"domain": [2.5, 7]},
+        "axis": {"grid": false}
+      },
+       "size": {"field": "Population_2018", "type": "quantitative"}
     }
   }
-}
