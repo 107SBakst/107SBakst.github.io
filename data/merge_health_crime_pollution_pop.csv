@@ -1,0 +1,769 @@
+,Rank_x,City,Country,health_care_index,health_care_exp_index,Rank_y,Crime_index,Safety_index,city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id
+0,1.0,Taipei, Taiwan,87.33,160.90,429.0,13.45,86.55,Taipei,Taipei,25.0478,121.5319,Taiwan,TW,TWN,Taipei,primary,2684567.0,1158881289
+1,2.0,Kaohsiung, Taiwan,86.78,159.90,,,,Kaohsiung,Kaohsiung,22.6167,120.3,Taiwan,TW,TWN,Kaohsiung,admin,2773533.0,1158331334
+2,3.0,Gold Coast, Australia,86.04,158.79,218.0,42.72,57.28,Gold Coast,Gold Coast,-28.0167,153.4,Australia,AU,AUS,Queensland,,679127.0,1036153217
+3,4.0,Liverpool, United Kingdom,85.71,158.51,201.0,44.35,55.65,Liverpool,Liverpool,53.4,-2.9833,United Kingdom,GB,GBR,Liverpool,,864122.0,1826558678
+4,5.0,Chiang Mai, Thailand,84.84,155.70,394.0,23.98,76.02,Chiang Mai,Chiang Mai,18.7889,98.9833,Thailand,TH,THA,Chiang Mai,admin,132634.0,1764662886
+5,6.0,Cuenca, Ecuador,83.04,152.32,258.0,38.93,61.07,Cuenca,Cuenca,-2.8974,-79.0045,Ecuador,EC,ECU,Azuay,admin,329928.0,1218041020
+6,6.0,Cuenca, Ecuador,83.04,152.32,258.0,38.93,61.07,Cuenca,Cuenca,40.0667,-2.15,Spain,ES,ESP,Castille-La Mancha,minor,54621.0,1724316040
+7,6.0,Cuenca, Ecuador,83.04,152.32,258.0,38.93,61.07,Cuenca,Cuenca,13.9167,121.05,Philippines,PH,PHL,Batangas,,32783.0,1608210905
+8,7.0,Cleveland," OH, United States",82.94,154.60,45.0,64.67,35.33,Cleveland,Cleveland,41.4767,-81.6804,United States,US,USA,Ohio,,1710093.0,1840000596
+9,7.0,Cleveland," OH, United States",82.94,154.60,45.0,64.67,35.33,Cleveland,Cleveland,35.1817,-84.8707,United States,US,USA,Tennessee,,73596.0,1840014603
+10,7.0,Cleveland," OH, United States",82.94,154.60,45.0,64.67,35.33,Cleveland,Cleveland,33.744,-90.7285,United States,US,USA,Mississippi,,14114.0,1840014748
+11,7.0,Cleveland," OH, United States",82.94,154.60,45.0,64.67,35.33,Cleveland,Cleveland,30.3374,-95.0931,United States,US,USA,Texas,,10690.0,1840019596
+12,7.0,Cleveland," OH, United States",82.94,154.60,45.0,64.67,35.33,Cleveland,Cleveland,34.5971,-83.7621,United States,US,USA,Georgia,,5372.0,1840014665
+13,9.0,Leeds, United Kingdom,82.58,152.47,223.0,42.20,57.80,Leeds,Leeds,53.7997,-1.5492,United Kingdom,GB,GBR,Leeds,,1901934.0,1826343963
+14,9.0,Leeds, United Kingdom,82.58,152.47,223.0,42.20,57.80,Leeds,Leeds,33.5429,-86.5636,United States,US,USA,Alabama,,12040.0,1840005106
+15,10.0,Brisbane, Australia,82.23,151.13,296.0,35.24,64.76,Brisbane,Brisbane,-27.4678,153.0281,Australia,AU,AUS,Queensland,admin,2514184.0,1036192929
+16,11.0,Seoul, South Korea,82.13,150.35,377.0,26.32,73.68,Seoul,Seoul,37.56,126.99,"Korea, South",KR,KOR,Seoul,primary,21794000.0,1410836482
+17,12.0,Canberra, Australia,81.44,149.20,408.0,21.83,78.17,Canberra,Canberra,-35.2931,149.1269,Australia,AU,AUS,Australian Capital Territory,primary,426704.0,1036142029
+18,13.0,Trondheim, Norway,81.40,149.35,418.0,20.08,79.92,Trondheim,Trondheim,63.44,10.4,Norway,NO,NOR,Sør-Trøndelag,minor,183378.0,1578633461
+19,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,32.2942,-64.7839,Bermuda,BM,BMU,Hamilton,primary,52320.0,1060000000
+20,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,43.2567,-79.8692,Canada,CA,CAN,Ontario,,693645.0,1124567288
+21,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,-37.7833,175.2833,New Zealand,NZ,NZL,Waikato,admin,169300.0,1554873040
+22,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,55.777,-4.039,United Kingdom,GB,GBR,South Lanarkshire,,54230.0,1826692620
+23,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,40.2046,-74.6765,United States,US,USA,New Jersey,,87424.0,1840056346
+24,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,39.3938,-84.5653,United States,US,USA,Ohio,,62082.0,1840003803
+25,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,39.9432,-77.7327,United States,US,USA,Pennsylvania,,11097.0,1840147456
+26,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,-37.7333,142.0167,Australia,AU,AUS,Victoria,,9974.0,1036699883
+27,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,40.9333,-75.2844,United States,US,USA,Pennsylvania,,8866.0,1840145220
+28,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,42.6267,-70.858,United States,US,USA,Massachusetts,,8031.0,1840070395
+29,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,46.2527,-114.1598,United States,US,USA,Montana,,6964.0,1840019896
+30,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,34.1346,-87.9755,United States,US,USA,Alabama,,6606.0,1840003629
+31,14.0,Hamilton, Canada,81.24,150.78,127.0,52.29,47.71,Hamilton,Hamilton,42.7897,-75.494,United States,US,USA,New York,,6472.0,1840004354
+32,15.0,Valencia, Spain,81.15,149.53,384.0,25.66,74.34,Valencia,Valencia,10.1667,-68.0,Venezuela,VE,VEN,Carabobo,admin,1484430.0,1862309871
+33,15.0,Valencia, Spain,81.15,149.53,384.0,25.66,74.34,Valencia,Valencia,39.47,-0.3764,Spain,ES,ESP,Valencia,admin,800215.0,1724981666
+34,15.0,Valencia, Spain,81.15,149.53,384.0,25.66,74.34,Valencia,Valencia,7.9,125.0833,Philippines,PH,PHL,Bukidnon,,192993.0,1608418474
+35,15.0,Valencia, Spain,81.15,149.53,384.0,25.66,74.34,Valencia,Valencia,8.2592,-76.1469,Colombia,CO,COL,Córdoba,minor,46897.0,1170188761
+36,15.0,Valencia, Spain,81.15,149.53,384.0,25.66,74.34,Valencia,Valencia,9.2833,123.25,Philippines,PH,PHL,Negros Oriental,,34852.0,1608009046
+37,15.0,Valencia, Spain,81.15,149.53,384.0,25.66,74.34,Valencia,Valencia,9.6097,124.208,Philippines,PH,PHL,Bohol,,27126.0,1608239988
+38,15.0,Valencia, Spain,81.15,149.53,384.0,25.66,74.34,Valencia,Valencia,-0.9525,-79.3531,Ecuador,EC,ECU,Los Ríos,,16983.0,1218923469
+39,16.0,Adelaide, Australia,80.99,148.36,351.0,28.63,71.37,Adelaide,Adelaide,-34.9289,138.6011,Australia,AU,AUS,South Australia,admin,1345777.0,1036538171
+40,17.0,Tokyo, Japan,80.72,147.43,398.0,23.29,76.71,Tokyo,Tokyo,35.6897,139.6922,Japan,JP,JPN,Tōkyō,primary,37977000.0,1392685764
+41,18.0,Edinburgh, United Kingdom,80.69,149.20,335.0,30.57,69.43,Edinburgh,Edinburgh,55.953,-3.1889999999999996,United Kingdom,GB,GBR,"Edinburgh, City of",,488050.0,1826492520
+42,19.0,Glasgow, United Kingdom,80.60,148.38,206.0,43.86,56.14,Glasgow,Glasgow,55.8609,-4.2514,United Kingdom,GB,GBR,Glasgow City,,985290.0,1826836462
+43,19.0,Glasgow, United Kingdom,80.60,148.38,206.0,43.86,56.14,Glasgow,Glasgow,37.0047,-85.9263,United States,US,USA,Kentucky,,14485.0,1840013268
+44,19.0,Glasgow, United Kingdom,80.60,148.38,206.0,43.86,56.14,Glasgow,Glasgow,39.6015,-75.7474,United States,US,USA,Delaware,,14359.0,1840005571
+45,20.0,Antwerp, Belgium,80.53,147.77,276.0,37.40,62.60,Antwerp,Antwerp,51.2206,4.4003,Belgium,BE,BEL,Flanders,minor,920000.0,1056168623
+46,21.0,Qingdao," Shandong, China",79.80,145.17,,,,Qingdao,Qingdao,36.1167,120.4,China,CN,CHN,Shandong,minor,5775000.0,1156112588
+47,22.0,Paris, France,79.49,146.03,120.0,53.19,46.81,Paris,Paris,48.8566,2.3522,France,FR,FRA,Île-de-France,primary,11020000.0,1250015082
+48,22.0,Paris, France,79.49,146.03,120.0,53.19,46.81,Paris,Paris,33.6688,-95.546,United States,US,USA,Texas,,26010.0,1840020594
+49,22.0,Paris, France,79.49,146.03,120.0,53.19,46.81,Paris,Paris,38.2016,-84.2719,United States,US,USA,Kentucky,,12485.0,1840014315
+50,22.0,Paris, France,79.49,146.03,120.0,53.19,46.81,Paris,Paris,36.2934,-88.3065,United States,US,USA,Tennessee,,10536.0,1840014438
+51,22.0,Paris, France,79.49,146.03,120.0,53.19,46.81,Paris,Paris,39.6149,-87.6904,United States,US,USA,Illinois,,8394.0,1840009542
+52,22.0,Paris, France,79.49,146.03,120.0,53.19,46.81,Paris,Paris,44.2445,-70.4883,United States,US,USA,Maine,,5111.0,1840052952
+53,23.0,Kansas City," MO, United States",79.40,148.17,75.0,59.41,40.59,Kansas City,Kansas City,39.1239,-94.5541,United States,US,USA,Missouri,,1636715.0,1840008535
+54,23.0,Kansas City," MO, United States",79.40,148.17,75.0,59.41,40.59,Kansas City,Kansas City,39.1234,-94.7443,United States,US,USA,Kansas,,152960.0,1840001626
+55,24.0,Madrid, Spain,79.11,146.41,345.0,29.42,70.58,Madrid,Madrid,40.4167,-3.7167,Spain,ES,ESP,Madrid,primary,6026000.0,1724616994
+56,24.0,Madrid, Spain,79.11,146.41,345.0,29.42,70.58,Madrid,Madrid,4.7306,-74.2639,Colombia,CO,COL,Cundinamarca,minor,112254.0,1170693388
+57,25.0,Vienna, Austria,78.94,144.75,389.0,25.26,74.74,Vienna,Vienna,48.2083,16.3731,Austria,AT,AUT,Wien,primary,1911191.0,1040261752
+58,25.0,Vienna, Austria,78.94,144.75,389.0,25.26,74.74,Vienna,Vienna,38.8996,-77.2597,United States,US,USA,Virginia,,16485.0,1840003829
+59,25.0,Vienna, Austria,78.94,144.75,389.0,25.26,74.74,Vienna,Vienna,39.324,-81.5383,United States,US,USA,West Virginia,,10124.0,1840005787
+60,25.0,Vienna, Austria,78.94,144.75,389.0,25.26,74.74,Vienna,Vienna,43.2344,-75.7777,United States,US,USA,New York,,5381.0,1840058566
+61,26.0,Guadalajara, Mexico,78.93,143.70,62.0,62.19,37.81,Guadalajara,Guadalajara,20.6767,-103.3475,Mexico,MX,MEX,Jalisco,admin,5253000.0,1484950208
+62,26.0,Guadalajara, Mexico,78.93,143.70,62.0,62.19,37.81,Guadalajara,Guadalajara,40.6337,-3.1674,Spain,ES,ESP,Castille-La Mancha,minor,161683.0,1724317859
+63,27.0,Madison," WI, United States",78.89,145.79,314.0,32.85,67.15,Madison,Madison,43.0826,-89.3931,United States,US,USA,Wisconsin,admin,447245.0,1840002915
+64,27.0,Madison," WI, United States",78.89,145.79,314.0,32.85,67.15,Madison,Madison,34.7114,-86.7626,United States,US,USA,Alabama,,51593.0,1840015524
+65,27.0,Madison," WI, United States",78.89,145.79,314.0,32.85,67.15,Madison,Madison,32.4738,-90.13,United States,US,USA,Mississippi,,25661.0,1840015782
+66,27.0,Madison," WI, United States",78.89,145.79,314.0,32.85,67.15,Madison,Madison,41.3398,-72.6278,United States,US,USA,Connecticut,,18113.0,1840045038
+67,27.0,Madison," WI, United States",78.89,145.79,314.0,32.85,67.15,Madison,Madison,38.7581,-85.3974,United States,US,USA,Indiana,,18109.0,1840009728
+68,27.0,Madison," WI, United States",78.89,145.79,314.0,32.85,67.15,Madison,Madison,40.7586,-74.417,United States,US,USA,New Jersey,,17654.0,1840003574
+69,27.0,Madison," WI, United States",78.89,145.79,314.0,32.85,67.15,Madison,Madison,44.0062,-97.1084,United States,US,USA,South Dakota,,7270.0,1840002540
+70,28.0,Bursa, Turkey,78.66,142.78,358.0,28.00,72.00,Bursa,Bursa,40.1833,29.0667,Turkey,TR,TUR,Bursa,admin,2901396.0,1792903330
+71,29.0,Bologna, Italy,78.52,144.54,198.0,44.71,55.29,Bologna,Bologna,44.4939,11.3428,Italy,IT,ITA,Emilia-Romagna,admin,389261.0,1380202039
+72,30.0,Edmonton, Canada,78.49,145.91,219.0,42.61,57.39,Edmonton,Edmonton,53.5344,-113.4903,Canada,CA,CAN,Alberta,,1062643.0,1124290735
+73,30.0,Edmonton, Canada,78.49,145.91,219.0,42.61,57.39,Edmonton,Edmonton,51.6154,-0.0708,United Kingdom,GB,GBR,Enfield,,82472.0,1826905865
+74,31.0,Minneapolis," MN, United States",78.45,147.95,128.0,52.25,47.75,Minneapolis,Minneapolis,44.9635,-93.2678,United States,US,USA,Minnesota,,2977172.0,1840007830
+75,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,53.4794,-2.2453,United Kingdom,GB,GBR,Manchester,,2705000.0,1826246335
+76,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,42.9848,-71.4447,United States,US,USA,New Hampshire,,162877.0,1840002983
+77,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,41.7753,-72.5242,United States,US,USA,Connecticut,,57805.0,1840035273
+78,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,39.9651,-74.3738,United States,US,USA,New Jersey,,43503.0,1840081608
+79,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,38.583,-90.5065,United States,US,USA,Missouri,,18073.0,1840009739
+80,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,35.463,-86.0774,United States,US,USA,Tennessee,,12433.0,1840015409
+81,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,37.4902,-77.5396,United States,US,USA,Virginia,,10919.0,1840024785
+82,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,42.9921,-77.1897,United States,US,USA,New York,,9233.0,1840004410
+83,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,47.5519,-122.5517,United States,US,USA,Washington,,5673.0,1840017336
+84,32.0,Manchester, United Kingdom,78.42,143.91,94.0,56.15,43.85,Manchester,Manchester,39.6584,-76.8881,United States,US,USA,Maryland,,5367.0,1840005702
+85,33.0,Munich, Germany,78.15,142.90,423.0,17.65,82.35,Munich,Munich,48.1372,11.5755,Germany,DE,DEU,Bavaria,admin,1471508.0,1276692352
+86,35.0,Sydney, Australia,77.92,141.99,310.0,33.67,66.33,Sydney,Sydney,-33.865,151.2094,Australia,AU,AUS,New South Wales,admin,5312163.0,1036074917
+87,36.0,Gent, Belgium,77.86,142.87,383.0,25.71,74.29,Gent,Gent,51.0536,3.7253,Belgium,BE,BEL,Flanders,minor,262219.0,1056062897
+88,37.0,Copenhagen, Denmark,77.68,143.16,367.0,27.54,72.46,Copenhagen,Copenhagen,55.6761,12.5689,Denmark,DK,DNK,Hovedstaden,primary,602481.0,1208763942
+89,38.0,Barcelona, Spain,77.68,143.56,192.0,45.51,54.49,Barcelona,Barcelona,41.3825,2.1769,Spain,ES,ESP,Catalonia,admin,4588000.0,1724594040
+90,38.0,Barcelona, Spain,77.68,143.56,192.0,45.51,54.49,Barcelona,Barcelona,10.1333,-64.6833,Venezuela,VE,VEN,Anzoátegui,admin,448016.0,1862418619
+91,38.0,Barcelona, Spain,77.68,143.56,192.0,45.51,54.49,Barcelona,Barcelona,12.8667,124.1333,Philippines,PH,PHL,Sorsogon,,20990.0,1608408567
+92,39.0,Perth, Australia,77.60,141.71,222.0,42.21,57.79,Perth,Perth,-31.9522,115.8589,Australia,AU,AUS,Western Australia,admin,2059484.0,1036178956
+93,39.0,Perth, Australia,77.60,141.71,222.0,42.21,57.79,Perth,Perth,56.397,-3.437,United Kingdom,GB,GBR,Perth and Kinross,,46960.0,1826081674
+94,39.0,Perth, Australia,77.60,141.71,222.0,42.21,57.79,Perth,Perth,44.9,-76.25,Canada,CA,CAN,Ontario,,5930.0,1124732094
+95,40.0,Helsinki, Finland,77.49,141.23,388.0,25.27,74.73,Helsinki,Helsinki,60.1756,24.9342,Finland,FI,FIN,Uusimaa,primary,642045.0,1246177997
+96,41.0,Bangkok, Thailand,77.48,141.31,237.0,41.08,58.92,Bangkok,Bangkok,13.75,100.5167,Thailand,TH,THA,Krung Thep Maha Nakhon,primary,17066000.0,1764068610
+97,42.0,Mangalore, India,77.46,140.23,387.0,25.33,74.67,Mangalore,Mangalore,12.8703,74.8806,India,IN,IND,Karnātaka,,623841.0,1356972351
+98,43.0,Baltimore," MD, United States",76.57,143.00,18.0,74.61,25.39,Baltimore,Baltimore,39.3051,-76.6144,United States,US,USA,Maryland,,2106068.0,1840001592
+99,44.0,Calgary, Canada,76.43,140.55,300.0,34.49,65.51,Calgary,Calgary,51.05,-114.0667,Canada,CA,CAN,Alberta,,1239220.0,1124690423
+100,45.0,Antalya, Turkey,76.35,138.56,371.0,27.17,72.83,Antalya,Antalya,36.9081,30.6956,Turkey,TR,TUR,Antalya,admin,2426356.0,1792988434
+101,47.0,Medellin, Colombia,76.14,138.16,135.0,51.37,48.63,Medellin,Medellin,11.1286,123.9622,Philippines,PH,PHL,Cebu,,55332.0,1608853186
+102,48.0,Oslo, Norway,75.97,138.91,298.0,35.01,64.99,Oslo,Oslo,59.9111,10.7528,Norway,NO,NOR,Oslo,primary,693494.0,1578324706
+103,50.0,Toronto, Canada,75.87,139.52,249.0,39.84,60.16,Toronto,Toronto,43.7417,-79.3733,Canada,CA,CAN,Ontario,,5429524.0,1124279679
+104,51.0,Bergen, Norway,75.77,138.93,357.0,28.09,71.91,Bergen,Bergen,60.3925,5.3233,Norway,NO,NOR,Hordaland,admin,257087.0,1578465701
+105,51.0,Bergen, Norway,75.77,138.93,357.0,28.09,71.91,Bergen,Bergen,52.6703,4.7054,Netherlands,NL,NLD,Noord-Holland,,29974.0,1528106849
+106,51.0,Bergen, Norway,75.77,138.93,357.0,28.09,71.91,Bergen,Bergen,54.4167,13.4333,Germany,DE,DEU,Mecklenburg-Western Pomerania,,13460.0,1276083334
+107,51.0,Bergen, Norway,75.77,138.93,357.0,28.09,71.91,Bergen,Bergen,51.5992,6.0336,Netherlands,NL,NLD,Limburg,minor,13140.0,1528008506
+108,53.0,Raleigh," NC, United States",75.62,140.66,301.0,34.45,65.55,Raleigh,Raleigh,35.8325,-78.6435,United States,US,USA,North Carolina,admin,1038738.0,1840014497
+109,54.0,Vancouver, Canada,75.46,138.53,284.0,36.45,63.55,Vancouver,Vancouver,49.25,-123.1,Canada,CA,CAN,British Columbia,,2264823.0,1124825478
+110,54.0,Vancouver, Canada,75.46,138.53,284.0,36.45,63.55,Vancouver,Vancouver,45.6366,-122.5967,United States,US,USA,Washington,,184463.0,1840021189
+111,55.0,Kelowna, Canada,75.26,140.23,141.0,50.31,49.69,Kelowna,Kelowna,49.8881,-119.4956,Canada,CA,CAN,British Columbia,,142146.0,1124080626
+112,56.0,Boston," MA, United States",75.12,140.03,294.0,35.52,64.48,Boston,Boston,42.3188,-71.0846,United States,US,USA,Massachusetts,admin,4688346.0,1840000455
+113,56.0,Boston," MA, United States",75.12,140.03,294.0,35.52,64.48,Boston,Boston,52.974,-0.0214,United Kingdom,GB,GBR,Lincolnshire,,35124.0,1826233090
+114,56.0,Boston," MA, United States",75.12,140.03,294.0,35.52,64.48,Boston,Boston,7.8667,126.3667,Philippines,PH,PHL,Davao Oriental,,13535.0,1608800917
+115,56.0,Boston," MA, United States",75.12,140.03,294.0,35.52,64.48,Boston,Boston,42.6528,-78.7555,United States,US,USA,New York,,8042.0,1840023297
+116,57.0,Melbourne, Australia,75.09,136.45,200.0,44.49,55.51,Melbourne,Melbourne,-37.8136,144.9631,Australia,AU,AUS,Victoria,admin,5078193.0,1036533631
+117,57.0,Melbourne, Australia,75.09,136.45,200.0,44.49,55.51,Melbourne,Melbourne,28.1085,-80.6627,United States,US,USA,Florida,,83029.0,1840015960
+118,58.0,Brussels, Belgium,74.97,136.27,139.0,50.80,49.20,Brussels,Brussels,50.8333,4.3333,Belgium,BE,BEL,Brussels-Capital Region,primary,1743000.0,1056469830
+119,59.0,Ottawa, Canada,74.97,137.76,381.0,25.85,74.15,Ottawa,Ottawa,45.4247,-75.695,Canada,CA,CAN,Ontario,,989567.0,1124399363
+120,59.0,Ottawa, Canada,74.97,137.76,381.0,25.85,74.15,Ottawa,Ottawa,41.3532,-88.8306,United States,US,USA,Illinois,,19839.0,1840009272
+121,59.0,Ottawa, Canada,74.97,137.76,381.0,25.85,74.15,Ottawa,Ottawa,38.6,-95.2642,United States,US,USA,Kansas,,12254.0,1840003840
+122,59.0,Ottawa, Canada,74.97,137.76,381.0,25.85,74.15,Ottawa,Ottawa,41.0203,-84.0354,United States,US,USA,Ohio,,5147.0,1840011758
+123,60.0,Wellington, New Zealand,74.90,136.44,352.0,28.46,71.54,Wellington,Wellington,-41.2889,174.7772,New Zealand,NZ,NZL,Wellington,primary,418500.0,1554772152
+124,60.0,Wellington, New Zealand,74.90,136.44,352.0,28.46,71.54,Wellington,Wellington,52.7001,-2.5157,United Kingdom,GB,GBR,Telford and Wrekin,,25554.0,1826979862
+125,60.0,Wellington, New Zealand,74.90,136.44,352.0,28.46,71.54,Wellington,Wellington,50.9755,-3.2243,United Kingdom,GB,GBR,Somerset,,14549.0,1826413119
+126,60.0,Wellington, New Zealand,74.90,136.44,352.0,28.46,71.54,Wellington,Wellington,26.6461,-80.2699,United States,US,USA,Florida,,65398.0,1840018311
+127,60.0,Wellington, New Zealand,74.90,136.44,352.0,28.46,71.54,Wellington,Wellington,40.7,-105.0054,United States,US,USA,Colorado,,10437.0,1840022411
+128,60.0,Wellington, New Zealand,74.90,136.44,352.0,28.46,71.54,Wellington,Wellington,37.2622,-97.4282,United States,US,USA,Kansas,,7662.0,1840001703
+129,61.0,Porto, Portugal,74.85,136.85,285.0,36.42,63.58,Porto,Porto,41.1495,-8.6108,Portugal,PT,PRT,Porto,admin,237591.0,1620356810
+130,61.0,Porto, Portugal,74.85,136.85,285.0,36.42,63.58,Porto,Porto,-3.8928,-42.71,Brazil,BR,BRA,Piauí,,12608.0,1076285535
+131,62.0,Pittsburgh," PA, United States",74.84,137.85,271.0,37.77,62.23,Pittsburgh,Pittsburgh,40.4396,-79.9762,United States,US,USA,Pennsylvania,,1703266.0,1840001254
+132,63.0,Cologne, Germany,74.83,136.41,217.0,43.13,56.87,Cologne,Cologne,50.9422,6.9578,Germany,DE,DEU,North Rhine-Westphalia,,1085664.0,1276015998
+133,63.0,Cologne, Germany,74.83,136.41,217.0,43.13,56.87,Cologne,Cologne,45.5849,9.9434,Italy,IT,ITA,Lombardy,,7534.0,1380978069
+134,64.0,Hamburg, Germany,74.68,136.38,213.0,43.26,56.74,Hamburg,Hamburg,53.55,10.0,Germany,DE,DEU,Hamburg,admin,1841179.0,1276041799
+135,64.0,Hamburg, Germany,74.68,136.38,213.0,43.26,56.74,Hamburg,Hamburg,42.7394,-78.8581,United States,US,USA,New York,,58266.0,1840004385
+136,65.0,Prague, Czech Republic,74.61,136.94,391.0,24.16,75.84,Prague,Prague,50.0833,14.4167,Czechia,CZ,CZE,"Praha, Hlavní Město",primary,1335084.0,1203744823
+137,66.0,Tel Aviv-Yafo, Israel,74.55,136.98,385.0,25.60,74.40,Tel Aviv-Yafo,Tel Aviv-Yafo,32.08,34.78,Israel,IL,ISR,Tel Aviv,admin,451523.0,1376401542
+138,67.0,Luxembourg, Luxembourg,74.51,135.19,366.0,27.55,72.45,Luxembourg,Luxembourg,49.6106,6.1328,Luxembourg,LU,LUX,Luxembourg,primary,124509.0,1442262731
+139,68.0,Frankfurt, Germany,74.37,135.79,229.0,41.88,58.12,Frankfurt,Frankfurt,50.1136,8.6797,Germany,DE,DEU,Hesse,minor,753056.0,1276054552
+140,69.0,Columbus," OH, United States",74.19,137.10,210.0,43.43,56.57,Columbus,Columbus,39.9862,-82.985,United States,US,USA,Ohio,admin,1562009.0,1840003760
+141,69.0,Columbus," OH, United States",74.19,137.10,210.0,43.43,56.57,Columbus,Columbus,32.51,-84.8771,United States,US,USA,Georgia,,261445.0,1840014887
+142,69.0,Columbus," OH, United States",74.19,137.10,210.0,43.43,56.57,Columbus,Columbus,39.2093,-85.9183,United States,US,USA,Indiana,,59897.0,1840013714
+143,69.0,Columbus," OH, United States",74.19,137.10,210.0,43.43,56.57,Columbus,Columbus,33.5088,-88.4096,United States,US,USA,Mississippi,,31084.0,1840014807
+144,69.0,Columbus," OH, United States",74.19,137.10,210.0,43.43,56.57,Columbus,Columbus,41.4368,-97.3563,United States,US,USA,Nebraska,,23468.0,1840003345
+145,69.0,Columbus," OH, United States",74.19,137.10,210.0,43.43,56.57,Columbus,Columbus,43.3354,-89.03,United States,US,USA,Wisconsin,,6793.0,1840002708
+146,70.0,Birmingham, United Kingdom,74.16,137.17,74.0,59.56,40.44,Birmingham,Birmingham,52.48,-1.9025,United Kingdom,GB,GBR,Birmingham,,2897303.0,1826423213
+147,70.0,Birmingham, United Kingdom,74.16,137.17,74.0,59.56,40.44,Birmingham,Birmingham,33.5277,-86.7987,United States,US,USA,Alabama,,739573.0,1840006507
+148,70.0,Birmingham, United Kingdom,74.16,137.17,74.0,59.56,40.44,Birmingham,Birmingham,42.5447,-83.2166,United States,US,USA,Michigan,,21389.0,1840002438
+149,71.0,Brno, Czech Republic,74.04,136.72,374.0,26.53,73.47,Brno,Brno,49.1953,16.6083,Czechia,CZ,CZE,Jihomoravský Kraj,admin,382405.0,1203676514
+150,72.0,Charlotte," NC, United States",73.88,138.85,202.0,44.19,55.81,Charlotte,Charlotte,35.208,-80.8304,United States,US,USA,North Carolina,,1512923.0,1840014557
+151,72.0,Charlotte," NC, United States",73.88,138.85,202.0,44.19,55.81,Charlotte,Charlotte,42.5662,-84.8304,United States,US,USA,Michigan,,12703.0,1840003107
+152,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,45.5372,-122.65,United States,US,USA,Oregon,,2074775.0,1840019941
+153,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,43.6773,-70.2715,United States,US,USA,Maine,,203969.0,1840000327
+154,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,27.8911,-97.3284,United States,US,USA,Texas,,17268.0,1840021006
+155,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,36.5883,-86.5194,United States,US,USA,Tennessee,,13030.0,1840014418
+156,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,-38.3333,141.6,Australia,AU,AUS,Victoria,,10900.0,1036439594
+157,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,41.5988,-72.589,United States,US,USA,Connecticut,,9322.0,1840004915
+158,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,40.4375,-84.9833,United States,US,USA,Indiana,,6002.0,1840014175
+159,73.0,Portland," OR, United States",73.84,137.18,155.0,48.76,51.24,Portland,Portland,42.8696,-84.899,United States,US,USA,Michigan,,5104.0,1840003073
+160,74.0,Haifa, Israel,73.73,136.42,368.0,27.39,72.61,Haifa,Haifa,32.8,34.9833,Israel,IL,ISR,Haifa,admin,281087.0,1376133727
+161,75.0,Kaunas, Lithuania,73.71,135.09,267.0,38.46,61.54,Kaunas,Kaunas,54.9,23.9333,Lithuania,LT,LTU,Kauno Miestas,admin,288466.0,1440302852
+162,77.0,Bristol, United Kingdom,73.54,134.94,235.0,41.25,58.75,Bristol,Bristol,51.45,-2.5833,United Kingdom,GB,GBR,"Bristol, City of",,724000.0,1826921049
+163,77.0,Bristol, United Kingdom,73.54,134.94,235.0,41.25,58.75,Bristol,Bristol,36.5572,-82.2154,United States,US,USA,Tennessee,,70243.0,1840013301
+164,77.0,Bristol, United Kingdom,73.54,134.94,235.0,41.25,58.75,Bristol,Bristol,41.6812,-72.9407,United States,US,USA,Connecticut,,59947.0,1840004772
+165,77.0,Bristol, United Kingdom,73.54,134.94,235.0,41.25,58.75,Bristol,Bristol,40.1216,-74.8667,United States,US,USA,Pennsylvania,,53649.0,1840001318
+166,77.0,Bristol, United Kingdom,73.54,134.94,235.0,41.25,58.75,Bristol,Bristol,41.6827,-71.2694,United States,US,USA,Rhode Island,,22145.0,1840106238
+167,77.0,Bristol, United Kingdom,73.54,134.94,235.0,41.25,58.75,Bristol,Bristol,36.618,-82.1606,United States,US,USA,Virginia,,16762.0,1840003879
+168,77.0,Bristol, United Kingdom,73.54,134.94,235.0,41.25,58.75,Bristol,Bristol,42.5378,-88.0149,United States,US,USA,Wisconsin,,5142.0,1840037916
+169,78.0,Seattle," WA, United States",73.49,137.60,151.0,49.11,50.89,Seattle,Seattle,47.6211,-122.3244,United States,US,USA,Washington,,3789215.0,1840021117
+170,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,37.3019,-121.8486,United States,US,USA,California,,1798103.0,1840021570
+171,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,12.3528,121.0676,Philippines,PH,PHL,Occidental Mindoro,,143430.0,1608355709
+172,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,15.7833,121.0,Philippines,PH,PHL,Nueva Ecija,,139738.0,1608000478
+173,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,10.75,121.95,Philippines,PH,PHL,Antique,admin,62534.0,1608138574
+174,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,10.18,125.5683,Philippines,PH,PHL,Dinagat Islands,admin,,1608435522
+175,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,13.8772,121.105,Philippines,PH,PHL,Batangas,,76971.0,1608353630
+176,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,13.7,123.5167,Philippines,PH,PHL,Camarines Sur,,40623.0,1608136409
+177,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,10.0083,125.5889,Philippines,PH,PHL,Dinagat Islands,,27487.0,1608706852
+178,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,9.4167,123.2333,Philippines,PH,PHL,Negros Oriental,,20413.0,1608586571
+179,79.0,San Jose," CA, United States",73.23,133.31,182.0,46.53,53.47,San Jose,San Jose,12.530999999999999,124.48700000000001,Philippines,PH,PHL,Northern Samar,,17561.0,1608912746
+180,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,37.3019,-121.8486,United States,US,USA,California,,1798103.0,1840021570
+181,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,12.3528,121.0676,Philippines,PH,PHL,Occidental Mindoro,,143430.0,1608355709
+182,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,15.7833,121.0,Philippines,PH,PHL,Nueva Ecija,,139738.0,1608000478
+183,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,10.75,121.95,Philippines,PH,PHL,Antique,admin,62534.0,1608138574
+184,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,10.18,125.5683,Philippines,PH,PHL,Dinagat Islands,admin,,1608435522
+185,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,13.8772,121.105,Philippines,PH,PHL,Batangas,,76971.0,1608353630
+186,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,13.7,123.5167,Philippines,PH,PHL,Camarines Sur,,40623.0,1608136409
+187,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,10.0083,125.5889,Philippines,PH,PHL,Dinagat Islands,,27487.0,1608706852
+188,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,9.4167,123.2333,Philippines,PH,PHL,Negros Oriental,,20413.0,1608586571
+189,186.0,San Jose, Costa Rica,63.19,115.46,102.0,55.35,44.65,San Jose,San Jose,12.530999999999999,124.48700000000001,Philippines,PH,PHL,Northern Samar,,17561.0,1608912746
+190,80.0,Geneva, Switzerland,73.08,136.57,370.0,27.26,72.74,Geneva,Geneva,46.2,6.15,Switzerland,CH,CHE,Genève,admin,201818.0,1756810813
+191,80.0,Geneva, Switzerland,73.08,136.57,370.0,27.26,72.74,Geneva,Geneva,42.8644,-76.9827,United States,US,USA,New York,,28563.0,1840000393
+192,80.0,Geneva, Switzerland,73.08,136.57,370.0,27.26,72.74,Geneva,Geneva,41.8832,-88.3242,United States,US,USA,Illinois,,21809.0,1840008135
+193,80.0,Geneva, Switzerland,73.08,136.57,370.0,27.26,72.74,Geneva,Geneva,41.8006,-80.9461,United States,US,USA,Ohio,,7317.0,1840008145
+194,81.0,Auckland, New Zealand,73.04,132.63,186.0,46.03,53.97,Auckland,Auckland,-36.85,174.7833,New Zealand,NZ,NZL,Auckland,admin,1470100.0,1554435911
+195,82.0,Eindhoven, Netherlands,73.04,133.35,393.0,24.05,75.95,Eindhoven,Eindhoven,51.4408,5.4778,Netherlands,NL,NLD,Noord-Brabant,minor,398053.0,1528636212
+196,83.0,Indianapolis," IN, United States",73.01,135.59,86.0,57.56,42.44,Indianapolis,Indianapolis,39.7771,-86.1458,United States,US,USA,Indiana,admin,1588961.0,1840030084
+197,85.0,Doha, Qatar,72.94,132.50,430.0,12.04,87.96,Doha,Doha,25.3,51.5333,Qatar,QA,QAT,Ad Dawḩah,primary,1312947.0,1634459660
+198,88.0,Stavanger, Norway,72.78,133.87,399.0,23.21,76.79,Stavanger,Stavanger,58.9701,5.7333,Norway,NO,NOR,Rogaland,admin,129300.0,1578801684
+199,89.0,Nanaimo," BC, Canada",72.47,131.74,184.0,46.31,53.69,Nanaimo,Nanaimo,49.1642,-123.9364,Canada,CA,CAN,British Columbia,,90504.0,1124623893
+200,90.0,Coimbatore, India,72.42,132.16,262.0,38.75,61.25,Coimbatore,Coimbatore,11.0,76.9667,India,IN,IND,Tamil Nādu,,959823.0,1356999503
+201,91.0,Honolulu," HI, United States",72.42,131.99,205.0,43.92,56.08,Honolulu,Honolulu,21.3294,-157.846,United States,US,USA,Hawaii,admin,820987.0,1840013305
+202,93.0,Davao, Philippines,72.21,129.81,361.0,27.81,72.19,Davao,Davao,7.0667,125.6,Philippines,PH,PHL,Davao,admin,1632991.0,1608906877
+203,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,29.4658,-98.5253,United States,US,USA,Texas,,2049293.0,1840022220
+204,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,-25.3797,-57.6097,Paraguay,PY,PRY,Central,,69976.0,1600088413
+205,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,-33.5809,-71.6132,Chile,CL,CHL,Valparaíso,minor,86239.0,1152830501
+206,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,15.3833,120.8,Philippines,PH,PHL,Nueva Ecija,,77836.0,1608254250
+207,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,14.9486,120.0864,Philippines,PH,PHL,Zambales,,34661.0,1608496787
+208,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,13.9,121.3,Philippines,PH,PHL,Quezon,minor,33467.0,1608858854
+209,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,12.4167,124.2667,Philippines,PH,PHL,Northern Samar,,9058.0,1608468978
+210,94.0,San Antonio," TX, United States",72.06,132.68,156.0,48.68,51.32,San Antonio,San Antonio,18.4468,-66.3002,Puerto Rico,PR,PRI,Puerto Rico,,7655.0,1630023733
+211,95.0,Stuttgart, Germany,72.01,131.86,350.0,28.76,71.24,Stuttgart,Stuttgart,48.7761,9.1775,Germany,DE,DEU,Baden-Württemberg,admin,634830.0,1276171358
+212,95.0,Stuttgart, Germany,72.01,131.86,350.0,28.76,71.24,Stuttgart,Stuttgart,34.495,-91.5485,United States,US,USA,Arkansas,,8490.0,1840015556
+213,96.0,Milan, Italy,71.89,131.59,207.0,43.56,56.44,Milan,Milan,45.4669,9.19,Italy,IT,ITA,Lombardy,admin,1366180.0,1380724377
+214,96.0,Milan, Italy,71.89,131.59,207.0,43.56,56.44,Milan,Milan,42.0816,-83.6853,United States,US,USA,Michigan,,7778.0,1840003170
+215,96.0,Milan, Italy,71.89,131.59,207.0,43.56,56.44,Milan,Milan,35.9126,-88.7554,United States,US,USA,Tennessee,,7612.0,1840014483
+216,97.0,Colombo, Sri Lanka,71.74,129.84,245.0,40.14,59.86,Colombo,Colombo,6.9167,79.8333,Sri Lanka,LK,LKA,Western,primary,752993.0,1144251314
+217,97.0,Colombo, Sri Lanka,71.74,129.84,245.0,40.14,59.86,Colombo,Colombo,-25.2919,-49.2239,Brazil,BR,BRA,Paraná,,246540.0,1076976439
+218,98.0,Belfast, United Kingdom,71.74,134.97,247.0,39.94,60.06,Belfast,Belfast,54.5964,-5.93,United Kingdom,GB,GBR,Belfast,,333871.0,1826325087
+219,98.0,Belfast, United Kingdom,71.74,134.97,247.0,39.94,60.06,Belfast,Belfast,44.428000000000004,-69.0325,United States,US,USA,Maine,,6679.0,1840000300
+220,99.0,Houston," TX, United States",71.67,133.24,51.0,63.89,36.11,Houston,Houston,29.7863,-95.3889,United States,US,USA,Texas,,5464251.0,1840020925
+221,99.0,Houston," TX, United States",71.67,133.24,51.0,63.89,36.11,Houston,Houston,55.867,-4.5521,United Kingdom,GB,GBR,Renfrewshire,,6470.0,1826214371
+222,100.0,Chennai, India,71.60,129.81,243.0,40.22,59.78,Chennai,Chennai,13.0825,80.275,India,IN,IND,Tamil Nādu,admin,11324000.0,1356374944
+223,101.0,Lisbon, Portugal,71.56,130.23,356.0,28.24,71.76,Lisbon,Lisbon,38.7452,-9.1604,Portugal,PT,PRT,Lisboa,primary,506654.0,1620619017
+224,101.0,Lisbon, Portugal,71.56,130.23,356.0,28.24,71.76,Lisbon,Lisbon,44.0265,-70.09,United States,US,USA,Maine,,8906.0,1840066320
+225,101.0,Lisbon, Portugal,71.56,130.23,356.0,28.24,71.76,Lisbon,Lisbon,40.7752,-80.7628,United States,US,USA,Ohio,,5372.0,1840011932
+226,102.0,Lausanne, Switzerland,71.53,136.08,334.0,30.70,69.30,Lausanne,Lausanne,46.5333,6.6333,Switzerland,CH,CHE,Vaud,admin,138905.0,1756055099
+227,103.0,Vilnius, Lithuania,71.51,129.42,364.0,27.59,72.41,Vilnius,Vilnius,54.6833,25.2833,Lithuania,LT,LTU,Vilniaus Miestas,primary,574147.0,1440887149
+228,104.0,Salt Lake City," UT, United States",71.38,133.91,319.0,32.36,67.64,Salt Lake City,Salt Lake City,40.7777,-111.9306,United States,US,USA,Utah,admin,1098526.0,1840021383
+229,105.0,Abu Dhabi, United Arab Emirates,71.31,130.40,431.0,11.54,88.46,Abu Dhabi,Abu Dhabi,24.4781,54.3686,United Arab Emirates,AE,ARE,Abū Z̧aby,primary,1000000.0,1784176710
+230,106.0,Tallinn, Estonia,71.28,130.50,403.0,22.50,77.50,Tallinn,Tallinn,59.4372,24.745,Estonia,EE,EST,Harjumaa,primary,438341.0,1233260021
+231,107.0,London, United Kingdom,71.26,130.56,122.0,52.81,47.19,London,London,51.5072,-0.1275,United Kingdom,GB,GBR,"London, City of",primary,10979000.0,1826645935
+232,107.0,London, United Kingdom,71.26,130.56,122.0,52.81,47.19,London,London,42.9836,-81.2497,Canada,CA,CAN,Ontario,,383822.0,1124469960
+233,107.0,London, United Kingdom,71.26,130.56,122.0,52.81,47.19,London,London,37.1175,-84.0767,United States,US,USA,Kentucky,,37714.0,1840015258
+234,107.0,London, United Kingdom,71.26,130.56,122.0,52.81,47.19,London,London,39.8936,-83.4376,United States,US,USA,Ohio,,14870.0,1840000674
+235,152.0,London, Canada,66.38,120.68,168.0,47.53,52.47,London,London,51.5072,-0.1275,United Kingdom,GB,GBR,"London, City of",primary,10979000.0,1826645935
+236,152.0,London, Canada,66.38,120.68,168.0,47.53,52.47,London,London,42.9836,-81.2497,Canada,CA,CAN,Ontario,,383822.0,1124469960
+237,152.0,London, Canada,66.38,120.68,168.0,47.53,52.47,London,London,37.1175,-84.0767,United States,US,USA,Kentucky,,37714.0,1840015258
+238,152.0,London, Canada,66.38,120.68,168.0,47.53,52.47,London,London,39.8936,-83.4376,United States,US,USA,Ohio,,14870.0,1840000674
+239,108.0,Quebec City, Canada,71.23,132.96,428.0,14.76,85.24,Quebec City,Quebec City,46.8139,-71.2081,Canada,CA,CAN,Quebec,,705103.0,1124823933
+240,109.0,Singapore, Singapore,70.88,131.44,313.0,32.98,67.02,Singapore,Singapore,1.3,103.8,Singapore,SG,SGP,Central Singapore,primary,5745000.0,1702341327
+241,110.0,Austin," TX, United States",70.69,130.56,291.0,35.80,64.20,Austin,Austin,30.3004,-97.7522,United States,US,USA,Texas,admin,1687311.0,1840019590
+242,110.0,Austin," TX, United States",70.69,130.56,291.0,35.80,64.20,Austin,Austin,43.6718,-92.9783,United States,US,USA,Minnesota,,25626.0,1840006830
+243,111.0,Mississauga, Canada,70.65,128.41,226.0,42.02,57.98,Mississauga,Mississauga,43.6,-79.65,Canada,CA,CAN,Ontario,,721599.0,1124112672
+244,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,38.9047,-77.0163,United States,US,USA,District of Columbia,primary,5379184.0,1840006060
+245,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,54.9,-1.52,United Kingdom,GB,GBR,Sunderland,,67085.0,1826149081
+246,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,39.747,-75.0724,United States,US,USA,New Jersey,,47833.0,1840144649
+247,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,37.1304,-113.4877,United States,US,USA,Utah,,29174.0,1840021561
+248,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.7877,-74.7918,United States,US,USA,New Jersey,,18429.0,1840144404
+249,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.7049,-89.4346,United States,US,USA,Illinois,,16516.0,1840010377
+250,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,35.5587,-77.0545,United States,US,USA,North Carolina,,16014.0,1840015401
+251,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.7587,-74.9825,United States,US,USA,New Jersey,,15357.0,1840000945
+252,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,39.7494,-77.558,United States,US,USA,Pennsylvania,,14627.0,1840146370
+253,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,38.5514,-91.0151,United States,US,USA,Missouri,,14417.0,1840010770
+254,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,38.6587,-87.1591,United States,US,USA,Indiana,,13565.0,1840010735
+255,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.174,-80.2466,United States,US,USA,Pennsylvania,,13433.0,1840003668
+256,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.9884,-74.0637,United States,US,USA,New Jersey,,9237.0,1840151551
+257,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,41.2982,-91.6928,United States,US,USA,Iowa,,7230.0,1840010255
+258,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.5093,-79.6011,United States,US,USA,Pennsylvania,,7109.0,1840145884
+259,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.7389,-75.6392,United States,US,USA,Pennsylvania,,6748.0,1840146592
+260,112.0,Washington," DC, United States",70.63,130.17,83.0,57.83,42.17,Washington,Washington,40.8467,-75.1972,United States,US,USA,Pennsylvania,,5232.0,1840150356
+261,113.0,Cape Town, South Africa,70.62,129.26,19.0,73.78,26.22,Cape Town,Cape Town,-33.925,18.425,South Africa,ZA,ZAF,Western Cape,primary,433688.0,1710680650
+262,114.0,San Diego," CA, United States",70.15,130.34,283.0,36.51,63.49,San Diego,San Diego,32.8312,-117.1225,United States,US,USA,California,,3220118.0,1840021990
+263,114.0,San Diego," CA, United States",70.15,130.34,283.0,36.51,63.49,San Diego,San Diego,10.2558,-67.9539,Venezuela,VE,VEN,Carabobo,minor,187215.0,1862530883
+264,114.0,San Diego," CA, United States",70.15,130.34,283.0,36.51,63.49,San Diego,San Diego,14.7833,-89.7833,Guatemala,GT,GTM,Zacapa,minor,7732.0,1320925318
+265,115.0,Halifax, Canada,70.03,128.99,241.0,40.36,59.64,Halifax,Halifax,44.6475,-63.5906,Canada,CA,CAN,Nova Scotia,,403131.0,1124130981
+266,115.0,Halifax, Canada,70.03,128.99,241.0,40.36,59.64,Halifax,Halifax,53.725,-1.8630000000000002,United Kingdom,GB,GBR,Calderdale,,88134.0,1826413776
+267,115.0,Halifax, Canada,70.03,128.99,241.0,40.36,59.64,Halifax,Halifax,41.9914,-70.8633,United States,US,USA,Massachusetts,,7842.0,1840017567
+268,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,48.4283,-123.3647,Canada,CA,CAN,British Columbia,,335696.0,1124147219
+269,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,-4.6236,55.4544,Seychelles,SC,SYC,English River,primary,26450.0,1690193579
+270,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,36.0444,14.2397,Malta,MT,MLT,Rabat (Ghawdex),admin,,1470128499
+271,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,28.8285,-96.985,United States,US,USA,Texas,,68078.0,1840023044
+272,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,15.5781,120.6819,Philippines,PH,PHL,Tarlac,,63715.0,1608954565
+273,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,14.225,121.325,Philippines,PH,PHL,Laguna,,39321.0,1608591152
+274,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,-38.2167,-72.3333,Chile,CL,CHL,Araucanía,,34890.0,1152078114
+275,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,-32.6167,-60.1667,Argentina,AR,ARG,Entre Ríos,minor,30623.0,1032557014
+276,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,21.2122,-100.2144,Mexico,MX,MEX,Guanajuato,minor,17764.0,1484434699
+277,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,12.45,124.3167,Philippines,PH,PHL,Northern Samar,,14817.0,1608413047
+278,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,44.8634,-93.6586,United States,US,USA,Minnesota,,10206.0,1840010007
+279,116.0,Victoria, Canada,69.89,128.81,295.0,35.32,64.68,Victoria,Victoria,45.6466,24.7059,Romania,RO,ROU,Braşov,,7386.0,1642446315
+280,117.0,Ahmedabad, India,69.87,125.79,337.0,30.45,69.55,Ahmedabad,Ahmedabad,23.03,72.58,India,IN,IND,Gujarāt,minor,7410000.0,1356304381
+281,118.0,Berlin, Germany,69.85,127.02,236.0,41.14,58.86,Berlin,Berlin,52.5167,13.3833,Germany,DE,DEU,Berlin,primary,3644826.0,1276451290
+282,118.0,Berlin, Germany,69.85,127.02,236.0,41.14,58.86,Berlin,Berlin,41.6114,-72.7758,United States,US,USA,Connecticut,,20484.0,1840034026
+283,118.0,Berlin, Germany,69.85,127.02,236.0,41.14,58.86,Berlin,Berlin,44.4869,-71.2599,United States,US,USA,New Hampshire,,11237.0,1840002100
+284,118.0,Berlin, Germany,69.85,127.02,236.0,41.14,58.86,Berlin,Berlin,39.7915,-74.9375,United States,US,USA,New Jersey,,7536.0,1840001505
+285,118.0,Berlin, Germany,69.85,127.02,236.0,41.14,58.86,Berlin,Berlin,43.9704,-88.9505,United States,US,USA,Wisconsin,,5385.0,1840002590
+286,119.0,Jerusalem, Israel,69.83,127.47,286.0,36.34,63.66,Jerusalem,Jerusalem,31.7833,35.2167,Israel,IL,ISR,Southern,primary,919438.0,1376261644
+287,120.0,Amsterdam, Netherlands,69.60,126.55,309.0,33.68,66.32,Amsterdam,Amsterdam,52.3667,4.8833,Netherlands,NL,NLD,Noord-Holland,primary,862965.0,1528355309
+288,120.0,Amsterdam, Netherlands,69.60,126.55,309.0,33.68,66.32,Amsterdam,Amsterdam,42.942,-74.1907,United States,US,USA,New York,,21241.0,1840000391
+289,121.0,Sacramento," CA, United States",69.50,126.71,152.0,49.06,50.94,Sacramento,Sacramento,38.5667,-121.4683,United States,US,USA,California,admin,1898019.0,1840021491
+290,121.0,Sacramento," CA, United States",69.50,126.71,152.0,49.06,50.94,Sacramento,Sacramento,-19.865,-47.44,Brazil,BR,BRA,Minas Gerais,,26374.0,1076384537
+291,122.0,Philadelphia," PA, United States",69.38,127.06,67.0,61.51,38.49,Philadelphia,Philadelphia,40.0077,-75.1339,United States,US,USA,Pennsylvania,,5649300.0,1840000673
+292,122.0,Philadelphia," PA, United States",69.38,127.06,67.0,61.51,38.49,Philadelphia,Philadelphia,32.7761,-89.1221,United States,US,USA,Mississippi,,7345.0,1840014869
+293,123.0,Ankara, Turkey,69.26,124.69,250.0,39.69,60.31,Ankara,Ankara,39.93,32.85,Turkey,TR,TUR,Ankara,primary,5503985.0,1792572891
+294,124.0,Istanbul, Turkey,69.17,124.66,169.0,47.50,52.50,Istanbul,Istanbul,41.01,28.9603,Turkey,TR,TUR,İstanbul,admin,15154000.0,1792756324
+295,125.0,Denver," CO, United States",68.92,128.59,215.0,43.15,56.85,Denver,Denver,39.7621,-104.8759,United States,US,USA,Colorado,admin,2876625.0,1840018789
+296,126.0,Winnipeg, Canada,68.82,127.56,88.0,56.94,43.06,Winnipeg,Winnipeg,49.8844,-97.1464,Canada,CA,CAN,Manitoba,,705244.0,1124224963
+297,127.0,Cincinnati," OH, United States",68.77,129.31,159.0,48.37,51.63,Cincinnati,Cincinnati,39.1413,-84.5061,United States,US,USA,Ohio,,1662691.0,1840003814
+298,128.0,Tampa," FL, United States",68.64,127.56,150.0,49.23,50.77,Tampa,Tampa,27.9942,-82.4451,United States,US,USA,Florida,,2908063.0,1840015982
+299,129.0,Gothenburg, Sweden,68.57,126.58,183.0,46.43,53.57,Gothenburg,Gothenburg,57.6717,11.981,Sweden,SE,SWE,Västra Götaland,admin,604829.0,1752059374
+300,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,43.7714,11.2542,Italy,IT,ITA,Tuscany,admin,380948.0,1380726561
+301,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,34.1781,-79.7877,United States,US,USA,South Carolina,,93131.0,1840013643
+302,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,34.8303,-87.6654,United States,US,USA,Alabama,,79964.0,1840002083
+303,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,38.99,-84.647,United States,US,USA,Kentucky,,33004.0,1840013161
+304,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,33.059,-111.4208,United States,US,USA,Arizona,,27422.0,1840021999
+305,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,40.0978,-74.7886,United States,US,USA,New Jersey,,12552.0,1840081638
+306,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,43.9914,-124.1062,United States,US,USA,Oregon,,11000.0,1840020008
+307,130.0,Florence, Italy,68.37,124.44,268.0,38.25,61.75,Florence,Florence,38.3836,-105.1114,United States,US,USA,Colorado,,7433.0,1840020250
+308,131.0,Buenos Aires, Argentina,68.31,123.64,60.0,62.58,37.42,Buenos Aires,Buenos Aires,-34.5997,-58.3819,Argentina,AR,ARG,"Buenos Aires, Ciudad Autónoma de",primary,16157000.0,1032717330
+309,131.0,Buenos Aires, Argentina,68.31,123.64,60.0,62.58,37.42,Buenos Aires,Buenos Aires,9.1497,-83.3334,Costa Rica,CR,CRI,Puntarenas,,45000.0,1188382290
+310,131.0,Buenos Aires, Argentina,68.31,123.64,60.0,62.58,37.42,Buenos Aires,Buenos Aires,-7.7258,-35.3269,Brazil,BR,BRA,Pernambuco,,13190.0,1076935774
+311,132.0,Fort Lauderdale," FL, United States",67.92,127.79,,,,Fort Lauderdale,Fort Lauderdale,26.1412,-80.1464,United States,US,USA,Florida,,182437.0,1840014236
+312,133.0,Quito, Ecuador,67.79,121.48,76.0,59.33,40.67,Quito,Quito,-0.2186,-78.5097,Ecuador,EC,ECU,Pichincha,primary,2011388.0,1218441993
+313,134.0,Regina, Canada,67.79,123.68,124.0,52.59,47.41,Regina,Regina,50.4547,-104.6067,Canada,CA,CAN,Saskatchewan,,215106.0,1124342541
+314,135.0,Montevideo, Uruguay,67.51,122.14,110.0,54.03,45.97,Montevideo,Montevideo,-34.8667,-56.1667,Uruguay,UY,URY,Montevideo,primary,1319108.0,1858107000
+315,135.0,Montevideo, Uruguay,67.51,122.14,110.0,54.03,45.97,Montevideo,Montevideo,44.9505,-95.7153,United States,US,USA,Minnesota,,5043.0,1840007837
+316,136.0,Dubai, United Arab Emirates,67.47,125.68,425.0,16.56,83.44,Dubai,Dubai,25.2697,55.3094,United Arab Emirates,AE,ARE,Dubayy,admin,2502715.0,1784736618
+317,137.0,Atlanta," GA, United States",67.34,125.89,63.0,62.00,38.00,Atlanta,Atlanta,33.7627,-84.4224,United States,US,USA,Georgia,admin,5449398.0,1840013660
+318,137.0,Atlanta," GA, United States",67.34,125.89,63.0,62.00,38.00,Atlanta,Atlanta,33.1136,-94.1672,United States,US,USA,Texas,,5526.0,1840019407
+319,138.0,Delhi, India,67.23,120.92,77.0,59.18,40.82,Delhi,Delhi,28.66,77.23,India,IN,IND,Delhi,admin,29617000.0,1356872604
+320,138.0,Delhi, India,67.23,120.92,77.0,59.18,40.82,Delhi,Delhi,37.4306,-120.7759,United States,US,USA,California,,12301.0,1840018930
+321,139.0,Turin, Italy,67.22,123.07,142.0,50.28,49.72,Turin,Turin,45.0667,7.7,Italy,IT,ITA,Piedmont,admin,870952.0,1380244627
+322,140.0,Kuala Lumpur, Malaysia,67.14,120.99,42.0,64.88,35.12,Kuala Lumpur,Kuala Lumpur,3.1478,101.6953,Malaysia,MY,MYS,Kuala Lumpur,primary,8285000.0,1458988644
+323,141.0,Pretoria, South Africa,67.10,121.35,3.0,81.94,18.06,Pretoria,Pretoria,-25.7464,28.1881,South Africa,ZA,ZAF,Gauteng,primary,741651.0,1710176249
+324,142.0,Manama, Bahrain,67.06,121.09,404.0,22.42,77.58,Manama,Manama,26.225,50.5775,Bahrain,BH,BHR,Al ‘Āşimah,primary,157474.0,1048989486
+325,143.0,Stockholm, Sweden,66.83,121.91,195.0,45.10,54.90,Stockholm,Stockholm,59.3294,18.0686,Sweden,SE,SWE,Stockholm,primary,972647.0,1752425602
+326,145.0,Cali, Colombia,66.81,120.01,,,,Cali,Cali,3.44,-76.5197,Colombia,CO,COL,Valle del Cauca,admin,2471474.0,1170417589
+327,148.0,Monterrey, Mexico,66.61,119.54,145.0,49.79,50.21,Monterrey,Monterrey,25.6667,-100.3,Mexico,MX,MEX,Nuevo León,admin,4295000.0,1484559591
+328,149.0,Phoenix," AZ, United States",66.58,124.85,130.0,52.10,47.90,Phoenix,Phoenix,33.5722,-112.0891,United States,US,USA,Arizona,admin,4219697.0,1840020568
+329,150.0,Albuquerque," NM, United States",66.56,120.05,25.0,70.01,29.99,Albuquerque,Albuquerque,35.1053,-106.6464,United States,US,USA,New Mexico,,761195.0,1840019176
+330,151.0,Chicago," IL, United States",66.41,123.09,44.0,64.81,35.19,Chicago,Chicago,41.8373,-87.6862,United States,US,USA,Illinois,,8604203.0,1840000494
+331,153.0,Hong Kong, Hong Kong,66.34,120.37,409.0,21.73,78.27,Hong Kong,Hong Kong,22.305,114.185,Hong Kong,HK,HKG,,primary,7347000.0,1344982653
+332,154.0,Ljubljana, Slovenia,66.30,122.94,411.0,21.49,78.51,Ljubljana,Ljubljana,46.05,14.5167,Slovenia,SI,SVN,Ljubljana,primary,286745.0,1705917455
+333,155.0,Pune, India,66.29,119.54,234.0,41.32,58.68,Pune,Pune,18.5196,73.8553,India,IN,IND,Mahārāshtra,,7764000.0,1356081074
+334,156.0,Curitiba, Brazil,66.26,118.79,57.0,63.10,36.90,Curitiba,Curitiba,-25.4297,-49.2719,Brazil,BR,BRA,Paraná,admin,1879355.0,1076701712
+335,157.0,Bangalore, India,66.17,120.25,109.0,54.11,45.89,Bangalore,Bangalore,12.9699,77.598,India,IN,IND,Karnātaka,admin,13707000.0,1356410365
+336,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,-33.45,-70.6667,Chile,CL,CHL,Región Metropolitana,primary,7007000.0,1152554349
+337,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,19.45,-70.7,Dominican Republic,DO,DOM,Cibao Norte,admin,1142947.0,1214985348
+338,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,16.6833,121.55,Philippines,PH,PHL,Santiago,admin,134830.0,1608477470
+339,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,8.1004,-80.9833,Panama,PA,PAN,Veraguas,admin,45955.0,1591231138
+340,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,25.4333,-100.1333,Mexico,MX,MEX,Nuevo León,minor,37886.0,1484043921
+341,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,9.2654,125.5602,Philippines,PH,PHL,Agusan del Norte,,24200.0,1608671914
+342,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,17.3,120.45,Philippines,PH,PHL,Ilocos Sur,,18759.0,1608306642
+343,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,9.8291,-84.3044,Costa Rica,CR,CRI,San José,,11512.0,1188768291
+344,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,-14.1896,-75.74,Peru,PE,PER,Ica,,10449.0,1604889626
+345,158.0,Santiago, Chile,66.04,121.42,103.0,55.17,44.83,Santiago,Santiago,18.45,-95.8333,Mexico,MX,MEX,Veracruz,,5790.0,1484197612
+346,159.0,Mumbai, India,65.92,118.32,216.0,43.15,56.85,Mumbai,Mumbai,18.9667,72.8333,India,IN,IND,Mahārāshtra,admin,23355000.0,1356226629
+347,161.0,Kitchener, Canada,65.90,122.28,279.0,37.13,62.87,Kitchener,Kitchener,43.4186,-80.4728,Canada,CA,CAN,Ontario,,470015.0,1124158530
+348,162.0,Milwaukee," WI, United States",65.73,123.31,30.0,68.55,31.45,Milwaukee,Milwaukee,43.0642,-87.9673,United States,US,USA,Wisconsin,,1365787.0,1840003046
+349,163.0,Zagreb, Croatia,65.65,120.52,405.0,22.28,77.72,Zagreb,Zagreb,45.8,15.95,Croatia,HR,HRV,"Zagreb, Grad",primary,790017.0,1191233290
+350,164.0,Beirut, Lebanon,65.65,123.45,176.0,46.96,53.04,Beirut,Beirut,33.8869,35.5131,Lebanon,LB,LBN,Beyrouth,primary,361366.0,1422847713
+351,165.0,Dallas," TX, United States",65.61,121.52,147.0,49.71,50.29,Dallas,Dallas,32.7936,-96.7662,United States,US,USA,Texas,,5743938.0,1840019440
+352,165.0,Dallas," TX, United States",65.61,121.52,147.0,49.71,50.29,Dallas,Dallas,44.9222,-123.3131,United States,US,USA,Oregon,,17859.0,1840018590
+353,165.0,Dallas," TX, United States",65.61,121.52,147.0,49.71,50.29,Dallas,Dallas,33.9153,-84.8416,United States,US,USA,Georgia,,13981.0,1840014757
+354,165.0,Dallas," TX, United States",65.61,121.52,147.0,49.71,50.29,Dallas,Dallas,41.3604,-75.9662,United States,US,USA,Pennsylvania,,9208.0,1840000745
+355,166.0,Amman, Jordan,65.47,117.80,264.0,38.72,61.28,Amman,Amman,31.95,35.9333,Jordan,JO,JOR,Al ‘Āşimah,primary,4007526.0,1400522593
+356,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,37.7562,-122.443,United States,US,USA,California,,3592294.0,1840021543
+357,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,13.7,-88.1,El Salvador,SV,SLV,Morazán,admin,21049.0,1222399599
+358,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,8.505,125.9771,Philippines,PH,PHL,Agusan del Sur,,74542.0,1608328732
+359,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,-31.4356,-62.0714,Argentina,AR,ARG,Córdoba,minor,62000.0,1032491643
+360,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,10.65,124.35,Philippines,PH,PHL,Cebu,,55180.0,1608306591
+361,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,16.8017,-89.9342,Guatemala,GT,GTM,Petén,minor,47919.0,1320240607
+362,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,15.6667,-87.0333,Honduras,HN,HND,Atlántida,,11206.0,1340403835
+363,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,4.9711,-74.2892,Colombia,CO,COL,Cundinamarca,minor,8304.0,1170500747
+364,167.0,San Francisco," CA, United States",65.17,120.63,95.0,56.12,43.88,San Francisco,San Francisco,20.5333,-102.5,Mexico,MX,MEX,Jalisco,,5167.0,1484609468
+365,168.0,Mexico City, Mexico,65.08,116.19,28.0,69.25,30.75,Mexico City,Mexico City,19.4333,-99.1333,Mexico,MX,MEX,Ciudad de México,primary,20996000.0,1484247881
+366,169.0,Beijing, China,65.04,117.56,307.0,33.87,66.13,Beijing,Beijing,39.905,116.3914,China,CN,CHN,Beijing,primary,19433000.0,1156228865
+367,170.0,Riyadh, Saudi Arabia,64.80,116.30,373.0,27.11,72.89,Riyadh,Riyadh,24.65,46.71,Saudi Arabia,SA,SAU,Ar Riyāḑ,primary,6881000.0,1682999334
+368,172.0,Lahore, Pakistan,64.72,116.11,252.0,39.56,60.44,Lahore,Lahore,31.5497,74.3436,Pakistan,PK,PAK,Punjab,admin,11021000.0,1586801463
+369,173.0,Guangzhou, China,64.57,118.30,246.0,39.95,60.05,Guangzhou,Guangzhou,23.1288,113.259,China,CN,CHN,Guangdong,admin,20902000.0,1156237133
+370,174.0,Cluj-Napoca, Romania,64.56,115.39,413.0,21.00,79.00,Cluj-Napoca,Cluj-Napoca,46.7667,23.6,Romania,RO,ROU,Cluj,admin,316748.0,1642503974
+371,175.0,Gurgaon, India,64.55,118.55,87.0,57.46,42.54,Gurgaon,Gurgaon,28.45,77.02,India,IN,IND,Haryāna,,197340.0,1356836043
+372,177.0,Bogota, Colombia,64.48,115.34,58.0,62.81,37.19,Bogota,Bogota,40.875,-74.0293,United States,US,USA,New Jersey,,8335.0,1840000894
+373,178.0,Rijeka, Croatia,64.47,116.94,396.0,23.71,76.29,Rijeka,Rijeka,45.3272,14.4411,Croatia,HR,HRV,Primorsko-Goranska Županija,admin,128624.0,1191949063
+374,179.0,Islamabad, Pakistan,64.35,115.58,349.0,28.92,71.08,Islamabad,Islamabad,33.6989,73.0369,Pakistan,PK,PAK,Islāmābād,primary,1014825.0,1586306717
+375,180.0,Kochi, India,64.00,113.48,232.0,41.62,58.38,Kochi,Kochi,9.9667,76.2833,India,IN,IND,Kerala,,677381.0,1356707865
+376,181.0,Saskatoon, Canada,63.97,114.84,166.0,47.56,52.44,Saskatoon,Saskatoon,52.1333,-106.6833,Canada,CA,CAN,Saskatchewan,,246376.0,1124612546
+377,182.0,Nashville," TN, United States",63.95,117.97,163.0,47.78,52.22,Nashville,Nashville,36.1715,-86.7843,United States,US,USA,Tennessee,admin,1081903.0,1840036155
+378,182.0,Nashville," TN, United States",63.95,117.97,163.0,47.78,52.22,Nashville,Nashville,35.9692,-77.9555,United States,US,USA,North Carolina,,5554.0,1840016167
+379,183.0,Spokane," WA, United States",63.66,115.50,105.0,54.47,45.53,Spokane,Spokane,47.6671,-117.43299999999999,United States,US,USA,Washington,,412275.0,1840021093
+380,184.0,Accra, Ghana,63.63,113.98,172.0,47.18,52.82,Accra,Accra,5.6037,-0.187,Ghana,GH,GHA,Greater Accra,primary,2291352.0,1288299415
+381,185.0,Moscow, Russia,63.33,112.46,261.0,38.77,61.23,Moscow,Moscow,55.7558,37.6178,Russia,RU,RUS,Moskva,primary,17125000.0,1643318494
+382,185.0,Moscow, Russia,63.33,112.46,261.0,38.77,61.23,Moscow,Moscow,46.7307,-116.9986,United States,US,USA,Idaho,,26145.0,1840019868
+383,187.0,Miami," FL, United States",62.94,118.39,121.0,53.15,46.85,Miami,Miami,25.7839,-80.2102,United States,US,USA,Florida,,6445545.0,1840015149
+384,187.0,Miami," FL, United States",62.94,118.39,121.0,53.15,46.85,Miami,Miami,36.8877,-94.8718,United States,US,USA,Oklahoma,,15571.0,1840020346
+385,188.0,Detroit," MI, United States",62.88,114.51,20.0,73.47,26.53,Detroit,Detroit,42.3834,-83.1024,United States,US,USA,Michigan,,3506126.0,1840003971
+386,189.0,Belo Horizonte, Brazil,62.64,112.96,53.0,63.79,36.21,Belo Horizonte,Belo Horizonte,-19.9281,-43.9419,Brazil,BR,BRA,Minas Gerais,admin,5159000.0,1076967355
+387,190.0,Manila, Philippines,62.60,111.30,48.0,64.39,35.61,Manila,Manila,14.6,120.9833,Philippines,PH,PHL,Manila,primary,23088000.0,1608618140
+388,191.0,Orlando," FL, United States",62.50,114.22,133.0,51.93,48.07,Orlando,Orlando,28.4772,-81.3369,United States,US,USA,Florida,,1822394.0,1840015099
+389,192.0,Porto Alegre, Brazil,62.47,112.48,15.0,75.02,24.98,Porto Alegre,Porto Alegre,-30.0328,-51.23,Brazil,BR,BRA,Rio Grande do Sul,admin,1484941.0,1076658221
+390,193.0,Varna, Bulgaria,62.01,110.50,326.0,31.62,68.38,Varna,Varna,43.2114,27.9111,Bulgaria,BG,BGR,Varna,admin,369162.0,1100789115
+391,193.0,Varna, Bulgaria,62.01,110.50,326.0,31.62,68.38,Varna,Varna,53.3819,60.9747,Russia,RU,RUS,Chelyabinskaya Oblast’,,9869.0,1643475830
+392,194.0,Recife, Brazil,61.94,114.00,11.0,76.09,23.91,Recife,Recife,-8.0539,-34.8808,Brazil,BR,BRA,Pernambuco,admin,1555039.0,1076137337
+393,195.0,Guatemala City, Guatemala,61.90,109.60,61.0,62.28,37.72,Guatemala City,Guatemala City,14.6099,-90.5252,Guatemala,GT,GTM,Guatemala,primary,2450212.0,1320197916
+394,196.0,New York," NY, United States",61.64,114.61,177.0,46.96,53.04,New York,New York,40.6943,-73.9249,United States,US,USA,New York,,18713220.0,1840034016
+395,197.0,Campinas, Brazil,61.41,111.38,37.0,66.33,33.67,Campinas,Campinas,-22.9009,-47.0573,Brazil,BR,BRA,São Paulo,,1164098.0,1076145766
+396,199.0,Los Angeles," CA, United States",61.33,113.19,157.0,48.41,51.59,Los Angeles,Los Angeles,34.1139,-118.4068,United States,US,USA,California,,12750807.0,1840020491
+397,200.0,Anchorage," AK, United States",61.17,119.46,56.0,63.25,36.75,Anchorage,Anchorage,61.1508,-149.1091,United States,US,USA,Alaska,,288000.0,1840023385
+398,202.0,Shanghai, China,60.82,108.10,303.0,34.32,65.68,Shanghai,Shanghai,31.1667,121.4667,China,CN,CHN,Shanghai,admin,22120000.0,1156073548
+399,203.0,Riga, Latvia,60.73,108.93,270.0,37.93,62.07,Riga,Riga,56.9475,24.1069,Latvia,LV,LVA,Rīga,primary,614618.0,1428586192
+400,203.0,Riga, Latvia,60.73,108.93,270.0,37.93,62.07,Riga,Riga,43.0802,-77.8753,United States,US,USA,New York,,5622.0,1840058443
+401,204.0,Warsaw, Poland,60.65,109.12,376.0,26.44,73.56,Warsaw,Warsaw,52.2167,21.0333,Poland,PL,POL,Mazowieckie,primary,1790658.0,1616024847
+402,204.0,Warsaw, Poland,60.65,109.12,376.0,26.44,73.56,Warsaw,Warsaw,41.2448,-85.8464,United States,US,USA,Indiana,,33708.0,1840010277
+403,205.0,Johannesburg, South Africa,60.26,108.01,5.0,80.65,19.35,Johannesburg,Johannesburg,-26.2044,28.0416,South Africa,ZA,ZAF,Gauteng,admin,4434827.0,1710550792
+404,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,-31.5375,-68.5364,Argentina,AR,ARG,San Juan,admin,471389.0,1032869625
+405,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,18.4037,-66.0636,Puerto Rico,PR,PRI,Puerto Rico,,323279.0,1630035577
+406,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,18.81,-71.23,Dominican Republic,DO,DOM,El Valle,admin,169032.0,1214608846
+407,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,14.6,121.0333,Philippines,PH,PHL,San Juan,admin,122180.0,1608817515
+408,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,13.825999999999999,121.396,Philippines,PH,PHL,Batangas,minor,108585.0,1608474998
+409,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,9.9609,-84.0731,Costa Rica,CR,CRI,San José,,24944.0,1188421709
+410,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,16.6667,120.3333,Philippines,PH,PHL,La Union,,37188.0,1608765235
+411,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,26.1903,-98.152,United States,US,USA,Texas,,37008.0,1840022256
+412,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,17.7422,120.4583,Philippines,PH,PHL,Ilocos Sur,,26411.0,1608362566
+413,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,9.1667,123.5167,Philippines,PH,PHL,Siquijor,,14854.0,1608471746
+414,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,10.2667,125.1833,Philippines,PH,PHL,Southern Leyte,,14858.0,1608987406
+415,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,10.65,-61.45,Trinidad And Tobago,TT,TTO,San Juan/Laventille,,13797.0,1780554728
+416,206.0,San Juan, Puerto Rico,60.22,110.12,29.0,69.00,31.00,San Juan,San Juan,17.6834,120.73200000000001,Philippines,PH,PHL,Abra,,9867.0,1608664813
+417,207.0,Muscat, Oman,59.68,106.44,412.0,21.07,78.93,Muscat,Muscat,23.6139,58.5922,Oman,OM,OMN,Masqaţ,primary,1421409.0,1512035506
+418,208.0,Ho Chi Minh City, Vietnam,59.48,104.20,107.0,54.24,45.76,Ho Chi Minh City,Ho Chi Minh City,10.8167,106.6333,Vietnam,VN,VNM,Hồ Chí Minh,admin,13312000.0,1704774326
+419,209.0,Rome, Italy,59.25,107.70,129.0,52.13,47.87,Rome,Rome,41.8931,12.4828,Italy,IT,ITA,Lazio,primary,2872800.0,1380382862
+420,209.0,Rome, Italy,59.25,107.70,129.0,52.13,47.87,Rome,Rome,34.2661,-85.1862,United States,US,USA,Georgia,,61537.0,1840014681
+421,209.0,Rome, Italy,59.25,107.70,129.0,52.13,47.87,Rome,Rome,43.226000000000006,-75.4909,United States,US,USA,New York,,32148.0,1840000349
+422,210.0,Saint Petersburg, Russia,59.11,104.35,253.0,39.43,60.57,Saint Petersburg,Saint Petersburg,59.95,30.3167,Russia,RU,RUS,Sankt-Peterburg,admin,5351935.0,1643616350
+423,211.0,Lviv, Ukraine,59.08,104.80,233.0,41.43,58.57,Lviv,Lviv,49.8419,24.0315,Ukraine,UA,UKR,L’vivs’ka Oblast’,admin,724314.0,1804939658
+424,212.0,Tucson," AZ, United States",59.05,107.04,140.0,50.52,49.48,Tucson,Tucson,32.1545,-110.8782,United States,US,USA,Arizona,,888486.0,1840022101
+425,213.0,Kuwait City, Kuwait,59.01,105.09,324.0,31.74,68.26,Kuwait City,Kuwait City,29.375,47.98,Kuwait,KW,KWT,Al ‘Āşimah,primary,2989000.0,1414102075
+426,215.0,Panama City, Panama,58.68,104.03,179.0,46.75,53.25,Panama City,Panama City,9.0,-79.5,Panama,PA,PAN,Panamá,primary,880691.0,1591672475
+427,215.0,Panama City, Panama,58.68,104.03,179.0,46.75,53.25,Panama City,Panama City,30.1995,-85.6004,United States,US,USA,Florida,,136133.0,1840015034
+428,216.0,Lima, Peru,58.59,103.12,26.0,69.95,30.05,Lima,Lima,-12.05,-77.0333,Peru,PE,PER,Lima,primary,9848000.0,1604728603
+429,216.0,Lima, Peru,58.59,103.12,26.0,69.95,30.05,Lima,Lima,40.741,-84.1121,United States,US,USA,Ohio,,68878.0,1840002785
+430,218.0,Durban, South Africa,58.39,103.72,4.0,80.84,19.16,Durban,Durban,-29.8583,31.025,South Africa,ZA,ZAF,KwaZulu-Natal,,595061.0,1710149138
+431,221.0,Cork, Ireland,57.77,103.79,305.0,34.23,65.77,Cork,Cork,51.9,-8.4731,Ireland,IE,IRL,Cork,admin,208669.0,1372221853
+432,223.0,Algiers, Algeria,57.62,105.25,132.0,52.05,47.95,Algiers,Algiers,36.7764,3.0586,Algeria,DZ,DZA,Alger,primary,3415811.0,1012973369
+433,224.0,Bratislava, Slovakia,57.60,103.99,330.0,31.01,68.99,Bratislava,Bratislava,48.1447,17.1128,Slovakia,SK,SVK,Bratislavský,primary,429564.0,1703195001
+434,225.0,Karachi, Pakistan,57.59,101.71,106.0,54.46,45.54,Karachi,Karachi,24.86,67.01,Pakistan,PK,PAK,Sindh,admin,14835000.0,1586129469
+435,227.0,Sofia, Bulgaria,57.18,101.88,231.0,41.76,58.24,Sofia,Sofia,42.6979,23.3217,Bulgaria,BG,BGR,Sofia-Grad,primary,1355142.0,1100762037
+436,228.0,Kathmandu, Nepal,56.76,99.44,292.0,35.75,64.25,Kathmandu,Kathmandu,27.7167,85.3667,Nepal,NP,NPL,Bāgmatī,primary,975453.0,1524589448
+437,229.0,Jakarta, Indonesia,56.73,100.31,116.0,53.61,46.39,Jakarta,Jakarta,-6.2146,106.8451,Indonesia,ID,IDN,Jakarta,primary,34540000.0,1360771077
+438,230.0,Nairobi, Kenya,56.62,100.07,70.0,60.68,39.32,Nairobi,Nairobi,-1.2864,36.8172,Kenya,KE,KEN,Nairobi City,primary,5545000.0,1404000661
+439,231.0,Sarajevo, Bosnia And Herzegovina,56.51,102.04,175.0,47.06,52.94,Sarajevo,Sarajevo,43.8667,18.4167,Bosnia And Herzegovina,BA,BIH,"Bosnia and Herzegovina, Federation of",primary,275524.0,1070966777
+440,232.0,Athens, Greece,56.41,100.29,126.0,52.30,47.70,Athens,Athens,37.9842,23.7281,Greece,GR,GRC,Attikí,primary,664046.0,1300715560
+441,232.0,Athens, Greece,56.41,100.29,126.0,52.30,47.70,Athens,Athens,33.9508,-83.3689,United States,US,USA,Georgia,,141532.0,1840029463
+442,232.0,Athens, Greece,56.41,100.29,126.0,52.30,47.70,Athens,Athens,34.7847,-86.95100000000001,United States,US,USA,Alabama,,31187.0,1840000935
+443,232.0,Athens, Greece,56.41,100.29,126.0,52.30,47.70,Athens,Athens,39.3269,-82.0988,United States,US,USA,Ohio,,29122.0,1840007355
+444,232.0,Athens, Greece,56.41,100.29,126.0,52.30,47.70,Athens,Athens,35.4573,-84.6045,United States,US,USA,Tennessee,,16651.0,1840013429
+445,232.0,Athens, Greece,56.41,100.29,126.0,52.30,47.70,Athens,Athens,32.2041,-95.8321,United States,US,USA,Texas,,12753.0,1840019500
+446,233.0,Skopje, North Macedonia,56.35,100.84,208.0,43.47,56.53,Skopje,Skopje,41.9833,21.4333,Macedonia,MK,MKD,Skopje,primary,640000.0,1807600615
+447,235.0,Thiruvananthapuram, India,55.90,97.48,248.0,39.91,60.09,Thiruvananthapuram,Thiruvananthapuram,8.5,76.8997,India,IN,IND,Kerala,admin,743691.0,1356024354
+448,237.0,Las Vegas," NV, United States",55.81,100.06,93.0,56.19,43.81,Las Vegas,Las Vegas,36.2333,-115.2654,United States,US,USA,Nevada,,2104198.0,1840020364
+449,237.0,Las Vegas," NV, United States",55.81,100.06,93.0,56.19,43.81,Las Vegas,Las Vegas,35.6011,-105.2206,United States,US,USA,New Mexico,,14662.0,1840020397
+450,238.0,Hanoi, Vietnam,55.53,96.76,275.0,37.41,62.59,Hanoi,Hanoi,21.0245,105.8412,Vietnam,VN,VNM,Hà Nội,primary,7785000.0,1704413791
+451,239.0,Tunis, Tunisia,55.27,97.61,167.0,47.55,52.45,Tunis,Tunis,36.8008,10.18,Tunisia,TN,TUN,Tunis,primary,1056247.0,1788742103
+452,241.0,Novosibirsk, Russia,54.58,95.83,181.0,46.57,53.43,Novosibirsk,Novosibirsk,55.0333,82.9167,Russia,RU,RUS,Novosibirskaya Oblast’,admin,1602915.0,1643399240
+453,242.0,Bucharest, Romania,54.47,95.98,359.0,27.98,72.02,Bucharest,Bucharest,44.4,26.0833,Romania,RO,ROU,Bucureşti,primary,1883425.0,1642414442
+454,243.0,Yerevan, Armenia,53.41,93.78,395.0,23.82,76.18,Yerevan,Yerevan,40.1814,44.5144,Armenia,AM,ARG,Yerevan,primary,1075800.0,1051074169
+455,244.0,Belgrade, Serbia,53.31,95.23,266.0,38.54,61.46,Belgrade,Belgrade,44.8167,20.4667,Serbia,RS,SRB,Beograd,primary,1378682.0,1688374696
+456,244.0,Belgrade, Serbia,53.31,95.23,266.0,38.54,61.46,Belgrade,Belgrade,45.7796,-111.1751,United States,US,USA,Montana,,17743.0,1840018508
+457,245.0,Tbilisi, Georgia,53.16,92.22,397.0,23.41,76.59,Tbilisi,Tbilisi,41.7225,44.7925,Georgia,GE,GEO,Tbilisi,primary,1118035.0,1268203191
+458,246.0,Tehran, Iran,52.53,91.78,112.0,53.90,46.10,Tehran,Tehran,35.7,51.4167,Iran,IR,IRN,Tehrān,primary,13633000.0,1364305026
+459,247.0,Nicosia, Cyprus,52.37,91.53,316.0,32.51,67.49,Nicosia,Nicosia,35.1725,33.365,Cyprus,CY,CYP,Lefkosía,primary,330000.0,1196944155
+460,247.0,Nicosia, Cyprus,52.37,91.53,316.0,32.51,67.49,Nicosia,Nicosia,37.75,14.4,Italy,IT,ITA,Sicilia,,13588.0,1380619404
+461,248.0,Dublin, Ireland,52.06,95.71,149.0,49.54,50.46,Dublin,Dublin,53.3497,-6.2603,Ireland,IE,IRL,Dublin,primary,1173179.0,1372595407
+462,248.0,Dublin, Ireland,52.06,95.71,149.0,49.54,50.46,Dublin,Dublin,37.7161,-121.8963,United States,US,USA,California,,64826.0,1840018916
+463,248.0,Dublin, Ireland,52.06,95.71,149.0,49.54,50.46,Dublin,Dublin,40.1112,-83.1454,United States,US,USA,Ohio,,49037.0,1840008389
+464,248.0,Dublin, Ireland,52.06,95.71,149.0,49.54,50.46,Dublin,Dublin,32.5359,-82.928,United States,US,USA,Georgia,,20583.0,1840013813
+465,249.0,Rabat, Morocco,51.90,89.74,,,,Rabat,Rabat,34.0253,-6.8361,Morocco,MA,MAR,Rabat-Salé-Kénitra,primary,572717.0,1504023252
+466,249.0,Rabat, Morocco,51.90,89.74,,,,Rabat,Rabat,35.8826,14.3978,Malta,MT,MLT,Rabat,admin,11497.0,1470262687
+467,250.0,Dnipro, Ukraine,51.29,89.26,119.0,53.37,46.63,Dnipro,Dnipro,48.45,34.9833,Ukraine,UA,UKR,Dnipropetrovs’ka Oblast’,admin,1002111.0,1804152933
+468,251.0,Santo Domingo, Dominican Republic,51.15,88.59,35.0,66.82,33.18,Santo Domingo,Santo Domingo,18.4764,-69.8933,Dominican Republic,DO,DOM,Ozama,primary,2581827.0,1214636202
+469,251.0,Santo Domingo, Dominican Republic,51.15,88.59,35.0,66.82,33.18,Santo Domingo,Santo Domingo,15.5833,120.8667,Philippines,PH,PHL,Nueva Ecija,,57943.0,1608625033
+470,251.0,Santo Domingo, Dominican Republic,51.15,88.59,35.0,66.82,33.18,Santo Domingo,Santo Domingo,13.235,123.7769,Philippines,PH,PHL,Albay,,34967.0,1608392602
+471,251.0,Santo Domingo, Dominican Republic,51.15,88.59,35.0,66.82,33.18,Santo Domingo,Santo Domingo,17.6333,120.4083,Philippines,PH,PHL,Ilocos Sur,,27975.0,1608638724
+472,251.0,Santo Domingo, Dominican Republic,51.15,88.59,35.0,66.82,33.18,Santo Domingo,Santo Domingo,6.4708,-75.1658,Colombia,CO,COL,Antioquia,minor,10759.0,1170000493
+473,252.0,Phnom Penh, Cambodia,50.93,89.92,114.0,53.71,46.29,Phnom Penh,Phnom Penh,11.5696,104.921,Cambodia,KH,KHM,Phnom Penh,primary,2129371.0,1116260534
+474,253.0,Yekaterinburg, Russia,50.88,89.51,174.0,47.08,52.92,Yekaterinburg,Yekaterinburg,56.8356,60.6128,Russia,RU,RUS,Sverdlovskaya Oblast’,admin,1468833.0,1643582706
+475,256.0,Novi Sad, Serbia,49.66,89.91,242.0,40.29,59.71,Novi Sad,Novi Sad,45.2644,19.8317,Serbia,RS,SRB,Novi Sad,admin,380000.0,1688169087
+476,257.0,Port of Spain, Trinidad And Tobago,49.28,90.98,16.0,74.86,25.14,Port of Spain,Port of Spain,10.6667,-61.5167,Trinidad And Tobago,TT,TTO,Port of Spain,primary,37074.0,1780670676
+477,258.0,Galway, Ireland,49.18,91.29,354.0,28.39,71.61,Galway,Galway,53.2729,-9.0418,Ireland,IE,IRL,Galway,admin,79504.0,1372499968
+478,260.0,Budapest, Hungary,49.10,88.43,288.0,36.05,63.95,Budapest,Budapest,47.4983,19.0408,Hungary,HU,HUN,Budapest,primary,1752286.0,1348611435
+479,261.0,Banja Luka, Bosnia And Herzegovina,49.08,87.35,312.0,33.15,66.85,Banja Luka,Banja Luka,44.7667,17.1833,Bosnia And Herzegovina,BA,BIH,"Srpska, Republika",admin,199191.0,1070859064
+480,262.0,Tirana, Albania,48.78,84.63,259.0,38.92,61.08,Tirana,Tirana,41.33,19.82,Albania,AL,ALB,Tiranë,primary,418495.0,1008162156
+481,263.0,Limassol, Cyprus,48.74,84.02,311.0,33.34,66.66,Limassol,Limassol,34.675,33.0443,Cyprus,CY,CYP,Lemesós,admin,235056.0,1196136222
+482,264.0,Almaty, Kazakhstan,47.85,84.47,38.0,65.80,34.20,Almaty,Almaty,43.25,76.9,Kazakhstan,KZ,KAZ,Almaty,,1916822.0,1398351701
+483,265.0,Kharkiv, Ukraine,47.27,81.71,158.0,48.39,51.61,Kharkiv,Kharkiv,50.0,36.2292,Ukraine,UA,UKR,Kharkivs’ka Oblast’,admin,1446107.0,1804588111
+484,266.0,Lagos, Nigeria,46.63,80.03,43.0,64.82,35.18,Lagos,Lagos,6.45,3.4,Nigeria,NG,NGA,Lagos,minor,15279000.0,1566593751
+485,266.0,Lagos, Nigeria,46.63,80.03,43.0,64.82,35.18,Lagos,Lagos,37.1,-8.6667,Portugal,PT,PRT,Faro,minor,31049.0,1620635530
+486,267.0,Minsk, Belarus,45.77,81.08,65.0,61.75,38.25,Minsk,Minsk,53.9022,27.5618,Belarus,BY,BLR,Minsk,primary,2009786.0,1112348503
+487,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,31.2,29.9167,Egypt,EG,EGY,Al Iskandarīyah,admin,4870000.0,1818695837
+488,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,38.8185,-77.0861,United States,US,USA,Virginia,,159428.0,1840003837
+489,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,43.9686,25.3333,Romania,RO,ROU,Teleorman,admin,45434.0,1642953190
+490,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,31.2923,-92.4702,United States,US,USA,Louisiana,,80129.0,1840013873
+491,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,45.8777,-95.3766,United States,US,USA,Minnesota,,21204.0,1840006680
+492,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,-6.4128,-38.0158,Brazil,BR,BRA,Rio Grande do Norte,,13553.0,1076254681
+493,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,55.98,-4.58,United Kingdom,GB,GBR,West Dunbartonshire,,13444.0,1826818723
+494,268.0,Alexandria, Egypt,45.69,78.72,256.0,39.06,60.94,Alexandria,Alexandria,38.9621,-84.38600000000001,United States,US,USA,Kentucky,,9715.0,1840013162
+495,269.0,Cairo, Egypt,44.97,76.97,144.0,49.97,50.03,Cairo,Cairo,30.0561,31.2394,Egypt,EG,EGY,Al Qāhirah,primary,19372000.0,1818253931
+496,269.0,Cairo, Egypt,44.97,76.97,144.0,49.97,50.03,Cairo,Cairo,30.8791,-84.205,United States,US,USA,Georgia,,9369.0,1840013900
+497,269.0,Cairo, Egypt,44.97,76.97,144.0,49.97,50.03,Cairo,Cairo,42.2965,-74.0205,United States,US,USA,New York,,6423.0,1840057626
+498,270.0,Casablanca, Morocco,44.06,75.02,104.0,55.17,44.83,Casablanca,Casablanca,33.5992,-7.62,Morocco,MA,MAR,Casablanca-Settat,admin,4370000.0,1504175315
+499,270.0,Casablanca, Morocco,44.06,75.02,104.0,55.17,44.83,Casablanca,Casablanca,-33.3167,-71.4167,Chile,CL,CHL,Valparaíso,,21874.0,1152471983
+500,271.0,Rio de Janeiro, Brazil,43.78,76.75,10.0,77.52,22.48,Rio de Janeiro,Rio de Janeiro,-22.9083,-43.1964,Brazil,BR,BRA,Rio de Janeiro,admin,12272000.0,1076887657
+501,272.0,Baku, Azerbaijan,43.68,75.58,339.0,30.38,69.62,Baku,Baku,40.3667,49.8352,Azerbaijan,AZ,AZE,Bakı,primary,2181800.0,1031946365
+502,273.0,Dhaka, Bangladesh,40.75,69.63,41.0,64.94,35.06,Dhaka,Dhaka,23.7289,90.3944,Bangladesh,BD,BGD,Dhaka,primary,15443000.0,1050529279
+503,274.0,Caracas, Venezuela,38.92,67.39,1.0,84.68,15.32,Caracas,Caracas,10.5,-66.9333,Venezuela,VE,VEN,Distrito Capital,primary,1943901.0,1862748204
+504,275.0,Baghdad, Iraq,32.52,54.10,55.0,63.29,36.71,Baghdad,Baghdad,33.35,44.4167,Iraq,IQ,IRQ,Baghdād,primary,5796000.0,1368596238
+505,,Port Moresby, Papua New Guinea,,,2.0,82.04,17.96,Port Moresby,Port Moresby,-9.4789,147.1494,Papua New Guinea,PG,PNG,National Capital,primary,364125.0,1598685395
+506,,San Pedro Sula, Honduras,,,6.0,80.04,19.96,San Pedro Sula,San Pedro Sula,15.5,-88.0333,Honduras,HN,HND,Cortés,admin,1073824.0,1340568412
+507,,Pietermaritzburg, South Africa,,,7.0,79.73,20.27,Pietermaritzburg,Pietermaritzburg,-29.5833,30.4167,South Africa,ZA,ZAF,KwaZulu-Natal,admin,750845.0,1710690280
+508,,Natal, Brazil,,,8.0,79.21,20.79,Natal,Natal,-6.9838,-60.2699,Brazil,BR,BRA,Amazonas,,980588.0,1076336975
+509,,Natal, Brazil,,,8.0,79.21,20.79,Natal,Natal,-5.795,-35.2089,Brazil,BR,BRA,Rio Grande do Norte,admin,877662.0,1076697777
+510,,Fortaleza, Brazil,,,9.0,78.16,21.84,Fortaleza,Fortaleza,-3.7275,-38.5275,Brazil,BR,BRA,Ceará,admin,2452185.0,1076567885
+511,,Kabul, Afghanistan,,,12.0,76.06,23.94,Kabul,Kabul,34.5328,69.1658,Afghanistan,AF,AFG,Kābul,primary,3678034.0,1004993580
+512,,Salvador, Brazil,,,13.0,75.93,24.07,Salvador,Salvador,-12.9708,-38.5108,Brazil,BR,BRA,Bahia,admin,2886698.0,1076923789
+513,,Salvador, Brazil,,,13.0,75.93,24.07,Salvador,Salvador,20.2094,-75.2231,Cuba,CU,CUB,Guantánamo,,45773.0,1192289644
+514,,Port Elizabeth, South Africa,,,14.0,75.92,24.08,Port Elizabeth,Port Elizabeth,-33.9581,25.6,South Africa,ZA,ZAF,Eastern Cape,,312392.0,1710918997
+515,,Memphis," TN, United States",,,17.0,74.81,25.19,Memphis,Memphis,35.1046,-89.9773,United States,US,USA,Tennessee,,1066967.0,1840015457
+516,,Memphis," TN, United States",,,17.0,74.81,25.19,Memphis,Memphis,27.5435,-82.5607,United States,US,USA,Florida,,9647.0,1840014172
+517,,San Salvador, El Salvador,,,21.0,72.45,27.55,San Salvador,San Salvador,13.6989,-89.1914,El Salvador,SV,SLV,San Salvador,primary,567698.0,1222647454
+518,,San Salvador, El Salvador,,,21.0,72.45,27.55,San Salvador,San Salvador,20.2833,-99.0153,Mexico,MX,MEX,Hidalgo,minor,28637.0,1484680072
+519,,San Salvador, El Salvador,,,21.0,72.45,27.55,San Salvador,San Salvador,-31.6167,-58.5,Argentina,AR,ARG,Entre Ríos,minor,12733.0,1032064102
+520,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,17.9714,-76.7931,Jamaica,JM,JAM,Kingston,primary,580000.0,1388709177
+521,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,-29.0569,167.9617,Norfolk Island,NF,NFK,,primary,,1574121434
+522,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,41.2652,-75.8875,United States,US,USA,Pennsylvania,,12812.0,1840000756
+523,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,41.9295,-73.9968,United States,US,USA,New York,,54791.0,1840000493
+524,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,41.9862,-70.7482,United States,US,USA,Massachusetts,,13566.0,1840053680
+525,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,-42.9769,147.3083,Australia,AU,AUS,Tasmania,,10409.0,1036297213
+526,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,41.4738,-71.5236,United States,US,USA,Rhode Island,,6513.0,1840003365
+527,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,42.9156,-71.0665,United States,US,USA,New Hampshire,,6260.0,1840055052
+528,,Kingston, Jamaica,,,24.0,70.02,29.98,Kingston,Kingston,35.8713,-84.4959,United States,US,USA,Tennessee,,5994.0,1840014499
+529,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,17.9714,-76.7931,Jamaica,JM,JAM,Kingston,primary,580000.0,1388709177
+530,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,-29.0569,167.9617,Norfolk Island,NF,NFK,,primary,,1574121434
+531,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,41.2652,-75.8875,United States,US,USA,Pennsylvania,,12812.0,1840000756
+532,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,41.9295,-73.9968,United States,US,USA,New York,,54791.0,1840000493
+533,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,41.9862,-70.7482,United States,US,USA,Massachusetts,,13566.0,1840053680
+534,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,-42.9769,147.3083,Australia,AU,AUS,Tasmania,,10409.0,1036297213
+535,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,41.4738,-71.5236,United States,US,USA,Rhode Island,,6513.0,1840003365
+536,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,42.9156,-71.0665,United States,US,USA,New Hampshire,,6260.0,1840055052
+537,,Kingston, Canada,,,332.0,30.87,69.13,Kingston,Kingston,35.8713,-84.4959,United States,US,USA,Tennessee,,5994.0,1840014499
+538,,Windhoek, Namibia,,,27.0,69.49,30.51,Windhoek,Windhoek,-22.57,17.0836,Namibia,,NAM,Khomas,primary,322500.0,1516802003
+539,,Damascus, Syria,,,31.0,68.40,31.60,Damascus,Damascus,33.5131,36.2919,Syria,SY,SYR,Dimashq,primary,1754000.0,1760685964
+540,,Damascus, Syria,,,31.0,68.40,31.60,Damascus,Damascus,39.2737,-77.2006,United States,US,USA,Maryland,,15250.0,1840005832
+541,,Damascus, Syria,,,31.0,68.40,31.60,Damascus,Damascus,45.4233,-122.4437,United States,US,USA,Oregon,,11161.0,1840018571
+542,,Klang, Malaysia,,,32.0,68.22,31.78,Klang,Klang,3.0333,101.45,Malaysia,MY,MYS,Selangor,,878000.0,1458509635
+543,,Tijuana, Mexico,,,33.0,67.94,32.06,Tijuana,Tijuana,32.525,-117.0333,Mexico,MX,MEX,Baja California,minor,2384609.0,1484708778
+544,,Luanda, Angola,,,34.0,67.52,32.48,Luanda,Luanda,-8.8383,13.2344,Angola,AO,AGO,Luanda,primary,8417000.0,1024949724
+545,,Guayaquil, Ecuador,,,36.0,66.63,33.37,Guayaquil,Guayaquil,-2.1833,-79.8833,Ecuador,EC,ECU,Guayas,admin,2723665.0,1218802178
+546,,Male, Maldives,,,39.0,65.25,34.75,Male,Male,4.175,73.5083,Maldives,MV,MDV,Maale,primary,133019.0,1462441685
+547,,Puebla, Mexico,,,40.0,64.99,35.01,Puebla,Puebla,19.0333,-98.1833,Mexico,MX,MEX,Puebla,admin,1576259.0,1484416394
+548,,New Orleans," LA, United States",,,47.0,64.54,35.46,New Orleans,New Orleans,30.0687,-89.9288,United States,US,USA,Louisiana,,1020886.0,1840001839
+549,,Bradford, United Kingdom,,,49.0,64.33,35.67,Bradford,Bradford,53.8,-1.75,United Kingdom,GB,GBR,Bradford,,67.0,1826687116
+550,,Bradford, United Kingdom,,,49.0,64.33,35.67,Bradford,Bradford,41.9604,-78.6414,United States,US,USA,Pennsylvania,,11311.0,1840000523
+551,,Tripoli, Libya,,,50.0,64.27,35.73,Tripoli,Tripoli,32.8752,13.1875,Libya,LY,LBY,Ţarābulus,primary,1126000.0,1434201852
+552,,Tripoli, Libya,,,50.0,64.27,35.73,Tripoli,Tripoli,34.4333,35.8333,Lebanon,LB,LBN,Liban-Nord,admin,530000.0,1422886065
+553,,Oakland," CA, United States",,,52.0,63.82,36.18,Oakland,Oakland,37.7903,-122.2165,United States,US,USA,California,,433031.0,1840020296
+554,,Oakland," CA, United States",,,52.0,63.82,36.18,Oakland,Oakland,41.0313,-74.2408,United States,US,USA,New Jersey,,12926.0,1840000912
+555,,Oakland," CA, United States",,,52.0,63.82,36.18,Oakland,Oakland,35.2256,-89.5372,United States,US,USA,Tennessee,,8891.0,1840016407
+556,,Oakland," CA, United States",,,52.0,63.82,36.18,Oakland,Oakland,44.5595,-69.7328,United States,US,USA,Maine,,6274.0,1840052940
+557,,Surrey, Canada,,,54.0,63.40,36.60,Surrey,Surrey,49.19,-122.8489,Canada,CA,CAN,British Columbia,,517887.0,1124001454
+558,,Quezon City, Philippines,,,59.0,62.72,37.28,Quezon City,Quezon City,14.6333,121.0333,Philippines,PH,PHL,Quezon,admin,2936116.0,1608974097
+559,,Dar es Salaam, Tanzania,,,66.0,61.69,38.31,Dar es Salaam,Dar es Salaam,-6.8,39.2833,Tanzania,TZ,TZA,Dar es Salaam,primary,6698000.0,1834843853
+560,,Catania, Italy,,,69.0,60.88,39.12,Catania,Catania,37.5027,15.0873,Italy,IT,ITA,Sicilia,minor,311584.0,1380562508
+561,,Harare, Zimbabwe,,,72.0,59.90,40.10,Harare,Harare,-17.8292,31.0522,Zimbabwe,ZW,ZWE,Harare,primary,2150000.0,1716196799
+562,,Lethbridge," AB, Canada",,,73.0,59.58,40.42,Lethbridge,Lethbridge,49.6942,-112.8328,Canada,CA,CAN,Alberta,,92729.0,1124321200
+563,,Marseille, France,,,78.0,58.95,41.05,Marseille,Marseille,43.2964,5.37,France,FR,FRA,Provence-Alpes-Côte d’Azur,admin,870018.0,1250774071
+564,,Montpellier, France,,,79.0,58.83,41.17,Montpellier,Montpellier,43.6119,3.8772,France,FR,FRA,Occitanie,minor,607896.0,1250819356
+565,,Cairns, Australia,,,80.0,58.61,41.39,Cairns,Cairns,-16.9303,145.7703,Australia,AU,AUS,Queensland,,152729.0,1036016939
+566,,Red Deer, Canada,,,81.0,58.44,41.56,Red Deer,Red Deer,52.2681,-113.8111,Canada,CA,CAN,Alberta,,100418.0,1124404130
+567,,Jacksonville," FL, United States",,,82.0,58.04,41.96,Jacksonville,Jacksonville,30.3322,-81.6749,United States,US,USA,Florida,,1181496.0,1840015031
+568,,Jacksonville," FL, United States",,,82.0,58.04,41.96,Jacksonville,Jacksonville,34.7288,-77.3941,United States,US,USA,North Carolina,,108856.0,1840014653
+569,,Jacksonville," FL, United States",,,82.0,58.04,41.96,Jacksonville,Jacksonville,34.8807,-92.1302,United States,US,USA,Arkansas,,28235.0,1840014633
+570,,Jacksonville," FL, United States",,,82.0,58.04,41.96,Jacksonville,Jacksonville,39.7292,-90.2318,United States,US,USA,Illinois,,21685.0,1840008438
+571,,Jacksonville," FL, United States",,,82.0,58.04,41.96,Jacksonville,Jacksonville,31.9642,-95.2617,United States,US,USA,Texas,,14815.0,1840019515
+572,,Jacksonville," FL, United States",,,82.0,58.04,41.96,Jacksonville,Jacksonville,33.8088,-85.7545,United States,US,USA,Alabama,,12544.0,1840007433
+573,,Naples, Italy,,,85.0,57.63,42.37,Naples,Naples,40.8333,14.25,Italy,IT,ITA,Campania,admin,966144.0,1380646673
+574,,Naples, Italy,,,85.0,57.63,42.37,Naples,Naples,26.1504,-81.7936,United States,US,USA,Florida,,22088.0,1840015131
+575,,Drogheda, Ireland,,,89.0,56.92,43.08,Drogheda,Drogheda,53.7139,-6.3503,Ireland,IE,IRL,Louth,,40956.0,1372750233
+576,,Coventry, United Kingdom,,,90.0,56.89,43.11,Coventry,Coventry,52.4081,-1.5106,United Kingdom,GB,GBR,Coventry,,362690.0,1826979198
+577,,Coventry, United Kingdom,,,90.0,56.89,43.11,Coventry,Coventry,41.6933,-71.6611,United States,US,USA,Rhode Island,,34627.0,1840066132
+578,,Coventry, United Kingdom,,,90.0,56.89,43.11,Coventry,Coventry,41.7828,-72.3394,United States,US,USA,Connecticut,,12433.0,1840034370
+579,,Petaling Jaya, Malaysia,,,91.0,56.77,43.23,Petaling Jaya,Petaling Jaya,3.1073,101.6067,Malaysia,MY,MYS,Selangor,,638516.0,1458989343
+580,,Darwin, Australia,,,92.0,56.21,43.79,Darwin,Darwin,-12.4381,130.8411,Australia,AU,AUS,Northern Territory,admin,136828.0,1036497565
+581,,Nantes, France,,,96.0,55.90,44.10,Nantes,Nantes,47.2181,-1.5528,France,FR,FRA,Pays de la Loire,admin,633690.0,1250091495
+582,,Johor Bahru, Malaysia,,,97.0,55.75,44.25,Johor Bahru,Johor Bahru,1.4556,103.7611,Malaysia,MY,MYS,Johor,admin,797882.0,1458747615
+583,,Brampton, Canada,,,99.0,55.59,44.41,Brampton,Brampton,43.6833,-79.7667,Canada,CA,CAN,Ontario,,593638.0,1124625989
+584,,Ulaanbaatar, Mongolia,,,100.0,55.56,44.44,Ulaanbaatar,Ulaanbaatar,47.9203,106.9172,Mongolia,MN,MNG,Ulaanbaatar,primary,1396288.0,1496024767
+585,,San Miguel de Allende, Mexico,,,101.0,55.46,44.54,San Miguel de Allende,San Miguel de Allende,20.9142,-100.7436,Mexico,MX,MEX,Guanajuato,minor,139297.0,1484007926
+586,,Rawalpindi, Pakistan,,,113.0,53.87,46.13,Rawalpindi,Rawalpindi,33.6007,73.0679,Pakistan,PK,PAK,Punjab,minor,2098231.0,1586344001
+587,,Gaborone, Botswana,,,115.0,53.68,46.32,Gaborone,Gaborone,-24.6569,25.9086,Botswana,BW,BWA,Gaborone,primary,231626.0,1072756768
+588,,Townsville, Australia,,,117.0,53.60,46.40,Townsville,Townsville,-19.2564,146.8183,Australia,AU,AUS,Queensland,,180820.0,1036500020
+589,,Louisville," KY, United States",,,123.0,52.80,47.20,Louisville,Louisville,38.1663,-85.6485,United States,US,USA,Kentucky,,1005654.0,1840030815
+590,,Louisville," KY, United States",,,123.0,52.80,47.20,Louisville,Louisville,39.9709,-105.1441,United States,US,USA,Colorado,,20816.0,1840020179
+591,,Louisville," KY, United States",,,123.0,52.80,47.20,Louisville,Louisville,40.8371,-81.2643,United States,US,USA,Ohio,,9360.0,1840000964
+592,,Louisville," KY, United States",,,123.0,52.80,47.20,Louisville,Louisville,33.1224,-89.0553,United States,US,USA,Mississippi,,5983.0,1840015745
+593,,Indore, India,,,131.0,52.08,47.92,Indore,Indore,22.7206,75.8472,India,IN,IND,Madhya Pradesh,,2201927.0,1356402812
+594,,Oshawa, Canada,,,134.0,51.58,48.42,Oshawa,Oshawa,43.9,-78.85,Canada,CA,CAN,Ontario,,166000.0,1124541904
+595,,Grenoble, France,,,136.0,51.36,48.64,Grenoble,Grenoble,45.1715,5.7224,France,FR,FRA,Auvergne-Rhône-Alpes,minor,687985.0,1250071647
+596,,Bilbao, Spain,,,143.0,50.11,49.89,Bilbao,Bilbao,43.2569,-2.9236,Spain,ES,ESP,Basque Country,minor,350184.0,1724331267
+597,,Bari, Italy,,,146.0,49.72,50.28,Bari,Bari,41.1253,16.8667,Italy,IT,ITA,Puglia,admin,323370.0,1380991126
+598,,Lille, France,,,148.0,49.67,50.33,Lille,Lille,50.6278,3.0583,France,FR,FRA,Hauts-de-France,admin,232787.0,1250071961
+599,,Lille, France,,,148.0,49.67,50.33,Lille,Lille,51.2383,4.8242,Belgium,BE,BEL,Flanders,,16564.0,1056651207
+600,,Podgorica, Montenegro,,,160.0,48.18,51.82,Podgorica,Podgorica,42.4397,19.2661,Montenegro,ME,MNE,Podgorica,primary,174515.0,1499454516
+601,,Addis Ababa, Ethiopia,,,161.0,47.89,52.11,Addis Ababa,Addis Ababa,9.0272,38.7369,Ethiopia,ET,ETH,Ādīs Ābeba,primary,3041002.0,1231824991
+602,,Nottingham, United Kingdom,,,170.0,47.38,52.62,Nottingham,Nottingham,52.95,-1.15,United Kingdom,GB,GBR,Nottingham,,768638.0,1826122597
+603,,Nottingham, United Kingdom,,,170.0,47.38,52.62,Nottingham,Nottingham,43.1242,-71.12100000000001,United States,US,USA,New Hampshire,,5058.0,1840055357
+604,,St. John's," Newfoundland and Labrador, Canada",,,171.0,47.19,52.81,St. John's,St. John's,47.4817,-52.7971,Canada,CA,CAN,Newfoundland and Labrador,,108860.0,1124741456
+605,,Kuching, Malaysia,,,173.0,47.16,52.84,Kuching,Kuching,1.5397,110.3542,Malaysia,MY,MYS,Sarawak,admin,325132.0,1458462262
+606,,Palermo, Italy,,,178.0,46.94,53.06,Palermo,Palermo,2.8883,-75.4339,Colombia,CO,COL,Huila,minor,800000.0,1170614290
+607,,Palermo, Italy,,,178.0,46.94,53.06,Palermo,Palermo,38.1157,13.3613,Italy,IT,ITA,Sicilia,admin,668405.0,1380428434
+608,,Palermo, Italy,,,178.0,46.94,53.06,Palermo,Palermo,39.4313,-121.5225,United States,US,USA,California,,5395.0,1840018777
+609,,Toulouse, France,,,185.0,46.13,53.87,Toulouse,Toulouse,43.6045,1.444,France,FR,FRA,Occitanie,admin,968638.0,1250258110
+610,,Wollongong, Australia,,,187.0,45.98,54.02,Wollongong,Wollongong,-34.4331,150.8831,Australia,AU,AUS,New South Wales,,302739.0,1036502269
+611,,Newcastle, Australia,,,188.0,45.79,54.21,Newcastle,Newcastle,55.0077,-1.6578,United Kingdom,GB,GBR,Newcastle upon Tyne,,1650000.0,1826292220
+612,,Newcastle, Australia,,,188.0,45.79,54.21,Newcastle,Newcastle,-32.9167,151.75,Australia,AU,AUS,New South Wales,,322278.0,1036468001
+613,,Newcastle, Australia,,,188.0,45.79,54.21,Newcastle,Newcastle,47.5303,-122.1633,United States,US,USA,Washington,,12292.0,1840019831
+614,,Newcastle, Australia,,,188.0,45.79,54.21,Newcastle,Newcastle,35.2404,-97.5998,United States,US,USA,Oklahoma,,10655.0,1840020453
+615,,Omaha," NE, United States",,,190.0,45.56,54.44,Omaha,Omaha,41.2627,-96.0522,United States,US,USA,Nebraska,,847819.0,1840009315
+616,,Lyon, France,,,193.0,45.14,54.86,Lyon,Lyon,45.76,4.84,France,FR,FRA,Auvergne-Rhône-Alpes,admin,516092.0,1250196189
+617,,Chisinau, Moldova,,,194.0,45.11,54.89,Chisinau,Chisinau,47.0228,28.8353,Moldova,MD,MDA,Chişinău,primary,639000.0,1498011437
+618,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,37.5295,-77.4756,United States,US,USA,Virginia,admin,1075798.0,1840001698
+619,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,49.1667,-123.1333,Canada,CA,CAN,British Columbia,,198309.0,1124121940
+620,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,37.9477,-122.339,United States,US,USA,California,,110567.0,1840020277
+621,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,-41.3333,173.1833,New Zealand,NZ,NZL,Tasman,admin,17250.0,1554001427
+622,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,39.8318,-84.8905,United States,US,USA,Indiana,,42373.0,1840014176
+623,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,37.7306,-84.2926,United States,US,USA,Kentucky,,40972.0,1840014341
+624,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,51.456,-0.301,United Kingdom,GB,GBR,Richmond upon Thames,,21469.0,1826875300
+625,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,29.5825,-95.7602,United States,US,USA,Texas,,12578.0,1840020947
+626,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,54.403,-1.7369999999999999,United Kingdom,GB,GBR,North Yorkshire,,8413.0,1826225909
+627,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,41.4983,-71.6608,United States,US,USA,Rhode Island,,7653.0,1840106243
+628,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,42.8094,-82.7518,United States,US,USA,Michigan,,6262.0,1840003091
+629,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,-33.5983,150.7511,Australia,AU,AUS,New South Wales,,5482.0,1036934091
+630,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,39.2755,-93.9731,United States,US,USA,Missouri,,5653.0,1840009600
+631,,Richmond," VA, United States",,,196.0,45.02,54.98,Richmond,Richmond,-20.7306,143.1422,Australia,AU,AUS,Queensland,,522.0,1036156498
+632,,Buffalo," NY, United States",,,197.0,44.99,55.01,Buffalo,Buffalo,42.9016,-78.8487,United States,US,USA,New York,,914341.0,1840000386
+633,,Buffalo," NY, United States",,,197.0,44.99,55.01,Buffalo,Buffalo,45.1796,-93.8644,United States,US,USA,Minnesota,,16993.0,1840006703
+634,,Buffalo," NY, United States",,,197.0,44.99,55.01,Buffalo,Buffalo,40.705999999999996,-79.7387,United States,US,USA,Pennsylvania,,7308.0,1840149058
+635,,Sheffield, United Kingdom,,,203.0,44.11,55.89,Sheffield,Sheffield,53.3833,-1.4667,United Kingdom,GB,GBR,Sheffield,,685368.0,1826289852
+636,,Sheffield, United Kingdom,,,203.0,44.11,55.89,Sheffield,Sheffield,34.757,-87.6977,United States,US,USA,Alabama,,8901.0,1840015537
+637,,Kristiansand, Norway,,,209.0,43.45,56.55,Kristiansand,Kristiansand,58.1467,7.9956,Norway,NO,NOR,Vest-Agder,minor,111633.0,1578642977
+638,,Bordeaux, France,,,211.0,43.38,56.62,Bordeaux,Bordeaux,44.84,-0.58,France,FR,FRA,Nouvelle-Aquitaine,admin,257804.0,1250449238
+639,,Iloilo, Philippines,,,212.0,43.35,56.65,Iloilo,Iloilo,10.7167,122.5667,Philippines,PH,PHL,Iloilo,admin,447992.0,1608875987
+640,,Genoa, Italy,,,214.0,43.16,56.84,Genoa,Genoa,44.4072,8.934,Italy,IT,ITA,Liguria,admin,580097.0,1380716540
+641,,Genoa, Italy,,,214.0,43.16,56.84,Genoa,Genoa,42.0926,-88.6964,United States,US,USA,Illinois,,6467.0,1840008133
+642,,Moncton, Canada,,,220.0,42.48,57.52,Moncton,Moncton,46.1328,-64.7714,Canada,CA,CAN,New Brunswick,,108620.0,1124521303
+643,,Peterborough, United Kingdom,,,224.0,42.18,57.82,Peterborough,Peterborough,44.3,-78.3167,Canada,CA,CAN,Ontario,,82094.0,1124440356
+644,,Peterborough, United Kingdom,,,224.0,42.18,57.82,Peterborough,Peterborough,42.8905,-71.9394,United States,US,USA,New Hampshire,,6604.0,1840055383
+645,,Peterborough, United Kingdom,,,224.0,42.18,57.82,Peterborough,Peterborough,-32.9667,138.8333,Australia,AU,AUS,South Australia,,1416.0,1036104272
+646,,Peterborough, United Kingdom,,,224.0,42.18,57.82,Peterborough,Peterborough,52.5833,-0.25,United Kingdom,GB,GBR,Peterborough,,82.0,1826626144
+647,,Leipzig, Germany,,,225.0,42.14,57.86,Leipzig,Leipzig,51.3333,12.3833,Germany,DE,DEU,Saxony,minor,593197.0,1276563678
+648,,Vaughan, Canada,,,228.0,41.93,58.07,Vaughan,Vaughan,43.8333,-79.5,Canada,CA,CAN,Ontario,,306233.0,1124000141
+649,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,39.8117,-76.9835,United States,US,USA,Pennsylvania,,68165.0,1840001450
+650,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,49.4433,-96.8492,Canada,CA,CAN,Manitoba,,15733.0,1124001704
+651,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,42.1224,-70.8566,United States,US,USA,Massachusetts,,14459.0,1840053568
+652,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,40.8197,-74.4287,United States,US,USA,New Jersey,,14399.0,1840081717
+653,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,40.6669,-75.3979,United States,US,USA,Pennsylvania,,11499.0,1840151272
+654,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,43.7155,-72.1911,United States,US,USA,New Hampshire,,11467.0,1840054971
+655,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,41.2012,-75.9288,United States,US,USA,Pennsylvania,,10866.0,1840148628
+656,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,44.15,-81.0333,Canada,CA,CAN,Ontario,,7688.0,1124868817
+657,,Hanover, Germany,,,230.0,41.86,58.14,Hanover,Hanover,42.4922,-79.1253,United States,US,USA,New York,,6687.0,1840058164
+658,,Nice, France,,,238.0,40.99,59.01,Nice,Nice,43.7034,7.2663,France,FR,FRA,Provence-Alpes-Côte d’Azur,minor,1006402.0,1250774553
+659,,Christchurch, New Zealand,,,239.0,40.66,59.34,Christchurch,Christchurch,-43.5309,172.6365,New Zealand,NZ,NZL,Canterbury,admin,377200.0,1554377228
+660,,Christchurch, New Zealand,,,239.0,40.66,59.34,Christchurch,Christchurch,50.73,-1.78,United Kingdom,GB,GBR,Dorset,,48368.0,1826669534
+661,,Bonn, Germany,,,240.0,40.49,59.51,Bonn,Bonn,50.7339,7.0997,Germany,DE,DEU,North Rhine-Westphalia,minor,327258.0,1276807850
+662,,Limerick, Ireland,,,244.0,40.19,59.81,Limerick,Limerick,52.6653,-8.6238,Ireland,IE,IRL,Limerick,admin,58319.0,1372126011
+663,,Limerick, Ireland,,,244.0,40.19,59.81,Limerick,Limerick,40.2323,-75.5344,United States,US,USA,Pennsylvania,,18990.0,1840035062
+664,,Riverside," CA, United States",,,254.0,39.32,60.68,Riverside,Riverside,33.9381,-117.3948,United States,US,USA,California,,2107852.0,1840020551
+665,,Riverside," CA, United States",,,254.0,39.32,60.68,Riverside,Riverside,40.0358,-74.9564,United States,US,USA,New Jersey,,7857.0,1840081629
+666,,Riverside," CA, United States",,,254.0,39.32,60.68,Riverside,Riverside,39.7836,-84.1219,United States,US,USA,Ohio,,25133.0,1840012490
+667,,Riverside," CA, United States",,,254.0,39.32,60.68,Riverside,Riverside,41.0319,-73.5827,United States,US,USA,Connecticut,,8604.0,1840026286
+668,,Riverside," CA, United States",,,254.0,39.32,60.68,Riverside,Riverside,41.831,-87.8169,United States,US,USA,Illinois,,8563.0,1840011287
+669,,Riverside," CA, United States",,,254.0,39.32,60.68,Riverside,Riverside,39.4777,-76.2385,United States,US,USA,Maryland,,6038.0,1840031473
+670,,Karlsruhe, Germany,,,260.0,38.82,61.18,Karlsruhe,Karlsruhe,49.0167,8.4,Germany,DE,DEU,Baden-Württemberg,minor,313092.0,1276923210
+671,,Brooklyn," NY, United States",,,263.0,38.73,61.27,Brooklyn,Brooklyn,40.6501,-73.9496,United States,US,USA,New York,,2559903.0,1840034030
+672,,Brooklyn," NY, United States",,,263.0,38.73,61.27,Brooklyn,Brooklyn,41.4349,-81.7498,United States,US,USA,Ohio,,10646.0,1840000592
+673,,Brooklyn," NY, United States",,,263.0,38.73,61.27,Brooklyn,Brooklyn,41.787,-71.9543,United States,US,USA,Connecticut,,8238.0,1840034199
+674,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,42.2833,-83.0,Canada,CA,CAN,Ontario,,276165.0,1124261024
+675,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,51.4791,-0.6095,United Kingdom,GB,GBR,Windsor and Maidenhead,,32608.0,1826792931
+676,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,40.4693,-104.9213,United States,US,USA,Colorado,,30477.0,1840022401
+677,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,41.871,-72.6736,United States,US,USA,Connecticut,,28859.0,1840033738
+678,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,38.5417,-122.8086,United States,US,USA,California,,27128.0,1840022484
+679,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,43.2406,-89.2952,United States,US,USA,Wisconsin,,7644.0,1840006867
+680,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,42.0637,-75.6597,United States,US,USA,New York,,5992.0,1840004662
+681,,Windsor, Canada,,,269.0,38.21,61.79,Windsor,Windsor,45.5667,-72.0,Canada,CA,CAN,Quebec,,5367.0,1124798166
+682,,Katowice, Poland,,,274.0,37.70,62.30,Katowice,Katowice,50.25,19.0,Poland,PL,POL,Śląskie,admin,276499.0,1616798495
+683,,Uppsala, Sweden,,,277.0,37.35,62.65,Uppsala,Uppsala,59.8498,17.6389,Sweden,SE,SWE,Uppsala,admin,165456.0,1752953686
+684,,Uppsala, Sweden,,,277.0,37.35,62.65,Uppsala,Uppsala,59.8601,17.64,Sweden,SE,SWE,Stockholm,,133117.0,1752330831
+685,,Brighton, United Kingdom,,,278.0,37.27,62.73,Brighton,Brighton,50.8429,-0.1313,United Kingdom,GB,GBR,Brighton and Hove,,134293.0,1826609057
+686,,Brighton, United Kingdom,,,278.0,37.27,62.73,Brighton,Brighton,39.9716,-104.7964,United States,US,USA,Colorado,,41554.0,1840018784
+687,,Brighton, United Kingdom,,,278.0,37.27,62.73,Brighton,Brighton,43.1175,-77.5835,United States,US,USA,New York,,36272.0,1840057402
+688,,Brighton, United Kingdom,,,278.0,37.27,62.73,Brighton,Brighton,44.1222,-77.7642,Canada,CA,CAN,Ontario,,11844.0,1124672085
+689,,Brighton, United Kingdom,,,278.0,37.27,62.73,Brighton,Brighton,40.7023,-80.3677,United States,US,USA,Pennsylvania,,8287.0,1840145004
+690,,Brighton, United Kingdom,,,278.0,37.27,62.73,Brighton,Brighton,42.5298,-83.7847,United States,US,USA,Michigan,,7656.0,1840003099
+691,,Boise," ID, United States",,,281.0,36.79,63.21,Boise,Boise,43.6007,-116.2312,United States,US,USA,Idaho,admin,389280.0,1840027142
+692,,Cagliari, Italy,,,287.0,36.30,63.70,Cagliari,Cagliari,39.2167,9.1167,Italy,IT,ITA,Sardegna,admin,154106.0,1380685705
+693,,Oulu, Finland,,,289.0,36.02,63.98,Oulu,Oulu,65.0142,25.4719,Finland,FI,FIN,Pohjois-Pohjanmaa,admin,200526.0,1246093273
+694,,Rotterdam, Netherlands,,,290.0,35.87,64.13,Rotterdam,Rotterdam,51.9225,4.4792,Netherlands,NL,NLD,Zuid-Holland,minor,631155.0,1528892850
+695,,Rotterdam, Netherlands,,,290.0,35.87,64.13,Rotterdam,Rotterdam,42.8133,-74.0129,United States,US,USA,New York,,29593.0,1840058454
+696,,Aberdeen, United Kingdom,,,293.0,35.72,64.28,Aberdeen,Aberdeen,57.15,-2.11,United Kingdom,GB,GBR,Aberdeen City,,214610.0,1826324306
+697,,Aberdeen, United Kingdom,,,293.0,35.72,64.28,Aberdeen,Aberdeen,46.9757,-123.8094,United States,US,USA,Washington,,29609.0,1840018446
+698,,Aberdeen, United Kingdom,,,293.0,35.72,64.28,Aberdeen,Aberdeen,45.4646,-98.46799999999999,United States,US,USA,South Dakota,,28257.0,1840002032
+699,,Aberdeen, United Kingdom,,,293.0,35.72,64.28,Aberdeen,Aberdeen,40.4165,-74.2249,United States,US,USA,New Jersey,,18540.0,1840081652
+700,,Aberdeen, United Kingdom,,,293.0,35.72,64.28,Aberdeen,Aberdeen,39.5146,-76.173,United States,US,USA,Maryland,,16019.0,1840005666
+701,,Aberdeen, United Kingdom,,,293.0,35.72,64.28,Aberdeen,Aberdeen,35.135,-79.4326,United States,US,USA,North Carolina,,7988.0,1840015433
+702,,Aberdeen, United Kingdom,,,293.0,35.72,64.28,Aberdeen,Aberdeen,33.8287,-88.5539,United States,US,USA,Mississippi,,5205.0,1840013685
+703,,Jaipur, India,,,299.0,34.58,65.42,Jaipur,Jaipur,26.9167,75.8667,India,IN,IND,Rājasthān,admin,3073350.0,1356293537
+704,,Split, Croatia,,,302.0,34.38,65.62,Split,Split,43.51,16.45,Croatia,HR,HRV,Splitsko-Dalmatinska Županija,admin,178102.0,1191440208
+705,,Puerto Vallarta, Mexico,,,306.0,34.13,65.87,Puerto Vallarta,Puerto Vallarta,20.6667,-105.2667,Mexico,MX,MEX,Jalisco,minor,221200.0,1484408906
+706,,Shenzhen, China,,,315.0,32.79,67.21,Shenzhen,Shenzhen,22.535,114.054,China,CN,CHN,Guangdong,minor,15929000.0,1156158707
+707,,Hobart, Australia,,,317.0,32.47,67.53,Hobart,Hobart,-42.8806,147.325,Australia,AU,AUS,Tasmania,admin,240342.0,1036679838
+708,,Hobart, Australia,,,317.0,32.47,67.53,Hobart,Hobart,41.5139,-87.2729,United States,US,USA,Indiana,,27939.0,1840007093
+709,,Hobart, Australia,,,317.0,32.47,67.53,Hobart,Hobart,44.4967,-88.1602,United States,US,USA,Wisconsin,,10082.0,1840038100
+710,,Hobart, Australia,,,317.0,32.47,67.53,Hobart,Hobart,47.412,-121.99600000000001,United States,US,USA,Washington,,7262.0,1840017344
+711,,El Paso," TX, United States",,,320.0,32.04,67.96,El Paso,El Paso,31.8479,-106.4309,United States,US,USA,Texas,,843386.0,1840023252
+712,,El Paso," TX, United States",,,320.0,32.04,67.96,El Paso,El Paso,9.6622,-73.7519,Colombia,CO,COL,Cesar,minor,23534.0,1170404892
+713,,El Paso," TX, United States",,,320.0,32.04,67.96,El Paso,El Paso,28.6513,-17.8806,Spain,ES,ESP,Canary Islands,,7623.0,1724031973
+714,,Vadodara, India,,,322.0,31.89,68.11,Vadodara,Vadodara,22.3,73.2,India,IN,IND,Gujarāt,,2065771.0,1356705249
+715,,Incheon, South Korea,,,331.0,30.92,69.08,Incheon,Incheon,37.4639,126.6486,"Korea, South",KR,KOR,Incheon,admin,2913024.0,1410160313
+716,,Nuremberg, Germany,,,336.0,30.50,69.50,Nuremberg,Nuremberg,49.4539,11.0775,Germany,DE,DEU,Bavaria,minor,518365.0,1276166609
+717,,Freiburg im Breisgau, Germany,,,338.0,30.43,69.57,Freiburg im Breisgau,Freiburg im Breisgau,47.9947,7.8497,Germany,DE,DEU,Baden-Württemberg,minor,230241.0,1276371228
+718,,Guelph, Canada,,,340.0,30.04,69.96,Guelph,Guelph,43.55,-80.25,Canada,CA,CAN,Ontario,,131794.0,1124968815
+719,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,43.3167,-79.8,Canada,CA,CAN,Ontario,,183314.0,1124955083
+720,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,36.0758,-79.4686,United States,US,USA,North Carolina,,131043.0,1840013362
+721,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,44.4877,-73.2314,United States,US,USA,Vermont,,109763.0,1840002310
+722,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,40.8072,-91.1247,United States,US,USA,Iowa,,28474.0,1840007164
+723,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,42.5022,-71.2027,United States,US,USA,Massachusetts,,27650.0,1840053476
+724,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,42.6746,-88.2723,United States,US,USA,Wisconsin,,24691.0,1840002491
+725,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,40.0641,-74.8393,United States,US,USA,New Jersey,,22586.0,1840001477
+726,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,39.0223,-84.7217,United States,US,USA,Kentucky,,17401.0,1840013160
+727,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,41.7598,-72.9589,United States,US,USA,Connecticut,,9659.0,1840034217
+728,,Burlington, Canada,,,343.0,29.78,70.22,Burlington,Burlington,48.4676,-122.3298,United States,US,USA,Washington,,9224.0,1840018367
+729,,Dresden, Germany,,,344.0,29.74,70.26,Dresden,Dresden,51.05,13.74,Germany,DE,DEU,Saxony,admin,556549.0,1276561036
+730,,Havana, Cuba,,,348.0,29.06,70.94,Havana,Havana,23.1367,-82.3589,Cuba,CU,CUB,La Habana,primary,2141652.0,1192752771
+731,,Alicante, Spain,,,353.0,28.44,71.56,Alicante,Alicante,38.3453,-0.4831,Spain,ES,ESP,Valencia,minor,337482.0,1724923163
+732,,Cambridge, United Kingdom,,,362.0,27.80,72.20,Cambridge,Cambridge,43.3972,-80.3114,Canada,CA,CAN,Ontario,,129920.0,1124113576
+733,,Cambridge, United Kingdom,,,362.0,27.80,72.20,Cambridge,Cambridge,42.3759,-71.1185,United States,US,USA,Massachusetts,,118927.0,1840000429
+734,,Cambridge, United Kingdom,,,362.0,27.80,72.20,Cambridge,Cambridge,52.2053,0.1192,United Kingdom,GB,GBR,Cambridgeshire,,66.0,1826229713
+735,,Cambridge, United Kingdom,,,362.0,27.80,72.20,Cambridge,Cambridge,-37.8833,175.4667,New Zealand,NZ,NZL,Waikato,,20500.0,1554000848
+736,,Cambridge, United Kingdom,,,362.0,27.80,72.20,Cambridge,Cambridge,45.5612,-93.2283,United States,US,USA,Minnesota,,16143.0,1840006692
+737,,Cambridge, United Kingdom,,,362.0,27.80,72.20,Cambridge,Cambridge,40.0221,-81.5868,United States,US,USA,Ohio,,14736.0,1840007259
+738,,Cambridge, United Kingdom,,,362.0,27.80,72.20,Cambridge,Cambridge,38.5515,-76.0786,United States,US,USA,Maryland,,14178.0,1840006165
+739,,Utrecht, Netherlands,,,363.0,27.76,72.24,Utrecht,Utrecht,52.0908,5.1222,Netherlands,NL,NLD,Utrecht,admin,640000.0,1528871692
+740,,Waterloo, Canada,,,372.0,27.14,72.86,Waterloo,Waterloo,42.492,-92.3522,United States,US,USA,Iowa,,111631.0,1840000440
+741,,Waterloo, Canada,,,372.0,27.14,72.86,Waterloo,Waterloo,43.4667,-80.5167,Canada,CA,CAN,Ontario,,104986.0,1124321390
+742,,Waterloo, Canada,,,372.0,27.14,72.86,Waterloo,Waterloo,50.7167,4.3833,Belgium,BE,BEL,Wallonia,,30174.0,1056353647
+743,,Waterloo, Canada,,,372.0,27.14,72.86,Waterloo,Waterloo,38.3403,-90.1538,United States,US,USA,Illinois,,10578.0,1840010803
+744,,Waterloo, Canada,,,372.0,27.14,72.86,Waterloo,Waterloo,42.9156,-76.9123,United States,US,USA,New York,,7388.0,1840004421
+745,,Merida, Mexico,,,375.0,26.48,73.52,Merida,Merida,10.9098,124.5376,Philippines,PH,PHL,Leyte,,29863.0,1608181701
+746,,Oakville, Canada,,,378.0,26.30,73.70,Oakville,Oakville,43.45,-79.6833,Canada,CA,CAN,Ontario,,193832.0,1124080468
+747,,Oakville, Canada,,,378.0,26.30,73.70,Oakville,Oakville,38.4472,-90.3199,United States,US,USA,Missouri,,36407.0,1840006121
+748,,Oakville, Canada,,,378.0,26.30,73.70,Oakville,Oakville,41.5923,-73.0858,United States,US,USA,Connecticut,,8799.0,1840003260
+749,,Aalborg, Denmark,,,382.0,25.84,74.16,Aalborg,Aalborg,57.0337,9.9166,Denmark,DK,DNK,Nordjylland,admin,122219.0,1208789278
+750,,Graz, Austria,,,386.0,25.56,74.44,Graz,Graz,47.0749,15.4409,Austria,AT,AUT,Steiermark,admin,263234.0,1040184559
+751,,Coquitlam, Canada,,,400.0,23.16,76.84,Coquitlam,Coquitlam,49.2839,-122.7919,Canada,CA,CAN,British Columbia,,139284.0,1124000500
+752,,Markham, Canada,,,401.0,23.15,76.85,Markham,Markham,43.8767,-79.2633,Canada,CA,CAN,Ontario,,328966.0,1124272698
+753,,Markham, Canada,,,401.0,23.15,76.85,Markham,Markham,41.6,-87.6905,United States,US,USA,Illinois,,12314.0,1840008130
+754,,Amarillo," TX, United States",,,402.0,22.73,77.27,Amarillo,Amarillo,35.1988,-101.8311,United States,US,USA,Texas,,205603.0,1840019156
+755,,Tampere, Finland,,,407.0,21.99,78.01,Tampere,Tampere,61.4981,23.7608,Finland,FI,FIN,Pirkanmaa,admin,225118.0,1246964318
+756,,Tartu, Estonia,,,410.0,21.72,78.28,Tartu,Tartu,58.38,26.7225,Estonia,EE,EST,Tartumaa,admin,91407.0,1233809410
+757,,Groningen, Netherlands,,,414.0,20.94,79.06,Groningen,Groningen,53.2167,6.5667,Netherlands,NL,NLD,Groningen,admin,201462.0,1528295161
+758,,Groningen, Netherlands,,,414.0,20.94,79.06,Groningen,Groningen,5.797000000000001,-55.481,Suriname,SR,SUR,Saramacca,admin,3216.0,1740072928
+759,,Basel, Switzerland,,,416.0,20.44,79.56,Basel,Basel,47.5606,7.5906,Switzerland,CH,CHE,Basel-Stadt,admin,177595.0,1756731313
+760,,Yakutsk, Russia,,,417.0,20.13,79.87,Yakutsk,Yakutsk,62.0272,129.7319,Russia,RU,RUS,Sakha (Yakutiya),admin,307911.0,1643163546
+761,,Maribor, Slovenia,,,419.0,19.56,80.44,Maribor,Maribor,46.55,15.6333,Slovenia,SI,SVN,Maribor,admin,96211.0,1705454394
+762,,Bern, Switzerland,,,420.0,18.94,81.06,Bern,Bern,46.948,7.4474,Switzerland,CH,CHE,Bern,primary,133798.0,1756374318
+763,,Bern, Switzerland,,,420.0,18.94,81.06,Bern,Bern,40.4005,-75.9933,United States,US,USA,Pennsylvania,,6921.0,1840145744
+764,,Irvine," CA, United States",,,421.0,18.57,81.43,Irvine,Irvine,33.6772,-117.7738,United States,US,USA,California,,287401.0,1840019325
+765,,Irvine," CA, United States",,,421.0,18.57,81.43,Irvine,Irvine,55.6201,-4.6614,United Kingdom,GB,GBR,North Ayrshire,,34010.0,1826965925
+766,,Trieste, Italy,,,422.0,18.15,81.85,Trieste,Trieste,45.6503,13.7703,Italy,IT,ITA,Friuli-Venezia Giulia,admin,204338.0,1380102581
+767,,Sharjah, United Arab Emirates,,,426.0,16.41,83.59,Sharjah,Sharjah,25.3575,55.3919,United Arab Emirates,AE,ARE,Ash Shāriqah,admin,1400000.0,1784152993
