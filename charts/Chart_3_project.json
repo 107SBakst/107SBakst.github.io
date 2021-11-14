@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Carbon emissions per capita vs population density",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/merge_health_crime_pollution_pop.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.population > 80000000",
+      "filter": "datum.pollution_index > 10"
+    }
+  ],
+  "mark": "point",
+  "height": 400,
+  "width": 600,
+  "encoding": {
+    "x": {
+      "field": "population",
+      "type": "quantitative",
+      "axis": {"grid": false}
+    },
+    "y": {
+      "field": "pollution_index",
+      "type": "quantitative",
+      "axis": {"grid": false}
+    },
+    "size": {"field": "health_care_index", "type": "quantitative"}
+  }
+}
