@@ -1,0 +1,404 @@
+,Rank_x,City,Country,health_care_index,health_care_exp_index,Rank_y,Crime_index,Safety_index,Rank,pollution_index,pollution_exp_index,city,city_ascii,lat,lng,country,iso2,iso3,admin_name,capital,population,id,CityCountry_x,boundary_code,area_km2,population_2015,CityCountry_y
+0,2.0,Kaohsiung,Taiwan,86.78,159.90,,,,57.0,78.65,143.70,Kaohsiung,Kaohsiung,22.6167,120.3,Taiwan,TW,TWN,Kaohsiung,admin,2773533.0,1158331334,KaohsiungTaiwan,1,453,2413647.699,KaohsiungTaiwan
+1,3.0,Gold Coast,Australia,86.04,158.79,218.0,42.72,57.28,318.0,25.68,42.93,Gold Coast,Gold Coast,-28.0167,153.4,Australia,AU,AUS,Queensland,,679127.0,1036153217,Gold CoastAustralia,1,189,319509.9812,GoldCoastAustralia
+2,5.0,Chiang Mai,Thailand,84.84,155.70,394.0,23.98,76.02,66.0,77.08,140.24,Chiang Mai,Chiang Mai,18.7889,98.9833,Thailand,TH,THA,Chiang Mai,admin,132634.0,1764662886,Chiang MaiThailand,1,175,493148.6836,ChiangMaiThailand
+3,6.0,Cuenca,Ecuador,83.04,152.32,258.0,38.93,61.07,244.0,43.91,84.00,Cuenca,Cuenca,-2.8974,-79.0045,Ecuador,EC,ECU,Azuay,admin,329928.0,1218041020,CuencaEcuador,1,78,415124.5037,CuencaEcuador
+4,6.0,Cuenca,Ecuador,83.04,152.32,258.0,38.93,61.07,244.0,43.91,84.00,Cuenca,Cuenca,40.0667,-2.15,Spain,ES,ESP,Castille-La Mancha,minor,54621.0,1724316040,CuencaEcuador,1,78,415124.5037,CuencaEcuador
+5,6.0,Cuenca,Ecuador,83.04,152.32,258.0,38.93,61.07,244.0,43.91,84.00,Cuenca,Cuenca,13.9167,121.05,Philippines,PH,PHL,Batangas,,32783.0,1608210905,CuencaEcuador,1,78,415124.5037,CuencaEcuador
+6,10.0,Brisbane,Australia,82.23,151.13,296.0,35.24,64.76,332.0,22.66,36.75,Brisbane,Brisbane,-27.4678,153.0281,Australia,AU,AUS,Queensland,admin,2514184.0,1036192929,BrisbaneAustralia,1,498,990070.3367,BrisbaneAustralia
+7,13.0,Trondheim,Norway,81.40,149.35,418.0,20.08,79.92,,,,Trondheim,Trondheim,63.44,10.4,Norway,NO,NOR,Sør-Trøndelag,minor,183378.0,1578633461,TrondheimNorway,1,63,147468.1125,TrondheimNorway
+8,15.0,Valencia,Spain,81.15,149.53,384.0,25.66,74.34,239.0,44.45,76.92,Valencia,Valencia,10.1667,-68.0,Venezuela,VE,VEN,Carabobo,admin,1484430.0,1862309871,ValenciaSpain,1,333,1393120.294,ValenciaSpain
+9,15.0,Valencia,Spain,81.15,149.53,384.0,25.66,74.34,239.0,44.45,76.92,Valencia,Valencia,39.47,-0.3764,Spain,ES,ESP,Valencia,admin,800215.0,1724981666,ValenciaSpain,1,333,1393120.294,ValenciaSpain
+10,15.0,Valencia,Spain,81.15,149.53,384.0,25.66,74.34,239.0,44.45,76.92,Valencia,Valencia,7.9,125.0833,Philippines,PH,PHL,Bukidnon,,192993.0,1608418474,ValenciaSpain,1,333,1393120.294,ValenciaSpain
+11,15.0,Valencia,Spain,81.15,149.53,384.0,25.66,74.34,239.0,44.45,76.92,Valencia,Valencia,8.2592,-76.1469,Colombia,CO,COL,Córdoba,minor,46897.0,1170188761,ValenciaSpain,1,333,1393120.294,ValenciaSpain
+12,15.0,Valencia,Spain,81.15,149.53,384.0,25.66,74.34,239.0,44.45,76.92,Valencia,Valencia,9.2833,123.25,Philippines,PH,PHL,Negros Oriental,,34852.0,1608009046,ValenciaSpain,1,333,1393120.294,ValenciaSpain
+13,15.0,Valencia,Spain,81.15,149.53,384.0,25.66,74.34,239.0,44.45,76.92,Valencia,Valencia,9.6097,124.208,Philippines,PH,PHL,Bohol,,27126.0,1608239988,ValenciaSpain,1,333,1393120.294,ValenciaSpain
+14,15.0,Valencia,Spain,81.15,149.53,384.0,25.66,74.34,239.0,44.45,76.92,Valencia,Valencia,-0.9525,-79.3531,Ecuador,EC,ECU,Los Ríos,,16983.0,1218923469,ValenciaSpain,1,333,1393120.294,ValenciaSpain
+15,16.0,Adelaide,Australia,80.99,148.36,351.0,28.63,71.37,343.0,18.18,29.26,Adelaide,Adelaide,-34.9289,138.6011,Australia,AU,AUS,South Australia,admin,1345777.0,1036538171,AdelaideAustralia,1,507,930902.8859999999,AdelaideAustralia
+16,17.0,Tokyo,Japan,80.72,147.43,398.0,23.29,76.71,249.0,42.31,69.00,Tokyo,Tokyo,35.6897,139.6922,Japan,JP,JPN,Tōkyō,primary,37977000.0,1392685764,TokyoJapan,1,5318,33028731.22,TokyoJapan
+17,20.0,Antwerp,Belgium,80.53,147.77,276.0,37.40,62.60,173.0,58.65,105.68,Antwerp,Antwerp,51.2206,4.4003,Belgium,BE,BEL,Flanders,minor,920000.0,1056168623,AntwerpBelgium,1,376,792029.4699,AntwerpBelgium
+18,21.0,Qingdao,China,79.80,145.17,,,,197.0,55.09,94.60,Qingdao,Qingdao,36.1167,120.4,China,CN,CHN,Shandong,minor,5775000.0,1156112588,QingdaoChina,1,598,3603126.148,QingdaoChina
+19,22.0,Paris,France,79.49,146.03,120.0,53.19,46.81,142.0,63.26,112.60,Paris,Paris,48.8566,2.3522,France,FR,FRA,Île-de-France,primary,11020000.0,1250015082,ParisFrance,1,1638,9711652.257000001,ParisFrance
+20,22.0,Paris,France,79.49,146.03,120.0,53.19,46.81,142.0,63.26,112.60,Paris,Paris,33.6688,-95.546,United States,US,USA,Texas,,26010.0,1840020594,ParisFrance,1,1638,9711652.257000001,ParisFrance
+21,22.0,Paris,France,79.49,146.03,120.0,53.19,46.81,142.0,63.26,112.60,Paris,Paris,38.2016,-84.2719,United States,US,USA,Kentucky,,12485.0,1840014315,ParisFrance,1,1638,9711652.257000001,ParisFrance
+22,22.0,Paris,France,79.49,146.03,120.0,53.19,46.81,142.0,63.26,112.60,Paris,Paris,36.2934,-88.3065,United States,US,USA,Tennessee,,10536.0,1840014438,ParisFrance,1,1638,9711652.257000001,ParisFrance
+23,22.0,Paris,France,79.49,146.03,120.0,53.19,46.81,142.0,63.26,112.60,Paris,Paris,39.6149,-87.6904,United States,US,USA,Illinois,,8394.0,1840009542,ParisFrance,1,1638,9711652.257000001,ParisFrance
+24,22.0,Paris,France,79.49,146.03,120.0,53.19,46.81,142.0,63.26,112.60,Paris,Paris,44.2445,-70.4883,United States,US,USA,Maine,,5111.0,1840052952,ParisFrance,1,1638,9711652.257000001,ParisFrance
+25,24.0,Madrid,Spain,79.11,146.41,345.0,29.42,70.58,210.0,52.03,99.73,Madrid,Madrid,40.4167,-3.7167,Spain,ES,ESP,Madrid,primary,6026000.0,1724616994,MadridSpain,1,781,4894294.602,MadridSpain
+26,24.0,Madrid,Spain,79.11,146.41,345.0,29.42,70.58,210.0,52.03,99.73,Madrid,Madrid,4.7306,-74.2639,Colombia,CO,COL,Cundinamarca,minor,112254.0,1170693388,MadridSpain,1,781,4894294.602,MadridSpain
+27,25.0,Vienna,Austria,78.94,144.75,389.0,25.26,74.74,345.0,17.44,29.29,Vienna,Vienna,48.2083,16.3731,Austria,AT,AUT,Wien,primary,1911191.0,1040261752,ViennaAustria,1,392,1856675.543,ViennaAustria
+28,25.0,Vienna,Austria,78.94,144.75,389.0,25.26,74.74,345.0,17.44,29.29,Vienna,Vienna,38.8996,-77.2597,United States,US,USA,Virginia,,16485.0,1840003829,ViennaAustria,1,392,1856675.543,ViennaAustria
+29,25.0,Vienna,Austria,78.94,144.75,389.0,25.26,74.74,345.0,17.44,29.29,Vienna,Vienna,39.324,-81.5383,United States,US,USA,West Virginia,,10124.0,1840005787,ViennaAustria,1,392,1856675.543,ViennaAustria
+30,25.0,Vienna,Austria,78.94,144.75,389.0,25.26,74.74,345.0,17.44,29.29,Vienna,Vienna,43.2344,-75.7777,United States,US,USA,New York,,5381.0,1840058566,ViennaAustria,1,392,1856675.543,ViennaAustria
+31,26.0,Guadalajara,Mexico,78.93,143.70,62.0,62.19,37.81,146.0,62.82,108.16,Guadalajara,Guadalajara,20.6767,-103.3475,Mexico,MX,MEX,Jalisco,admin,5253000.0,1484950208,GuadalajaraMexico,1,592,4530296.313999999,GuadalajaraMexico
+32,26.0,Guadalajara,Mexico,78.93,143.70,62.0,62.19,37.81,146.0,62.82,108.16,Guadalajara,Guadalajara,40.6337,-3.1674,Spain,ES,ESP,Castille-La Mancha,minor,161683.0,1724317859,GuadalajaraMexico,1,592,4530296.313999999,GuadalajaraMexico
+33,28.0,Bursa,Turkey,78.66,142.78,358.0,28.00,72.00,238.0,44.54,74.42,Bursa,Bursa,40.1833,29.0667,Turkey,TR,TUR,Bursa,admin,2901396.0,1792903330,BursaTurkey,1,210,1680190.2969999998,BursaTurkey
+34,29.0,Bologna,Italy,78.52,144.54,198.0,44.71,55.29,190.0,56.28,101.23,Bologna,Bologna,44.4939,11.3428,Italy,IT,ITA,Emilia-Romagna,admin,389261.0,1380202039,BolognaItaly,1,96,421341.9565,BolognaItaly
+35,30.0,Edmonton,Canada,78.49,145.91,219.0,42.61,57.39,301.0,29.37,48.97,Edmonton,Edmonton,53.5344,-113.4903,Canada,CA,CAN,Alberta,,1062643.0,1124290735,EdmontonCanada,1,490,975000.7097,EdmontonCanada
+36,30.0,Edmonton,Canada,78.49,145.91,219.0,42.61,57.39,301.0,29.37,48.97,Edmonton,Edmonton,51.6154,-0.0708,United Kingdom,GB,GBR,Enfield,,82472.0,1826905865,EdmontonCanada,1,490,975000.7097,EdmontonCanada
+37,33.0,Munich,Germany,78.15,142.90,423.0,17.65,82.35,320.0,24.96,40.60,Munich,Munich,48.1372,11.5755,Germany,DE,DEU,Bavaria,admin,1471508.0,1276692352,MunichGermany,1,349,1573652.4430000002,MunichGermany
+38,35.0,Sydney,Australia,77.92,141.99,310.0,33.67,66.33,307.0,27.52,44.34,Sydney,Sydney,-33.865,151.2094,Australia,AU,AUS,New South Wales,admin,5312163.0,1036074917,SydneyAustralia,1,1356,3745334.8880000003,SydneyAustralia
+39,37.0,Copenhagen,Denmark,77.68,143.16,367.0,27.54,72.46,335.0,21.89,34.61,Copenhagen,Copenhagen,55.6761,12.5689,Denmark,DK,DNK,Hovedstaden,primary,602481.0,1208763942,CopenhagenDenmark,1,388,1225958.696,CopenhagenDenmark
+40,38.0,Barcelona,Spain,77.68,143.56,192.0,45.51,54.49,123.0,66.16,115.83,Barcelona,Barcelona,41.3825,2.1769,Spain,ES,ESP,Catalonia,admin,4588000.0,1724594040,BarcelonaSpain,1,583,3832012.369,BarcelonaSpain
+41,38.0,Barcelona,Spain,77.68,143.56,192.0,45.51,54.49,123.0,66.16,115.83,Barcelona,Barcelona,10.1333,-64.6833,Venezuela,VE,VEN,Anzoátegui,admin,448016.0,1862418619,BarcelonaSpain,1,583,3832012.369,BarcelonaSpain
+42,38.0,Barcelona,Spain,77.68,143.56,192.0,45.51,54.49,123.0,66.16,115.83,Barcelona,Barcelona,12.8667,124.1333,Philippines,PH,PHL,Sorsogon,,20990.0,1608408567,BarcelonaSpain,1,583,3832012.369,BarcelonaSpain
+43,39.0,Perth,Australia,77.60,141.71,222.0,42.21,57.79,327.0,23.40,37.14,Perth,Perth,-31.9522,115.8589,Australia,AU,AUS,Western Australia,admin,2059484.0,1036178956,PerthAustralia,1,766,1258344.095,PerthAustralia
+44,39.0,Perth,Australia,77.60,141.71,222.0,42.21,57.79,327.0,23.40,37.14,Perth,Perth,56.397,-3.437,United Kingdom,GB,GBR,Perth and Kinross,,46960.0,1826081674,PerthAustralia,1,766,1258344.095,PerthAustralia
+45,39.0,Perth,Australia,77.60,141.71,222.0,42.21,57.79,327.0,23.40,37.14,Perth,Perth,44.9,-76.25,Canada,CA,CAN,Ontario,,5930.0,1124732094,PerthAustralia,1,766,1258344.095,PerthAustralia
+46,40.0,Helsinki,Finland,77.49,141.23,388.0,25.27,74.73,350.0,13.65,22.04,Helsinki,Helsinki,60.1756,24.9342,Finland,FI,FIN,Uusimaa,primary,642045.0,1246177997,HelsinkiFinland,1,344,907385.5838,HelsinkiFinland
+47,41.0,Bangkok,Thailand,77.48,141.31,237.0,41.08,58.92,64.0,77.21,136.83,Bangkok,Bangkok,13.75,100.5167,Thailand,TH,THA,Krung Thep Maha Nakhon,primary,17066000.0,1764068610,BangkokThailand,1,2568,14730839.43,BangkokThailand
+48,44.0,Calgary,Canada,76.43,140.55,300.0,34.49,65.51,323.0,24.00,38.38,Calgary,Calgary,51.05,-114.0667,Canada,CA,CAN,Alberta,,1239220.0,1124690423,CalgaryCanada,1,460,1027226.5759999999,CalgaryCanada
+49,45.0,Antalya,Turkey,76.35,138.56,371.0,27.17,72.83,259.0,39.93,65.71,Antalya,Antalya,36.9081,30.6956,Turkey,TR,TUR,Antalya,admin,2426356.0,1792988434,AntalyaTurkey,1,223,944863.8302,AntalyaTurkey
+50,48.0,Oslo,Norway,75.97,138.91,298.0,35.01,64.99,326.0,23.47,38.84,Oslo,Oslo,59.9111,10.7528,Norway,NO,NOR,Oslo,primary,693494.0,1578324706,OsloNorway,1,242,782172.1349,OsloNorway
+51,50.0,Toronto,Canada,75.87,139.52,249.0,39.84,60.16,266.0,37.81,62.37,Toronto,Toronto,43.7417,-79.3733,Canada,CA,CAN,Ontario,,5429524.0,1124279679,TorontoCanada,1,2019,6036145.783,TorontoCanada
+52,51.0,Bergen,Norway,75.77,138.93,357.0,28.09,71.91,340.0,20.41,33.13,Bergen,Bergen,60.3925,5.3233,Norway,NO,NOR,Hordaland,admin,257087.0,1578465701,BergenNorway,1,81,148005.05800000002,BergenNorway
+53,51.0,Bergen,Norway,75.77,138.93,357.0,28.09,71.91,340.0,20.41,33.13,Bergen,Bergen,52.6703,4.7054,Netherlands,NL,NLD,Noord-Holland,,29974.0,1528106849,BergenNorway,1,81,148005.05800000002,BergenNorway
+54,51.0,Bergen,Norway,75.77,138.93,357.0,28.09,71.91,340.0,20.41,33.13,Bergen,Bergen,54.4167,13.4333,Germany,DE,DEU,Mecklenburg-Western Pomerania,,13460.0,1276083334,BergenNorway,1,81,148005.05800000002,BergenNorway
+55,51.0,Bergen,Norway,75.77,138.93,357.0,28.09,71.91,340.0,20.41,33.13,Bergen,Bergen,51.5992,6.0336,Netherlands,NL,NLD,Limburg,minor,13140.0,1528008506,BergenNorway,1,81,148005.05800000002,BergenNorway
+56,54.0,Vancouver,Canada,75.46,138.53,284.0,36.45,63.55,319.0,25.19,42.23,Vancouver,Vancouver,49.25,-123.1,Canada,CA,CAN,British Columbia,,2264823.0,1124825478,VancouverCanada,1,698,2015029.5790000001,VancouverCanada
+57,54.0,Vancouver,Canada,75.46,138.53,284.0,36.45,63.55,319.0,25.19,42.23,Vancouver,Vancouver,45.6366,-122.5967,United States,US,USA,Washington,,184463.0,1840021189,VancouverCanada,1,698,2015029.5790000001,VancouverCanada
+58,57.0,Melbourne,Australia,75.09,136.45,200.0,44.49,55.51,317.0,25.86,42.24,Melbourne,Melbourne,-37.8136,144.9631,Australia,AU,AUS,Victoria,admin,5078193.0,1036533631,MelbourneAustralia,1,1610,3468083.796,MelbourneAustralia
+59,57.0,Melbourne,Australia,75.09,136.45,200.0,44.49,55.51,317.0,25.86,42.24,Melbourne,Melbourne,28.1085,-80.6627,United States,US,USA,Florida,,83029.0,1840015960,MelbourneAustralia,1,1610,3468083.796,MelbourneAustralia
+60,58.0,Brussels,Belgium,74.97,136.27,139.0,50.80,49.20,152.0,62.13,110.17,Brussels,Brussels,50.8333,4.3333,Belgium,BE,BEL,Brussels-Capital Region,primary,1743000.0,1056469830,BrusselsBelgium,1,266,1381517.485,BrusselsBelgium
+61,59.0,Ottawa,Canada,74.97,137.76,381.0,25.85,74.15,336.0,21.61,36.53,Ottawa,Ottawa,45.4247,-75.695,Canada,CA,CAN,Ontario,,989567.0,1124399363,OttawaCanada,1,295,710584.0829,OttawaCanada
+62,59.0,Ottawa,Canada,74.97,137.76,381.0,25.85,74.15,336.0,21.61,36.53,Ottawa,Ottawa,41.3532,-88.8306,United States,US,USA,Illinois,,19839.0,1840009272,OttawaCanada,1,295,710584.0829,OttawaCanada
+63,59.0,Ottawa,Canada,74.97,137.76,381.0,25.85,74.15,336.0,21.61,36.53,Ottawa,Ottawa,38.6,-95.2642,United States,US,USA,Kansas,,12254.0,1840003840,OttawaCanada,1,295,710584.0829,OttawaCanada
+64,59.0,Ottawa,Canada,74.97,137.76,381.0,25.85,74.15,336.0,21.61,36.53,Ottawa,Ottawa,41.0203,-84.0354,United States,US,USA,Ohio,,5147.0,1840011758,OttawaCanada,1,295,710584.0829,OttawaCanada
+65,61.0,Porto,Portugal,74.85,136.85,285.0,36.42,63.58,279.0,35.12,58.28,Porto,Porto,41.1495,-8.6108,Portugal,PT,PRT,Porto,admin,237591.0,1620356810,PortoPortugal,1,343,998283.4904,PortoPortugal
+66,61.0,Porto,Portugal,74.85,136.85,285.0,36.42,63.58,279.0,35.12,58.28,Porto,Porto,-3.8928,-42.71,Brazil,BR,BRA,Piauí,,12608.0,1076285535,PortoPortugal,1,343,998283.4904,PortoPortugal
+67,63.0,Cologne,Germany,74.83,136.41,217.0,43.13,56.87,,,,Cologne,Cologne,50.9422,6.9578,Germany,DE,DEU,North Rhine-Westphalia,,1085664.0,1276015998,CologneGermany,1,578,1508676.657,CologneGermany
+68,63.0,Cologne,Germany,74.83,136.41,217.0,43.13,56.87,,,,Cologne,Cologne,45.5849,9.9434,Italy,IT,ITA,Lombardy,,7534.0,1380978069,CologneGermany,1,578,1508676.657,CologneGermany
+69,64.0,Hamburg,Germany,74.68,136.38,213.0,43.26,56.74,296.0,30.74,51.67,Hamburg,Hamburg,53.55,10.0,Germany,DE,DEU,Hamburg,admin,1841179.0,1276041799,HamburgGermany,1,519,1596992.451,HamburgGermany
+70,64.0,Hamburg,Germany,74.68,136.38,213.0,43.26,56.74,296.0,30.74,51.67,Hamburg,Hamburg,42.7394,-78.8581,United States,US,USA,New York,,58266.0,1840004385,HamburgGermany,1,519,1596992.451,HamburgGermany
+71,67.0,Luxembourg,Luxembourg,74.51,135.19,366.0,27.55,72.45,337.0,21.18,32.16,Luxembourg,Luxembourg,49.6106,6.1328,Luxembourg,LU,LUX,Luxembourg,primary,124509.0,1442262731,LuxembourgLuxembourg,1,42,119160.4794,LuxembourgLuxembourg
+72,74.0,Haifa,Israel,73.73,136.42,368.0,27.39,72.61,77.0,74.79,137.75,Haifa,Haifa,32.8,34.9833,Israel,IL,ISR,Haifa,admin,281087.0,1376133727,HaifaIsrael,1,130,430883.3492,HaifaIsrael
+73,75.0,Kaunas,Lithuania,73.71,135.09,267.0,38.46,61.54,,,,Kaunas,Kaunas,54.9,23.9333,Lithuania,LT,LTU,Kauno Miestas,admin,288466.0,1440302852,KaunasLithuania,1,106,276334.5024,KaunasLithuania
+74,82.0,Eindhoven,Netherlands,73.04,133.35,393.0,24.05,75.95,334.0,22.37,38.46,Eindhoven,Eindhoven,51.4408,5.4778,Netherlands,NL,NLD,Noord-Brabant,minor,398053.0,1528636212,EindhovenNetherlands,1,104,280210.7019,EindhovenNetherlands
+75,85.0,Doha,Qatar,72.94,132.50,430.0,12.04,87.96,161.0,60.44,106.21,Doha,Doha,25.3,51.5333,Qatar,QA,QAT,Ad Dawḩah,primary,1312947.0,1634459660,DohaQatar,1,380,1556519.5119999999,DohaQatar
+76,88.0,Stavanger,Norway,72.78,133.87,399.0,23.21,76.79,353.0,12.29,20.67,Stavanger,Stavanger,58.9701,5.7333,Norway,NO,NOR,Rogaland,admin,129300.0,1578801684,StavangerNorway,1,76,161284.177,StavangerNorway
+77,89.0,Nanaimo,Canada,72.47,131.74,184.0,46.31,53.69,,,,Nanaimo,Nanaimo,49.1642,-123.9364,Canada,CA,CAN,British Columbia,,90504.0,1124623893,NanaimoCanada,1,52,68926.38322,NanaimoCanada
+78,90.0,Coimbatore,India,72.42,132.16,262.0,38.75,61.25,144.0,63.10,109.33,Coimbatore,Coimbatore,11.0,76.9667,India,IN,IND,Tamil Nādu,,959823.0,1356999503,CoimbatoreIndia,1,366,2204879.7430000002,CoimbatoreIndia
+79,95.0,Stuttgart,Germany,72.01,131.86,350.0,28.76,71.24,232.0,45.58,84.05,Stuttgart,Stuttgart,48.7761,9.1775,Germany,DE,DEU,Baden-Württemberg,admin,634830.0,1276171358,StuttgartGermany,1,330,986038.1567,StuttgartGermany
+80,95.0,Stuttgart,Germany,72.01,131.86,350.0,28.76,71.24,232.0,45.58,84.05,Stuttgart,Stuttgart,34.495,-91.5485,United States,US,USA,Arkansas,,8490.0,1840015556,StuttgartGermany,1,330,986038.1567,StuttgartGermany
+81,96.0,Milan,Italy,71.89,131.59,207.0,43.56,56.44,114.0,67.43,125.07,Milan,Milan,45.4669,9.19,Italy,IT,ITA,Lombardy,admin,1366180.0,1380724377,MilanItaly,1,754,3011029.841,MilanItaly
+82,96.0,Milan,Italy,71.89,131.59,207.0,43.56,56.44,114.0,67.43,125.07,Milan,Milan,42.0816,-83.6853,United States,US,USA,Michigan,,7778.0,1840003170,MilanItaly,1,754,3011029.841,MilanItaly
+83,96.0,Milan,Italy,71.89,131.59,207.0,43.56,56.44,114.0,67.43,125.07,Milan,Milan,35.9126,-88.7554,United States,US,USA,Tennessee,,7612.0,1840014483,MilanItaly,1,754,3011029.841,MilanItaly
+84,100.0,Chennai,India,71.60,129.81,243.0,40.22,59.78,75.0,75.33,131.81,Chennai,Chennai,13.0825,80.275,India,IN,IND,Tamil Nādu,admin,11324000.0,1356374944,ChennaiIndia,1,940,9992602.376,ChennaiIndia
+85,101.0,Lisbon,Portugal,71.56,130.23,356.0,28.24,71.76,277.0,35.60,59.14,Lisbon,Lisbon,38.7452,-9.1604,Portugal,PT,PRT,Lisboa,primary,506654.0,1620619017,LisbonPortugal,1,444,1958520.774,LisbonPortugal
+86,101.0,Lisbon,Portugal,71.56,130.23,356.0,28.24,71.76,277.0,35.60,59.14,Lisbon,Lisbon,44.0265,-70.09,United States,US,USA,Maine,,8906.0,1840066320,LisbonPortugal,1,444,1958520.774,LisbonPortugal
+87,101.0,Lisbon,Portugal,71.56,130.23,356.0,28.24,71.76,277.0,35.60,59.14,Lisbon,Lisbon,40.7752,-80.7628,United States,US,USA,Ohio,,5372.0,1840011932,LisbonPortugal,1,444,1958520.774,LisbonPortugal
+88,102.0,Lausanne,Switzerland,71.53,136.08,334.0,30.70,69.30,,,,Lausanne,Lausanne,46.5333,6.6333,Switzerland,CH,CHE,Vaud,admin,138905.0,1756055099,LausanneSwitzerland,1,73,256646.8686,LausanneSwitzerland
+89,103.0,Vilnius,Lithuania,71.51,129.42,364.0,27.59,72.41,324.0,23.93,39.12,Vilnius,Vilnius,54.6833,25.2833,Lithuania,LT,LTU,Vilniaus Miestas,primary,574147.0,1440887149,VilniusLithuania,1,101,355430.064,VilniusLithuania
+90,106.0,Tallinn,Estonia,71.28,130.50,403.0,22.50,77.50,331.0,22.75,37.12,Tallinn,Tallinn,59.4372,24.745,Estonia,EE,EST,Harjumaa,primary,438341.0,1233260021,TallinnEstonia,1,106,344510.9063,TallinnEstonia
+91,152.0,London,Canada,66.38,120.68,168.0,47.53,52.47,,,,London,London,51.5072,-0.1275,United Kingdom,GB,GBR,"London, City of",primary,10979000.0,1826645935,LondonCanada,1,153,339167.0932,LondonCanada
+92,152.0,London,Canada,66.38,120.68,168.0,47.53,52.47,,,,London,London,42.9836,-81.2497,Canada,CA,CAN,Ontario,,383822.0,1124469960,LondonCanada,1,153,339167.0932,LondonCanada
+93,152.0,London,Canada,66.38,120.68,168.0,47.53,52.47,,,,London,London,37.1175,-84.0767,United States,US,USA,Kentucky,,37714.0,1840015258,LondonCanada,1,153,339167.0932,LondonCanada
+94,152.0,London,Canada,66.38,120.68,168.0,47.53,52.47,,,,London,London,39.8936,-83.4376,United States,US,USA,Ohio,,14870.0,1840000674,LondonCanada,1,153,339167.0932,LondonCanada
+95,115.0,Halifax,Canada,70.03,128.99,241.0,40.36,59.64,330.0,22.96,40.42,Halifax,Halifax,44.6475,-63.5906,Canada,CA,CAN,Nova Scotia,,403131.0,1124130981,HalifaxCanada,1,105,209670.0893,HalifaxCanada
+96,115.0,Halifax,Canada,70.03,128.99,241.0,40.36,59.64,330.0,22.96,40.42,Halifax,Halifax,53.725,-1.8630000000000002,United Kingdom,GB,GBR,Calderdale,,88134.0,1826413776,HalifaxCanada,1,105,209670.0893,HalifaxCanada
+97,115.0,Halifax,Canada,70.03,128.99,241.0,40.36,59.64,330.0,22.96,40.42,Halifax,Halifax,41.9914,-70.8633,United States,US,USA,Massachusetts,,7842.0,1840017567,HalifaxCanada,1,105,209670.0893,HalifaxCanada
+98,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,48.4283,-123.3647,Canada,CA,CAN,British Columbia,,335696.0,1124147219,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+99,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,-4.6236,55.4544,Seychelles,SC,SYC,English River,primary,26450.0,1690193579,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+100,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,36.0444,14.2397,Malta,MT,MLT,Rabat (Ghawdex),admin,,1470128499,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+101,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,28.8285,-96.985,United States,US,USA,Texas,,68078.0,1840023044,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+102,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,15.5781,120.6819,Philippines,PH,PHL,Tarlac,,63715.0,1608954565,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+103,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,14.225,121.325,Philippines,PH,PHL,Laguna,,39321.0,1608591152,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+104,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,-38.2167,-72.3333,Chile,CL,CHL,Araucanía,,34890.0,1152078114,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+105,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,-32.6167,-60.1667,Argentina,AR,ARG,Entre Ríos,minor,30623.0,1032557014,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+106,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,21.2122,-100.2144,Mexico,MX,MEX,Guanajuato,minor,17764.0,1484434699,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+107,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,12.45,124.3167,Philippines,PH,PHL,Northern Samar,,14817.0,1608413047,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+108,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,44.8634,-93.6586,United States,US,USA,Minnesota,,10206.0,1840010007,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+109,116.0,Victoria,Canada,69.89,128.81,295.0,35.32,64.68,347.0,14.62,28.99,Victoria,Victoria,45.6466,24.7059,Romania,RO,ROU,Braşov,,7386.0,1642446315,VictoriaCanada,1,103,227670.6631,VictoriaCanada
+110,117.0,Ahmedabad,India,69.87,125.79,337.0,30.45,69.55,88.0,73.19,128.29,Ahmedabad,Ahmedabad,23.03,72.58,India,IN,IND,Gujarāt,minor,7410000.0,1356304381,AhmedabadIndia,1,363,6678958.851,AhmedabadIndia
+111,118.0,Berlin,Germany,69.85,127.02,236.0,41.14,58.86,264.0,38.59,64.44,Berlin,Berlin,52.5167,13.3833,Germany,DE,DEU,Berlin,primary,3644826.0,1276451290,BerlinGermany,1,686,3271872.312,BerlinGermany
+112,118.0,Berlin,Germany,69.85,127.02,236.0,41.14,58.86,264.0,38.59,64.44,Berlin,Berlin,41.6114,-72.7758,United States,US,USA,Connecticut,,20484.0,1840034026,BerlinGermany,1,686,3271872.312,BerlinGermany
+113,118.0,Berlin,Germany,69.85,127.02,236.0,41.14,58.86,264.0,38.59,64.44,Berlin,Berlin,44.4869,-71.2599,United States,US,USA,New Hampshire,,11237.0,1840002100,BerlinGermany,1,686,3271872.312,BerlinGermany
+114,118.0,Berlin,Germany,69.85,127.02,236.0,41.14,58.86,264.0,38.59,64.44,Berlin,Berlin,39.7915,-74.9375,United States,US,USA,New Jersey,,7536.0,1840001505,BerlinGermany,1,686,3271872.312,BerlinGermany
+115,118.0,Berlin,Germany,69.85,127.02,236.0,41.14,58.86,264.0,38.59,64.44,Berlin,Berlin,43.9704,-88.9505,United States,US,USA,Wisconsin,,5385.0,1840002590,BerlinGermany,1,686,3271872.312,BerlinGermany
+116,120.0,Amsterdam,Netherlands,69.60,126.55,309.0,33.68,66.32,295.0,30.75,51.57,Amsterdam,Amsterdam,52.3667,4.8833,Netherlands,NL,NLD,Noord-Holland,primary,862965.0,1528355309,AmsterdamNetherlands,1,345,1128715.328,AmsterdamNetherlands
+117,120.0,Amsterdam,Netherlands,69.60,126.55,309.0,33.68,66.32,295.0,30.75,51.57,Amsterdam,Amsterdam,42.942,-74.1907,United States,US,USA,New York,,21241.0,1840000391,AmsterdamNetherlands,1,345,1128715.328,AmsterdamNetherlands
+118,123.0,Ankara,Turkey,69.26,124.69,250.0,39.69,60.31,130.0,65.36,112.87,Ankara,Ankara,39.93,32.85,Turkey,TR,TUR,Ankara,primary,5503985.0,1792572891,AnkaraTurkey,1,376,3002439.98,AnkaraTurkey
+119,124.0,Istanbul,Turkey,69.17,124.66,169.0,47.50,52.50,107.0,69.21,120.47,Istanbul,Istanbul,41.01,28.9603,Turkey,TR,TUR,İstanbul,admin,15154000.0,1792756324,IstanbulTurkey,1,1340,14111242.41,IstanbulTurkey
+120,126.0,Winnipeg,Canada,68.82,127.56,88.0,56.94,43.06,268.0,37.02,61.52,Winnipeg,Winnipeg,49.8844,-97.1464,Canada,CA,CAN,Manitoba,,705244.0,1124224963,WinnipegCanada,1,299,675489.407,WinnipegCanada
+121,129.0,Gothenburg,Sweden,68.57,126.58,183.0,46.43,53.57,338.0,20.70,33.40,Gothenburg,Gothenburg,57.6717,11.981,Sweden,SE,SWE,Västra Götaland,admin,604829.0,1752059374,GothenburgSweden,1,186,496225.9294,GothenburgSweden
+122,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,43.7714,11.2542,Italy,IT,ITA,Tuscany,admin,380948.0,1380726561,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+123,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,34.1781,-79.7877,United States,US,USA,South Carolina,,93131.0,1840013643,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+124,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,34.8303,-87.6654,United States,US,USA,Alabama,,79964.0,1840002083,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+125,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,38.99,-84.647,United States,US,USA,Kentucky,,33004.0,1840013161,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+126,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,33.059,-111.4208,United States,US,USA,Arizona,,27422.0,1840021999,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+127,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,40.0978,-74.7886,United States,US,USA,New Jersey,,12552.0,1840081638,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+128,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,43.9914,-124.1062,United States,US,USA,Oregon,,11000.0,1840020008,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+129,130.0,Florence,Italy,68.37,124.44,268.0,38.25,61.75,,,,Florence,Florence,38.3836,-105.1114,United States,US,USA,Colorado,,7433.0,1840020250,FlorenceItaly,1,91,421019.0454,FlorenceItaly
+130,131.0,Buenos Aires,Argentina,68.31,123.64,60.0,62.58,37.42,204.0,52.65,90.00,Buenos Aires,Buenos Aires,-34.5997,-58.3819,Argentina,AR,ARG,"Buenos Aires, Ciudad Autónoma de",primary,16157000.0,1032717330,Buenos AiresArgentina,1,1967,13906506.02,BuenosAiresArgentina
+131,131.0,Buenos Aires,Argentina,68.31,123.64,60.0,62.58,37.42,204.0,52.65,90.00,Buenos Aires,Buenos Aires,9.1497,-83.3334,Costa Rica,CR,CRI,Puntarenas,,45000.0,1188382290,Buenos AiresArgentina,1,1967,13906506.02,BuenosAiresArgentina
+132,131.0,Buenos Aires,Argentina,68.31,123.64,60.0,62.58,37.42,204.0,52.65,90.00,Buenos Aires,Buenos Aires,-7.7258,-35.3269,Brazil,BR,BRA,Pernambuco,,13190.0,1076935774,Buenos AiresArgentina,1,1967,13906506.02,BuenosAiresArgentina
+133,133.0,Quito,Ecuador,67.79,121.48,76.0,59.33,40.67,124.0,66.10,115.46,Quito,Quito,-0.2186,-78.5097,Ecuador,EC,ECU,Pichincha,primary,2011388.0,1218441993,QuitoEcuador,1,342,2254137.195,QuitoEcuador
+134,134.0,Regina,Canada,67.79,123.68,124.0,52.59,47.41,260.0,39.86,66.05,Regina,Regina,50.4547,-104.6067,Canada,CA,CAN,Saskatchewan,,215106.0,1124342541,ReginaCanada,1,95,198023.38199999998,ReginaCanada
+135,135.0,Montevideo,Uruguay,67.51,122.14,110.0,54.03,45.97,222.0,48.96,88.45,Montevideo,Montevideo,-34.8667,-56.1667,Uruguay,UY,URY,Montevideo,primary,1319108.0,1858107000,MontevideoUruguay,1,237,1310838.772,MontevideoUruguay
+136,135.0,Montevideo,Uruguay,67.51,122.14,110.0,54.03,45.97,222.0,48.96,88.45,Montevideo,Montevideo,44.9505,-95.7153,United States,US,USA,Minnesota,,5043.0,1840007837,MontevideoUruguay,1,237,1310838.772,MontevideoUruguay
+137,139.0,Turin,Italy,67.22,123.07,142.0,50.28,49.72,99.0,70.84,134.70,Turin,Turin,45.0667,7.7,Italy,IT,ITA,Piedmont,admin,870952.0,1380244627,TurinItaly,1,207,1205385.0,TurinItaly
+138,140.0,Kuala Lumpur,Malaysia,67.14,120.99,42.0,64.88,35.12,120.0,66.68,115.44,Kuala Lumpur,Kuala Lumpur,3.1478,101.6953,Malaysia,MY,MYS,Kuala Lumpur,primary,8285000.0,1458988644,Kuala LumpurMalaysia,1,1328,6339649.043,KualaLumpurMalaysia
+139,142.0,Manama,Bahrain,67.06,121.09,404.0,22.42,77.58,159.0,61.24,107.36,Manama,Manama,26.225,50.5775,Bahrain,BH,BHR,Al ‘Āşimah,primary,157474.0,1048989486,ManamaBahrain,1,345,1247787.402,ManamaBahrain
+140,143.0,Stockholm,Sweden,66.83,121.91,195.0,45.10,54.90,341.0,19.48,30.92,Stockholm,Stockholm,59.3294,18.0686,Sweden,SE,SWE,Stockholm,primary,972647.0,1752425602,StockholmSweden,1,361,1305076.21,StockholmSweden
+141,145.0,Cali,Colombia,66.81,120.01,,,,,,,Cali,Cali,3.44,-76.5197,Colombia,CO,COL,Valle del Cauca,admin,2471474.0,1170417589,CaliColombia,1,170,2323111.711,CaliColombia
+142,148.0,Monterrey,Mexico,66.61,119.54,145.0,49.79,50.21,101.0,70.49,129.60,Monterrey,Monterrey,25.6667,-100.3,Mexico,MX,MEX,Nuevo León,admin,4295000.0,1484559591,MonterreyMexico,1,667,4227777.419,MonterreyMexico
+143,154.0,Ljubljana,Slovenia,66.30,122.94,411.0,21.49,78.51,328.0,23.21,41.94,Ljubljana,Ljubljana,46.05,14.5167,Slovenia,SI,SVN,Ljubljana,primary,286745.0,1705917455,LjubljanaSlovenia,1,91,250334.9899,LjubljanaSlovenia
+144,155.0,Pune,India,66.29,119.54,234.0,41.32,58.68,98.0,71.07,123.87,Pune,Pune,18.5196,73.8553,India,IN,IND,Mahārāshtra,,7764000.0,1356081074,PuneIndia,1,634,6656508.88,PuneIndia
+145,156.0,Curitiba,Brazil,66.26,118.79,57.0,63.10,36.90,290.0,31.43,56.30,Curitiba,Curitiba,-25.4297,-49.2719,Brazil,BR,BRA,Paraná,admin,1879355.0,1076701712,CuritibaBrazil,1,496,2345494.665,CuritibaBrazil
+146,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,-33.45,-70.6667,Chile,CL,CHL,Región Metropolitana,primary,7007000.0,1152554349,SantiagoChile,1,720,6336005.245,SantiagoChile
+147,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,19.45,-70.7,Dominican Republic,DO,DOM,Cibao Norte,admin,1142947.0,1214985348,SantiagoChile,1,720,6336005.245,SantiagoChile
+148,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,16.6833,121.55,Philippines,PH,PHL,Santiago,admin,134830.0,1608477470,SantiagoChile,1,720,6336005.245,SantiagoChile
+149,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,8.1004,-80.9833,Panama,PA,PAN,Veraguas,admin,45955.0,1591231138,SantiagoChile,1,720,6336005.245,SantiagoChile
+150,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,25.4333,-100.1333,Mexico,MX,MEX,Nuevo León,minor,37886.0,1484043921,SantiagoChile,1,720,6336005.245,SantiagoChile
+151,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,9.2654,125.5602,Philippines,PH,PHL,Agusan del Norte,,24200.0,1608671914,SantiagoChile,1,720,6336005.245,SantiagoChile
+152,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,17.3,120.45,Philippines,PH,PHL,Ilocos Sur,,18759.0,1608306642,SantiagoChile,1,720,6336005.245,SantiagoChile
+153,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,9.8291,-84.3044,Costa Rica,CR,CRI,San José,,11512.0,1188768291,SantiagoChile,1,720,6336005.245,SantiagoChile
+154,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,-14.1896,-75.74,Peru,PE,PER,Ica,,10449.0,1604889626,SantiagoChile,1,720,6336005.245,SantiagoChile
+155,158.0,Santiago,Chile,66.04,121.42,103.0,55.17,44.83,104.0,70.00,133.26,Santiago,Santiago,18.45,-95.8333,Mexico,MX,MEX,Veracruz,,5790.0,1484197612,SantiagoChile,1,720,6336005.245,SantiagoChile
+156,159.0,Mumbai,India,65.92,118.32,216.0,43.15,56.85,39.0,83.09,147.74,Mumbai,Mumbai,18.9667,72.8333,India,IN,IND,Mahārāshtra,admin,23355000.0,1356226629,MumbaiIndia,1,1077,21755882.36,MumbaiIndia
+157,161.0,Kitchener,Canada,65.90,122.28,279.0,37.13,62.87,,,,Kitchener,Kitchener,43.4186,-80.4728,Canada,CA,CAN,Ontario,,470015.0,1124158530,KitchenerCanada,1,135,310431.6347,KitchenerCanada
+158,163.0,Zagreb,Croatia,65.65,120.52,405.0,22.28,77.72,288.0,32.76,55.42,Zagreb,Zagreb,45.8,15.95,Croatia,HR,HRV,"Zagreb, Grad",primary,790017.0,1191233290,ZagrebCroatia,1,203,660652.5326,ZagrebCroatia
+159,164.0,Beirut,Lebanon,65.65,123.45,176.0,46.96,53.04,6.0,93.51,168.29,Beirut,Beirut,33.8869,35.5131,Lebanon,LB,LBN,Beyrouth,primary,361366.0,1422847713,BeirutLebanon,1,263,2463481.753,BeirutLebanon
+160,166.0,Amman,Jordan,65.47,117.80,264.0,38.72,61.28,74.0,75.68,132.97,Amman,Amman,31.95,35.9333,Jordan,JO,JOR,Al ‘Āşimah,primary,4007526.0,1400522593,AmmanJordan,1,542,3672402.985,AmmanJordan
+161,168.0,Mexico City,Mexico,65.08,116.19,28.0,69.25,30.75,45.0,82.41,148.43,Mexico City,Mexico City,19.4333,-99.1333,Mexico,MX,MEX,Ciudad de México,primary,20996000.0,1484247881,Mexico CityMexico,1,2114,19559564.03,MexicoCityMexico
+162,169.0,Beijing,China,65.04,117.56,307.0,33.87,66.13,42.0,82.76,147.54,Beijing,Beijing,39.905,116.3914,China,CN,CHN,Beijing,primary,19433000.0,1156228865,BeijingChina,1,2115,17982667.65,BeijingChina
+163,172.0,Lahore,Pakistan,64.72,116.11,252.0,39.56,60.44,58.0,78.53,140.99,Lahore,Lahore,31.5497,74.3436,Pakistan,PK,PAK,Punjab,admin,11021000.0,1586801463,LahorePakistan,1,955,10114717.51,LahorePakistan
+164,173.0,Guangzhou,China,64.57,118.30,246.0,39.95,60.05,80.0,74.17,131.09,Guangzhou,Guangzhou,23.1288,113.259,China,CN,CHN,Guangdong,admin,20902000.0,1156237133,GuangzhouChina,1,6622,40589878.1,GuangzhouChina
+165,174.0,Cluj-Napoca,Romania,64.56,115.39,413.0,21.00,79.00,243.0,43.92,73.72,Cluj-Napoca,Cluj-Napoca,46.7667,23.6,Romania,RO,ROU,Cluj,admin,316748.0,1642503974,Cluj-NapocaRomania,1,61,278492.8116,Cluj-NapocaRomania
+166,177.0,Bogota,Colombia,64.48,115.34,58.0,62.81,37.19,102.0,70.42,130.32,Bogota,Bogota,40.875,-74.0293,United States,US,USA,New Jersey,,8335.0,1840000894,BogotaColombia,1,538,8608815.413999999,BogotaColombia
+167,178.0,Rijeka,Croatia,64.47,116.94,396.0,23.71,76.29,,,,Rijeka,Rijeka,45.3272,14.4411,Croatia,HR,HRV,Primorsko-Goranska Županija,admin,128624.0,1191949063,RijekaCroatia,1,64,143702.3172,RijekaCroatia
+168,180.0,Kochi,India,64.00,113.48,232.0,41.62,58.38,95.0,71.99,125.91,Kochi,Kochi,9.9667,76.2833,India,IN,IND,Kerala,,677381.0,1356707865,KochiIndia,1,726,2546842.78,KochiIndia
+169,181.0,Saskatoon,Canada,63.97,114.84,166.0,47.56,52.44,299.0,29.89,49.41,Saskatoon,Saskatoon,52.1333,-106.6833,Canada,CA,CAN,Saskatchewan,,246376.0,1124612546,SaskatoonCanada,1,116,233297.8885,SaskatoonCanada
+170,184.0,Accra,Ghana,63.63,113.98,172.0,47.18,52.82,4.0,93.65,169.11,Accra,Accra,5.6037,-0.187,Ghana,GH,GHA,Greater Accra,primary,2291352.0,1288299415,AccraGhana,1,846,4412617.472,AccraGhana
+171,185.0,Moscow,Russia,63.33,112.46,261.0,38.77,61.23,181.0,57.27,99.46,Moscow,Moscow,55.7558,37.6178,Russia,RU,RUS,Moskva,primary,17125000.0,1643318494,MoscowRussia,1,1882,14077364.36,MoscowRussia
+172,185.0,Moscow,Russia,63.33,112.46,261.0,38.77,61.23,181.0,57.27,99.46,Moscow,Moscow,46.7307,-116.9986,United States,US,USA,Idaho,,26145.0,1840019868,MoscowRussia,1,1882,14077364.36,MoscowRussia
+173,189.0,Belo Horizonte,Brazil,62.64,112.96,53.0,63.79,36.21,205.0,52.49,90.81,Belo Horizonte,Belo Horizonte,-19.9281,-43.9419,Brazil,BR,BRA,Minas Gerais,admin,5159000.0,1076967355,Belo HorizonteBrazil,1,592,4038591.735,BeloHorizonteBrazil
+174,192.0,Porto Alegre,Brazil,62.47,112.48,15.0,75.02,24.98,188.0,56.43,97.60,Porto Alegre,Porto Alegre,-30.0328,-51.23,Brazil,BR,BRA,Rio Grande do Sul,admin,1484941.0,1076658221,Porto AlegreBrazil,1,344,1776855.9619999998,PortoAlegreBrazil
+175,193.0,Varna,Bulgaria,62.01,110.50,326.0,31.62,68.38,138.0,64.02,111.97,Varna,Varna,43.2114,27.9111,Bulgaria,BG,BGR,Varna,admin,369162.0,1100789115,VarnaBulgaria,1,83,283834.7825,VarnaBulgaria
+176,193.0,Varna,Bulgaria,62.01,110.50,326.0,31.62,68.38,138.0,64.02,111.97,Varna,Varna,53.3819,60.9747,Russia,RU,RUS,Chelyabinskaya Oblast’,,9869.0,1643475830,VarnaBulgaria,1,83,283834.7825,VarnaBulgaria
+177,194.0,Recife,Brazil,61.94,114.00,11.0,76.09,23.91,,,,Recife,Recife,-8.0539,-34.8808,Brazil,BR,BRA,Pernambuco,admin,1555039.0,1076137337,RecifeBrazil,1,477,3430754.0510000004,RecifeBrazil
+178,195.0,Guatemala City,Guatemala,61.90,109.60,61.0,62.28,37.72,92.0,72.38,126.45,Guatemala City,Guatemala City,14.6099,-90.5252,Guatemala,GT,GTM,Guatemala,primary,2450212.0,1320197916,Guatemala CityGuatemala,1,411,2674360.836,GuatemalaCityGuatemala
+179,197.0,Campinas,Brazil,61.41,111.38,37.0,66.33,33.67,228.0,47.50,80.10,Campinas,Campinas,-22.9009,-47.0573,Brazil,BR,BRA,São Paulo,,1164098.0,1076145766,CampinasBrazil,1,333,1396669.84,CampinasBrazil
+180,202.0,Shanghai,China,60.82,108.10,303.0,34.32,65.68,65.0,77.12,137.51,Shanghai,Shanghai,31.1667,121.4667,China,CN,CHN,Shanghai,admin,22120000.0,1156073548,ShanghaiChina,1,3318,24472119.1,ShanghaiChina
+181,203.0,Riga,Latvia,60.73,108.93,270.0,37.93,62.07,267.0,37.72,62.60,Riga,Riga,56.9475,24.1069,Latvia,LV,LVA,Rīga,primary,614618.0,1428586192,RigaLatvia,1,165,556671.5063,RigaLatvia
+182,203.0,Riga,Latvia,60.73,108.93,270.0,37.93,62.07,267.0,37.72,62.60,Riga,Riga,43.0802,-77.8753,United States,US,USA,New York,,5622.0,1840058443,RigaLatvia,1,165,556671.5063,RigaLatvia
+183,204.0,Warsaw,Poland,60.65,109.12,376.0,26.44,73.56,155.0,61.78,115.99,Warsaw,Warsaw,52.2167,21.0333,Poland,PL,POL,Mazowieckie,primary,1790658.0,1616024847,WarsawPoland,1,425,1789293.6169999999,WarsawPoland
+184,204.0,Warsaw,Poland,60.65,109.12,376.0,26.44,73.56,155.0,61.78,115.99,Warsaw,Warsaw,41.2448,-85.8464,United States,US,USA,Indiana,,33708.0,1840010277,WarsawPoland,1,425,1789293.6169999999,WarsawPoland
+185,207.0,Muscat,Oman,59.68,106.44,412.0,21.07,78.93,273.0,36.31,58.16,Muscat,Muscat,23.6139,58.5922,Oman,OM,OMN,Masqaţ,primary,1421409.0,1512035506,MuscatOman,1,24,119038.5051,MuscatOman
+186,208.0,Ho Chi Minh City,Vietnam,59.48,104.20,107.0,54.24,45.76,9.0,92.48,167.51,Ho Chi Minh City,Ho Chi Minh City,10.8167,106.6333,Vietnam,VN,VNM,Hồ Chí Minh,admin,13312000.0,1704774326,Ho Chi Minh CityVietnam,1,1467,11488340.15,HoChiMinhCityVietnam
+187,209.0,Rome,Italy,59.25,107.70,129.0,52.13,47.87,122.0,66.32,123.44,Rome,Rome,41.8931,12.4828,Italy,IT,ITA,Lazio,primary,2872800.0,1380382862,RomeItaly,1,482,2342859.759,RomeItaly
+188,209.0,Rome,Italy,59.25,107.70,129.0,52.13,47.87,122.0,66.32,123.44,Rome,Rome,34.2661,-85.1862,United States,US,USA,Georgia,,61537.0,1840014681,RomeItaly,1,482,2342859.759,RomeItaly
+189,209.0,Rome,Italy,59.25,107.70,129.0,52.13,47.87,122.0,66.32,123.44,Rome,Rome,43.226000000000006,-75.4909,United States,US,USA,New York,,32148.0,1840000349,RomeItaly,1,482,2342859.759,RomeItaly
+190,210.0,Saint Petersburg,Russia,59.11,104.35,253.0,39.43,60.57,150.0,62.33,106.57,Saint Petersburg,Saint Petersburg,59.95,30.3167,Russia,RU,RUS,Sankt-Peterburg,admin,5351935.0,1643616350,Saint PetersburgRussia,1,527,4300867.492,SaintPetersburgRussia
+191,211.0,Lviv,Ukraine,59.08,104.80,233.0,41.43,58.57,209.0,52.11,88.00,Lviv,Lviv,49.8419,24.0315,Ukraine,UA,UKR,L’vivs’ka Oblast’,admin,724314.0,1804939658,LvivUkraine,1,120,687059.9228,LvivUkraine
+192,213.0,Kuwait City,Kuwait,59.01,105.09,324.0,31.74,68.26,127.0,65.81,115.39,Kuwait City,Kuwait City,29.375,47.98,Kuwait,KW,KWT,Al ‘Āşimah,primary,2989000.0,1414102075,Kuwait CityKuwait,1,476,3168016.413,KuwaitCityKuwait
+193,215.0,Panama City,Panama,58.68,104.03,179.0,46.75,53.25,136.0,64.47,114.46,Panama City,Panama City,9.0,-79.5,Panama,PA,PAN,Panamá,primary,880691.0,1591672475,Panama CityPanama,1,223,1119523.743,PanamaCityPanama
+194,215.0,Panama City,Panama,58.68,104.03,179.0,46.75,53.25,136.0,64.47,114.46,Panama City,Panama City,30.1995,-85.6004,United States,US,USA,Florida,,136133.0,1840015034,Panama CityPanama,1,223,1119523.743,PanamaCityPanama
+195,216.0,Lima,Peru,58.59,103.12,26.0,69.95,30.05,32.0,85.11,152.64,Lima,Lima,-12.05,-77.0333,Peru,PE,PER,Lima,primary,9848000.0,1604728603,LimaPeru,1,876,9265580.499,LimaPeru
+196,216.0,Lima,Peru,58.59,103.12,26.0,69.95,30.05,32.0,85.11,152.64,Lima,Lima,40.741,-84.1121,United States,US,USA,Ohio,,68878.0,1840002785,LimaPeru,1,876,9265580.499,LimaPeru
+197,221.0,Cork,Ireland,57.77,103.79,305.0,34.23,65.77,314.0,26.37,45.62,Cork,Cork,51.9,-8.4731,Ireland,IE,IRL,Cork,admin,208669.0,1372221853,CorkIreland,1,51,138513.9213,CorkIreland
+198,223.0,Algiers,Algeria,57.62,105.25,132.0,52.05,47.95,103.0,70.38,124.07,Algiers,Algiers,36.7764,3.0586,Algeria,DZ,DZA,Alger,primary,3415811.0,1012973369,AlgiersAlgeria,1,727,3857232.5089999996,AlgiersAlgeria
+199,224.0,Bratislava,Slovakia,57.60,103.99,330.0,31.01,68.99,255.0,40.90,69.25,Bratislava,Bratislava,48.1447,17.1128,Slovakia,SK,SVK,Bratislavský,primary,429564.0,1703195001,BratislavaSlovakia,1,117,352001.9552,BratislavaSlovakia
+200,225.0,Karachi,Pakistan,57.59,101.71,106.0,54.46,45.54,19.0,90.04,161.21,Karachi,Karachi,24.86,67.01,Pakistan,PK,PAK,Sindh,admin,14835000.0,1586129469,KarachiPakistan,1,753,13150694.48,KarachiPakistan
+201,227.0,Sofia,Bulgaria,57.18,101.88,231.0,41.76,58.24,109.0,68.62,127.51,Sofia,Sofia,42.6979,23.3217,Bulgaria,BG,BGR,Sofia-Grad,primary,1355142.0,1100762037,SofiaBulgaria,1,205,926881.2888,SofiaBulgaria
+202,228.0,Kathmandu,Nepal,56.76,99.44,292.0,35.75,64.25,2.0,95.37,173.10,Kathmandu,Kathmandu,27.7167,85.3667,Nepal,NP,NPL,Bāgmatī,primary,975453.0,1524589448,KathmanduNepal,1,271,3529143.4260000004,KathmanduNepal
+203,229.0,Jakarta,Indonesia,56.73,100.31,116.0,53.61,46.39,34.0,84.42,150.79,Jakarta,Jakarta,-6.2146,106.8451,Indonesia,ID,IDN,Jakarta,primary,34540000.0,1360771077,JakartaIndonesia,1,5009,36312538.77,JakartaIndonesia
+204,230.0,Nairobi,Kenya,56.62,100.07,70.0,60.68,39.32,54.0,79.72,142.30,Nairobi,Nairobi,-1.2864,36.8172,Kenya,KE,KEN,Nairobi City,primary,5545000.0,1404000661,NairobiKenya,1,337,3986169.9680000003,NairobiKenya
+205,232.0,Athens,Greece,56.41,100.29,126.0,52.30,47.70,180.0,57.31,104.50,Athens,Athens,37.9842,23.7281,Greece,GR,GRC,Attikí,primary,664046.0,1300715560,AthensGreece,1,438,3315199.421,AthensGreece
+206,232.0,Athens,Greece,56.41,100.29,126.0,52.30,47.70,180.0,57.31,104.50,Athens,Athens,33.9508,-83.3689,United States,US,USA,Georgia,,141532.0,1840029463,AthensGreece,1,438,3315199.421,AthensGreece
+207,232.0,Athens,Greece,56.41,100.29,126.0,52.30,47.70,180.0,57.31,104.50,Athens,Athens,34.7847,-86.95100000000001,United States,US,USA,Alabama,,31187.0,1840000935,AthensGreece,1,438,3315199.421,AthensGreece
+208,232.0,Athens,Greece,56.41,100.29,126.0,52.30,47.70,180.0,57.31,104.50,Athens,Athens,39.3269,-82.0988,United States,US,USA,Ohio,,29122.0,1840007355,AthensGreece,1,438,3315199.421,AthensGreece
+209,232.0,Athens,Greece,56.41,100.29,126.0,52.30,47.70,180.0,57.31,104.50,Athens,Athens,35.4573,-84.6045,United States,US,USA,Tennessee,,16651.0,1840013429,AthensGreece,1,438,3315199.421,AthensGreece
+210,232.0,Athens,Greece,56.41,100.29,126.0,52.30,47.70,180.0,57.31,104.50,Athens,Athens,32.2041,-95.8321,United States,US,USA,Texas,,12753.0,1840019500,AthensGreece,1,438,3315199.421,AthensGreece
+211,235.0,Thiruvananthapuram,India,55.90,97.48,248.0,39.91,60.09,184.0,56.82,97.78,Thiruvananthapuram,Thiruvananthapuram,8.5,76.8997,India,IN,IND,Kerala,admin,743691.0,1356024354,ThiruvananthapuramIndia,1,378,1961463.354,ThiruvananthapuramIndia
+212,238.0,Hanoi,Vietnam,55.53,96.76,275.0,37.41,62.59,21.0,89.36,161.52,Hanoi,Hanoi,21.0245,105.8412,Vietnam,VN,VNM,Hà Nội,primary,7785000.0,1704413791,HanoiVietnam,1,1095,5353038.2930000005,HanoiVietnam
+213,239.0,Tunis,Tunisia,55.27,97.61,167.0,47.55,52.45,91.0,72.62,127.45,Tunis,Tunis,36.8008,10.18,Tunisia,TN,TUN,Tunis,primary,1056247.0,1788742103,TunisTunisia,1,418,2116487.17,TunisTunisia
+214,241.0,Novosibirsk,Russia,54.58,95.83,181.0,46.57,53.43,97.0,71.39,125.18,Novosibirsk,Novosibirsk,55.0333,82.9167,Russia,RU,RUS,Novosibirskaya Oblast’,admin,1602915.0,1643399240,NovosibirskRussia,1,307,1230729.457,NovosibirskRussia
+215,242.0,Bucharest,Romania,54.47,95.98,359.0,27.98,72.02,76.0,75.26,134.61,Bucharest,Bucharest,44.4,26.0833,Romania,RO,ROU,Bucureşti,primary,1883425.0,1642414442,BucharestRomania,1,252,1774128.2680000002,BucharestRomania
+216,243.0,Yerevan,Armenia,53.41,93.78,395.0,23.82,76.18,182.0,57.19,101.92,Yerevan,Yerevan,40.1814,44.5144,Armenia,AM,ARG,Yerevan,primary,1075800.0,1051074169,YerevanArmenia,1,191,1132740.693,YerevanArmenia
+217,244.0,Belgrade,Serbia,53.31,95.23,266.0,38.54,61.46,132.0,64.91,115.13,Belgrade,Belgrade,44.8167,20.4667,Serbia,RS,SRB,Beograd,primary,1378682.0,1688374696,BelgradeSerbia,1,237,1106870.256,BelgradeSerbia
+218,244.0,Belgrade,Serbia,53.31,95.23,266.0,38.54,61.46,132.0,64.91,115.13,Belgrade,Belgrade,45.7796,-111.1751,United States,US,USA,Montana,,17743.0,1840018508,BelgradeSerbia,1,237,1106870.256,BelgradeSerbia
+219,245.0,Tbilisi,Georgia,53.16,92.22,397.0,23.41,76.59,79.0,74.24,135.75,Tbilisi,Tbilisi,41.7225,44.7925,Georgia,GE,GEO,Tbilisi,primary,1118035.0,1268203191,TbilisiGeorgia,1,132,1077839.8090000001,TbilisiGeorgia
+220,246.0,Tehran,Iran,52.53,91.78,112.0,53.90,46.10,48.0,81.34,153.33,Tehran,Tehran,35.7,51.4167,Iran,IR,IRN,Tehrān,primary,13633000.0,1364305026,TehranIran,1,1382,12515044.54,TehranIran
+221,247.0,Nicosia,Cyprus,52.37,91.53,316.0,32.51,67.49,141.0,63.26,108.45,Nicosia,Nicosia,35.1725,33.365,Cyprus,CY,CYP,Lefkosía,primary,330000.0,1196944155,NicosiaCyprus,1,92,228922.9764,NicosiaCyprus
+222,247.0,Nicosia,Cyprus,52.37,91.53,316.0,32.51,67.49,141.0,63.26,108.45,Nicosia,Nicosia,37.75,14.4,Italy,IT,ITA,Sicilia,,13588.0,1380619404,NicosiaCyprus,1,92,228922.9764,NicosiaCyprus
+223,248.0,Dublin,Ireland,52.06,95.71,149.0,49.54,50.46,256.0,40.70,67.88,Dublin,Dublin,53.3497,-6.2603,Ireland,IE,IRL,Dublin,primary,1173179.0,1372595407,DublinIreland,1,300,1004262.745,DublinIreland
+224,248.0,Dublin,Ireland,52.06,95.71,149.0,49.54,50.46,256.0,40.70,67.88,Dublin,Dublin,37.7161,-121.8963,United States,US,USA,California,,64826.0,1840018916,DublinIreland,1,300,1004262.745,DublinIreland
+225,248.0,Dublin,Ireland,52.06,95.71,149.0,49.54,50.46,256.0,40.70,67.88,Dublin,Dublin,40.1112,-83.1454,United States,US,USA,Ohio,,49037.0,1840008389,DublinIreland,1,300,1004262.745,DublinIreland
+226,248.0,Dublin,Ireland,52.06,95.71,149.0,49.54,50.46,256.0,40.70,67.88,Dublin,Dublin,32.5359,-82.928,United States,US,USA,Georgia,,20583.0,1840013813,DublinIreland,1,300,1004262.745,DublinIreland
+227,249.0,Rabat,Morocco,51.90,89.74,,,,,,,Rabat,Rabat,34.0253,-6.8361,Morocco,MA,MAR,Rabat-Salé-Kénitra,primary,572717.0,1504023252,RabatMorocco,1,215,1865738.419,RabatMorocco
+228,249.0,Rabat,Morocco,51.90,89.74,,,,,,,Rabat,Rabat,35.8826,14.3978,Malta,MT,MLT,Rabat,admin,11497.0,1470262687,RabatMorocco,1,215,1865738.419,RabatMorocco
+229,250.0,Dnipro,Ukraine,51.29,89.26,119.0,53.37,46.63,52.0,80.49,142.94,Dnipro,Dnipro,48.45,34.9833,Ukraine,UA,UKR,Dnipropetrovs’ka Oblast’,admin,1002111.0,1804152933,DniproUkraine,1,311,903205.2395,DniproUkraine
+230,252.0,Phnom Penh,Cambodia,50.93,89.92,114.0,53.71,46.29,51.0,80.50,143.46,Phnom Penh,Phnom Penh,11.5696,104.921,Cambodia,KH,KHM,Phnom Penh,primary,2129371.0,1116260534,Phnom PenhCambodia,1,263,1816032.366,PhnomPenhCambodia
+231,253.0,Yekaterinburg,Russia,50.88,89.51,174.0,47.08,52.92,72.0,75.94,134.11,Yekaterinburg,Yekaterinburg,56.8356,60.6128,Russia,RU,RUS,Sverdlovskaya Oblast’,admin,1468833.0,1643582706,YekaterinburgRussia,1,250,929157.3502,YekaterinburgRussia
+232,256.0,Novi Sad,Serbia,49.66,89.91,242.0,40.29,59.71,215.0,50.71,84.97,Novi Sad,Novi Sad,45.2644,19.8317,Serbia,RS,SRB,Novi Sad,admin,380000.0,1688169087,Novi SadSerbia,1,73,263087.1856,NoviSadSerbia
+233,258.0,Galway,Ireland,49.18,91.29,354.0,28.39,71.61,,,,Galway,Galway,53.2729,-9.0418,Ireland,IE,IRL,Galway,admin,79504.0,1372499968,GalwayIreland,1,29,65711.09332,GalwayIreland
+234,260.0,Budapest,Hungary,49.10,88.43,288.0,36.05,63.95,199.0,54.44,97.31,Budapest,Budapest,47.4983,19.0408,Hungary,HU,HUN,Budapest,primary,1752286.0,1348611435,BudapestHungary,1,433,1758467.956,BudapestHungary
+235,262.0,Tirana,Albania,48.78,84.63,259.0,38.92,61.08,27.0,87.82,157.22,Tirana,Tirana,41.33,19.82,Albania,AL,ALB,Tiranë,primary,418495.0,1008162156,TiranaAlbania,1,106,719251.941,TiranaAlbania
+236,263.0,Limassol,Cyprus,48.74,84.02,311.0,33.34,66.66,208.0,52.42,89.56,Limassol,Limassol,34.675,33.0443,Cyprus,CY,CYP,Lemesós,admin,235056.0,1196136222,LimassolCyprus,1,56,159459.5446,LimassolCyprus
+237,264.0,Almaty,Kazakhstan,47.85,84.47,38.0,65.80,34.20,59.0,78.45,148.50,Almaty,Almaty,43.25,76.9,Kazakhstan,KZ,KAZ,Almaty,,1916822.0,1398351701,AlmatyKazakhstan,1,318,1730584.312,AlmatyKazakhstan
+238,265.0,Kharkiv,Ukraine,47.27,81.71,158.0,48.39,51.61,194.0,55.62,95.03,Kharkiv,Kharkiv,50.0,36.2292,Ukraine,UA,UKR,Kharkivs’ka Oblast’,admin,1446107.0,1804588111,KharkivUkraine,1,270,1430660.5890000002,KharkivUkraine
+239,266.0,Lagos,Nigeria,46.63,80.03,43.0,64.82,35.18,23.0,89.13,159.25,Lagos,Lagos,6.45,3.4,Nigeria,NG,NGA,Lagos,minor,15279000.0,1566593751,LagosNigeria,1,1196,11575042.53,LagosNigeria
+240,266.0,Lagos,Nigeria,46.63,80.03,43.0,64.82,35.18,23.0,89.13,159.25,Lagos,Lagos,37.1,-8.6667,Portugal,PT,PRT,Faro,minor,31049.0,1620635530,LagosNigeria,1,1196,11575042.53,LagosNigeria
+241,267.0,Minsk,Belarus,45.77,81.08,65.0,61.75,38.25,254.0,41.59,69.12,Minsk,Minsk,53.9022,27.5618,Belarus,BY,BLR,Minsk,primary,2009786.0,1112348503,MinskBelarus,1,265,2006721.845,MinskBelarus
+242,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,31.2,29.9167,Egypt,EG,EGY,Al Iskandarīyah,admin,4870000.0,1818695837,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+243,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,38.8185,-77.0861,United States,US,USA,Virginia,,159428.0,1840003837,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+244,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,43.9686,25.3333,Romania,RO,ROU,Teleorman,admin,45434.0,1642953190,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+245,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,31.2923,-92.4702,United States,US,USA,Louisiana,,80129.0,1840013873,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+246,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,45.8777,-95.3766,United States,US,USA,Minnesota,,21204.0,1840006680,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+247,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,-6.4128,-38.0158,Brazil,BR,BRA,Rio Grande do Norte,,13553.0,1076254681,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+248,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,55.98,-4.58,United Kingdom,GB,GBR,West Dunbartonshire,,13444.0,1826818723,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+249,268.0,Alexandria,Egypt,45.69,78.72,256.0,39.06,60.94,82.0,73.92,129.83,Alexandria,Alexandria,38.9621,-84.38600000000001,United States,US,USA,Kentucky,,9715.0,1840013162,AlexandriaEgypt,1,598,5532976.203,AlexandriaEgypt
+250,269.0,Cairo,Egypt,44.97,76.97,144.0,49.97,50.03,13.0,91.51,165.31,Cairo,Cairo,30.0561,31.2394,Egypt,EG,EGY,Al Qāhirah,primary,19372000.0,1818253931,CairoEgypt,1,1585,19734085.73,CairoEgypt
+251,269.0,Cairo,Egypt,44.97,76.97,144.0,49.97,50.03,13.0,91.51,165.31,Cairo,Cairo,30.8791,-84.205,United States,US,USA,Georgia,,9369.0,1840013900,CairoEgypt,1,1585,19734085.73,CairoEgypt
+252,269.0,Cairo,Egypt,44.97,76.97,144.0,49.97,50.03,13.0,91.51,165.31,Cairo,Cairo,42.2965,-74.0205,United States,US,USA,New York,,6423.0,1840057626,CairoEgypt,1,1585,19734085.73,CairoEgypt
+253,270.0,Casablanca,Morocco,44.06,75.02,104.0,55.17,44.83,46.0,82.25,147.23,Casablanca,Casablanca,33.5992,-7.62,Morocco,MA,MAR,Casablanca-Settat,admin,4370000.0,1504175315,CasablancaMorocco,1,393,3985659.611,CasablancaMorocco
+254,270.0,Casablanca,Morocco,44.06,75.02,104.0,55.17,44.83,46.0,82.25,147.23,Casablanca,Casablanca,-33.3167,-71.4167,Chile,CL,CHL,Valparaíso,,21874.0,1152471983,CasablancaMorocco,1,393,3985659.611,CasablancaMorocco
+255,271.0,Rio de Janeiro,Brazil,43.78,76.75,10.0,77.52,22.48,115.0,67.40,118.65,Rio de Janeiro,Rio de Janeiro,-22.9083,-43.1964,Brazil,BR,BRA,Rio de Janeiro,admin,12272000.0,1076887657,Rio de JaneiroBrazil,1,1367,9798104.801,RiodeJaneiroBrazil
+256,272.0,Baku,Azerbaijan,43.68,75.58,339.0,30.38,69.62,73.0,75.84,133.30,Baku,Baku,40.3667,49.8352,Azerbaijan,AZ,AZE,Bakı,primary,2181800.0,1031946365,BakuAzerbaijan,1,332,1961523.0980000002,BakuAzerbaijan
+257,273.0,Dhaka,Bangladesh,40.75,69.63,41.0,64.94,35.06,7.0,93.33,168.56,Dhaka,Dhaka,23.7289,90.3944,Bangladesh,BD,BGD,Dhaka,primary,15443000.0,1050529279,DhakaBangladesh,1,3248,23942350.03,DhakaBangladesh
+258,274.0,Caracas,Venezuela,38.92,67.39,1.0,84.68,15.32,84.0,73.63,130.19,Caracas,Caracas,10.5,-66.9333,Venezuela,VE,VEN,Distrito Capital,primary,1943901.0,1862748204,CaracasVenezuela,1,330,3104241.4269999997,CaracasVenezuela
+259,275.0,Baghdad,Iraq,32.52,54.10,55.0,63.29,36.71,15.0,91.34,164.84,Baghdad,Baghdad,33.35,44.4167,Iraq,IQ,IRQ,Baghdād,primary,5796000.0,1368596238,BaghdadIraq,1,787,5367305.285,BaghdadIraq
+260,,San Pedro Sula,Honduras,,,6.0,80.04,19.96,,,,San Pedro Sula,San Pedro Sula,15.5,-88.0333,Honduras,HN,HND,Cortés,admin,1073824.0,1340568412,San Pedro SulaHonduras,1,200,841488.9024,SanPedroSulaHonduras
+261,,Natal,Brazil,,,8.0,79.21,20.79,,,,Natal,Natal,-6.9838,-60.2699,Brazil,BR,BRA,Amazonas,,980588.0,1076336975,NatalBrazil,1,113,631280.8722,NatalBrazil
+262,,Natal,Brazil,,,8.0,79.21,20.79,,,,Natal,Natal,-5.795,-35.2089,Brazil,BR,BRA,Rio Grande do Norte,admin,877662.0,1076697777,NatalBrazil,1,113,631280.8722,NatalBrazil
+263,,Fortaleza,Brazil,,,9.0,78.16,21.84,,,,Fortaleza,Fortaleza,-3.7275,-38.5275,Brazil,BR,BRA,Ceará,admin,2452185.0,1076567885,FortalezaBrazil,1,402,3204985.5810000002,FortalezaBrazil
+264,,Kabul,Afghanistan,,,12.0,76.06,23.94,11.0,92.00,165.80,Kabul,Kabul,34.5328,69.1658,Afghanistan,AF,AFG,Kābul,primary,3678034.0,1004993580,KabulAfghanistan,1,321,4381842.18,KabulAfghanistan
+265,,Salvador,Brazil,,,13.0,75.93,24.07,,,,Salvador,Salvador,-12.9708,-38.5108,Brazil,BR,BRA,Bahia,admin,2886698.0,1076923789,SalvadorBrazil,1,308,3030495.644,SalvadorBrazil
+266,,Salvador,Brazil,,,13.0,75.93,24.07,,,,Salvador,Salvador,20.2094,-75.2231,Cuba,CU,CUB,Guantánamo,,45773.0,1192289644,SalvadorBrazil,1,308,3030495.644,SalvadorBrazil
+267,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,17.9714,-76.7931,Jamaica,JM,JAM,Kingston,primary,580000.0,1388709177,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+268,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,-29.0569,167.9617,Norfolk Island,NF,NFK,,primary,,1574121434,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+269,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,41.2652,-75.8875,United States,US,USA,Pennsylvania,,12812.0,1840000756,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+270,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,41.9295,-73.9968,United States,US,USA,New York,,54791.0,1840000493,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+271,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,41.9862,-70.7482,United States,US,USA,Massachusetts,,13566.0,1840053680,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+272,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,-42.9769,147.3083,Australia,AU,AUS,Tasmania,,10409.0,1036297213,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+273,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,41.4738,-71.5236,United States,US,USA,Rhode Island,,6513.0,1840003365,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+274,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,42.9156,-71.0665,United States,US,USA,New Hampshire,,6260.0,1840055052,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+275,,Kingston,Jamaica,,,24.0,70.02,29.98,94.0,72.11,127.04,Kingston,Kingston,35.8713,-84.4959,United States,US,USA,Tennessee,,5994.0,1840014499,KingstonJamaica,1,236,1018848.229,KingstonJamaica
+276,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,17.9714,-76.7931,Jamaica,JM,JAM,Kingston,primary,580000.0,1388709177,KingstonCanada,1,53,97961.94858,KingstonCanada
+277,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,-29.0569,167.9617,Norfolk Island,NF,NFK,,primary,,1574121434,KingstonCanada,1,53,97961.94858,KingstonCanada
+278,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,41.2652,-75.8875,United States,US,USA,Pennsylvania,,12812.0,1840000756,KingstonCanada,1,53,97961.94858,KingstonCanada
+279,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,41.9295,-73.9968,United States,US,USA,New York,,54791.0,1840000493,KingstonCanada,1,53,97961.94858,KingstonCanada
+280,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,41.9862,-70.7482,United States,US,USA,Massachusetts,,13566.0,1840053680,KingstonCanada,1,53,97961.94858,KingstonCanada
+281,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,-42.9769,147.3083,Australia,AU,AUS,Tasmania,,10409.0,1036297213,KingstonCanada,1,53,97961.94858,KingstonCanada
+282,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,41.4738,-71.5236,United States,US,USA,Rhode Island,,6513.0,1840003365,KingstonCanada,1,53,97961.94858,KingstonCanada
+283,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,42.9156,-71.0665,United States,US,USA,New Hampshire,,6260.0,1840055052,KingstonCanada,1,53,97961.94858,KingstonCanada
+284,,Kingston,Canada,,,332.0,30.87,69.13,,,,Kingston,Kingston,35.8713,-84.4959,United States,US,USA,Tennessee,,5994.0,1840014499,KingstonCanada,1,53,97961.94858,KingstonCanada
+285,,Windhoek,Namibia,,,27.0,69.49,30.51,,,,Windhoek,Windhoek,-22.57,17.0836,Namibia,,NAM,Khomas,primary,322500.0,1516802003,WindhoekNamibia,1,80,365942.4404,WindhoekNamibia
+286,,Damascus,Syria,,,31.0,68.40,31.60,,,,Damascus,Damascus,33.5131,36.2919,Syria,SY,SYR,Dimashq,primary,1754000.0,1760685964,DamascusSyria,1,321,2705863.897,DamascusSyria
+287,,Damascus,Syria,,,31.0,68.40,31.60,,,,Damascus,Damascus,39.2737,-77.2006,United States,US,USA,Maryland,,15250.0,1840005832,DamascusSyria,1,321,2705863.897,DamascusSyria
+288,,Damascus,Syria,,,31.0,68.40,31.60,,,,Damascus,Damascus,45.4233,-122.4437,United States,US,USA,Oregon,,11161.0,1840018571,DamascusSyria,1,321,2705863.897,DamascusSyria
+289,,Luanda,Angola,,,34.0,67.52,32.48,,,,Luanda,Luanda,-8.8383,13.2344,Angola,AO,AGO,Luanda,primary,8417000.0,1024949724,LuandaAngola,1,771,6786991.194,LuandaAngola
+290,,Guayaquil,Ecuador,,,36.0,66.63,33.37,108.0,69.14,120.44,Guayaquil,Guayaquil,-2.1833,-79.8833,Ecuador,EC,ECU,Guayas,admin,2723665.0,1218802178,GuayaquilEcuador,1,301,2739452.61,GuayaquilEcuador
+291,,Puebla,Mexico,,,40.0,64.99,35.01,,,,Puebla,Puebla,19.0333,-98.1833,Mexico,MX,MEX,Puebla,admin,1576259.0,1484416394,PueblaMexico,1,428,2130628.315,PueblaMexico
+292,,Tripoli,Libya,,,50.0,64.27,35.73,,,,Tripoli,Tripoli,32.8752,13.1875,Libya,LY,LBY,Ţarābulus,primary,1126000.0,1434201852,TripoliLibya,1,429,1136249.56,TripoliLibya
+293,,Tripoli,Libya,,,50.0,64.27,35.73,,,,Tripoli,Tripoli,34.4333,35.8333,Lebanon,LB,LBN,Liban-Nord,admin,530000.0,1422886065,TripoliLibya,1,429,1136249.56,TripoliLibya
+294,,Dar es Salaam,Tanzania,,,66.0,61.69,38.31,,,,Dar es Salaam,Dar es Salaam,-6.8,39.2833,Tanzania,TZ,TZA,Dar es Salaam,primary,6698000.0,1834843853,Dar es SalaamTanzania,1,660,5345514.63,DaresSalaamTanzania
+295,,Catania,Italy,,,69.0,60.88,39.12,,,,Catania,Catania,37.5027,15.0873,Italy,IT,ITA,Sicilia,minor,311584.0,1380562508,CataniaItaly,1,109,448664.8115,CataniaItaly
+296,,Harare,Zimbabwe,,,72.0,59.90,40.10,56.0,78.83,140.64,Harare,Harare,-17.8292,31.0522,Zimbabwe,ZW,ZWE,Harare,primary,2150000.0,1716196799,HarareZimbabwe,1,486,1934204.504,HarareZimbabwe
+297,,Lethbridge,Canada,,,73.0,59.58,40.42,,,,Lethbridge,Lethbridge,49.6942,-112.8328,Canada,CA,CAN,Alberta,,92729.0,1124321200,LethbridgeCanada,1,31,52686.6911,LethbridgeCanada
+298,,Marseille,France,,,78.0,58.95,41.05,93.0,72.15,131.26,Marseille,Marseille,43.2964,5.37,France,FR,FRA,Provence-Alpes-Côte d’Azur,admin,870018.0,1250774071,MarseilleFrance,1,255,909727.3216,MarseilleFrance
+299,,Montpellier,France,,,79.0,58.83,41.17,,,,Montpellier,Montpellier,43.6119,3.8772,France,FR,FRA,Occitanie,minor,607896.0,1250819356,MontpellierFrance,1,73,293865.2648,MontpellierFrance
+300,,Cairns,Australia,,,80.0,58.61,41.39,303.0,28.92,46.60,Cairns,Cairns,-16.9303,145.7703,Australia,AU,AUS,Queensland,,152729.0,1036016939,CairnsAustralia,1,34,53527.30538,CairnsAustralia
+301,,Red Deer,Canada,,,81.0,58.44,41.56,,,,Red Deer,Red Deer,52.2681,-113.8111,Canada,CA,CAN,Alberta,,100418.0,1124404130,Red DeerCanada,1,57,92027.71418,RedDeerCanada
+302,,Naples,Italy,,,85.0,57.63,42.37,63.0,77.31,137.86,Naples,Naples,40.8333,14.25,Italy,IT,ITA,Campania,admin,966144.0,1380646673,NaplesItaly,1,899,3167668.4669999997,NaplesItaly
+303,,Naples,Italy,,,85.0,57.63,42.37,63.0,77.31,137.86,Naples,Naples,26.1504,-81.7936,United States,US,USA,Florida,,22088.0,1840015131,NaplesItaly,1,899,3167668.4669999997,NaplesItaly
+304,,Nantes,France,,,96.0,55.90,44.10,,,,Nantes,Nantes,47.2181,-1.5528,France,FR,FRA,Pays de la Loire,admin,633690.0,1250091495,NantesFrance,1,144,436853.0587,NantesFrance
+305,,Ulaanbaatar,Mongolia,,,100.0,55.56,44.44,5.0,93.59,172.61,Ulaanbaatar,Ulaanbaatar,47.9203,106.9172,Mongolia,MN,MNG,Ulaanbaatar,primary,1396288.0,1496024767,UlaanbaatarMongolia,1,166,1316070.207,UlaanbaatarMongolia
+306,,San Miguel de Allende,Mexico,,,101.0,55.46,44.54,,,,San Miguel de Allende,San Miguel de Allende,20.9142,-100.7436,Mexico,MX,MEX,Guanajuato,minor,139297.0,1484007926,San Miguel de AllendeMexico,1,18,79280.72058,SanMigueldeAllendeMexico
+307,,Gaborone,Botswana,,,115.0,53.68,46.32,,,,Gaborone,Gaborone,-24.6569,25.9086,Botswana,BW,BWA,Gaborone,primary,231626.0,1072756768,GaboroneBotswana,1,73,154496.5438,GaboroneBotswana
+308,,Indore,India,,,131.0,52.08,47.92,156.0,61.51,108.32,Indore,Indore,22.7206,75.8472,India,IN,IND,Madhya Pradesh,,2201927.0,1356402812,IndoreIndia,1,280,2886468.994,IndoreIndia
+309,,Oshawa,Canada,,,134.0,51.58,48.42,,,,Oshawa,Oshawa,43.9,-78.85,Canada,CA,CAN,Ontario,,166000.0,1124541904,OshawaCanada,1,133,281774.5673,OshawaCanada
+310,,Grenoble,France,,,136.0,51.36,48.64,,,,Grenoble,Grenoble,45.1715,5.7224,France,FR,FRA,Auvergne-Rhône-Alpes,minor,687985.0,1250071647,GrenobleFrance,1,84,338199.3001,GrenobleFrance
+311,,Bilbao,Spain,,,143.0,50.11,49.89,,,,Bilbao,Bilbao,43.2569,-2.9236,Spain,ES,ESP,Basque Country,minor,350184.0,1724331267,BilbaoSpain,1,136,778581.8149,BilbaoSpain
+312,,Bari,Italy,,,146.0,49.72,50.28,,,,Bari,Bari,41.1253,16.8667,Italy,IT,ITA,Puglia,admin,323370.0,1380991126,BariItaly,1,80,310238.8774,BariItaly
+313,,Podgorica,Montenegro,,,160.0,48.18,51.82,,,,Podgorica,Podgorica,42.4397,19.2661,Montenegro,ME,MNE,Podgorica,primary,174515.0,1499454516,PodgoricaMontenegro,1,28,96057.54211000001,PodgoricaMontenegro
+314,,Addis Ababa,Ethiopia,,,161.0,47.89,52.11,53.0,79.79,140.90,Addis Ababa,Addis Ababa,9.0272,38.7369,Ethiopia,ET,ETH,Ādīs Ābeba,primary,3041002.0,1231824991,Addis AbabaEthiopia,1,392,3830787.8189999997,AddisAbabaEthiopia
+315,,St. John's,Canada,,,171.0,47.19,52.81,,,,St. John's,St. John's,47.4817,-52.7971,Canada,CA,CAN,Newfoundland and Labrador,,108860.0,1124741456,St. John'sCanada,1,44,85082.06322000001,St.John'sCanada
+316,,Kuching,Malaysia,,,173.0,47.16,52.84,,,,Kuching,Kuching,1.5397,110.3542,Malaysia,MY,MYS,Sarawak,admin,325132.0,1458462262,KuchingMalaysia,1,140,441553.9344,KuchingMalaysia
+317,,Palermo,Italy,,,178.0,46.94,53.06,,,,Palermo,Palermo,2.8883,-75.4339,Colombia,CO,COL,Huila,minor,800000.0,1170614290,PalermoItaly,1,158,703529.4925,PalermoItaly
+318,,Palermo,Italy,,,178.0,46.94,53.06,,,,Palermo,Palermo,38.1157,13.3613,Italy,IT,ITA,Sicilia,admin,668405.0,1380428434,PalermoItaly,1,158,703529.4925,PalermoItaly
+319,,Palermo,Italy,,,178.0,46.94,53.06,,,,Palermo,Palermo,39.4313,-121.5225,United States,US,USA,California,,5395.0,1840018777,PalermoItaly,1,158,703529.4925,PalermoItaly
+320,,Toulouse,France,,,185.0,46.13,53.87,,,,Toulouse,Toulouse,43.6045,1.444,France,FR,FRA,Occitanie,admin,968638.0,1250258110,ToulouseFrance,1,246,658107.2133,ToulouseFrance
+321,,Wollongong,Australia,,,187.0,45.98,54.02,,,,Wollongong,Wollongong,-34.4331,150.8831,Australia,AU,AUS,New South Wales,,302739.0,1036502269,WollongongAustralia,1,116,150185.486,WollongongAustralia
+322,,Newcastle,Australia,,,188.0,45.79,54.21,,,,Newcastle,Newcastle,55.0077,-1.6578,United Kingdom,GB,GBR,Newcastle upon Tyne,,1650000.0,1826292220,NewcastleAustralia,1,133,198971.5095,NewcastleAustralia
+323,,Newcastle,Australia,,,188.0,45.79,54.21,,,,Newcastle,Newcastle,-32.9167,151.75,Australia,AU,AUS,New South Wales,,322278.0,1036468001,NewcastleAustralia,1,133,198971.5095,NewcastleAustralia
+324,,Newcastle,Australia,,,188.0,45.79,54.21,,,,Newcastle,Newcastle,47.5303,-122.1633,United States,US,USA,Washington,,12292.0,1840019831,NewcastleAustralia,1,133,198971.5095,NewcastleAustralia
+325,,Newcastle,Australia,,,188.0,45.79,54.21,,,,Newcastle,Newcastle,35.2404,-97.5998,United States,US,USA,Oklahoma,,10655.0,1840020453,NewcastleAustralia,1,133,198971.5095,NewcastleAustralia
+326,,Lyon,France,,,193.0,45.14,54.86,213.0,50.96,90.70,Lyon,Lyon,45.76,4.84,France,FR,FRA,Auvergne-Rhône-Alpes,admin,516092.0,1250196189,LyonFrance,1,270,1152368.368,LyonFrance
+327,,Bordeaux,France,,,211.0,43.38,56.62,,,,Bordeaux,Bordeaux,44.84,-0.58,France,FR,FRA,Nouvelle-Aquitaine,admin,257804.0,1250449238,BordeauxFrance,1,194,585031.4041,BordeauxFrance
+328,,Genoa,Italy,,,214.0,43.16,56.84,,,,Genoa,Genoa,44.4072,8.934,Italy,IT,ITA,Liguria,admin,580097.0,1380716540,GenoaItaly,1,107,542961.2819,GenoaItaly
+329,,Genoa,Italy,,,214.0,43.16,56.84,,,,Genoa,Genoa,42.0926,-88.6964,United States,US,USA,Illinois,,6467.0,1840008133,GenoaItaly,1,107,542961.2819,GenoaItaly
+330,,Moncton,Canada,,,220.0,42.48,57.52,,,,Moncton,Moncton,46.1328,-64.7714,Canada,CA,CAN,New Brunswick,,108620.0,1124521303,MonctonCanada,1,39,67839.48921,MonctonCanada
+331,,Leipzig,Germany,,,225.0,42.14,57.86,,,,Leipzig,Leipzig,51.3333,12.3833,Germany,DE,DEU,Saxony,minor,593197.0,1276563678,LeipzigGermany,1,163,455581.3498,LeipzigGermany
+332,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,39.8117,-76.9835,United States,US,USA,Pennsylvania,,68165.0,1840001450,HanoverGermany,1,215,599163.8384,HanoverGermany
+333,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,49.4433,-96.8492,Canada,CA,CAN,Manitoba,,15733.0,1124001704,HanoverGermany,1,215,599163.8384,HanoverGermany
+334,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,42.1224,-70.8566,United States,US,USA,Massachusetts,,14459.0,1840053568,HanoverGermany,1,215,599163.8384,HanoverGermany
+335,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,40.8197,-74.4287,United States,US,USA,New Jersey,,14399.0,1840081717,HanoverGermany,1,215,599163.8384,HanoverGermany
+336,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,40.6669,-75.3979,United States,US,USA,Pennsylvania,,11499.0,1840151272,HanoverGermany,1,215,599163.8384,HanoverGermany
+337,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,43.7155,-72.1911,United States,US,USA,New Hampshire,,11467.0,1840054971,HanoverGermany,1,215,599163.8384,HanoverGermany
+338,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,41.2012,-75.9288,United States,US,USA,Pennsylvania,,10866.0,1840148628,HanoverGermany,1,215,599163.8384,HanoverGermany
+339,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,44.15,-81.0333,Canada,CA,CAN,Ontario,,7688.0,1124868817,HanoverGermany,1,215,599163.8384,HanoverGermany
+340,,Hanover,Germany,,,230.0,41.86,58.14,,,,Hanover,Hanover,42.4922,-79.1253,United States,US,USA,New York,,6687.0,1840058164,HanoverGermany,1,215,599163.8384,HanoverGermany
+341,,Nice,France,,,238.0,40.99,59.01,,,,Nice,Nice,43.7034,7.2663,France,FR,FRA,Provence-Alpes-Côte d’Azur,minor,1006402.0,1250774553,NiceFrance,1,291,733094.7033,NiceFrance
+342,,Bonn,Germany,,,240.0,40.49,59.51,,,,Bonn,Bonn,50.7339,7.0997,Germany,DE,DEU,North Rhine-Westphalia,minor,327258.0,1276807850,BonnGermany,1,136,391960.7736,BonnGermany
+343,,Karlsruhe,Germany,,,260.0,38.82,61.18,,,,Karlsruhe,Karlsruhe,49.0167,8.4,Germany,DE,DEU,Baden-Württemberg,minor,313092.0,1276923210,KarlsruheGermany,1,120,286982.3704,KarlsruheGermany
+344,,Katowice,Poland,,,274.0,37.70,62.30,100.0,70.77,126.02,Katowice,Katowice,50.25,19.0,Poland,PL,POL,Śląskie,admin,276499.0,1616798495,KatowicePoland,1,589,1526062.2380000001,KatowicePoland
+345,,Uppsala,Sweden,,,277.0,37.35,62.65,,,,Uppsala,Uppsala,59.8498,17.6389,Sweden,SE,SWE,Uppsala,admin,165456.0,1752953686,UppsalaSweden,1,35,109541.9871,UppsalaSweden
+346,,Uppsala,Sweden,,,277.0,37.35,62.65,,,,Uppsala,Uppsala,59.8601,17.64,Sweden,SE,SWE,Stockholm,,133117.0,1752330831,UppsalaSweden,1,35,109541.9871,UppsalaSweden
+347,,Cagliari,Italy,,,287.0,36.30,63.70,,,,Cagliari,Cagliari,39.2167,9.1167,Italy,IT,ITA,Sardegna,admin,154106.0,1380685705,CagliariItaly,1,64,251634.63100000002,CagliariItaly
+348,,Oulu,Finland,,,289.0,36.02,63.98,,,,Oulu,Oulu,65.0142,25.4719,Finland,FI,FIN,Pohjois-Pohjanmaa,admin,200526.0,1246093273,OuluFinland,1,37,83504.8349,OuluFinland
+349,,Jaipur,India,,,299.0,34.58,65.42,153.0,61.97,106.88,Jaipur,Jaipur,26.9167,75.8667,India,IN,IND,Rājasthān,admin,3073350.0,1356293537,JaipurIndia,1,341,3607260.673,JaipurIndia
+350,,Jaipur,India,,,299.0,34.58,65.42,153.0,61.97,106.88,Jaipur,Jaipur,26.9167,75.8667,India,IN,IND,Rājasthān,admin,3073350.0,1356293537,JaipurIndia,1,4,85488.08423,JaipurIndia
+351,,Split,Croatia,,,302.0,34.38,65.62,276.0,35.61,63.63,Split,Split,43.51,16.45,Croatia,HR,HRV,Splitsko-Dalmatinska Županija,admin,178102.0,1191440208,SplitCroatia,1,76,218496.824,SplitCroatia
+352,,Puerto Vallarta,Mexico,,,306.0,34.13,65.87,167.0,59.96,102.88,Puerto Vallarta,Puerto Vallarta,20.6667,-105.2667,Mexico,MX,MEX,Jalisco,minor,221200.0,1484408906,Puerto VallartaMexico,1,49,241188.03600000002,PuertoVallartaMexico
+353,,Hobart,Australia,,,317.0,32.47,67.53,348.0,13.87,23.29,Hobart,Hobart,-42.8806,147.325,Australia,AU,AUS,Tasmania,admin,240342.0,1036679838,HobartAustralia,1,40,71987.73472000001,HobartAustralia
+354,,Hobart,Australia,,,317.0,32.47,67.53,348.0,13.87,23.29,Hobart,Hobart,41.5139,-87.2729,United States,US,USA,Indiana,,27939.0,1840007093,HobartAustralia,1,40,71987.73472000001,HobartAustralia
+355,,Hobart,Australia,,,317.0,32.47,67.53,348.0,13.87,23.29,Hobart,Hobart,44.4967,-88.1602,United States,US,USA,Wisconsin,,10082.0,1840038100,HobartAustralia,1,40,71987.73472000001,HobartAustralia
+356,,Hobart,Australia,,,317.0,32.47,67.53,348.0,13.87,23.29,Hobart,Hobart,47.412,-121.99600000000001,United States,US,USA,Washington,,7262.0,1840017344,HobartAustralia,1,40,71987.73472000001,HobartAustralia
+357,,Vadodara,India,,,322.0,31.89,68.11,140.0,63.81,110.10,Vadodara,Vadodara,22.3,73.2,India,IN,IND,Gujarāt,,2065771.0,1356705249,VadodaraIndia,1,228,2113534.615,VadodaraIndia
+358,,Nuremberg,Germany,,,336.0,30.50,69.50,,,,Nuremberg,Nuremberg,49.4539,11.0775,Germany,DE,DEU,Bavaria,minor,518365.0,1276166609,NurembergGermany,1,191,591934.8593,NurembergGermany
+359,,Freiburg im Breisgau,Germany,,,338.0,30.43,69.57,,,,Freiburg im Breisgau,Freiburg im Breisgau,47.9947,7.8497,Germany,DE,DEU,Baden-Württemberg,minor,230241.0,1276371228,Freiburg im BreisgauGermany,1,49,179911.575,FreiburgimBreisgauGermany
+360,,Guelph,Canada,,,340.0,30.04,69.96,,,,Guelph,Guelph,43.55,-80.25,Canada,CA,CAN,Ontario,,131794.0,1124968815,GuelphCanada,1,55,105741.3116,GuelphCanada
+361,,Dresden,Germany,,,344.0,29.74,70.26,,,,Dresden,Dresden,51.05,13.74,Germany,DE,DEU,Saxony,admin,556549.0,1276561036,DresdenGermany,1,178,513723.148,DresdenGermany
+362,,Havana,Cuba,,,348.0,29.06,70.94,,,,Havana,Havana,23.1367,-82.3589,Cuba,CU,CUB,La Habana,primary,2141652.0,1192752771,HavanaCuba,1,432,1839558.493,HavanaCuba
+363,,Utrecht,Netherlands,,,363.0,27.76,72.24,297.0,30.53,51.97,Utrecht,Utrecht,52.0908,5.1222,Netherlands,NL,NLD,Utrecht,admin,640000.0,1528871692,UtrechtNetherlands,1,124,445244.7846,UtrechtNetherlands
+364,,Aalborg,Denmark,,,382.0,25.84,74.16,,,,Aalborg,Aalborg,57.0337,9.9166,Denmark,DK,DNK,Nordjylland,admin,122219.0,1208789278,AalborgDenmark,1,49,100079.484,AalborgDenmark
+365,,Graz,Austria,,,386.0,25.56,74.44,,,,Graz,Graz,47.0749,15.4409,Austria,AT,AUT,Steiermark,admin,263234.0,1040184559,GrazAustria,1,73,261476.1936,GrazAustria
+366,,Tampere,Finland,,,407.0,21.99,78.01,,,,Tampere,Tampere,61.4981,23.7608,Finland,FI,FIN,Pirkanmaa,admin,225118.0,1246964318,TampereFinland,1,52,134672.7674,TampereFinland
+367,,Tartu,Estonia,,,410.0,21.72,78.28,,,,Tartu,Tartu,58.38,26.7225,Estonia,EE,EST,Tartumaa,admin,91407.0,1233809410,TartuEstonia,1,29,89594.2323,TartuEstonia
+368,,Groningen,Netherlands,,,414.0,20.94,79.06,,,,Groningen,Groningen,53.2167,6.5667,Netherlands,NL,NLD,Groningen,admin,201462.0,1528295161,GroningenNetherlands,1,44,163386.0219,GroningenNetherlands
+369,,Groningen,Netherlands,,,414.0,20.94,79.06,,,,Groningen,Groningen,5.797000000000001,-55.481,Suriname,SR,SUR,Saramacca,admin,3216.0,1740072928,GroningenNetherlands,1,44,163386.0219,GroningenNetherlands
+370,,Yakutsk,Russia,,,417.0,20.13,79.87,,,,Yakutsk,Yakutsk,62.0272,129.7319,Russia,RU,RUS,Sakha (Yakutiya),admin,307911.0,1643163546,YakutskRussia,1,90,215983.8701,YakutskRussia
+371,,Maribor,Slovenia,,,419.0,19.56,80.44,,,,Maribor,Maribor,46.55,15.6333,Slovenia,SI,SVN,Maribor,admin,96211.0,1705454394,MariborSlovenia,1,23,78466.63378999999,MariborSlovenia
+372,,Bern,Switzerland,,,420.0,18.94,81.06,,,,Bern,Bern,46.948,7.4474,Switzerland,CH,CHE,Bern,primary,133798.0,1756374318,BernSwitzerland,1,67,197760.937,BernSwitzerland
+373,,Bern,Switzerland,,,420.0,18.94,81.06,,,,Bern,Bern,40.4005,-75.9933,United States,US,USA,Pennsylvania,,6921.0,1840145744,BernSwitzerland,1,67,197760.937,BernSwitzerland
+374,,Patna,India,,,,,,22.0,89.20,161.95,Patna,Patna,25.61,85.1414,India,IN,IND,Bihār,admin,1684222.0,1356821429,PatnaIndia,1,156,2771973.202,PatnaIndia
+375,,Patna,India,,,,,,22.0,89.20,161.95,Patna,Patna,25.61,85.1414,India,IN,IND,Bihār,admin,1684222.0,1356821429,PatnaIndia,1,3,59286.39562999999,PatnaIndia
+376,,Chelyabinsk,Russia,,,,,,26.0,88.24,159.51,Chelyabinsk,Chelyabinsk,55.15,61.4,Russia,RU,RUS,Chelyabinskaya Oblast’,admin,1202371.0,1643224011,ChelyabinskRussia,1,301,1034760.1309999999,ChelyabinskRussia
+377,,Raipur,India,,,,,,28.0,87.36,157.97,Raipur,Raipur,21.2379,81.6337,India,IN,IND,Chhattīsgarh,admin,1010087.0,1356374983,RaipurIndia,1,191,1435493.801,RaipurIndia
+378,,Amritsar,India,,,,,,30.0,86.04,154.16,Amritsar,Amritsar,31.6167,74.85,India,IN,IND,Punjab,,1132383.0,1356926507,AmritsarIndia,1,150,1209648.601,AmritsarIndia
+379,,Krasnoyarsk,Russia,,,,,,33.0,84.88,162.01,Krasnoyarsk,Krasnoyarsk,56.0167,92.8667,Russia,RU,RUS,Krasnoyarskiy Kray,admin,1083865.0,1643544975,KrasnoyarskRussia,1,219,870276.4534,KrasnoyarskRussia
+380,,Taichung,Taiwan,,,,,,36.0,84.27,151.39,Taichung,Taichung,24.15,120.6667,Taiwan,TW,TWN,Taichung,admin,2803894.0,1158689622,TaichungTaiwan,1,329,2223136.991,TaichungTaiwan
+381,,Gwalior,India,,,,,,40.0,83.01,147.44,Gwalior,Gwalior,26.215,78.1931,India,IN,IND,Madhya Pradesh,,1101981.0,1356363967,GwaliorIndia,1,107,1525100.781,GwaliorIndia
+382,,Faisalabad,Pakistan,,,,,,44.0,82.73,147.84,Faisalabad,Faisalabad,31.418000000000003,73.079,Pakistan,PK,PAK,Punjab,minor,3203846.0,1586323916,FaisalabadPakistan,1,403,3563007.334,FaisalabadPakistan
+383,,Meerut,India,,,,,,47.0,81.43,144.64,Meerut,Meerut,28.99,77.7,India,IN,IND,Uttar Pradesh,,1305429.0,1356390476,MeerutIndia,1,238,2145646.96,MeerutIndia
+384,,Jalandhar,India,,,,,,50.0,80.51,143.34,Jalandhar,Jalandhar,31.3256,75.5792,India,IN,IND,Punjab,,873725.0,1356494816,JalandharIndia,1,132,992193.2048,JalandharIndia
+385,,Brescia,Italy,,,,,,69.0,76.58,138.33,Brescia,Brescia,45.5389,10.2203,Italy,IT,ITA,Lombardy,minor,196745.0,1380432555,BresciaItaly,1,57,190608.777,BresciaItaly
+386,,Bishkek,Kyrgyzstan,,,,,,86.0,73.38,137.08,Bishkek,Bishkek,42.8667,74.5667,Kyrgyzstan,KG,KGZ,Bishkek,primary,1027200.0,1417191971,BishkekKyrgyzstan,1,156,1119914.838,BishkekKyrgyzstan
+387,,Suzhou,China,,,,,,87.0,73.26,135.95,Suzhou,Suzhou,33.6333,116.9683,China,CN,CHN,Anhui,,5690000.0,1156871297,SuzhouChina,1,59,428504.5055,SuzhouChina
+388,,Suzhou,China,,,,,,87.0,73.26,135.95,Suzhou,Suzhou,33.6333,116.9683,China,CN,CHN,Anhui,,5690000.0,1156871297,SuzhouChina,1,1893,8625178.956,SuzhouChina
+389,,Suzhou,China,,,,,,87.0,73.26,135.95,Suzhou,Suzhou,31.304000000000002,120.6164,China,CN,CHN,Jiangsu,minor,5250000.0,1156029196,SuzhouChina,1,59,428504.5055,SuzhouChina
+390,,Suzhou,China,,,,,,87.0,73.26,135.95,Suzhou,Suzhou,31.304000000000002,120.6164,China,CN,CHN,Jiangsu,minor,5250000.0,1156029196,SuzhouChina,1,1893,8625178.956,SuzhouChina
+391,,Chengdu,China,,,,,,90.0,72.97,132.76,Chengdu,Chengdu,30.66,104.0633,China,CN,CHN,Sichuan,admin,11309000.0,1156421555,ChengduChina,1,1326,9318649.156,ChengduChina
+392,,Peshawar,Pakistan,,,,,,96.0,71.76,127.32,Peshawar,Peshawar,34.0,71.5,Pakistan,PK,PAK,Khyber Pakhtunkhwa,admin,1970042.0,1586851102,PeshawarPakistan,1,367,2764733.937,PeshawarPakistan
+393,,Bandung,Indonesia,,,,,,112.0,67.58,116.99,Bandung,Bandung,-6.95,107.5667,Indonesia,ID,IDN,Jawa Barat,admin,2394873.0,1360313023,BandungIndonesia,1,1014,8181546.409,BandungIndonesia
+394,,Hangzhou,China,,,,,,113.0,67.52,125.47,Hangzhou,Hangzhou,30.25,120.1675,China,CN,CHN,Zhejiang,admin,6446000.0,1156275243,HangzhouChina,1,1679,7527414.364,HangzhouChina
+395,,Jammu,India,,,,,,125.0,66.01,114.11,Jammu,Jammu,32.7333,74.85,India,IN,IND,Jammu and Kashmīr,,502197.0,1356491738,JammuIndia,1,134,1021219.178,JammuIndia
+396,,Jabalpur,India,,,,,,128.0,65.42,113.47,Jabalpur,Jabalpur,23.1667,79.9333,India,IN,IND,Madhya Pradesh,,1267564.0,1356115460,JabalpurIndia,1,119,1609651.2280000001,JabalpurIndia
+397,,Plovdiv,Bulgaria,,,,,,166.0,60.14,109.76,Plovdiv,Plovdiv,42.1433,24.7489,Bulgaria,BG,BGR,Plovdiv,admin,340494.0,1100436706,PlovdivBulgaria,1,54,309003.8067,PlovdivBulgaria
+398,,Jamshedpur,India,,,,,,186.0,56.54,98.18,Jamshedpur,Jamshedpur,22.8,86.1833,India,IN,IND,Jharkhand,,1558000.0,1356501259,JamshedpurIndia,1,150,1765134.909,JamshedpurIndia
+399,,Udaipur,India,,,,,,192.0,55.84,99.00,Udaipur,Udaipur,24.5833,73.6833,India,IN,IND,Rājasthān,,451100.0,1356266094,UdaipurIndia,1,106,847233.0923,UdaipurIndia
+400,,Udaipur,India,,,,,,192.0,55.84,99.00,Udaipur,Udaipur,24.5833,73.6833,India,IN,IND,Rājasthān,,451100.0,1356266094,UdaipurIndia,1,41,186837.3428,UdaipurIndia
+401,,Surabaya,Indonesia,,,,,,196.0,55.29,93.82,Surabaya,Surabaya,-7.2458,112.7378,Indonesia,ID,IDN,Jawa Timur,admin,4975000.0,1360484663,SurabayaIndonesia,1,1751,8352589.504,SurabayaIndonesia
+402,,Shimla,India,,,,,,221.0,48.98,83.58,Shimla,Shimla,31.1033,77.1722,India,IN,IND,Himāchal Pradesh,admin,206575.0,1356962932,ShimlaIndia,1,13,216059.4126,ShimlaIndia
