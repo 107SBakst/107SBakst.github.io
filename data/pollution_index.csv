@@ -36,14 +36,14 @@
 34,35,Cebu, Philippines,84.33,150.72
 35,36,Taichung, Taiwan,84.27,151.39
 36,37,Agra, India,83.19,148.50
-37,38,Bangalore, India,83.14,147.87
-38,39,Gwalior, India,83.01,147.44
-39,40,Mumbai, India,83.01,147.60
-40,41,Beijing, China,82.96,147.96
-41,42,Quezon City, Philippines,82.89,148.39
+37,38,Bangalore, India,83.19,147.96
+38,39,Mumbai, India,83.09,147.74
+39,40,Gwalior, India,83.01,147.44
+40,41,Quezon City, Philippines,82.89,148.39
+41,42,Beijing, China,82.76,147.54
 42,43,Skopje, North Macedonia,82.75,157.10
 43,44,Faisalabad, Pakistan,82.73,147.84
-44,45,Mexico City, Mexico,82.57,148.69
+44,45,Mexico City, Mexico,82.41,148.43
 45,46,Casablanca, Morocco,82.25,147.23
 46,47,Meerut, India,81.43,144.64
 47,48,Tehran, Iran,81.34,153.33
@@ -167,7 +167,7 @@
 165,166,Plovdiv, Bulgaria,60.14,109.76
 166,167,Puerto Vallarta, Mexico,59.96,102.88
 167,168,Gdynia, Poland,59.94,101.86
-168,169,Izmir, Turkey,59.16,100.84
+168,169,Izmir, Turkey,59.12,100.76
 169,170,Bhopal, India,58.97,102.61
 170,171,Gdansk, Poland,58.92,100.06
 171,172,Seoul, South Korea,58.75,107.00
@@ -267,10 +267,10 @@
 265,266,Toronto, Canada,37.81,62.37
 266,267,Riga, Latvia,37.72,62.60
 267,268,Winnipeg, Canada,37.02,61.52
-268,269,Queretaro, Mexico,36.93,60.98
-269,270,Frankfurt, Germany,36.74,61.74
-270,271,Honolulu," HI, United States",36.66,61.48
-271,272,Austin," TX, United States",36.50,62.17
+268,269,Frankfurt, Germany,36.74,61.74
+269,270,Honolulu," HI, United States",36.66,61.48
+270,271,Austin," TX, United States",36.50,62.17
+271,272,Queretaro, Mexico,36.49,59.91
 272,273,Muscat, Oman,36.31,58.16
 273,274,Nashville," TN, United States",35.71,59.51
 274,275,Glasgow, United Kingdom,35.69,62.39
