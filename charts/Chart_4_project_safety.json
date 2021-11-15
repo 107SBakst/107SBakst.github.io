@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/merge_health_crime_pollution_pop_eu.csv"},
+    "transform": [
+    {"filter": "datum.population > 8000000"},
+    {"filter": "datum.Safety_index > 1"},
+    {"filter": "datum.density < 50000"}   
+  ],
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true},
+  "height": 400,
+  "width": 600,
+      "encoding": {
+        "x": {"field": "population", "type": "quantitative", "axis": {"grid": false}},
+        "y": {"field": "Safety_index", "type": "quantitative",
+        "axis": {"grid": false}},
+"tooltip": {"field": "City", "type": "nominal"},
+"size": {"field": "density", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+      "transform": [
+        {"regression": "Safety_index", "on": "population"}
+      ],
+      "encoding": {
+        "x": {"field": "population", "type": "quantitative"},
+        "y": {"field": "Safety_index", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Safety_index",
+          "on": "population",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -10
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ]
+}
