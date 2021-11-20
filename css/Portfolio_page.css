@@ -135,7 +135,7 @@
 
   #monetary_policy_story {
     background-color: #e4dad1;
-    min-width: 890px;
+    min-width: 860px;
     border: rgb(111, 169, 236);
     border-style: solid;
     border-width: 2px;
@@ -150,6 +150,7 @@
     margin-left: 10px;
   }
 
-  #chart12para {
-    
+  #chart12_para {
+    max-width: 800px;
+    margin-left: 10px;
   }
