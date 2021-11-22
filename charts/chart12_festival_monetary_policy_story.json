@@ -1,35 +1,61 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "UK Base rate.",
-    "subtitle": "Bank of England base rate and inflation rate since Q1 1989",
-    "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
-    "anchor": "start",
-    "color": "black"
-  },
-  "width": 710,
-  "height": 500,
-  "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_week8_Inflation_base_rate_data.csv",
-  "format": {"type": "csv"}},
-  "transform": [{"filter": "datum.CPI_inflation_rate > 0"}
-    ],
-  "encoding": {
-    "x": {"field": "Date", "type": "temporal", "title": "Quarterley date (1989 - 2021)", "axis": {"grid": false}},
-    "y": {"type": "quantitative", "axis": {"title": "Percentage (%)", "grid": false}, "field": "CPI_inflation_rate"}
-  },
-  "layer": [
-    {
-      "mark": {"type": "line", "opacity": 0.5},
-      "encoding": {
-        "y": {"field": "CPI_inflation_rate", "title": "Inflation rate"}
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "UK Base rate.",
+      "subtitle": "Bank of England base rate and inflation rate since Q1 1989",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "width": 710,
+    "height": 500,
+    "data": {
+      "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_week8_Inflation_base_rate_data.csv",
+      "format": {"type": "csv"}
+    },
+    "transform": [{"filter": "datum.CPI_inflation_rate > 0"}],
+    "encoding": {
+      "x": {
+        "field": "Date",
+        "type": "temporal",
+        "title": "Quarterley date (1989 - 2021)",
+        "axis": {"grid": false}
+      },
+      "y": {
+        "type": "quantitative",
+        "axis": {"title": "Percentage (%)", "grid": false},
+        "field": "CPI_inflation_rate"
       }
     },
-    {
-      "mark": {"type": "line", "color": "darkgrey", "size": 1},
-      "encoding": {
-        "y": {"field": "Quarterly_average_of_official_Bank_Rate_IUQABEDR", "title": "Base rate"}
-      }
-    }
-  ]
-}
+    "layer": [
+      {
+        "mark": {"type": "line", "opacity": 0.5},
+        "encoding": {
+          "y": {"field": "CPI_inflation_rate", "title": "Inflation rate"}
+        }
+      },
+      {
+        "mark": {"type": "line", "color": "darkgrey", "size": 1},
+        "encoding": {
+          "y": {
+            "field": "Quarterly_average_of_official_Bank_Rate_IUQABEDR",
+            "title": "Base rate"
+          }
+        }
+      },
+          {
+          "mark": "rule",
+    "encoding": {
+      "y": {
+        "field": "rules",
+        "type": "quantitative",
+        "aggregate": "min"
+      },
+      "size": {"value": 5},
+      "opacity": {"value": 0.1},
+      "color": {"field": "symbol", "type": "nominal"}
+          }
+        }
+    ]
+  }
