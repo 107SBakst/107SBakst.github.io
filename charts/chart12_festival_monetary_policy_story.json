@@ -54,7 +54,7 @@
       },
       "size": {"value": 5},
       "opacity": {"value": 0.1},
-      "color": {"field": "symbol", "type": "nominal"}
+      "color": {"field": "light", "type": "nominal"}
           }
         }
     ]
