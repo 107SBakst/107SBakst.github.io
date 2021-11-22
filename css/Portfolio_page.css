@@ -5,10 +5,7 @@
     font-family: Cambria, Georgia;
     font-size: 25px;
   }
-  .pagelinks {
-    color: rgb( 54, 117, 136);
-    font-family: Cambria, Georgia;
-  }
+
    
   p, 
   li {
@@ -19,7 +16,9 @@
    
   a {
     text-decoration: none;
-    color: rgb( 54, 117, 136);
+    color: rgba(33, 63, 231, 0.705);
+    font-family: Cambria, Georgia;
+    size: 50px;
   }
 
   
@@ -158,13 +157,19 @@
   }
 
   .button {
-    background: rgb(0,172,238);
-  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
-    width: 130px;
+    background: rgb(136, 172, 224);
+  background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+    width: 100px;
     height: 40px;
     line-height: 42px;
     padding: 0;
     border: none;
+    font-family: Cambria, Georgia;
+    color: rgb( 54, 117, 136);
+    font-size: 16px;
+    margin-left: 2px;
+    margin-right: 2px;
+
     
   }
   .button span {
@@ -179,7 +184,7 @@
     content: "";
     right: 0;
     top: 0;
-     background: rgba(2,126,251,1);
+     background: rgb(85, 79, 167);
     transition: all 0.3s ease;
   }
   .button:before {
@@ -201,7 +206,7 @@
     width: 100%;
   }
   .button span:hover{
-     color: rgba(2,126,251,1);
+     color: rgba(171, 200, 245, 0.774);
   }
   .button span:before,
   .button span:after {
@@ -209,7 +214,7 @@
     content: "";
     left: 0;
     bottom: 0;
-     background: rgba(2,126,251,1);
+     background: rgb(85,79,167);
     transition: all 0.3s ease;
   }
   .button span:before {
@@ -225,4 +230,14 @@
   }
   .button span:hover:after {
     width: 100%;
+  }
+
+  .pagelinks {
+    color: rgb( 54, 117, 136);
+    font-family: Cambria, Georgia;
+    size: 50px;
+  }
+
+  #methodology_and_information_button {
+    width: 200px;
   }
