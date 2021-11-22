@@ -159,8 +159,8 @@
   .button {
     background: rgb(136, 172, 224);
   background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
-    width: 100px;
-    height: 40px;
+    min-width: 100px;
+    min-height: 40px;
     line-height: 42px;
     padding: 0;
     border: none;
