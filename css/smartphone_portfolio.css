@@ -1,14 +1,13 @@
 
     .website_name {
       width: auto;
-      font-size: 26px;
+      font-size: 35px;
     }
 
     .portfolio_page_name {
         color: rgb(85, 79, 167);
         font-family: Cambria, Georgia;
         font-size: 26px;
-        margin-left: 5px;
         width: auto;
       }
     
