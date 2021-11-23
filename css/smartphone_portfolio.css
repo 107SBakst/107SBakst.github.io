@@ -44,6 +44,12 @@
           max-width: 475px;
           margin-right: 5px;
       }
+
+      .head_plus_chart {
+        size-adjust: 100%;
+        width: fit-content;
+        height: fit-content;
+      }
     
       .chart {
         height: 100%;
@@ -84,7 +90,7 @@
     
       #emissions_dashboard {
         background-color: #e4dad1;
-        min-width: auto;
+        width: 375px;
         border: rgb(111, 169, 236);
         border-style: solid;
         border-width: 2px;
@@ -143,24 +149,23 @@
     
       #monetary_policy_story {
         background-color: #e4dad1;
-        min-width: auto;
+        width: 375px;
         border: rgb(111, 169, 236);
         border-style: solid;
-        border-width: auto;
-        margin-left: auto;
+        border-width: 0.5px;
+        margin-left: 0.9px;
         }
     
       #chart12head {
-        margin-left: auto;
-        max-width: auto;
+        max-width: 370px;
       }
     
       #chart12 {
-        margin-left: auto;
+        width: 370px;
       }
     
       #chart12_para {
-        max-width: auto;
+        max-width: 370px;
         margin-left: 1px;
         margin-right: 1px;
       }
