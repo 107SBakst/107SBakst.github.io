@@ -23,8 +23,7 @@
     }
   ],
   "mark": "point",
-  "height": 400,
-  "width": 600,
+  "autosize": "fit-x",
   "encoding": {
     "x": {
       "field": "population_density_by_city_Population_density_by_city",
