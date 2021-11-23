@@ -149,27 +149,17 @@
     
       #monetary_policy_story {
         background-color: #e4dad1;
+        height: 100%;
         width: 375px;
         border: rgb(111, 169, 236);
         border-style: solid;
         border-width: 0.5px;
-        margin-left: 0.9px;
         }
     
-      #chart12head {
-        max-width: 370px;
-      }
-    
       #chart12 {
-        width: 370px;
+        height: 600px;
+        width: 375px;
       }
-    
-      #chart12_para {
-        max-width: 370px;
-        margin-left: 1px;
-        margin-right: 1px;
-      }
-    
       .button {
         background: rgb(136, 172, 224);
       background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
