@@ -1,26 +1,274 @@
 
     .website_name {
-      width: 30px;
+      width: 480px;
       margin-left: 50px;
     }
-  
-    .project-card{
-      width: 17em;
-    }
-  
-    .welcome{
-      height: 50vh;
+
+    .portfolio_page_name {
+        color: rgb(85, 79, 167);
+        font-family: Cambria, Georgia;
+        font-size: 25px;
       }
-  
-    .nav-item{
-      width: 100%;
-    }
-  
-   .about-overflow{
-     padding-right: 10px;
-     padding-left: 5px;
-     flex-flow: column nowrap;
-     align-content: center;
-     align-items: center;
-     justify-items: space-around;
-   }
+    
+    
+       
+      p, 
+      li {
+        font-size: 18px;
+        font-family:Cambria, Cochin, Georgia, serif;
+      }
+       
+       
+      a {
+        text-decoration: none;
+        color: rgba(33, 63, 231, 0.705);
+        font-family: Cambria, Georgia;
+        size: 50px;
+      }
+    
+      
+      h1 {
+        font-family: Cambria, Georgia;
+        font-size: 60px;
+        color: rgb(136, 172, 224);
+      }
+    
+      .chart_head {
+          font-weight: bold;
+          color: rgb(44, 44, 44);
+          font-size: 16px;
+          font-family: Cambria, Georgia;
+          max-width: 450px;
+      }
+    
+      .chart {
+        height: auto;
+        width: auto;
+      }
+    
+      #chart5head {
+        max-width: 700px;
+      }
+    
+      #chart7head {
+        max-width: 700px;
+        text-align: justify;
+      }
+      #chart6head {
+        max-width: 700px;
+        text-align: justify;
+      }
+      #chart9head {
+        max-width: 700px;
+        text-align: justify;
+      }
+      #chart10head {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      body {
+        background-color: rgba(211, 211, 211);
+        font-family: Verdana, sans-serif;
+        font-size: 16px;
+        color: rgb(44, 44, 44);
+        margin:auto;
+        max-width: 600px;
+        text-align: justify;
+      }
+    
+      #emissions_dashboard {
+        background-color: #e4dad1;
+        min-width: 890px;
+        border: rgb(111, 169, 236);
+        border-style: solid;
+        border-width: 2px;
+        margin-left: -70px;
+        }
+    
+      #chart10sub {
+        font-weight: bold;
+        color: rgb(44, 44, 44);
+        font-size: 12px;
+        font-family: italic;
+        max-width: 450px;
+        display: block;
+        margin-left: 280px;
+        margin-right: auto;
+        width: 50%;
+      }
+    
+      
+    
+      #chart10a {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    
+      #chart10b {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    
+      #chart10c {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    
+      #chart10d {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    
+      #chart11 {
+        display: block;
+        margin-left: -400px;
+        margin-right: auto;
+        width: 50%;
+    
+      }
+    
+      #monetary_policy_story {
+        background-color: #e4dad1;
+        min-width: 860px;
+        border: rgb(111, 169, 236);
+        border-style: solid;
+        border-width: 2px;
+        margin-left: -70px;
+        }
+    
+      #chart12head {
+        margin-left: 20px;
+        max-width: 500px;
+      }
+    
+      #chart12 {
+        margin-left: 20px;
+      }
+    
+      #chart12_para {
+        max-width: 831px;
+        margin-left: 20px;
+        margin-right: 1px;
+      }
+    
+      .button {
+        background: rgb(136, 172, 224);
+      background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+        min-width: 100px;
+        min-height: 40px;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+        font-family: Cambria, Georgia;
+        color: rgb( 54, 117, 136);
+        font-size: 16px;
+        margin-left: 1px;
+        margin-right: 1px;
+        font-weight: bold;
+    
+        
+      }
+      .button span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .button:before,
+      .button:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: 0;
+         background: rgb(85, 79, 167);
+        transition: all 0.3s ease;
+      }
+      .button:before {
+        height: 0%;
+        width: 2px;
+      }
+      .button:after {
+        width: 0%;
+        height: 2px;
+      }
+      .button:hover{
+         background: transparent;
+        box-shadow: none;
+      }
+      .button:hover:before {
+        height: 100%;
+      }
+      .button:hover:after {
+        width: 100%;
+      }
+      .button span:hover{
+         color: rgba(171, 200, 245, 0.774);
+      }
+      .button span:before,
+      .button span:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+         background: rgb(85,79,167);
+        transition: all 0.3s ease;
+      }
+      .button span:before {
+        width: 2px;
+        height: 0%;
+      }
+      .button span:after {
+        width: 0%;
+        height: 2px;
+      }
+      .button span:hover:before {
+        height: 100%;
+      }
+      .button span:hover:after {
+        width: 100%;
+      }
+    
+      .pagelinks {
+        color: rgb( 54, 117, 136);
+        font-family: Cambria, Georgia;
+        size: 50px;
+      }
+    
+      #methodology_and_information_button {
+        width: 200px;
+      }
+      #urban_stories_button {
+        width: 110px;
+      }
+    
+      @media all and (max-width: 800px) {
+    
+        .website_name{
+        height: 50vh;
+        }
+      
+        .nav-item{
+          width: 100%;
+        }
+      
+       .about-overflow{
+         padding-right: 10px;
+         padding-left: 5px;
+        flex-flow: column nowrap;
+        align-content: center;
+        align-items: center;
+        justify-items: space-around;
+       }
+      
+      
+      }
