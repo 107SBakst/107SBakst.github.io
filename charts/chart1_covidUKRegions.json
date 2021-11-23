@@ -15,12 +15,7 @@
     "color": "black"
   },
 
-  "autosize": "fit",
-
-  "height": "container",
-  
-  "width": "container",
-  
+  "autosize": "fit",  
   "mark": {"type": "bar", "width":10},
   
   "selection": {
