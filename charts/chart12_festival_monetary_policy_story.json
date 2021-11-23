@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "autosize": "fit",
+    "autosize": "fit-x",
     "title": {
       "text": "UK Base rate.",
       "subtitle": "Bank of England base rate and inflation rate since Q1 1989",
