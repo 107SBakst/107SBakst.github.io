@@ -1,5 +1,4 @@
-@media all and (max-width: 500px) {
-  
+
     .website_name {
       width: 30px;
       margin-left: 50px;
@@ -25,5 +24,3 @@
      align-items: center;
      justify-items: space-around;
    }
-  
-  }
