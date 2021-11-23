@@ -46,14 +46,14 @@
       }
 
       .head_plus_chart {
-        size-adjust: 100%;
-        width: fit-content;
-        height: fit-content;
+        size-adjust: auto;
+        width: auto;
+        height: auto;
       }
     
       .chart {
-        height: 100%;
-        width: 100%;
+        height: auto;
+        width: auto;
       }
     
       #chart5head {
@@ -146,11 +146,13 @@
         width: 50%;
     
       }
+      #chart12_para {
+          width: auto;
+          height: auto;
+      }
     
       #monetary_policy_story {
         background-color: #e4dad1;
-        height: 100%;
-        width: 375px;
         border: rgb(111, 169, 236);
         border-style: solid;
         border-width: 0.5px;
