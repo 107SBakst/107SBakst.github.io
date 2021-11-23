@@ -15,11 +15,11 @@
     "color": "black"
   },
 
+  "autosize": "fit",
 
-
-  "height": 500,
+  "height": "container",
   
-  "width": 710,
+  "width": "container",
   
   "mark": {"type": "bar", "width":10},
   
