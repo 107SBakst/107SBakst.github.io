@@ -1,13 +1,14 @@
 
     .website_name {
       width: auto;
-      font-size: 10px;
+      font-size: 40px;
     }
 
     .portfolio_page_name {
         color: rgb(85, 79, 167);
         font-family: Cambria, Georgia;
-        font-size: 25px;
+        font-size: 26px;
+        margin-left: 5px;
       }
     
     
@@ -24,11 +25,11 @@
         color: rgba(33, 63, 231, 0.705);
         font-family: Cambria, Georgia;
         size: 10px;
-        width: auto;
+        width: 30px;
       }
     
       
-      h1 {
+      h2 {
         font-family: Cambria, Georgia;
         font-size: 10px;
         color: rgb(136, 172, 224);
@@ -38,14 +39,15 @@
       .chart_head {
           font-weight: bold;
           color: rgb(44, 44, 44);
-          font-size: 10px;
+          font-size: 14px;
           font-family: Cambria, Georgia;
-          max-width: auto;
+          max-width: 475px;
+          margin-right: 5px;
       }
     
       .chart {
-        height: auto;
-        width: auto;
+        height: 100%;
+        width: 100%;
       }
     
       #chart5head {
@@ -166,14 +168,14 @@
       .button {
         background: rgb(136, 172, 224);
       background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
-        min-width: auto;
-        min-height: auto;
+        min-width: 10px;
+        min-height: 10px;
         line-height: auto;
         padding: 0;
         border: none;
         font-family: Cambria, Georgia;
         color: rgb( 54, 117, 136);
-        font-size: 16px;
+        font-size: 11px;
         margin-left: 1px;
         margin-right: 1px;
         font-weight: bold;
