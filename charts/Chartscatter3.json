@@ -21,8 +21,8 @@
       "color":"rgb(0,67,167)",
       "opacity":0.6},
     
-    "height": 275,
-    "width": 275,
+    "height": 375,
+    "width": 335,
   
     "encoding": {
       "x": {
@@ -49,6 +49,7 @@
         "field": "PrisonRate", 
         "type": "quantitative",
         "title":"Prison Rate",
-        "scale": { "range": [5, 300]}}
+        "scale": { "range": [5, 300]},
+        "legend": {"orient": "bottom-left"}}
      }
   }
