@@ -1,6 +1,5 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "autosize": "fit-x",
     "title": {
       "text": "UK Base rate.",
       "subtitle": "Bank of England base rate and inflation rate since Q1 1989",
@@ -9,8 +8,8 @@
       "anchor": "start",
       "color": "black"
     },
-    "width": "container",
-    "height": "container",
+    "width": 340,
+    "height": 375,
     "data": {
       "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_week8_Inflation_base_rate_data.csv",
       "format": {"type": "csv"}
