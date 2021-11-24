@@ -1,8 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
-      "text": "Expected inflation in the US as measured by the median expected price change over the next 12 months.",
-      "subtitleFontStyle": "italic",
+      "text": "Expected inflation in the US.",
+    "fontSize": 10,
+    "subtitle": "As measured by the median expected price change over the next 12 months.",
+     "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
       "color": "black"
@@ -11,8 +13,8 @@
       "url": "https://www.alphavantage.co/query?function=INFLATION_EXPECTATION&apikey=OPI4CDQ0WDUIWS9D", "format": {
       "property": "data"
         }},
-    "height": 500,
-    "width": 710,
+    "height": 375,
+    "width": 340,
     "mark": {"type": "point"},
     "encoding": {
       "x": {
