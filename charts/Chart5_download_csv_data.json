@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Covid-19 new cases by specimen date",
-    "subtitle": "Sub-title here",
+    "subtitle": "Scatter plot of new cases for 3 local authorities.",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -16,8 +16,8 @@
 
     {"filter": {"field": "areaName", "oneOf": ["Barnet", "Bristol, City of", "Camden"]}}
   ],
-  "height": 500,
-  "width": 710,
+  "height": 375,
+  "width": 330,
   "mark": {"type": "point", "point": false},
   "encoding": {
     "x": {
