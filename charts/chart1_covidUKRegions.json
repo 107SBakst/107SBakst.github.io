@@ -15,7 +15,9 @@
     "color": "black"
   },
 
-  "autosize": "fit",  
+  "height": 375,
+  "width": 375,
+
   "mark": {"type": "bar", "width":10},
   
   "selection": {
