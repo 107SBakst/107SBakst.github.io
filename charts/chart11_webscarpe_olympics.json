@@ -7,8 +7,8 @@
     "subtitleFontWeight": "bolder"
   },
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Olympic.csv"},
-  "height": 300,
-  "width": 1510,
+  "height": 375,
+  "width": 330,
   "mark": "bar",
   "transform": [{"filter": "datum.Combined_total > 600"}],
   "encoding": {
