@@ -8,7 +8,7 @@
       "anchor": "start",
       "color": "black"
     },
-    "width": 340,
+    "width": 325,
     "height": 375,
     "data": {
       "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_week8_Inflation_base_rate_data.csv",
@@ -54,7 +54,7 @@
       },
       "size": {"value": 5},
       "opacity": {"value": 0.1},
-      "color": {"field": "light", "type": "nominal"}
+      "color": {"field": "light", "type": "nominal", "legend": {"orient": "top"}}
           }
         }
     ]
