@@ -147,8 +147,9 @@
     
       }
       #chart12_para {
-          width: auto;
-          height: auto;
+          max-width: 365px;
+          margin-left: 2px;
+          margin-right: 1px;
       }
     
       #monetary_policy_story {
@@ -159,8 +160,9 @@
         margin-left: 0px;
         }
       #chart12 {
-        height: auto;
-        width: auto;
+        height: 375px;
+        width: 325px;
+        margin-left: 1px;
       }
       .button {
         background: rgb(136, 172, 224);
