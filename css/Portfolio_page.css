@@ -132,6 +132,10 @@
 
   }
 
+  #chart11head {
+    max-width: 330px;
+  }
+
   #monetary_policy_story {
     background-color: #e4dad1;
     max-width: 400px;

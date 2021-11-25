@@ -145,6 +145,11 @@
         margin-right: auto
     
       }
+
+      #chart11head {
+        max-width: 330px;
+      }
+      
       #chart12_para {
           max-width: 365px;
           margin-left: 2px;
