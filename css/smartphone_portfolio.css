@@ -169,6 +169,13 @@
         margin-left: 0px;
         min-width: 0px;
         }
+
+        #header {
+          background-color: rgba(213, 235, 241, 0.582);
+          border-style: solid;
+          border-color: cornflowerblue;
+          border-width: 2px;
+    }
       #chart12 {
         height: 375px;
         width: 325px;
