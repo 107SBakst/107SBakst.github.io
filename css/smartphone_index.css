@@ -19,9 +19,13 @@
   li {
     font-size: 18px;
     font-family:Cambria, Cochin, Georgia, serif;
-    width: 375px;
   }
-   
+  .Information {
+    width: fit-content;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 20px;
+  }
    
   a {
     text-decoration: none;
@@ -40,13 +44,14 @@
     size: 0px;
   }
 
-  body {
+  .body {
     background-color: rgba(211, 211, 211);
     font-family: Verdana, sans-serif;
     font-size: 16px;
     color: rgb(44, 44, 44);
-    max-width: max-content;
+    max-width: none;
     text-align: justify;
+    margin: none;
   }
 
   .button {
