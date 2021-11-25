@@ -74,6 +74,9 @@
     text-align: justify;
   }
 
+  table {
+    
+  }
   #emissions_dashboard {
     background-color: #e4dad1;
     min-width: 890px;
