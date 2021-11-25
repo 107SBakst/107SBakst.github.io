@@ -127,9 +127,8 @@
 
   #chart11 {
     display: block;
-    margin-left: -400px;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 0px;
+    margin-right: auto
 
   }
 
