@@ -74,16 +74,14 @@
     text-align: justify;
   }
 
-  table {
-    
-  }
   #emissions_dashboard {
+    display: table;
     background-color: #e4dad1;
-    min-width: 890px;
+    min-width: 850px;
     border: rgb(111, 169, 236);
     border-style: solid;
     border-width: 2px;
-    margin-left: -70px;
+    margin-left: -190px;
     }
 
   #chart10sub {
@@ -102,30 +100,30 @@
 
   #chart10a {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px
   }
 
   #chart10b {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px
   }
 
   #chart10c {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px
   }
 
   #chart10d {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px
   }
 
   #chart11 {
