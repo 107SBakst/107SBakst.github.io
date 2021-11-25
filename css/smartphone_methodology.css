@@ -1,11 +1,15 @@
    
+  .website_name {
+        width: auto;
+        font-size: 35px;
+      }
   .methodology_and_information_page_name {
-    color: rgb(136, 172, 224);
+    color: rgb(85, 79, 167);
     font-family: Cambria, Georgia;
-    font-size: 65px;
+    font-size: 35px;
   }
   .pagelinks {
-    color: rgb(54, 117, 136);
+    color: rgb(85, 79, 167);
     font-family: Cambria, Georgia;
     font-size: 30px;
   }
@@ -46,7 +50,7 @@
     color: rgb(44, 44, 44);
     max-width: none;
     text-align: justify;
-    margin: none;
+    margin: unset;
   }
 
   .button {
