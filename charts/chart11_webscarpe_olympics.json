@@ -4,7 +4,8 @@
   "title": {
     "text": "Total Olympic medals by IOC teams.",
     "subtitle": "The chart shows teams with more than 600 medals.",
-    "subtitleFontWeight": "bolder"
+    "subtitleFontWeight": "lighter",
+    "subtitleFontSize": 10 
   },
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Olympic.csv"},
   "height": 375,
