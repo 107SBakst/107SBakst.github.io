@@ -4,6 +4,7 @@
     color: rgb(136, 172, 224);
     font-family: Cambria, Georgia;
     font-size: 75px;
+    margin-left: 10px;
   }
 
   .index_page_links {
@@ -29,6 +30,7 @@
    
   a {
     text-decoration: none;
+    margin-left: 0px;
     
     color: rgb( 54, 117, 136);
   }
@@ -65,7 +67,7 @@
     font-family: Cambria, Georgia;
     color: rgb( 54, 117, 136);
     font-size: 18px;
-    margin-left: 0px;
+    margin-left: none;
     margin-right: 0px;
     font-weight: bold;
       
@@ -137,8 +139,8 @@
   }
 
   #methodology_and_information_button {
-    width: 155px;
+    width: 320px;
   }
   #urban_stories_button {
-    width: 82px;
+    width: 210px;
   }
