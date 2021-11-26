@@ -1,13 +1,20 @@
-  
+  .web_name {
+    font-family: Cambria, Georgia;
+    font-size: 60px;
+    color: rgb(136, 172, 224);
+  }
    
-  .urban_stories_page_name {
+  .page_name {
     color: rgb(85, 79, 167);
     font-family: Cambria, Georgia;
     font-size: 25px;
   }
-  .pagelinks {
+  #page_links {
     color: rgb( 54, 117, 136);
     font-family: Cambria, Georgia;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 75px;
   }
    
   p, 
@@ -22,13 +29,6 @@
     color: rgb( 54, 117, 136);
     font-family: Cambria, Georgia;
     font-size: 16px;
-  }
-
-  
-  h1 {
-    font-family: Cambria, Georgia;
-    font-size: 60px;
-    color: rgb(136, 172, 224);
   }
 
   .chart_head {
@@ -48,8 +48,8 @@
 
   .button {
     background: rgb(136, 172, 224);
-  background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
-    max-width: 100px;
+    background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+    max-width: none;
     min-width: 75px;
     min-height: 40px;
     line-height: 42px;
@@ -57,8 +57,8 @@
     border: none;
     font-family: Cambria, Georgia;
     color: rgb( 54, 117, 136);
-    font-size: 16px;
-    margin-left: 1px;
+    font-size: 66px;
+    margin-left: 100px;
     margin-right: 1px;
     font-weight: bold;
 
