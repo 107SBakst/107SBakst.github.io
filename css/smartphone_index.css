@@ -1,13 +1,13 @@
   
    
-#web_page_name {
+    .web_name {
        width: auto;
        font-size: 95px;
        color: rgba(62, 22, 99, 0.377);
        font-family: Cambria, Georgia;
        margin-left: 50px;
       }
-.pagename {
+    .page_name {
         color: rgb(85, 79, 167);
         font-family: Cambria, Georgia;
         font-size: 40px;
@@ -15,7 +15,7 @@
         margin: none;
     }
 
-  .page_links {
+  #page_links {
     text-decoration: none;
     color: rgba(33, 63, 231, 0.705);
     font-family: Cambria, Georgia;
