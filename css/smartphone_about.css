@@ -13,15 +13,6 @@
        margin-left: 50px;
        margin: none;
     }
-    
-    #page_links {
-      text-decoration: none;
-      color: rgba(33, 63, 231, 0.705);
-      font-family: Cambria, Georgia;
-      font-size: 24px;
-      min-width: 60px;
-      margin-left: 40px;
-      }
     #header {
        background-color: rgba(213, 235, 241, 0.582);
        border-style: solid;
@@ -29,21 +20,33 @@
        border-width: 2px;
     }
     
-    .button {
-    background: rgb(136, 172, 224);
-    background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
-    min-width: 10px;
-    min-height: 10px;
-    line-height: auto;
-    padding: 0;
-    border: none;
-    font-family: Cambria, Georgia;
-    color: rgb( 54, 117, 136);
-    font-size: 24px;
-    margin-left: 3px;
-    margin-right: 3px;
-    font-weight: bold;        
-    }
+    #page_links {
+        text-decoration: none;
+        color: rgb( 54, 117, 136);
+        font-family: Cambria, Georgia;
+        font-size: 30px;
+        width: initial;
+        margin-left: 50px;
+        border-style: double;
+        border-width: 2px;
+        border-color: rgba(77, 4, 77, 0.603);
+      }
+      
+      .button {
+        background: rgb(136, 172, 224);
+        background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+        min-width: 20px;
+        min-height: 10px;
+        line-height: none;
+        padding: 0;
+        border: none;
+        font-family: Cambria, Georgia;
+        color: rgb( 54, 117, 136);
+        font-size: 24px;
+        margin-left: 10px;
+        margin-right: 0px;
+        font-weight: bold;
+      }
     #methodology_and_information_button {
     min-width: 340px;
     }
