@@ -1,6 +1,6 @@
   
    
-  .portfolio_page_name {
+  .page_name {
     color: rgb(85, 79, 167);
     font-family: Cambria, Georgia;
     font-size: 25px;
@@ -169,66 +169,6 @@
 
     
   }
-  .button span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  .button:before,
-  .button:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    top: 0;
-     background: rgb(85, 79, 167);
-    transition: all 0.3s ease;
-  }
-  .button:before {
-    height: 0%;
-    width: 2px;
-  }
-  .button:after {
-    width: 0%;
-    height: 2px;
-  }
-  .button:hover{
-     background: transparent;
-    box-shadow: none;
-  }
-  .button:hover:before {
-    height: 100%;
-  }
-  .button:hover:after {
-    width: 100%;
-  }
-  .button span:hover{
-     color: rgba(171, 200, 245, 0.774);
-  }
-  .button span:before,
-  .button span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-     background: rgb(85,79,167);
-    transition: all 0.3s ease;
-  }
-  .button span:before {
-    width: 2px;
-    height: 0%;
-  }
-  .button span:after {
-    width: 0%;
-    height: 2px;
-  }
-  .button span:hover:before {
-    height: 100%;
-  }
-  .button span:hover:after {
-    width: 100%;
-  }
-
   .pagelinks {
     color: rgb( 54, 117, 136);
     font-family: Cambria, Georgia;
