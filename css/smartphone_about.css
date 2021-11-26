@@ -14,11 +14,11 @@
     margin: none;
  }
  
- .pagelinks {
+ #page_links {
  text-decoration: none;
  color: rgba(33, 63, 231, 0.705);
  font-family: Cambria, Georgia;
- font-size: 20px;
+ font-size: 10px;
  min-width: 30px;
  margin-left: 40px;
  }
