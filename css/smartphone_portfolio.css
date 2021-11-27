@@ -31,6 +31,11 @@
   border-color: rgba(77, 4, 77, 0.603);
 }
 
+a {
+  text-decoration: none;
+  color: rgb(67, 133, 153);
+}
+
 .button {
   background: rgb(136, 172, 224);
   background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
