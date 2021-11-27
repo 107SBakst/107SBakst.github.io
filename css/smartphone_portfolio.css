@@ -63,3 +63,125 @@ body {
   text-align: justify;
   margin: unset;
 }
+
+.chart_head {
+  font-weight: bold;
+  color: rgb(44, 44, 44);
+  font-size: 25px;
+  font-family: Cambria, Georgia;
+  max-width: 450px;
+}
+
+.chart {
+height: auto;
+width: auto;
+}
+
+#chart5head {
+max-width: 700px;
+}
+
+#chart7head {
+max-width: 700px;
+text-align: justify;
+}
+#chart6head {
+max-width: 700px;
+text-align: justify;
+}
+#chart9head {
+max-width: 700px;
+text-align: justify;
+}
+#chart10head {
+display: block;
+margin-left: 10px;
+margin-right: auto;
+font-size: 16px
+}
+
+#emissions_dashboard {
+display: table;
+background-color: #e4dad1;
+max-width: 350px;
+border: rgb(111, 169, 236);
+border-style: solid;
+border-width: 2px;
+margin-left: 10px;
+}
+
+#chart10sub {
+font-weight: bold;
+color: rgb(44, 44, 44);
+font-size: 12px;
+font-family: italic;
+max-width: none;
+display: block;
+margin-left: 10px;
+margin-right: auto;
+width: 100%;
+}
+
+
+
+#chart10a {
+display: flexbox;
+float: none;
+margin-left: 10px;
+margin-right: 10px
+}
+
+#chart10b {
+display: flexbox;
+float: none;
+margin-left: 10px;
+margin-right: 10px
+}
+
+#chart10c {
+display: flexbox;
+float: none;
+margin-left: 10px;
+margin-right: 10px
+}
+
+#chart10d {
+display: flexbox;
+float: none;
+margin-left: 10px;
+margin-right: 10px
+}
+
+#chart11 {
+display: block;
+margin-left: 0px;
+margin-right: auto
+
+}
+
+#chart11head {
+max-width: 330px;
+}
+
+#monetary_policy_story {
+background-color: #e4dad1;
+max-width: 400px;
+border: rgb(111, 169, 236);
+border-style: solid;
+border-width: 2px;
+}
+
+#chart12head {
+margin-left: 20px;
+max-width: 330px;
+}
+
+#chart12 {
+margin-left: 20px;
+}
+
+#chart12_para {
+max-width: 370px;
+margin-left: 20px;
+margin-right: 1px;
+}
