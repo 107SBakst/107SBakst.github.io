@@ -1,21 +1,55 @@
-  .web_name {
-    font-family: Cambria, Georgia;
-    font-size: 60px;
-    color: rgb(136, 172, 224);
+    
+.web_name {
+  width: auto;
+  font-size: 75px;
+  color: rgba(62, 22, 99, 0.377);
+  font-family: Cambria, Georgia;
+  margin-left: 10px;
+  text-align: unset;
+  } 
+
+.page_name {
+  color: rgb(85, 79, 167);
+  font-family: Cambria, Georgia;
+  font-size: 40px;
+  margin-left: 15px;
+  margin: none;
   }
-   
-  .page_name {
-    color: rgb(85, 79, 167);
-    font-family: Cambria, Georgia;
-    font-size: 25px;
-  }
+
   #page_links {
-    color: rgb( 54, 117, 136);
+    text-decoration: none;
+    color: rgba(33, 63, 231, 0.705);
     font-family: Cambria, Georgia;
-    margin-top: 10px;
-    margin-left: 100px;
-    font-size: 75px;
+    font-size: 30px;
+    width: initial;
+    margin-left: 10px;
+    border-style: double;
+    border-width: 2px;
+    border-color: rgba(77, 4, 77, 0.603);
   }
+  
+  .button {
+    background: rgb(136, 172, 224);
+    background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+    min-width: 20px;
+    min-height: 10px;
+    line-height: none;
+    padding: 0;
+    border: none;
+    font-family: Cambria, Georgia;
+    color: rgb( 54, 117, 136);
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-weight: bold;
+  }
+
+#header {
+    background-color: rgba(213, 235, 241, 0.582);
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 2px;
+    }
    
   p, 
   li {
@@ -35,34 +69,16 @@
       font-weight: bold;
       color: rgb(44, 44, 44);
       font-size: 16px;
+      font-family: Cambria, Georgia;
   }
   body {
     background-color: rgba(211, 211, 211);
-    font-family: Verdana, sans-serif;
+    font-family: Cambria, Georgia;
     font-size: 16px;
     color: rgb(44, 44, 44);
     margin:auto;
-    max-width: 600px;
+    max-width: unset;
     text-align: justify;
-  }
-
-  .button {
-    background: rgb(136, 172, 224);
-    background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
-    max-width: none;
-    min-width: 75px;
-    min-height: 40px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    font-family: Cambria, Georgia;
-    color: rgb( 54, 117, 136);
-    font-size: 66px;
-    margin-left: 100px;
-    margin-right: 1px;
-    font-weight: bold;
-
-    
   }
 
   #methodology_and_information_button {
