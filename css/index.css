@@ -1,24 +1,62 @@
   
-   
-  .web_page_name {
-    color: rgb(136, 172, 224);
-    font-family: Cambria, Georgia;
-    font-size: 60px;
-  }
+.web_name {
+  width: auto;
+  font-size: 75px;
+  color: rgba(62, 22, 99, 0.377);
+  font-family: Cambria, Georgia;
+  margin-left: 10px;
+  text-align: unset;
+  } 
+ 
+.page_name {
+  color: rgb(85, 79, 167);
+  font-family: Cambria, Georgia;
+  font-size: 40px;
+  margin-left: 0px;
+  margin: none;
+ }
 
-  .index_page_links {
-    color: rgb( 54, 117, 136);
-    font-family: Cambria, Georgia;
-  }
-  h4 {
-    color: rgb( 44, 44, 44);
-    font-family: Cambria, Georgia;
-  }
+#page_links {
+  text-decoration: none;
+  color: rgba(33, 63, 231, 0.705);
+  font-family: Cambria, Georgia;
+  font-size: 30px;
+  width: initial;
+  margin-left: 10px;
+  border-style: double;
+  border-width: 2px;
+  border-color: rgba(77, 4, 77, 0.603);
+}
+
+.button {
+  background: rgb(136, 172, 224);
+  background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+  min-width: 20px;
+  min-height: 10px;
+  line-height: none;
+  padding: 0;
+  border: none;
+  font-family: Cambria, Georgia;
+  color: rgb( 54, 117, 136);
+  font-size: 24px;
+  margin-left: 10px;
+  margin-right: 0px;
+  font-weight: bold;
+}
+
+#header {
+      background-color: rgba(213, 235, 241, 0.582);
+      border-style: solid;
+      border-color: cornflowerblue;
+      border-width: 2px;
+}
    
   p, 
   li {
     font-size: 18px;
     font-family:Cambria, Cochin, Georgia, serif;
+    margin-left: 10px;
+    margin-right: 10px;
   }
    
    
@@ -37,7 +75,7 @@
     font-size: 16px;
     color: rgb(44, 44, 44);
     margin:auto;
-    max-width: 600px;
+    max-width: unjust;
     text-align: justify;
   }
 
@@ -56,71 +94,6 @@
     margin-right: 0px;
     font-weight: bold;
       
-  }
-  .button span {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  .button:before,
-  .button:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    top: 0;
-     background: rgb(85, 79, 167);
-    transition: all 0.3s ease;
-  }
-  .button:before {
-    height: 0%;
-    width: 2px;
-  }
-  .button:after {
-    width: 0%;
-    height: 2px;
-  }
-  .button:hover{
-     background: transparent;
-    box-shadow: none;
-  }
-  .button:hover:before {
-    height: 100%;
-  }
-  .button:hover:after {
-    width: 100%;
-  }
-  .button span:hover{
-     color: rgba(171, 200, 245, 0.774);
-  }
-  .button span:before,
-  .button span:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-     background: rgb(85,79,167);
-    transition: all 0.3s ease;
-  }
-  .button span:before {
-    width: 2px;
-    height: 0%;
-  }
-  .button span:after {
-    width: 0%;
-    height: 2px;
-  }
-  .button span:hover:before {
-    height: 100%;
-  }
-  .button span:hover:after {
-    width: 100%;
-  }
-
-  .index_page_links {
-    color: rgb( 54, 117, 136);
-    font-family: Cambria, Georgia;
-    size: 16px;
   }
 
   #methodology_and_information_button {
