@@ -1,0 +1,23 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing horsepower and miles per gallons that opens a Google search for the car that you click on.",
+  "title": {
+  "text": "Carbon emissions per capita vs GDP per capita.",
+  "subtitle": "World Bank data for all countries from 2017",
+  "subtitleFontStyle": "italic",
+  "subtitleFontSize": 10,
+  "anchor": "start",
+  "color": "black"
+  },
+  "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/wb_co2_gdp_percapita.csv"},
+  "mark": {"type": "point", "tooltip": {"content": "data"}, "color": "darkslategray"},
+  "height": 330,
+  "width": 375,
+  "transform": [{
+    "filter": "datum.Time == 2017"
+  }],
+  "encoding": {
+    "x": {"field": "GDP per capita, PPP (constant 2017 international $)", "type": "quantitative", "axis": {"grid": false}},
+    "y": {"field": "CO2 emissions (metric tons per capita)", "axis": {"grid": false}, "type": "quantitative"}
+  }
+}
