@@ -1,4 +1,4 @@
-﻿Time,"Time Code","Country Name","Country Code","CO2 emissions (metric tons per capita) [EN.ATM.CO2E.PC]","GDP per capita, PPP (constant 2017 international $) [NY.GDP.PCAP.PP.KD]"
+﻿Time,"Time Code","Country","Country_Code","CO2_emissions_(metric_tons_per_capita)","GDP_per_capita,_PPP_(constant_2017_international_$)"
 1990,"YR1990","Afghanistan","AFG","0.238472916123355",""
 1990,"YR1990","Albania","ALB","1.84084061606394","4827.31848375491"
 1990,"YR1990","Algeria","DZA","2.63559677613212","8746.35188227883"
