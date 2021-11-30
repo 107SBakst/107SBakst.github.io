@@ -78,27 +78,3 @@
     max-width: unjust;
     text-align: justify;
   }
-
-  .button {
-    background: rgb(136, 172, 224);
-  background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
-    min-width: 100px;
-    min-height: 40px;
-    line-height: 42px;
-    padding: 0;
-    border: none;
-    font-family: Cambria, Georgia;
-    color: rgb( 54, 117, 136);
-    font-size: 16px;
-    margin-left: 0px;
-    margin-right: 0px;
-    font-weight: bold;
-      
-  }
-
-  #methodology_and_information_button {
-    width: 200px;
-  }
-  #urban_stories_button {
-    width: 110px;
-  }
