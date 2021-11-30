@@ -16,7 +16,7 @@
   margin: none;
  }
 
-#page_links {
+ #page_links {
   text-decoration: none;
   color: rgba(33, 63, 231, 0.705);
   font-family: Cambria, Georgia;
@@ -43,6 +43,14 @@
   margin-right: 0px;
   font-weight: bold;
 }
+
+#methodology_and_information_button {
+  width: 200px;
+}
+#urban_stories_button {
+  width: 110px;
+}
+
 
 #header {
       background-color: rgba(213, 235, 241, 0.582);

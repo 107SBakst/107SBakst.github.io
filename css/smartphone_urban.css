@@ -25,11 +25,11 @@
 
   #page_links {
     text-decoration: none;
-    color: rgb( 54, 117, 136);
+    color: rgba(33, 63, 231, 0.705);
     font-family: Cambria, Georgia;
     font-size: 30px;
     width: initial;
-    margin-left: 50px;
+    margin-left: 10px;
     border-style: double;
     border-width: 2px;
     border-color: rgba(77, 4, 77, 0.603);
