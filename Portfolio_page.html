@@ -16,6 +16,9 @@
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
 </head>
 
@@ -25,7 +28,7 @@
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 
-
+<body>
 <div id="header">
   <h1 class="web_name">Our Concrete World</h1>
   <!--Pagelinks: links to the other pages-->
@@ -146,7 +149,7 @@
       </script>
       </div>
   </div> 
-</body>
+
 
  <!--Chart 9 -->
 <!--This div groups the chart heading with the chart-->
@@ -161,7 +164,7 @@
       </script>
       </div>
   </div> 
-</body>
+
 
  <!--Chart 10 -->
 <!--This div groups the chart heading with the chart-->
@@ -195,8 +198,6 @@
             </script>
             </div>
     </div> 
-</body>
-
  <!--Chart 11 -->
 <!--This div groups the chart heading with the chart-->
 <div class="head_plus_chart">
@@ -210,7 +211,7 @@
       </script>
       </div>
   </div> 
-</body>
+
 
  <!--Chart 12 -->
 <!--This div groups the chart heading with the chart-->
@@ -225,18 +226,15 @@
       </div>
       <p id="chart12_para">At the Bristol Festival of Economics Jagjit Chadha, Director of the National Institute of Economic and Social Research said that the last time the Bank of England tripled the base rate was in 2018. This is true and is shown by the increase in the grey line before collapsing to 0.1% as the Bank of England implemented expansionary monetary policy to support the economy during the Pandemic. The chart also shows the UK inflation rate in the blue line which the Bank of England targets to hit 2%. Although, interest rates did triple in 2018 this was by no means contractionary monetary policy as by historical standards the base rate is still at an all time low since the GFC. Therefore, even if the central bank were to raise interest rates in response to inflation reaching 4.2% we have to consider if the policy is expansionary or contractionary given the historical perspective.</p>
   </div>
-
+  <!--Chart 13 -->
   <div class="head_plus_chart">
     <!--Heading to explain chart-->
     <h3 class="chart_head" id="chart13head"> Chart 13: Polynomial regression of countries life expectancy on the number of doctors per 10,000. .</h3>
         <div class="chart" id="chart13">
-        <script>
-          var myChart13 = "charts/chart13_linear_regression.png";
-          vegaEmbed('#chart13', myChart13);
-        </script>
+         <img src="charts/chart13_linear_regression.png" alt="chart13"> 
         </div>
     </div> 
-
+    <!--Chart 14 -->
     <div class="head_plus_chart">
       <!--Heading to explain chart-->
       <h3 class="chart_head" id="chart14head"> Chart 14: An interactive scatter chart showing a countries CO2 emissions per capita and their GDP per capita.</h3>
@@ -247,17 +245,17 @@
           </script>
           </div>
       </div> 
-
-      <div class="head_plus_chart">
-        <!--Heading to explain chart-->
-        <h3 class="chart_head" id="chart15head"> Chart 15: An interactive barchart showing OECD countries 2020 Debt:GDP ratio.</h3>
-            <div class="chart" id="chart15">
-            <script>
-              var myChart15 = "charts/chart15_debttogdp_oecd.json";
-              vegaEmbed('#chart15', myChart15);
-            </script>
-            </div>
-        </div> 
+      <!--Chart 15 -->
+    <div class="head_plus_chart">
+       <!--Heading to explain chart-->
+      <h3 class="chart_head" id="chart15head"> Chart 15: An interactive barchart showing OECD countries 2020 Debt:GDP ratio.</h3>
+          <div class="chart" id="chart15">
+          <script>
+            var myChart15 = "charts/chart15_debttogdp_oecd.json";
+            vegaEmbed('#chart15', myChart15);
+          </script>
+          </div>
+      </div>
 </body>
 
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
