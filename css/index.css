@@ -44,6 +44,14 @@
   font-weight: bold;
 }
 
+#methodology_and_information_button {
+  width: 200px;
+}
+#urban_stories_button {
+  width: 110px;
+}
+
+
 #header {
       background-color: rgba(213, 235, 241, 0.582);
       border-style: solid;
