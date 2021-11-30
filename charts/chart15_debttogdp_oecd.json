@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bar chart with highlighting on hover and selecting on click. (Inspired by Tableau's interaction style.). Citation: OECD (2021), General government debt (indicator). doi: 10.1787/a0528cc2-en (Accessed on 30 November 2021)",
+  "title": {
+  "text": "OECD countries Debt:GDP ratio in 2020.",
+  "subtitle": "Data is from the OECD. All values in %'s.",
+  "subtitleFontStyle": "italic",
+  "subtitleFontSize": 10,
+  "anchor": "start",
+  "color": "black"},
+  
+
+  "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/oecd_debttogdp_oecdcountries.csv"},
+  "params": [
+    {
+      "name": "highlight",
+      "select": {"type": "point", "on": "mouseover"}
+    },
+    {"name": "select", "select": "point"}
+  ],
+  "height": 330,
+  "width": 375,
+  "mark": {
+    "type": "bar",
+    "fill": "#707072be",
+    "stroke": "black",
+    "cursor": "pointer"
+  },
+  "encoding": {
+    "x": {"field": "Country", "type": "ordinal"},
+    "y": {"field": "Debt to GDP ratio", "type": "quantitative"},
+    "fillOpacity": {
+      "condition": {"param": "select", "value": 1},
+      "value": 0.1
+    },
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "select",
+          "empty": false,
+          "value": 2
+        },
+        {
+          "param": "highlight",
+          "empty": false,
+          "value": 1
+        }
+      ],
+      "value": 0
+    }
+  },
+  "config": {
+    "scale": {
+      "bandPaddingInner": 0.1
+    }
+  }
+}
