@@ -70,7 +70,7 @@
     text-decoration: none;
     color: rgb( 54, 117, 136);
     font-family: Cambria, Georgia;
-    font-size: 16px;
+    font-size: none;
   }
 
   .chart_head {
@@ -201,13 +201,6 @@
     max-width: 370px;
     margin-left: 20px;
     margin-right: 1px;
-  }
-
-  #methodology_and_information_button {
-    width: 200px;
-  }
-  #urban_stories_button {
-    width: 110px;
   }
   
   
