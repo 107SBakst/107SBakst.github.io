@@ -52,17 +52,22 @@
 }
 
 .grid_items {
-  padding: 10px;
+  padding: 2px;
+  padding: 0 5 0 5;
+  margin: 0 auto 0 auto;
   display: grid;
   grid-template-rows: 100%;
-  grid-template-columns: 100%;
+  grid-template-columns: 100px;
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
 }
 .grid_items > div {
-  background-color: #ffffff;
+  background-color: rgb(228, 228, 228);
   padding: 5px;
   border-radius: 10px;
-  width: 360px;
   margin:auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
 }
 
 #header {
@@ -133,6 +138,7 @@
     grid-column: 3;
     grid-row: 3;
   }
+  
   #chart10a {
     grid-column: 1;
     grid-row: 4;
@@ -167,7 +173,7 @@
   }
   #head_plus_chart15 {
     grid-column: 3;
-    grid-row: 6;
+    grid-row: 7;
   }
 
 
@@ -187,11 +193,7 @@
     max-width: 360px;
     text-align: justify;
   }
-  #chart10head {
-    display: block;
-    margin-left: 20px;
-    margin-right: auto
-  }
+
   body {
     background-color: rgba(211, 211, 211);
     font-family: Verdana, sans-serif;
@@ -200,58 +202,6 @@
     margin:auto;
     max-width: unset;
     text-align: justify;
-  }
-
-  #emissions_dashboard {
-    display: table;
-    background-color: #e4dad1;
-    max-width: 850px;
-    border: rgb(111, 169, 236);
-    border-style: solid;
-    border-width: 2px;
-    margin-left: unset;
-    }
-
-  #chart10sub {
-    font-weight: bold;
-    color: rgb(44, 44, 44);
-    font-size: 12px;
-    font-family: italic;
-    max-width: 450px;
-    display: block;
-    margin-left: 280px;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  
-
-  #chart10a {
-    display: block;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px
-  }
-
-  #chart10b {
-    display: block;
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px
-  }
-
-  #chart10c {
-    display: block;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px
-  }
-
-  #chart10d {
-    display: block;
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px
   }
 
   #chart11 {
