@@ -92,9 +92,6 @@ a {
     .grid_items > div {
       padding: 10px
     }
-    .rubric {
-      text-align: left
-    }
     #head_plus_chart1 {
       grid-column: 1;
       grid-row: 1
