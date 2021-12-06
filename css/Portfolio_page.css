@@ -257,16 +257,15 @@
     margin-left: 20px;
     margin-right: 1px;
   }
-
+  /* This is for a smartphone screen with 1 column. The header is also adjusted for a smartphone.*/
   @media only screen and (max-width: 375px) {
     .grid_items {
       grid-template-columns: 100%;
-      max-width: 420px; 
-      margin: 0 auto 0 auto !important;
+      max-width: 420px;
       padding: 0 5 0 5; 
       grid-column-gap: 10px;
       grid-row-gap: 40px;
-      text-align: center;
+      text-align: center
     }
   
     .wrap {
@@ -276,13 +275,13 @@
       padding: 0 5 0 5; 
       grid-column-gap: 10px;
       grid-row-gap: 40px;
-      text-align: center;
+      text-align: center
     }
     .grid_items > div {
-      padding: 10px;
+      padding: 10px
     }
     .rubric {
-      text-align: left;
+      text-align: left
     }
     #head_plus_chart1 {
       grid-column: 1;
@@ -290,35 +289,35 @@
     }
     #head_plus_chart2 {
       grid-column: 1;
-      grid-row: 2;
+      grid-row: 2
     }
     #head_plus_chart3 {
       grid-column: 1;
-      grid-row: 3;
+      grid-row: 3
     }
     #head_plus_chart4 {
       grid-column: 1;
-      grid-row: 4;
+      grid-row: 4
     }
     #head_plus_chart5 {
       grid-column: 1;
-      grid-row: 5;
+      grid-row: 5
     }
     #head_plus_chart6 {
       grid-column: 1;
-      grid-row: 6;
+      grid-row: 6
     }
     #head_plus_chart7 {
       grid-column: 1;
-      grid-row: 7;
+      grid-row: 7
     }
     #head_plus_chart8 {
       grid-column: 1;
-      grid-row: 8;
+      grid-row: 8
     }
     #head_plus_chart9 {
       grid-column: 1;
-      grid-row: 9;
+      grid-row: 9
     }
   
     #head_plus_chart10 {
@@ -328,7 +327,7 @@
       padding: 5px;
       border-radius: 10px;
       margin:auto;
-      width: 350px;
+      width: 350px
   
     }
   
@@ -339,7 +338,7 @@
       display: grid;
       grid-template-rows: 100%;
       grid-row-gap: 20px;
-      grid-column-gap: 30px;
+      grid-column-gap: 30px
   
     }
     
@@ -409,7 +408,7 @@
       font-family: Cambria, Georgia;
       font-size: 20px;
       margin-left: 5px;
-      margin: none;
+      margin: none
      }
     
     #page_links {
@@ -419,6 +418,193 @@
       font-family: Cambria, Georgia;
       font-size: 20px;
       width: 360px;
+      margin-left: 5px;
+      border-style: double;
+      border-width: 2px;
+      border-color: rgba(77, 4, 77, 0.603)
+    }
+    
+    .button {
+      background: rgb(136, 172, 224);
+      background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+      min-width: 20px;
+      min-height: 10px;
+      line-height: none;
+      padding: 0;
+      border: none;
+      font-family: Cambria, Georgia;
+      color: rgb( 54, 117, 136);
+      font-size: 14px;
+      margin-left: 10px;
+      margin-right: 0px;
+      font-weight: bold
+    }
+    
+    #methodology_and_information_button {
+      width: 90px;
+      word-break: break-all;
+    }
+    #urban_stories_button {
+      width: 50px;
+      word-break: break-all;
+    }
+  }
+
+  /* This is for a tablet. The grid has 2 columns and the header is adjusted for the screen.*/
+
+  @media only screen and (max-width: 810px) {
+    .grid_items {
+      grid-template-columns: 100%;
+      align-items: center;
+      max-width: 400px; 
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: left;
+      margin-left: 0px;
+
+    }
+    .grid_items > div {
+      padding: 10px;
+    }
+    .rubric {
+      text-align: left;
+    }
+    #head_plus_chart1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    #head_plus_chart2 {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    #head_plus_chart3 {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    #head_plus_chart4 {
+      grid-column: 2;
+      grid-row: 2;
+    }
+    #head_plus_chart5 {
+      grid-column: 1;
+      grid-row: 3;
+    }
+    #head_plus_chart6 {
+      grid-column: 2;
+      grid-row: 3;
+    }
+    #head_plus_chart7 {
+      grid-column: 1;
+      grid-row: 4;
+    }
+    #head_plus_chart8 {
+      grid-column: 2;
+      grid-row: 4;
+    }
+    #head_plus_chart9 {
+      grid-column: 1;
+      grid-row: 5;
+    }
+  
+    #head_plus_chart10 {
+      grid-column:1 / span 3;
+      grid-row: 6 / span 3;
+      background-color: rgb(228, 228, 228);
+      padding: 5px;
+      border-radius: 10px;
+      margin:auto;
+      margin-left: 0px;
+      width: 350px;
+  
+    }
+  
+    #grid10 {
+      padding: 2px;
+      padding: 0 5 0 5;
+      display: grid;
+      grid-template-rows: 100%;
+      grid-row-gap: 20px;
+      grid-column-gap: 30px;
+  
+    }
+    
+    #chart10a {
+      grid-column: 1;
+      grid-row: 1;
+    }
+    #chart10b {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    #chart10c {
+      grid-column: 1;
+      grid-row: 2;
+    }
+    #chart10d {
+      grid-column: 2;
+      grid-row: 2;
+    }
+    #head_plus_chart11 {
+      grid-column: 1;
+      grid-row: 10;
+    }
+    #monetary_policy_story {
+      grid-column: 2;
+      grid-row: 10;
+    }
+    #head_plus_chart13 {
+      grid-column: 1;
+      grid-row: 11;
+    }
+    #head_plus_chart14 {
+      grid-column: 2;
+      grid-row: 11;
+    }
+    #head_plus_chart15 {
+      grid-column: 1;
+      grid-row: 12;
+    }
+
+    #monetary_policy_story {
+      background-color: #e4dad1;
+      max-width: 400px;
+      border: rgb(111, 169, 236);
+      border-style: solid;
+      border-width: 2px;
+      }
+  
+    #chart12head {
+      margin-left: 4px;
+      max-width: 330px;
+    }
+  
+    #chart12 {
+      margin-left: 4px;
+    }
+  
+    #chart12_para {
+      max-width: 350px;
+      margin-left: 3px;
+      margin-right: 1px;
+      text-align: justify
+    
+    }     
+    .page_name {
+      color: rgb(85, 79, 167);
+      font-family: Cambria, Georgia;
+      font-size: 45px;
+      margin-left: 5px;
+      margin: none;
+     }
+    
+    #page_links {
+      text-decoration: none;
+      display: flex;
+      color: rgba(33, 63, 231, 0.705);
+      font-family: Cambria, Georgia;
+      font-size: 24px;
+      width: 790px;
       margin-left: 5px;
       border-style: double;
       border-width: 2px;
@@ -435,18 +621,18 @@
       border: none;
       font-family: Cambria, Georgia;
       color: rgb( 54, 117, 136);
-      font-size: 14px;
+      font-size: 24px;
       margin-left: 10px;
       margin-right: 0px;
       font-weight: bold;
     }
     
     #methodology_and_information_button {
-      width: 90px;
+      width: 300px;
       word-break: break-all;
     }
     #urban_stories_button {
-      width: 50px;
+      width: 160px;
       word-break: break-all;
     }
   }
