@@ -501,6 +501,250 @@ a {
     grid-row-gap: 20px;
     align-items: center;
     grid-column-gap: 100px;
+    margin-left: 5px
+  }
+  .grid_items > div {
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    border-radius: 10px;
+    margin:auto;
+    align-items: center;
+    width: 400px;
+  }
+
+  #header {
+    background-color: rgba(213, 235, 241, 0.582);
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 2px;
+    }
+
+  p, 
+  li {
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, serif;
+  }
+ 
+ 
+  a {
+    text-decoration: none;
+    color: rgb( 54, 117, 136);
+    font-family: Cambria, Georgia;
+    font-size: none;
+  }
+
+  .chart_head {
+      font-weight: bold;
+      color: rgb(44, 44, 44);
+      font-size: 16px;
+      font-family: Cambria, Georgia;
+      max-width: 360px;
+    }
+  .chart {
+    height: auto;
+    width: auto;
+  }
+  #head_plus_chart1 {
+    grid-column: 1;
+    grid-row: 1
+  }
+  #head_plus_chart2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #head_plus_chart3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  #head_plus_chart4 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #head_plus_chart5 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #head_plus_chart6 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  #head_plus_chart7 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #head_plus_chart8 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  #head_plus_chart9 {
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  #head_plus_chart10 {
+    grid-column:1 / span 2;
+    grid-row: 4;
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    border-radius: 10px;
+    margin:auto;
+    width: 799px;
+    margin-left: 0px;
+  }
+
+  #grid10 {
+    padding: 2px;
+    padding: 0 5 0 5;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px
+  }
+  #chart10a {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #chart10b {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  #chart10c {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #chart10d {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #head_plus_chart11 {
+    grid-column: 3;
+    grid-row: 4;
+  }
+  #monetary_policy_story {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  #head_plus_chart13 {
+    grid-column: 3;
+    grid-row: 5;
+  }
+  #head_plus_chart14 {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  #head_plus_chart15 {
+    grid-column: 3;
+    grid-row: 6;
+  }
+  
+  
+  #chart5head {
+    max-width: 360px;
+  }
+  
+  #chart7head {
+    max-width: 360px;
+    text-align: justify;
+  }
+  #chart6head {
+    max-width: 360px;
+    text-align: justify;
+  }
+  #chart9head {
+    max-width: 360px;
+    text-align: justify;
+  }
+  
+  #chart11 {
+    display: block;
+    margin-left: 0px;
+    margin-right: auto
+  
+  }
+  
+  #chart11head {
+    max-width: 330px;
+  }
+  
+  #monetary_policy_story {
+    background-color: #e4dad1;
+    max-width: 400px;
+    border: rgb(111, 169, 236);
+    border-style: solid;
+    border-width: 2px;
+    }
+  
+  #chart12head {
+    margin-left: 20px;
+    max-width: 330px;
+  }
+  
+  #chart12 {
+    margin-left: 20px;
+  }
+  
+  #chart12_para {
+    max-width: 370px;
+    margin-left: 20px;
+    margin-right: 1px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+  .page_name {
+    color: rgb(85, 79, 167);
+    font-family: Cambria, Georgia;
+    font-size: 40px;
+    margin-left: 0px;
+    margin: none;
+  }
+
+  #page_links {
+    text-decoration: none;
+    color: rgba(33, 63, 231, 0.705);
+    font-family: Cambria, Georgia;
+    font-size: 30px;
+    width: initial;
+    margin-left: 10px;
+    border-style: double;
+    border-width: 2px;
+    border-color: rgba(77, 4, 77, 0.603);
+  }
+
+  .button {
+    background: rgb(136, 172, 224);
+    background: linear-gradient(0deg, rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) 100%);
+    min-width: 20px;
+    min-height: 10px;
+    line-height: none;
+    padding: 0;
+    border: none;
+    font-family: Cambria, Georgia;
+    color: rgb( 54, 117, 136);
+    font-size: 24px;
+    margin-left: 10px;
+    margin-right: 0px;
+    font-weight: bold;
+  }
+
+  #methodology_and_information_button {
+    width: 300px;
+  }
+  #urban_stories_button {
+    width: 170px;
+  }
+
+  .grid_items {
+    padding: 2px;
+    padding: 0 5 0 5;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    grid-row-gap: 20px;
+    align-items: center;
+    grid-column-gap: 100px;
     margin-left: 400px
   }
   .grid_items > div {
