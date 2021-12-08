@@ -80,7 +80,7 @@ a {
     max-width: 360px;
 }
   /* This is for a smartphone screen with 1 column. The header is also adjusted for a smartphone.*/
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 809px) {
     .grid_items {
       grid-template-columns: 100%;
       max-width: 420px;
