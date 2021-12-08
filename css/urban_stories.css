@@ -104,10 +104,7 @@
   .chartbutton {
     background-color: rgb (188, 220, 219);
     margin-left: 5px;
-    size: 20px
-  }
-  .chartlink {
-    size: 20px
+    margin-right: 2px
   }
   .sub_instruction {
     font-family: Cambria, Georgia;
@@ -118,6 +115,11 @@
     font-style: oblique;
     font-weight: unset;
 
+  }
+  .buttonlist {
+    margin-left: 5px;
+    text-align: left
+    ;
   }
   .brk {
     display: inline-block;
