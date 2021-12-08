@@ -26,7 +26,8 @@
             "field": "Footprint/Cap_value",
             "type": "quantitative", "title":"Carbon footprint per capita (t CO2)"
           },
-          "color": {"field": "developed", "type": "nominal"}
+          "color": {"field": "developed", "type": "nominal", "title":"Country development","legend": {"orient":"bottom-right"}}
+          
         }
       },
       {
