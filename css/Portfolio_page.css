@@ -132,7 +132,7 @@ a {
     #head_plus_chart10 {
       grid-column:1;
       grid-row: 10;
-      background-color: rgb(228, 228, 228);
+      background-color: rgb(198, 198, 199);
       padding: 5px;
       border-radius: 10px;
       margin:auto;
@@ -317,7 +317,7 @@ a {
     #head_plus_chart10 {
       grid-column:1 / span 3;
       grid-row: 6 / span 3;
-      background-color: rgb(228, 228, 228);
+      background-color: rgb(198, 198, 199);
       padding: 5px;
       border-radius: 10px;
       margin:auto;
@@ -581,7 +581,7 @@ a {
   #head_plus_chart10 {
     grid-column:1 / span 2;
     grid-row: 4;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(198, 198, 199);
     padding: 5px;
     border-radius: 10px;
     margin:auto;
@@ -825,7 +825,7 @@ a {
   #head_plus_chart10 {
     grid-column:1 / span 2;
     grid-row: 4;
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(198, 198, 199);
     padding: 5px;
     border-radius: 10px;
     margin:auto;
