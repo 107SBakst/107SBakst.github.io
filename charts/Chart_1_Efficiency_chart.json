@@ -10,6 +10,9 @@
   "data": {
     "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Emission_city_density_dataset.csv"
   },
+  "height": 375,
+  "width": 330,
+
   "transform": [
     {
       "filter": {
