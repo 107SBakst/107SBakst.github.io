@@ -31,8 +31,9 @@
           "color": {"field": "developed", "type": "nominal", "title":"Country development","legend": {"orient":"bottom-right"}},
           "opacity": {
         "condition": {"param": "industry", "value": 1},
-        "value": 0.2
-      }
+        "value": 0.2},
+        "tooltip": {"field": "city_name", "type": "nominal"},
+        "size": {"value": 65}
           
         }
       },
