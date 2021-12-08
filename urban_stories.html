@@ -16,7 +16,7 @@
 
 
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
-
+<body>
 
 <div id="header">
   <h1 class="web_name">Our Concrete World</h1>
@@ -32,9 +32,13 @@
   
   </div>
 
+  <!--Grid of divs that house the chart + head. In some cases text as well.-->
+  <div class="grid_items">
+
+
 <!--Chart 1 -->
 <!--This div groups the chart heading with the chart-->
-<div class="head_plus_chart">
+<div class="head_plus_chart" id="head_plus_chartp1">
 
     <!--Heading to explain chart-->
     <h3 class="chart1_head_project"> Population density and Carbon emissions per capita.</h3>
@@ -45,7 +49,12 @@
             vegaEmbed('#chart1_project', chart1_project);
           </script>
       </div>
-    </div>
+    <div class="buttonlist">
+    <button class="chartbutton"><a class="chartlink" href="https://github.com/107SBakst/107SBakst.github.io/blob/215a0d7be23670feefadca1166337dc041dc8bb4/Python/Project_chart1.ipynb" target="_blank">Jupyter Notebook</a></button>
+    <button class="chartbutton"><a class="chartlink" href="https://citycarbonfootprints.info/" target="_blank">C02 per capita dataset</a></button>
+    <button class="chartbutton"><a class="chartlink" href="https://ghsl.jrc.ec.europa.eu/download.php" target="_blank">EU dataset</a></button>
+  </div>
+  </div>
 
     <div class="head_plus_chart">
 
@@ -58,6 +67,8 @@
               </script>
           </div>
         </div>
+  </div>
+  </body>
 
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
 
