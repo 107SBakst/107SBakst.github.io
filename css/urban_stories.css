@@ -99,7 +99,7 @@
   .head_plus_chart {
     background-color: antiquewhite;
     border-style: dashed;
-    border-width: 2px;
+    border-width: 1.5px;
   }
   .chartbutton {
     background-color: rgb (188, 220, 219);
@@ -108,6 +108,16 @@
   }
   .chartlink {
     size: 20px
+  }
+  .sub_instruction {
+    font-family: Cambria, Georgia;
+    font-size: 12px;
+    color: rgb(53, 90, 84);
+    max-width: 330px;
+    text-align: justify;
+    font-style: oblique;
+    font-weight: unset;
+
   }
 
   @media only screen and (max-width: 809px){
@@ -167,6 +177,10 @@
     .grid_items > div {
       padding: 5px
     }
+    #head_plus_chartp1 {
+      grid-column: 1;
+      grid-row: 1
+    }
 
   }
   @media only screen and (min-width: 810px){
@@ -214,6 +228,22 @@
     #urban_stories_button {
       width: 160px;
       word-break: break-all;
+    }
+
+    .grid_items{
+      grid-template-columns: 100%;
+      max-width: 420px;
+      padding: 0 5 0 5; 
+      grid-column-gap: 10px;
+      grid-row-gap: 40px;
+      text-align: center
+    }
+    .grid_items > div {
+      padding: 5px
+    }
+    #head_plus_chartp1 {
+      grid-column: 1;
+      grid-row: 1
     }
 
   }
@@ -301,6 +331,22 @@
         margin:auto;
         max-width: unjust;
         text-align: justify;
+      }
+
+      .grid_items{
+        grid-template-columns: 100%;
+        max-width: 420px;
+        padding: 0 5 0 5; 
+        grid-column-gap: 10px;
+        grid-row-gap: 40px;
+        text-align: center
+      }
+      .grid_items > div {
+        padding: 5px
+      }
+      #head_plus_chartp1 {
+        grid-column: 1;
+        grid-row: 1
       }
 
   }
@@ -392,6 +438,22 @@
         margin:auto;
         max-width: unset;
         text-align: justify;
+      }
+
+      .grid_items{
+        grid-template-columns: 100%;
+        max-width: 420px;
+        padding: 0 5 0 5; 
+        grid-column-gap: 10px;
+        grid-row-gap: 40px;
+        text-align: center
+      }
+      .grid_items > div {
+        padding: 5px
+      }
+      #head_plus_chartp1 {
+        grid-column: 1;
+        grid-row: 1
       }
 
   }
