@@ -699,7 +699,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1650px) {
   .page_name {
     color: rgb(85, 79, 167);
     font-family: Cambria, Georgia;
