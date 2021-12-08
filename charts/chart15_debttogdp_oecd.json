@@ -18,8 +18,8 @@
     },
     {"name": "select", "select": "point"}
   ],
-  "height": 330,
-  "width": 375,
+  "height": 375,
+  "width": 335,
   "mark": {
     "type": "bar",
     "fill": "#707072be",
