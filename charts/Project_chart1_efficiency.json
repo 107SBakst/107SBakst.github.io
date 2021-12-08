@@ -5,7 +5,7 @@
     },
     "width": 330,
     "height": 375,
-    "description": "gtr",
+    "description": "Chart showing the a key benefit of urban density. The greater a cities population density means the lower the carbon footprint per person of the city.",
     "title": {
       "text": "Denser cities are efficient cities.",
       "subtitle": "A polynomial regression of Carbon footprint per capita on population density.",
@@ -52,7 +52,9 @@
           {
             "regression": "Footprint/Cap_value",
             "on": "pop_dens",
-            "params": true
+            "params": true,
+            "method": "poly",
+            "order": 3
           },
           {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
         ],
