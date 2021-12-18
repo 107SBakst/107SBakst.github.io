@@ -5,7 +5,7 @@
 <link href="css/urban_stories.css" type="text/css" rel="stylesheet">
 <!--The next three lines allow the Vega embed-->
 <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
@@ -58,18 +58,26 @@
   <hr class="brk">
   </div>
 
-    <div class="head_plus_chart">
+  <!--Chart 2 -->
+<!--This div groups the chart heading with the chart-->
+<div class="head_plus_chart" id="head_plus_chartp2">
 
-        <!--Heading to explain chart-->
-        <h3 class="chart2_head_project"> Population density and Patents per capita.</h3>
-          <div class="chart" id="chart2_project">
-              <script>
-                var chart2_project = "charts/Chart_2_Innovation_chart_project.json";
-                vegaEmbed('#chart2_project', chart2_project);
-              </script>
-          </div>
-        </div>
-  </div>
+  <!--Heading to explain chart-->
+  <h3 class="chart_head_project"> Population density and Patents per 10,000 people.</h3>
+    <div class="chart" id="chart2_project">
+        <script>
+          chart2_project = "charts/project_chart2_innovation.json";
+          vegaEmbed('#chart2_project', chart2_project);
+        </script>
+    </div>
+  <div class="buttonlist">
+  <button class="chartbutton"><a class="chartlink" href="https://github.com/107SBakst/107SBakst.github.io/blob/e8dabeb30a7bd7d0e2453659559b0d7f75c89d70/Python/Project_chart2.ipynb" target="_blank">Jupyter Notebook</a></button>
+  <button class="chartbutton"><a class="chartlink" href="https://www.uspto.gov/web/offices/ac/ido/oeip/taf/cls_cbsa/allcbsa_gd.htm" target="_blank">USPTO dataset</a></button>
+  <button class="chartbutton"><a class="chartlink" href="https://www.census.gov/data/tables/time-series/dec/c2010sr-01.html" target="_blank">US Census</a></button>
+</div>
+<hr class="brk">
+</div>
+
   </body>
 
 <!-- ///////////////////  END BODY //////////////////////////////////// -->
