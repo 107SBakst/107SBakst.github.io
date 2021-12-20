@@ -2,7 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "transform": [{"filter": "datum.prod > 0"},
                 {"filter": "datum.pop_density > 0"},
-                {"filter": "datum.gdp_metro_shr_cry > 0"}
+                {"filter": "datum.gdp_metro_shr_cry > 0"},
+                {"filter": "datum.year == 2018"}
                 ],
   "repeat": {
     "row": ["prod", "pop_density", "gdp_metro_shr_cry"],
