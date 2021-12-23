@@ -189,6 +189,11 @@
       grid-column: 1;
       grid-row: 2
     }
+
+    #head_plus_chartp3 {
+      grid-column: 1;
+      grid-row: 3
+    }
   }
   @media only screen and (min-width: 810px){
     .page_name {
@@ -257,6 +262,10 @@
       grid-row: 2
     }
 
+    #head_plus_chartp3 {
+      grid-column: 1;
+      grid-row: 3
+    }
   }
   @media only screen and (min-width: 1024px){
     .web_name {
@@ -362,6 +371,11 @@
       #head_plus_chartp2 {
         grid-column: 1;
         grid-row: 2
+      }
+    
+      #head_plus_chartp3 {
+        grid-column: 1;
+        grid-row: 3
       }
 
   }
@@ -473,6 +487,11 @@
       #head_plus_chartp2 {
         grid-column: 1;
         grid-row: 2
+      }
+
+      #head_plus_chartp3 {
+        grid-column: 1;
+        grid-row: 3
       }
 
   }
