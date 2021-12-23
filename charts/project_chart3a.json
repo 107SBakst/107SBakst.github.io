@@ -5,7 +5,7 @@
     },
     "width": 310,
     "height": 375,
-    "description": "Chart showing the models predicted values to the test values of the outcome variable.",
+    "description": "Chart showing the models predicted values to the test values of average wages in cities.",
     "title": {
       "text": "City characteristics to predict wages.",
       "subtitle": "A multiple linear regression model to predict average wages in US cities.",
@@ -20,14 +20,14 @@
       "x": {
         "field": "y_test",
         "type": "quantitative",
-        "title": "Y Test (Actual) (%)",
+        "title": "Y Test (Actual), Ln(Average salary in 2018, USD)",
         "axis": {"grid": false},
         "scale": {"domain":[10.2,11.4]}
       },
       "y": {
         "field": "y_pred",
         "type": "quantitative",
-        "title": "Y Predictions (%)",
+        "title": "Y Predicted, Ln(Average salary in 2018, USD)",
         "axis": {"grid": false},
         "scale": {"domain":[10.4,11.4]}
       },
