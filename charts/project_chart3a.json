@@ -1,0 +1,43 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/ml_bea_data.csv"
+  },
+  "width": 310,
+  "height": 375,
+  "description": "Chart showing the models predicted values to the test values of the outcome variable.",
+  "title": {
+    "text": "City characteristics to predict wages.",
+    "subtitle": "A multiple linear regression model to predict average wages in US cities.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "background": "rgba(213, 235, 241, 0.582)",
+  "mark": {"type": "point", "filled": true,"color": "RGB(149, 125, 173)"},
+      "encoding": {
+        "x": {
+          "field": "y_test",
+          "type": "quantitative",
+          "title": "Y Test (Actual) (%)",
+          "axis": {"grid": false}
+        },
+        "y": {
+          "field": "y_pred",
+          "type": "quantitative",
+          "title": "Y Predictions (%)",
+          "axis": {"grid": false}
+        },
+        "tooltip": [
+      {
+        "field": "y_pred",
+        "type": "quantitative",
+        "title": "Y Predicted value (%)"},
+  {
+        "field": "y_test",
+        "type": "quantitative",
+        "title": "Y Test value (%)"
+      }]
+      }
+}
