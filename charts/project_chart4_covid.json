@@ -1,0 +1,104 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/covid_pop_urb.csv"
+  },
+"description": "Chart showing that countries with a larger share of the population living in urban areas also had more Covid-19 cases.",
+"title":{
+  "text": "Density spreads ideas and diseases too!",
+  "subtitle": "Share of population that live in urban areas is significant (P<0.01)",
+  "subtitleFontStyle": "italic",
+  "subtitleFontSize": 10,
+  "anchor": "start",
+  "color": "black"
+},
+  "height": 375,
+  "width": 310,
+  "background": "rgba(213, 235, 241, 0.582)",
+  "layer": [
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "RGB(149, 125, 173)"
+      },
+      "encoding": {
+        "x": {
+          "field": "value_sh_urb",
+          "type": "quantitative",
+          "axis":{"grid": false},
+ "title": "Share (%) of population that live in urban areas"
+        },
+        "y": {
+          "field": "total_cases_ln",
+          "type": "quantitative",
+          "axis":{"grid": false},
+    "scale":{"domain":[8,18]},
+    "title": "Total Covid-19 cases (Ln scale)"
+        },
+        "color":{
+          "field": "continent",
+          "type": "nominal",
+          "legend": {"orient": "top-left","title":"Continent"}
+        },
+        "size": {"value": 60},
+    "tooltip": [
+      {"field": "country", "type": "nominal", "title": "Country"},
+      {
+        "field": "total_cases_ln",
+        "type": "quantitative",
+        "title": "Total Covid-19 cases (ln)"
+      },
+      {
+        "field": "value_sh_urb",
+        "type": "quantitative",
+        "title": "% of population living in urban areas"
+      },
+      {"field": "value_tot_pop", "type": "quantitative", "title": "Total population"}      
+    ]
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "color": "rgba(172, 181, 185)"
+      },
+      "transform": [
+        {
+          "regression": "total_cases_ln",
+          "on": "value_sh_urb"
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "value_sh_urb",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "total_cases_ln",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "total_cases_ln",
+          "on": "value_sh_urb",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {"type": "nominal", "field": "R2"}
+      }
+    }
+  ]
+}
