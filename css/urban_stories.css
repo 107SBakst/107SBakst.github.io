@@ -194,6 +194,11 @@
       grid-column: 1;
       grid-row: 3
     }
+
+    #head_plus_chartp4 {
+      grid-column: 1;
+      grid-row: 4
+    }
   }
   @media only screen and (min-width: 810px){
     .page_name {
@@ -265,6 +270,11 @@
     #head_plus_chartp3 {
       grid-column: 1;
       grid-row: 3
+    }
+
+    #head_plus_chartp4 {
+      grid-column: 1;
+      grid-row: 4
     }
   }
   @media only screen and (min-width: 1024px){
@@ -376,6 +386,11 @@
       #head_plus_chartp3 {
         grid-column: 1;
         grid-row: 3
+      }
+
+      #head_plus_chartp4 {
+        grid-column: 1;
+        grid-row: 4
       }
 
   }
@@ -492,6 +507,11 @@
       #head_plus_chartp3 {
         grid-column: 1;
         grid-row: 3
+      }
+
+      #head_plus_chartp4 {
+        grid-column: 1;
+        grid-row: 4
       }
 
   }
