@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"description": "Chart showing how most of the population live in urban areas compared to rural areas..",
+"title":{
+  "text": "We are more urban than we have ever been!",
+  "subtitle": "A higher percentage of people live in urban areas than rural areas.",
+  "subtitleFontStyle": "italic",
+  "subtitleFontSize": 10,
+  "anchor": "start",
+  "color": "black"
+},
+"config": {"legend":{"orient":"bottom-left","titleAlign": "center","titleAnchor":"middle"}},
+  "height": 375,
+  "width": 310,
+  "background": "rgba(213, 235, 241, 0.582)",
+  "layer": [
+    {"mark":"line",
+    "mark": {"type": "point","filled": true},
+    "data": {"url": "https://api.worldbank.org/v2/country/wld;oed;mic;lmc/indicator/SP.URB.TOTL.IN.ZS?date=1960:2021&format=json&per_page=500", "format":{"type": "json","property": "1"}},
+    "encoding": {
+      "x": {"field": "date", "type": "temporal","timeUnit":"year","axis": {"labelAlign":"center","grid": false,"titleFontWeight":"normal"},"title":"Year"},
+      "y": {"field": "value", "type": "quantitative","title": "Share of population","axis":{"grid": false,"titleFontWeight":"normal"}},
+      "color":{"field":"countryiso3code"}
+
+    }},
+    {"mark":"line",
+    "mark": {"type": "point","filled": true,"shape":"triangle-up"},
+    "data": {"name":"rural","url": "https://api.worldbank.org/v2/country/wld;oed;mic;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300", "format":{"type": "json","property": "1"}},
+    "encoding": {
+      "x": {"field": "date", "type": "temporal"},
+      "y": {"field": "value", "type": "quantitative"},
+      "color":{"field":"countryiso3code","legend":{"title":"WB","values":["GREEN: World","BLUE: Low-Middle-Income","ORANGE: Middle-Income","RED: OECD"]}}
+
+    }}
+  ]
+
+  
+  
+}
