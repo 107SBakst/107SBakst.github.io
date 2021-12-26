@@ -3,7 +3,7 @@
   "description": "Chart showing how most of the population live in urban areas compared to rural areas..",
   "title":{
     "text": "The world is more urbanized than we have ever been!",
-    "subtitle": "Triangles: Share in urban areas. Circles: Share in rural areas.",
+    "subtitle": "Unfilled: Share in urban areas. Filled: Share in rural areas.",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -22,7 +22,7 @@
           "y": {"field": "value", "type": "quantitative","title":"Share of total population (%)","axis":{"titleFontWeight":"normal"}}
         },
         "layer": [
-            {"mark": {"type":"point","shape":"circle"}},
+            {"mark": {"type":"point","shape":"circle","filled": true}},
           {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
         ]
       },
@@ -32,7 +32,7 @@
           "y": {"field": "value", "type": "quantitative"}
         },
         "layer": [
-            {"mark": {"type":"point","shape":"triangle-up"}},
+            {"mark": {"type":"point","shape":"circle"}},
           {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
         ]
       },
