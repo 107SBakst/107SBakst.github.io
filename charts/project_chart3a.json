@@ -35,9 +35,9 @@
         {
           "field": "y_pred",
           "type": "quantitative",
-          "title": "Y Predicted value (%)"
+          "title": "Y Predicted value"
         },
-        {"field": "y_test", "type": "quantitative", "title": "Y Test value (%)"}
+        {"field": "y_test", "type": "quantitative", "title": "Y Test value"}
       ]
     }
   }
