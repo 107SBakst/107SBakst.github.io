@@ -2,8 +2,8 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "An interactive scatter plot of global health statistics by country and year.",
     "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_chart6_oecd.csv"},
-    "width": 800,
-    "height": 500,
+    "width": 310,
+    "height": 375,
     "layer": [
       {
         "transform": [
