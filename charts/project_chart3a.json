@@ -22,14 +22,14 @@
         "type": "quantitative",
         "title": "Y Test (Actual), Ln(Average salary in 2018, USD)",
         "axis": {"grid": false},
-        "scale": {"domain":[5.5,7]}
+        "scale": {"domain":[5.8,6.8]}
       },
       "y": {
         "field": "y_pred",
         "type": "quantitative",
         "title": "Y Predicted, Ln(Average salary in 2018, USD)",
         "axis": {"grid": false},
-        "scale": {"domain":[5.5,7]}
+        "scale": {"domain":[5.8,6.8]}
       },
       "tooltip": [
         {
