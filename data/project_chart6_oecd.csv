@@ -1,4 +1,4 @@
-METRO_ID,Metropolitan areas,Year,gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp,growth/shrinking_index_of_the_total_population_(2001=100),population_density_(inhabitants_per_km2),population_of_the_metropolitan_area_as_a_share_of_the_national_population,"population,_all_ages,_administrative_data",working_age_population_group_(15-64)
+metro_id,metropolitan areas,year,gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp,growth/shrinking_index_of_the_total_population_(2001=100),population_density_(inhabitants_per_km2),population_of_the_metropolitan_area_as_a_share_of_the_national_population,"population,_all_ages,_administrative_data",working_age_population_group_(15-64)
 USA01,New York (Greater),2000,,,793.0,6.7,18941708.0,12618297.0
 USA01,New York (Greater),2001,9.1,100.0,799.0,6.7,19073414.0,12735095.0
 USA01,New York (Greater),2002,9.0,100.5,802.0,6.7,19163168.0,12821015.0
