@@ -13,10 +13,10 @@
     "height": 375,
     "width": 310,
     "background": "rgba(213, 235, 241, 0.582)",
-    "data": {"url": "https://api.worldbank.org/v2/country/wld;oed;mic;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300", "format":{"type": "json","property": "1"}},
+    "data": {"url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300", "format":{"type": "json","property": "1"}},
     "encoding": {"x": {"field": "date", "type": "temporal","timeUnit":"year","axis": {"labelAlign":"center","grid": false,"titleFontWeight":"normal"},"title":"Year"}},
     "layer": [
-      {"data": {"url": "https://api.worldbank.org/v2/country/wld;oed;mic;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300", "format":{"type": "json","property": "1"}},
+      {"data": {"url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300", "format":{"type": "json","property": "1"}},
         "encoding": {
           "color": {"field": "country.value", "type": "nominal","legend":{"title": null}},
           "y": {"field": "value", "type": "quantitative","title":"Share of population (%)","axis":{"titleFontWeight":"normal"}}
@@ -26,7 +26,7 @@
           {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "point"}
         ]
       },
-      {"data": {"url": "https://api.worldbank.org/v2/country/wld;oed;mic;lmc/indicator/SP.URB.TOTL.IN.ZS?date=1960:2021&format=json&per_page=500", "format":{"type": "json","property": "1"}},
+      {"data": {"url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.URB.TOTL.IN.ZS?date=1960:2021&format=json&per_page=500", "format":{"type": "json","property": "1"}},
         "encoding": {
           "color": {"field": "country.value", "type": "nominal"},
           "y": {"field": "value", "type": "quantitative"}
