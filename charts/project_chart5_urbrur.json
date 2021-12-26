@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Chart showing how most of the population live in urban areas compared to rural areas..",
   "title":{
-    "text": "The world is more urbanized than we have ever been!",
+    "text": "The world is more urbanized than ever before!",
     "subtitle": "Unfilled: Share in urban areas. Filled: Share in rural areas.",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
