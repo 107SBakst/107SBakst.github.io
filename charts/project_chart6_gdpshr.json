@@ -1,0 +1,134 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "An interactive scatter plot of global health statistics by country and year.",
+    "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_chart6_oecd.csv"},
+    "width": 800,
+    "height": 500,
+    "layer": [
+      {
+        "transform": [
+          {"filter": {"field": "metropolitan areas", "equal": "Chicago"}},
+          {"filter": {"param": "year"}}
+        ],
+        "mark": {
+          "type": "text",
+          "fontSize": 100,
+          "x": 100,
+          "y": 100,
+          "opacity": 0.06
+        },
+        "encoding": {"text": {"field": "year"}}
+      },
+      {
+  
+        "encoding": {
+          "x": {
+            "field": "population_of_the_metropolitan_area_as_a_share_of_the_national_population",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp",
+            "type": "quantitative"
+          }
+        },
+        "layer": [
+          {
+            "mark": {
+              "type": "line",
+              "size": 4,
+              "color": "lightgray",
+              "strokeCap": "round"
+            },
+            "encoding": {
+              "detail": {"field": "metropolitan areas"},
+              "order": {"field": "year"},
+              "opacity": {
+                "condition": {
+                  "test": {"or": [
+                    {"param": "hovered", "empty": false},
+                    {"param": "clicked", "empty": false}
+                  ]},
+                  "value": 0.8
+                },
+                "value": 0
+              }
+            }
+          },
+          {
+            "params": [
+              {
+                "name": "year",
+                "value": [{"year": 2000}],
+                "select": {
+                  "type": "point",
+                  "fields": ["year"]
+                },
+                "bind": {
+                  "name": "Year",
+                  "input": "range",
+                  "min": 2000, "max": 2020, "step": 5
+                }
+              },
+              {
+                "name": "hovered",
+                "select": {
+                  "type": "point",
+                  "fields": ["metropolitan areas"],
+                  "toggle": false,
+                  "on": "mouseover"
+                }
+              },
+              {
+                "name": "clicked",
+                "select": {"type": "point", "fields": ["metropolitan areas"]}
+              }
+            ],
+            "transform": [{"filter": {"param": "year"}}],
+            "mark": {"type": "circle", "size": 100, "opacity": 0.9}
+          },
+          {
+            "transform": [
+              {
+                "filter": {
+                  "and": [
+                    {"param": "year"},
+                    {"or": [
+                      {"param": "clicked", "empty": false},
+                      {"param": "hovered", "empty": false}
+                    ]}
+                  ]
+                }
+              }
+            ],
+            "mark": {
+              "type": "text",
+              "yOffset": -12,
+              "fontSize": 12,
+              "fontWeight": "bold"
+            },
+            "encoding": {
+              "text": {"field": "metropolitan areas","title":null}
+            }
+          },
+          {
+            "transform": [
+              {"filter": {"param": "hovered", "empty": false}},
+              {"filter": {"not": {"param": "year"}}}
+            ],
+            "layer": [
+              {
+                "mark": {
+                  "type": "text",
+                  "yOffset": -12,
+                  "fontSize": 12,
+                  "color": "gray"
+                },
+                "encoding": {"text": {"field": "year"}}
+              },
+              {"mark": {"type": "circle", "color": "gray"}}
+            ]
+          }
+        ]
+      }
+    ]
+  }
