@@ -7,17 +7,23 @@
     "layer": [
       {
         "transform": [
-          {"filter": {"field": "metropolitan areas", "equal": "Chicago"}},
-          {"filter": {"param": "year"}}
+          {"calculate": "datum.year*1","as": "year"},
+          {"calculate": "datum.population_of_the_metropolitan_area_as_a_share_of_the_national_population *1","as": "population_of_the_metropolitan_area_as_a_share_of_the_national_population"},
+          {"calculate": "datum.gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp *1","as": "gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp"},
+          {"filter": "datum.gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp > 0"},
+    {"filter": "datum.population_of_the_metropolitan_area_as_a_share_of_the_national_population > 0"}
+    ,{"filter": "datum.gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp < 100"},
+    {"filter": "datum.population_of_the_metropolitan_area_as_a_share_of_the_national_population < 100"},{"filter": {"field": "metro_id", "equal": "USA01"}},
+    {"filter": {"param": "year"}}
         ],
         "mark": {
           "type": "text",
           "fontSize": 100,
           "x": 100,
           "y": 100,
-          "opacity": 0.06
+          "opacity": 0.08
         },
-        "encoding": {"text": {"field": "year"}}
+        "encoding": {"text": {"field": "year","type":"quantitative"}}
       },
       {
   
@@ -36,7 +42,7 @@
             "mark": {
               "type": "line",
               "size": 4,
-              "color": "lightgray",
+              "color": "beige",
               "strokeCap": "round"
             },
             "encoding": {
@@ -48,7 +54,7 @@
                     {"param": "hovered", "empty": false},
                     {"param": "clicked", "empty": false}
                   ]},
-                  "value": 0.8
+                  "value": 0.1
                 },
                 "value": 0
               }
@@ -66,7 +72,7 @@
                 "bind": {
                   "name": "Year",
                   "input": "range",
-                  "min": 2000, "max": 2020, "step": 5
+                  "min": 2000, "max": 2020, "step": 1
                 }
               },
               {
@@ -84,7 +90,7 @@
               }
             ],
             "transform": [{"filter": {"param": "year"}}],
-            "mark": {"type": "circle", "size": 100, "opacity": 0.9}
+            "mark": {"type": "point", "size": 20, "opacity": 1}
           },
           {
             "transform": [
@@ -123,7 +129,7 @@
                   "fontSize": 12,
                   "color": "gray"
                 },
-                "encoding": {"text": {"field": "year"}}
+                "encoding": {"text": {"field": "year","type": "quantitative"}}
               },
               {"mark": {"type": "circle", "color": "gray"}}
             ]
@@ -132,3 +138,4 @@
       }
     ]
   }
+  
