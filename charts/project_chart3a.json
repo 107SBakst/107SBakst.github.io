@@ -1,43 +1,59 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/ml_bea_data.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/ml_bea_data.csv"
+  },
+  "width": 310,
+  "height": 375,
+  "description": "Chart showing the models predicted values to the test values of average wages in cities.",
+  "title": {
+    "text": "City characteristics to predict wages.",
+    "subtitle": "A multiple linear regression model to predict average wages in US cities.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "background": "rgba(213, 235, 241, 0.582)",
+  "config": {"axis":{"titleFontWeight":"normal"}},
+  "layer": [
+  {"mark": {"type": "point", "filled": true, "color": "RGB(149, 125, 173)"},
+  "encoding": {
+    "x": {
+      "field": "y_test",
+      "type": "quantitative",
+      "title": "Y Test (Actual), Ln(Average real salary in 2018, USD)",
+      "axis": {"grid": false},
+      "scale": {"domain": [10.5, 11.5]}
     },
-    "width": 310,
-    "height": 375,
-    "description": "Chart showing the models predicted values to the test values of average wages in cities.",
-    "title": {
-      "text": "City characteristics to predict wages.",
-      "subtitle": "A multiple linear regression model to predict average wages in US cities.",
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "black"
+    "y": {
+      "field": "y_pred",
+      "type": "quantitative",
+      "title": "Y Predicted, Ln(Average real salary in 2018, USD)",
+      "axis": {"grid": false},
+      "scale": {"domain": [10.5, 11.5]}
     },
-    "background": "rgba(213, 235, 241, 0.582)",
-    "mark": {"type": "point", "filled": true, "color": "RGB(149, 125, 173)"},
-    "encoding": {
-      "x": {
-        "field": "y_test",
-        "type": "quantitative",
-        "title": "Y Test (Actual), Ln(Average real salary in 2018, USD)",
-        "axis": {"grid": false},
-        "scale": {"domain":[10.5,11.5]}
-      },
-      "y": {
-        "field": "y_pred",
-        "type": "quantitative",
-        "title": "Y Predicted, Ln(Average real salary in 2018, USD)",
-        "axis": {"grid": false},
-        "scale": {"domain":[10.5,11.5]}
-      },
-      "tooltip": [
+    "tooltip": [
+      {"field": "y_pred", "type": "quantitative", "title": "Y Predicted value"},
+      {"field": "y_test", "type": "quantitative", "title": "Y Test value"}
+    ]
+  }},
+      {
+      "transform": [
         {
-          "field": "y_pred",
-          "type": "quantitative",
-          "title": "Y Predicted value"
+          "regression": "y_pred",
+          "on": "y_test",
+          "params": true
         },
-        {"field": "y_test", "type": "quantitative", "title": "Y Test value"}
-      ]
-    }
-  }
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }]
+}
