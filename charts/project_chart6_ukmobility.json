@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
+  "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/39da97da97ddcbf6e89c3c21fc0056d69176369a/data/uk_google_mobility.csv"},
+  "width": 310,
+  "height": 375,
+  "transform": [{"filter": "datum.subreg1!=='York'"}],
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": "date"},
+    "y": {"field": "workplaces_percent_change_from_baseline", "type": "quantitative", "title": "price"},
+    "color": {
+      "condition": {
+        "param": "hover",
+        "field":"subreg1",
+        "type":"nominal",
+        "legend": null
+      },
+      "value": "grey"
+    },
+    "opacity": {
+      "condition": {
+        "param": "hover",
+        "value": 1
+      },
+      "value": 0.2
+    }
+  },
+  "layer": [{
+    "description": "transparent layer to make it easier to trigger selection",
+    "params": [{
+      "name": "hover",
+      "value": [{"subreg1": "York"}],
+      "select": {
+        "type": "point",
+        "fields": ["subreg1"],
+        "on": "mouseover"
+      }
+    }],
+    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+  }, {
+    "mark": "line"
+  }, {
+    "encoding": {
+      "x": {"aggregate": "max", "field": "date"},
+      "y": {"aggregate": {"argmax": "date"}, "field": "workplaces_percent_change_from_baseline"}
+    },
+    "layer": [{
+      "mark": {"type": "circle"}
+    }, {
+      "mark": {"type": "text", "align": "left", "dx": 4},
+      "encoding": {"text": {"field":"subreg1", "type": "nominal"}}
+    }]
+  }],
+  "config": {"view": {"stroke": null}}
+}
