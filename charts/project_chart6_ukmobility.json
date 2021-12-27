@@ -10,10 +10,11 @@
     "color": "black"
   },
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/39da97da97ddcbf6e89c3c21fc0056d69176369a/data/uk_google_mobility.csv"},
-  "width": 310,
+  "width": 610,
   "height": 375,
   "background": "rgba(213, 235, 241, 0.582)",
-  "transform": [{"filter": "datum.subreg1!=='York'"}],
+  "transform": [{"filter":{"field": "subreg1","oneOf":["York", "Bristol_City"]}},
+  {"loess": "workplaces_percent_change_from_baseline", "on": "date","groupby": ["subeg1"]}],
   "encoding": {
     "x": {"field": "date", "type": "temporal", "title": "date"},
     "y": {"field": "workplaces_percent_change_from_baseline", "type": "quantitative", "title": "price"},
@@ -45,9 +46,9 @@
         "on": "mouseover"
       }
     }],
-    "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+    "mark": {"type": "line", "strokeWidth": 4, "stroke": "transparent"}
   }, {
-    "mark": "line"
+    "mark": "point"
   }, {
     "encoding": {
       "x": {"aggregate": "max", "field": "date"},
