@@ -78,7 +78,7 @@
                 "bind": {
                   "name": "Year",
                   "input": "range",
-                  "min": 2001, "max": 2019, "step": 1
+                  "min": 2001, "max": 2018, "step": 1
                 }
               },
               {
