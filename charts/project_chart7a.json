@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Chart showing how most of the population live in urban areas compared to rural areas..",
+  "title": {
+    "text": "The world is more urbanized than ever before!",
+    "subtitle": "Unfilled: Share in urban areas. Filled: Share in rural areas.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "config": {
+    "legend": {
+      "titleAlign": "center",
+      "titleAnchor": "middle",
+      "orient": "top",
+      "symbolOffset": -36,
+      "labelOffset": 1
+    }
+  },
+  "height": 375,
+  "width": 310,
+  "background": "rgba(213, 235, 241, 0.582)",
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300",
+    "format": {"type": "json", "property": "1"}
+  },
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "timeUnit": "year",
+      "axis": {
+        "labelAlign": "center",
+        "grid": false,
+        "titleFontWeight": "normal"
+      },
+      "title": "Year"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300",
+        "format": {"type": "json", "property": "1"}
+      },
+      "encoding": {
+        "color": {
+          "field": "country.value",
+          "type": "nominal",
+          "legend": {"title": null}
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Share of total population (%)",
+          "axis": {"titleFontWeight": "normal"}
+        }
+      },
+      "layer": [
+        {"mark": {"type": "point", "shape": "circle", "filled": true}},
+        {
+          "transform": [{"filter": {"param": "hover", "empty": false}}],
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "data": {
+        "url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.URB.TOTL.IN.ZS?date=1960:2021&format=json&per_page=500",
+        "format": {"type": "json", "property": "1"}
+      },
+      "encoding": {
+        "color": {"field": "country.value", "type": "nominal"},
+        "y": {"field": "value", "type": "quantitative"}
+      },
+      "layer": [
+        {"mark": {"type": "point", "shape": "circle"}},
+        {
+          "transform": [{"filter": {"param": "hover", "empty": false}}],
+          "mark": "point"
+        }
+      ]
+    },
+    {
+      "transform": [
+        {"pivot": "country.value", "value": "value", "groupby": ["date"]}
+      ],
+      "mark": "rule",
+      "encoding": {
+        "opacity": {
+          "condition": {"value": 0.3, "param": "hover", "empty": false},
+          "value": 0
+        }
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "fields": ["date"],
+            "nearest": true,
+            "on": "mouseover",
+            "clear": "mouseout"
+          }
+        }
+      ]
+    }
+  ]
+}
