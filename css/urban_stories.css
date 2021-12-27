@@ -185,6 +185,17 @@
       grid-column: 1;
       grid-row: 1
     }
+  
+    #head_plus_chartp1mdr {
+      grid-column: 2;
+      grid-row: 1
+    }
+
+    #head_plus_chartp1ldc {
+      grid-column: 3;
+      grid-row: 1
+    }
+
     #head_plus_chartp2 {
       grid-column: 1;
       grid-row: 2
@@ -271,6 +282,17 @@
       grid-column: 1;
       grid-row: 1
     }
+
+    #head_plus_chartp1mdr {
+      grid-column: 2;
+      grid-row: 1
+    }
+
+    #head_plus_chartp1ldc {
+      grid-column: 3;
+      grid-row: 1
+    }
+
     #head_plus_chartp2 {
       grid-column: 1;
       grid-row: 2
@@ -395,6 +417,17 @@
         grid-column: 1;
         grid-row: 1
       }
+
+      #head_plus_chartp1mdr {
+        grid-column: 2;
+        grid-row: 1
+      }
+  
+      #head_plus_chartp1ldc {
+        grid-column: 3;
+        grid-row: 1
+      }
+
       #head_plus_chartp2 {
         grid-column: 1;
         grid-row: 2
@@ -524,6 +557,17 @@
         grid-column: 1;
         grid-row: 1
       }
+
+      #head_plus_chartp1mdr {
+        grid-column: 2;
+        grid-row: 1
+      }
+  
+      #head_plus_chartp1ldc {
+        grid-column: 3;
+        grid-row: 1
+      }
+      
       #head_plus_chartp2 {
         grid-column: 1;
         grid-row: 2
