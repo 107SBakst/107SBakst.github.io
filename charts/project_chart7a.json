@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Chart showing how most of the population live in urban areas compared to rural areas..",
+  "description": "Google mobility data for UK cities.",
   "title": {
-    "text": "The world is more urbanized than ever before!",
-    "subtitle": "Unfilled: Share in urban areas. Filled: Share in rural areas.",
+    "text": "The Pandemic created the WFH revolution.",
+    "subtitle": "The Google mobility index on UK cities.",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
@@ -34,7 +34,7 @@
         "grid": false,
         "titleFontWeight": "normal"
       },
-      "title": "Year"
+      "title": "Date"
     }
   },
   "layer": [
@@ -48,8 +48,8 @@
         "y": {
           "field": "workplaces_percent_change_from_baseline",
           "type": "quantitative",
-          "title": "Share of total population (%)",
-          "axis": {"titleFontWeight": "normal"}
+          "title": "% change from baseline (0)",
+          "axis": {"titleFontWeight": "normal","grid": false}
         }
       },
       "layer": [
