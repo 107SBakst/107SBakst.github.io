@@ -21,7 +21,11 @@
     {"calculate":"datum.pop_dens*1","as": "pop_dens"},
     {"filter": "datum.pop_dens > 0"}],
   "layer": [
-    {
+    {"params": [{
+      "name": "industry",
+      "select": {"type": "point", "fields": ["DEV_CMI"]},
+      "bind": "legend"
+    }],
       "mark": {"type": "point", "filled": true, "color": "RGB(149, 125, 173)"},
       "encoding": {
         "x": {
@@ -38,6 +42,9 @@
         },
         "color": {"field":"DEV_CMI","title":"Development status","legend":{"orient": "top","titleFontWeight":"lighter"}},
         "size": {"value": 60},
+        "opacity": {
+        "condition": {"param": "industry", "value": 1},
+        "value": 0.2},
         "tooltip": [
           {"field": "UC_NM_MN", "type": "nominal", "title": "City"},
           {
