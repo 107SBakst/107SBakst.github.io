@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Google mobility data for UK cities.",
   "title":{
-    "text": "The Pandemic has reduced mobility of workers going to their workplaces.",
+    "text": "The Pandemic created the WFH revolution.",
     "subtitle": "The Google mobility index on UK cities.",
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
@@ -10,56 +10,30 @@
     "color": "black"
   },
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/39da97da97ddcbf6e89c3c21fc0056d69176369a/data/uk_google_mobility.csv"},
-  "width": 610,
+  "width": 310,
   "height": 375,
   "background": "rgba(213, 235, 241, 0.582)",
-  "transform": [{"filter":{"field": "subreg1","oneOf":["York", "Bristol_City"]}},
-  {"loess": "workplaces_percent_change_from_baseline", "on": "date","groupby": ["subeg1"]}],
+  "transform": [{"filter":{"field": "subreg1","oneOf":["Bristol_City","Greater_London","UK","Greater_Manchester"]}}],
+  "layer":[{
+"mark": "point",
   "encoding": {
-    "x": {"field": "date", "type": "temporal", "title": "date"},
-    "y": {"field": "workplaces_percent_change_from_baseline", "type": "quantitative", "title": "price"},
-    "color": {
-      "condition": {
-        "param": "hover",
-        "field":"subreg1",
-        "type":"nominal",
-        "legend": null
-      },
-      "value": "grey"
-    },
+    "x": {"field": "date", "type": "temporal", "title": "Date","axis":{"grid": false}},
+    "y": {"field": "workplaces_percent_change_from_baseline", "type": "quantitative", "title": "% change from baseline (0)","axis":{"grid": false}},
+    "color":{"field":"sub_region_1"},
     "opacity": {
-      "condition": {
-        "param": "hover",
-        "value": 1
-      },
-      "value": 0.2
+      "value": 0
     }
-  },
-  "layer": [{
-    "description": "transparent layer to make it easier to trigger selection",
-    "params": [{
-      "name": "hover",
-      "value": [{"subreg1": "York"}],
-      "select": {
-        "type": "point",
-        "fields": ["subreg1"],
-        "on": "mouseover"
-      }
-    }],
-    "mark": {"type": "line", "strokeWidth": 4, "stroke": "transparent"}
-  }, {
-    "mark": "point"
-  }, {
-    "encoding": {
-      "x": {"aggregate": "max", "field": "date"},
-      "y": {"aggregate": {"argmax": "date"}, "field": "workplaces_percent_change_from_baseline"}
-    },
-    "layer": [{
-      "mark": {"type": "circle"}
-    }, {
-      "mark": {"type": "text", "align": "left", "dx": 4},
-      "encoding": {"text": {"field":"subreg1", "type": "nominal"}}
-    }]
-  }],
-  "config": {"view": {"stroke": null}}
-}
+  }},
+{
+    "mark": "line",
+    "transform": [
+        {"loess": "workplaces_percent_change_from_baseline", "on": "date","bandwidth": 0.1,"groupby": ["sub_region_1"]}
+    
+],
+"encoding": {
+    "x": {"field": "date", "type": "temporal","axis":{"grid": false},"timeUnit":"yearmonthdate"},
+    "y": {"field": "workplaces_percent_change_from_baseline", "type": "quantitative","axis":{"grid": false}},
+    "tooltip": [{"field":"date","type": "temporal"},{"field":"workplaces_percent_change_from_baseline","type": "quantitative","title":"% change from baseline"}],
+    "color":{"field":"sub_region_1","legend":{"title":"Geographies","orient":"top-left"}}}
+
+}]}
