@@ -79,14 +79,17 @@
     },
     {
       "transform": [
-        {"pivot": "sub_region_1", "value": "workplaces_percent_change_from_baseline", "groupby": ["date"]}
+        {"pivot": "subreg1", "value": "workplaces_percent_change_from_baseline", "groupby": ["date"]}
       ],
       "mark": "rule",
       "encoding": {
         "opacity": {
           "condition": {"value": 0.3, "param": "hover", "empty": false},
           "value": 0
-        }
+        },
+        "tooltip": [
+          {"field": "date", "type": "temporal","title":"Date"}
+        ]
       },
       "params": [
         {
