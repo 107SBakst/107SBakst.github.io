@@ -1,7 +1,16 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "An interactive scatter plot of global health statistics by country and year.",
+    "description": "Chart showing how GDP as a share of countries is higher in larger countries than the pop as a share of countries.",
+    "title": {
+      "text": "Larger cities contribute more to a countries GDP.",
+      "subtitle": "The largest cities in a countries contribute the most to their GDP.",
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
     "background": "rgba(213, 235, 241, 0.582)",
+  
     "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_chart6_oecd.csv"},
     "width": 310,
     "height": 375,
@@ -13,29 +22,41 @@
     ,{"filter": "datum.gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp < 100"},
     {"filter": "datum.population_of_the_metropolitan_area_as_a_share_of_the_national_population < 100"}],
     "layer": [
+      {"mark":"rule",
+      "encoding": {
+        "x": {"value": 0},
+        "y": {"value": 375},
+        "x2":{"value":310},
+        "y2":{"value":0},
+        "color": {"value":"grey"}}},
+      {"mark": {"type":"text","fontWeight":"normal","fontStyle":"italic","size":10,"color":"dimgrey"},
+      "encoding": {
+        "x": {"value": 248},
+        "y": {"value": 365},
+        "text": {"value":"GDP (%) < Population (%)"}
+      }},
+      {"mark": {"type":"text","fontWeight":"normal","fontStyle":"italic","size":10,"color":"dimgrey"},
+      "encoding": {
+        "x": {"value": 62},
+        "y": {"value": 10},
+        "text": {"value":"GDP (%) > Population (%)"}
+      }},
       {
         "transform": [
     {"filter": {"param": "year"}}
         ],
-        "mark": {
-          "type": "text",
-          "fontSize": 100,
-          "x": 100,
-          "y": 100,
-          "opacity": 0.08
-        },
-        "encoding": {"text": {"field": "year","type":"quantitative"},
+        "encoding": {
           "x": {
             "field": "population_of_the_metropolitan_area_as_a_share_of_the_national_population",
             "type": "quantitative",
-            "scale":{"domain":[0,10]},
+            "scale":{"domain":[0,15]},
             "title":"City population as a share of national population (%)",
             "axis":{"titleFontWeight":"normal","grid": false}
           },
           "y": {
             "field": "gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp",
             "type": "quantitative",
-            "scale": {"domain":[0,10]},
+            "scale": {"domain":[0,15]},
             "title": "GDP of City as a share of national GDP (%)",
             "axis":{"titleFontWeight":"normal","grid": false}
           },
@@ -45,28 +66,6 @@
       },
   
         "layer": [
-          {
-            "mark": {
-              "type": "line",
-              "size": 4,
-              "color": "beige",
-              "strokeCap": "round"
-            },
-            "encoding": {
-              "detail": {"field": "metropolitan areas"},
-              "order": {"field": "year"},
-              "opacity": {
-                "condition": {
-                  "test": {"or": [
-                    {"param": "hovered", "empty": false},
-                    {"param": "clicked", "empty": false}
-                  ]},
-                  "value": 0.1
-                },
-                "value": 0
-              }
-            }
-          },
           {
             "params": [
               {
@@ -97,31 +96,7 @@
               }
             ],
             "transform": [{"filter": {"param": "year"}}],
-            "mark": {"type": "point", "size": 20, "opacity": 1,"color": "RGB(149, 125, 173)","filled": true}
-          },
-          {
-            "transform": [
-              {
-                "filter": {
-                  "and": [
-                    {"param": "year"},
-                    {"or": [
-                      {"param": "clicked", "empty": false},
-                      {"param": "hovered", "empty": false}
-                    ]}
-                  ]
-                }
-              }
-            ],
-            "mark": {
-              "type": "text",
-              "yOffset": -12,
-              "fontSize": 12,
-              "fontWeight": "bold"
-            },
-            "encoding": {
-              "text": {"field": "metropolitan areas","title":null}
-            }
+            "mark": {"type": "point", "size": 30, "opacity": 1,"color": "RGB(149, 125, 173)","filled": true}
           },
           {
             "transform": [
@@ -129,15 +104,6 @@
               {"filter": {"not": {"param": "year"}}}
             ],
             "layer": [
-              {
-                "mark": {
-                  "type": "text",
-                  "yOffset": -12,
-                  "fontSize": 12,
-                  "color": "gray"
-                },
-                "encoding": {"text": {"field": "year","type": "quantitative"}}
-              },
               {"mark": {"type": "circle", "color": "gray"}}
             ]
           }
