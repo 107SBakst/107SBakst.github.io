@@ -1,9 +1,18 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Multi-series line chart with labels and interactive highlight on hover.  We also set the selection's initial value to provide a better screenshot",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Google mobility data for UK cities.",
+  "title":{
+    "text": "The Pandemic has reduced mobility of workers going to their workplaces.",
+    "subtitle": "The Google mobility index on UK cities.",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/39da97da97ddcbf6e89c3c21fc0056d69176369a/data/uk_google_mobility.csv"},
   "width": 310,
   "height": 375,
+  "background": "rgba(213, 235, 241, 0.582)",
   "transform": [{"filter": "datum.subreg1!=='York'"}],
   "encoding": {
     "x": {"field": "date", "type": "temporal", "title": "date"},
