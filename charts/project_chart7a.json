@@ -22,14 +22,13 @@
   "width": 310,
   "background": "rgba(213, 235, 241, 0.582)",
   "data": {
-    "url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300",
-    "format": {"type": "json", "property": "1"}
-  },
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/39da97da97ddcbf6e89c3c21fc0056d69176369a/data/uk_google_mobility.csv"},
+    "transform":[{"filter": {"field": "subreg1","oneOf":["Bristol_City","UK","Greater_Manchester","Greater_London"]}}],
   "encoding": {
     "x": {
       "field": "date",
       "type": "temporal",
-      "timeUnit": "year",
+      "timeUnit": "yearmonthdate",
       "axis": {
         "labelAlign": "center",
         "grid": false,
@@ -40,42 +39,38 @@
   },
   "layer": [
     {
-      "data": {
-        "url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300",
-        "format": {"type": "json", "property": "1"}
-      },
       "encoding": {
         "color": {
-          "field": "country.value",
+          "field": "sub_region_1",
           "type": "nominal",
           "legend": {"title": null}
-        },
+        },"opacity":{"value":0},
         "y": {
-          "field": "value",
+          "field": "workplaces_percent_change_from_baseline",
           "type": "quantitative",
           "title": "Share of total population (%)",
           "axis": {"titleFontWeight": "normal"}
         }
       },
       "layer": [
-        {"mark": {"type": "point", "shape": "circle", "filled": true}},
+        {"mark": {"type": "line","filled": true}},
         {
           "transform": [{"filter": {"param": "hover", "empty": false}}],
-          "mark": "point"
+          "mark": "line"
         }
       ]
     },
     {
-      "data": {
-        "url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.URB.TOTL.IN.ZS?date=1960:2021&format=json&per_page=500",
-        "format": {"type": "json", "property": "1"}
-      },
+      "transform": [
+        {"loess": "workplaces_percent_change_from_baseline", "on": "date","bandwidth": 0.1,"groupby": ["sub_region_1"]}
+    
+],
       "encoding": {
-        "color": {"field": "country.value", "type": "nominal"},
-        "y": {"field": "value", "type": "quantitative"}
+        "color": {"field": "sub_region_1", "type": "nominal"},
+        "y": {"field": "workplaces_percent_change_from_baseline", "type": "quantitative"}
       },
       "layer": [
-        {"mark": {"type": "point", "shape": "circle"}},
+        {"mark": {"type": "line"}},
         {
           "transform": [{"filter": {"param": "hover", "empty": false}}],
           "mark": "point"
@@ -84,7 +79,7 @@
     },
     {
       "transform": [
-        {"pivot": "country.value", "value": "value", "groupby": ["date"]}
+        {"pivot": "sub_region_1", "value": "workplaces_percent_change_from_baseline", "groupby": ["date"]}
       ],
       "mark": "rule",
       "encoding": {
