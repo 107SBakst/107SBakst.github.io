@@ -41,7 +41,7 @@
             "axis": {"grid": false,"titleFontWeight":"lighter"},
             "title": "Carbon footprint per capita (t CO2)"
           },
-          "color": {"field":"DEV_CMI","title":"Development status","legend":{"orient": "top","titleFontWeight":"lighter"}},
+          "color": {"field":"DEV_CMI","title":"Development status","legend":null},
           "size": {"value": 60},
           "opacity": {
           "condition": {"param": "industry", "value": 1},
