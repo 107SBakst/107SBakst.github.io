@@ -1,6 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "An interactive scatter plot of global health statistics by country and year.",
+    "background": "rgba(213, 235, 241, 0.582)",
     "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_chart6_oecd.csv"},
     "width": 310,
     "height": 375,
@@ -27,14 +28,20 @@
           "x": {
             "field": "population_of_the_metropolitan_area_as_a_share_of_the_national_population",
             "type": "quantitative",
-            "scale":{"domain":[0,10]}
+            "scale":{"domain":[0,10]},
+            "title":"City population as a share of national population (%)",
+            "axis":{"titleFontWeight":"normal","grid": false}
           },
           "y": {
             "field": "gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp",
             "type": "quantitative",
-            "scale": {"domain":[0,10]}
+            "scale": {"domain":[0,10]},
+            "title": "GDP of City as a share of national GDP (%)",
+            "axis":{"titleFontWeight":"normal","grid": false}
           },
-          "tooltip": {"field":"metropolitan areas"}
+          "tooltip": [{"field":"metropolitan areas","title":"City"},
+                      {"field": "gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp","title":"GDP of City as a share of national GDP (%)"},
+                      {"field": "population_of_the_metropolitan_area_as_a_share_of_the_national_population","title":"City population as a share of national population (%)"}]
       },
   
         "layer": [
@@ -90,7 +97,7 @@
               }
             ],
             "transform": [{"filter": {"param": "year"}}],
-            "mark": {"type": "point", "size": 20, "opacity": 1}
+            "mark": {"type": "point", "size": 20, "opacity": 1,"color": "RGB(149, 125, 173)","filled": true}
           },
           {
             "transform": [
@@ -138,4 +145,3 @@
       }
     ]
   }
-  
