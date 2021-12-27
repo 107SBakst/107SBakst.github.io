@@ -49,14 +49,14 @@
           "x": {
             "field": "population_of_the_metropolitan_area_as_a_share_of_the_national_population",
             "type": "quantitative",
-            "scale":{"domain":[0,100]},
+            "scale":{"domain":[0,80]},
             "title":"City population as a share of national population (%)",
             "axis":{"titleFontWeight":"normal","grid": false}
           },
           "y": {
             "field": "gdp_of_the_metropolitan_area_as_a_share_of_the_national_gdp",
             "type": "quantitative",
-            "scale": {"domain":[0,100]},
+            "scale": {"domain":[0,80]},
             "title": "GDP of City as a share of national GDP (%)",
             "axis":{"titleFontWeight":"normal","grid": false}
           },
