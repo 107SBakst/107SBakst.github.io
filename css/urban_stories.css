@@ -183,17 +183,20 @@
     }
     #head_plus_chartp1 {
       grid-column: 1;
-      grid-row: 1
+      grid-row: 1;
+      background-color: rgba(204, 202, 240, 0.466)
     }
   
     #head_plus_chartp1mdr {
       grid-column: 2;
-      grid-row: 1
+      grid-row: 1;
+      background-color: rgba(204, 202, 240, 0.466)
     }
 
     #head_plus_chartp1ldc {
       grid-column: 3;
-      grid-row: 1
+      grid-row: 1;
+      background-color: rgba(204, 202, 240, 0.466)
     }
 
     #head_plus_chartp2 {
@@ -285,17 +288,20 @@
     }
     #head_plus_chartp1 {
       grid-column: 1;
-      grid-row: 1
+      grid-row: 1;
+      background-color: rgba(204, 202, 240, 0.466)
     }
 
     #head_plus_chartp1mdr {
       grid-column: 2;
-      grid-row: 1
+      grid-row: 1;
+      background-color: rgba(204, 202, 240, 0.466)
     }
 
     #head_plus_chartp1ldc {
       grid-column: 3;
-      grid-row: 1
+      grid-row: 1;
+      background-color: rgba(204, 202, 240, 0.466)
     }
 
     #head_plus_chartp2 {
@@ -426,17 +432,20 @@
       }
       #head_plus_chartp1 {
         grid-column: 1;
-        grid-row: 1
+        grid-row: 1;
+        background-color: rgba(204, 202, 240, 0.466)
       }
 
       #head_plus_chartp1mdr {
         grid-column: 2;
-        grid-row: 1
+        grid-row: 1;
+        background-color: rgba(204, 202, 240, 0.466)
       }
   
       #head_plus_chartp1ldc {
         grid-column: 3;
-        grid-row: 1
+        grid-row: 1;
+        background-color: rgba(204, 202, 240, 0.466)
       }
 
       #head_plus_chartp2 {
@@ -580,18 +589,20 @@
       }
       #head_plus_chartp1 {
         grid-column: 1;
-        grid-row: 1
+        grid-row: 1;
+        background-color: rgba(204, 202, 240, 0.466)
       }
 
       #head_plus_chartp1mdr {
         grid-column: 2;
         grid-row: 1;
-        display: grid
+        background-color: rgba(204, 202, 240, 0.466)
       }
   
       #head_plus_chartp1ldc {
         grid-column: 3;
-        grid-row: 1
+        grid-row: 1;
+        background-color: rgba(204, 202, 240, 0.466)
       }
 
       #head_plus_chartp2 {
