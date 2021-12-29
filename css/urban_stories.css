@@ -432,48 +432,49 @@
       }
       #head_plus_chartp1 {
         grid-column: 1;
-        grid-row: 1;
+        grid-row: 2;
         background-color: rgba(204, 202, 240, 0.466)
       }
 
       #head_plus_chartp1mdr {
         grid-column: 2;
-        grid-row: 1;
+        grid-row: 2;
         background-color: rgba(204, 202, 240, 0.466)
       }
   
       #head_plus_chartp1ldc {
         grid-column: 3;
-        grid-row: 1;
+        grid-row: 2;
         background-color: rgba(204, 202, 240, 0.466)
       }
 
       #head_plus_chartp2 {
         grid-column: 1;
-        grid-row: 2
+        grid-row: 3
       }
-    
+
       #head_plus_chartp3 {
         grid-column: 1;
-        grid-row: 3
+        grid-row: 4
       }
 
       #head_plus_chartp4 {
         grid-column: 1;
-        grid-row: 4
+        grid-row: 6
       }
       #head_plus_chartp5 {
         grid-column: 1;
-        grid-row: 5
+        grid-row: 7
       }
+
       #head_plus_chartp6 {
         grid-column: 1;
-        grid-row: 6
+        grid-row: 5
       }
 
       #head_plus_chartp7 {
         grid-column: 1;
-        grid-row: 7
+        grid-row: 1
       }
 
   }
