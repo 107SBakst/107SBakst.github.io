@@ -602,7 +602,7 @@
       }
 
       #head_plus_chartp1 {
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 1
       }
 
@@ -646,6 +646,14 @@
       #head_plus_chartp7 {
         grid-column: 1;
         grid-row: 7
+      }
+      #writeup1a {
+        grid-column: 1;
+        grid-row: 1
+      }
+      #writeup1b {
+        grid-column: 3;
+        grid-row: 1
       }
   }
 
