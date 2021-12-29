@@ -630,22 +630,22 @@
       }
 
       #head_plus_chartp4 {
-        grid-column: 1;
-        grid-row: 4
-      }
-      #head_plus_chartp5 {
-        grid-column: 1;
+        grid-column: 3;
         grid-row: 5
       }
-
-      #head_plus_chartp6 {
-        grid-column: 1;
+      #head_plus_chartp5 {
+        grid-column: 2;
         grid-row: 6
       }
 
-      #head_plus_chartp7 {
-        grid-column: 1;
+      #head_plus_chartp6 {
+        grid-column: 3;
         grid-row: 7
+      }
+
+      #head_plus_chartp7 {
+        grid-column: 2;
+        grid-row: 8
       }
       #writeup1a {
         grid-column: 1;
@@ -654,6 +654,54 @@
       #writeup1b {
         grid-column: 3;
         grid-row: 1
+      }
+      #writeup2a {
+        grid-column: 1;
+        grid-row: 4
+      }
+      #writeup2b {
+        grid-column: 3;
+        grid-row: 4
+      }
+      #writeup3a {
+        grid-column: 2;
+        grid-row: 4
+      }
+      #writeup3b {
+        grid-column: 3;
+        grid-row: 4
+      }
+      #writeup4a {
+        grid-column: 1;
+        grid-row: 5
+      }
+      #writeup4b {
+        grid-column: 2;
+        grid-row: 5
+      }
+      #writeup5a {
+        grid-column: 1;
+        grid-row: 6
+      }
+      #writeup5b {
+        grid-column: 3;
+        grid-row: 6
+      }
+      #writeup6a {
+        grid-column: 1;
+        grid-row: 7
+      }
+      #writeup6b {
+        grid-column: 2;
+        grid-row: 7
+      }
+      #writeup7a {
+        grid-column: 1;
+        grid-row: 8
+      }
+      #writeup7b {
+        grid-column: 3;
+        grid-row: 8
       }
   }
 
