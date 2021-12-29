@@ -89,12 +89,17 @@
   }
   .chart_head_project {
     font-family: Cambria, Georgia;
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(53, 90, 84);
     max-width: 330px;
     text-align: justify;
     font-weight: bold;
 
+  }
+
+  .bodytext {
+    font-size: 15px;
+    text-align: justify
   }
   .head_plus_chart {
     border-style: dashed;
