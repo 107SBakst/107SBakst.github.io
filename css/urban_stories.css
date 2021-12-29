@@ -344,7 +344,7 @@
       grid-row: 7
     }
   }
-  @media only screen and (min-width: 1024px){
+  @media only screen and (min-width: 875px){
     .web_name {
       width: auto;
       font-size: 75px;
@@ -449,41 +449,98 @@
       
       #head_plus_chartp2 {
         grid-column: 1;
-        grid-row: 2
+        grid-row: 3
       }
 
       #head_plus_chartp2mdr {
         grid-column: 1;
-        grid-row: 3
+        grid-row: 4
       }
   
       #head_plus_chartp2ldc {
         grid-column: 2;
-        grid-row: 3
+        grid-row: 4
       }
 
       #head_plus_chartp3 {
         grid-column: 1;
-        grid-row: 4
+        grid-row: 6
       }
 
       #head_plus_chartp4 {
         grid-column: 1;
-        grid-row: 5
+        grid-row: 8
       }
       #head_plus_chartp5 {
         grid-column: 1;
-        grid-row: 6
+        grid-row: 10
       }
 
       #head_plus_chartp6 {
-        grid-column: 1;
-        grid-row: 7
+        grid-column: 2;
+        grid-row: 12
       }
 
       #head_plus_chartp7 {
         grid-column: 1;
+        grid-row: 14
+      }
+
+      #writeup1a {
+        grid-column: 2;
+        grid-row: 1
+      }
+      #writeup1b {
+        grid-column: 2;
+        grid-row: 2
+      }
+      #writeup2a {
+        grid-column: 2;
+        grid-row: 3
+      }
+      #writeup2b {
+        grid-column: 1;
+        grid-row: 5
+      }
+      #writeup3a {
+        grid-column: 2;
+        grid-row: 6
+      }
+      #writeup3b {
+        grid-column: 1;
+        grid-row: 7
+      }
+      #writeup4a {
+        grid-column: 2;
         grid-row: 8
+      }
+      #writeup4b {
+        grid-column: 2;
+        grid-row: 9
+      }
+      #writeup5a {
+        grid-column: 2;
+        grid-row: 10
+      }
+      #writeup5b {
+        grid-column: 2;
+        grid-row: 11
+      }
+      #writeup6a {
+        grid-column: 1;
+        grid-row: 12
+      }
+      #writeup6b {
+        grid-column: 2;
+        grid-row: 13
+      }
+      #writeup7a {
+        grid-column: 2;
+        grid-row: 14
+      }
+      #writeup7b {
+        grid-column: 2;
+        grid-row: 15
       }
 
   }
