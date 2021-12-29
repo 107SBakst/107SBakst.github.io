@@ -195,7 +195,9 @@
     }
     .grid_items > div {
       padding: 5px;
-      background-color: rgb(228, 228, 228)
+      background-color: rgb(228, 228, 228);
+      display: grid;
+      column-gap: 10px
     }
     #head_plus_chartp1 {
       grid-column: 1;
