@@ -118,7 +118,15 @@
   .buttonlist {
     margin-left: 5px;
     text-align: left
-    ;
+  }
+  .topictitle {
+    background-color: rgb(165, 191, 211);
+    font-size: 70px;
+    color: rgba(93, 51, 167, 0.425);
+    text-align: center;
+    border-style: dashed;
+    border-radius: 10px;
+    font-family: Cambria, Georgia;
   }
   .brk {
     display: inline-block;
@@ -169,6 +177,9 @@
     #urban_stories_button {
       width: 50px;
       word-break: break-all;
+    }
+    .topictitle {
+      font-size: 55px
     }
     .grid_items{
       grid-template-columns: 100%;
@@ -579,7 +590,7 @@
         grid-row-gap: 20px;
         align-items: center;
         grid-column-gap: 100px;
-        margin-left: 400px
+        margin-left: 275px
       }
       .grid_items > div {
         background-color: rgb(228, 228, 228);
