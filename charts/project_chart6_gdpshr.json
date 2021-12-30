@@ -3,7 +3,7 @@
     "description": "Chart showing how GDP as a share of countries is higher in larger countries than the pop as a share of countries.",
     "title": {
       "text": "Larger cities contribute more to a countries GDP.",
-      "subtitle": "The largest cities in a countries contribute the most to their GDP.",
+      "subtitle": "The largest cities contribute more to a countries GDP than share of population.",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
