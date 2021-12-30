@@ -18,7 +18,7 @@
     "layer": [
       {"data": {"url": "https://api.worldbank.org/v2/country/wld;oed;lmc/indicator/SP.RUR.TOTL.ZS?date=1960:2021&format=json&per_page=300", "format":{"type": "json","property": "1"}},
         "encoding": {
-          "color": {"field": "country.value", "type": "nominal","legend":{"title": null}},
+          "color": {"field": "country.value", "type": "nominal","legend":{"title": null,"symbolType":"square"}},
           "y": {"field": "value", "type": "quantitative","title":"Share of total population (%)","axis":{"titleFontWeight":"normal"}}
         },
         "layer": [
