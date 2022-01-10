@@ -122,16 +122,8 @@
       font-size: 14px;
       margin-left: 10px;
       margin-right: 0px;
-      font-weight: bold
-    }
-    
-    #methodology_and_information_button {
-      width: 90px;
-      word-break: break-all;
-    }
-    #urban_stories_button {
       width: fit-content;
-      word-break: break-all;
+      font-weight: bold
     }
   }
   @media only screen and (min-width: 810px){
@@ -169,16 +161,8 @@
       font-size: 24px;
       margin-left: 10px;
       margin-right: 0px;
+      width: fit-content;
       font-weight: bold;
-    }
-    
-    #methodology_and_information_button {
-      width: 300px;
-      word-break: break-all;
-    }
-    #urban_stories_button {
-      width: 160px;
-      word-break: break-all;
     }
   }
   @media only screen and (min-width: 1028px){
@@ -224,15 +208,11 @@
       font-size: 24px;
       margin-left: 10px;
       margin-right: 0px;
+      width: fit-content;
       font-weight: bold;
     }
     
-    #methodology_and_information_button {
-      width: 300px;
-    }
-    #urban_stories_button {
-      width: 170px;
-    }
+
     
     
     #header {
@@ -310,15 +290,11 @@
       font-size: 24px;
       margin-left: 10px;
       margin-right: 0px;
+      width: fit-content;
       font-weight: bold;
     }
     
-    #methodology_and_information_button {
-      width: 300px;
-    }
-    #urban_stories_button {
-      width: 170px;
-    }
+
     
     
     #header {
