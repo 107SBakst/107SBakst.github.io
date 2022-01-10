@@ -26,6 +26,7 @@
   border-style: double;
   border-width: 2px;
   border-color: rgba(77, 4, 77, 0.603);
+  text-align: start
 }
 
 .button {
