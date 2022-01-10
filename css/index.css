@@ -43,6 +43,7 @@
   margin-left: 10px;
   margin-right: 0px;
   font-weight: bold;
+  width: fit-content
 }
 
 #methodology_and_information_button {
@@ -129,7 +130,7 @@
       word-break: break-all;
     }
     #urban_stories_button {
-      width: 100%;
+      width: fit-content;
       word-break: break-all;
     }
   }
