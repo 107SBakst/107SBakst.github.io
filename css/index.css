@@ -1,4 +1,4 @@
-  
+/* web name */
 .web_name {
   width: auto;
   font-size: 75px;
@@ -7,7 +7,7 @@
   margin-left: 10px;
   text-align: unset;
   } 
- 
+/* page name */ 
 .page_name {
   color: rgb(85, 79, 167);
   font-family: Cambria, Georgia;
@@ -15,7 +15,34 @@
   margin-left: 0px;
   margin: none;
  }
+ @media only screen and (max-width: 450px){
+  .page_name {
+    font-size: 20px;
+    margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 810px){
+  .page_name {
+    font-size: 45px;
+    margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 1028px){
+  .page_name {
+    font-size: 45px;
+    margin-left: 5px;
+    }
+}
+@media only screen and (max-width: 1600px){
+  .page_name {
+    font-size: 45px;
+    margin-left: 5px;
+    }
+}
 
+
+
+    /* buttons*/
 #page_links {
   text-decoration: none;
   color: rgba(33, 63, 231, 0.705);
@@ -46,14 +73,15 @@
   width: fit-content
 }
 
-
+/* header style */
 #header {
       background-color: rgba(213, 235, 241, 0.582);
       border-style: solid;
       border-color: cornflowerblue;
       border-width: 2px;
 }
-   
+
+/* basic webpage requirements */
   p, 
   li {
     font-size: 18px;
@@ -81,13 +109,6 @@
 
 
   @media only screen and (max-width: 450px){
-    .page_name {
-      color: rgb(85, 79, 167);
-      font-family: Cambria, Georgia;
-      font-size: 20px;
-      margin-left: 5px;
-      margin: none
-      }
     
     #page_links {
       text-decoration: none;
@@ -120,13 +141,6 @@
     }
   }
   @media only screen and (min-width: 810px){
-    .page_name {
-      color: rgb(85, 79, 167);
-      font-family: Cambria, Georgia;
-      font-size: 45px;
-      margin-left: 5px;
-      margin: none;
-     }
     
     #page_links {
       text-decoration: none;
@@ -168,13 +182,7 @@
       text-align: unset;
       } 
      
-    .page_name {
-      color: rgb(85, 79, 167);
-      font-family: Cambria, Georgia;
-      font-size: 40px;
-      margin-left: 0px;
-      margin: none;
-     }
+
     
     #page_links {
       text-decoration: none;
@@ -250,13 +258,7 @@
       text-align: unset;
       } 
      
-    .page_name {
-      color: rgb(85, 79, 167);
-      font-family: Cambria, Georgia;
-      font-size: 40px;
-      margin-left: 0px;
-      margin: none;
-     }
+
     
     #page_links {
       text-decoration: none;
