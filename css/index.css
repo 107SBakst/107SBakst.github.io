@@ -7,6 +7,9 @@
   margin-left: 10px;
   text-align: unset;
   } 
+
+  /* END */
+ 
 /* page name */ 
 .page_name {
   color: rgb(85, 79, 167);
@@ -39,6 +42,9 @@
     margin-left: 5px;
     }
 }
+
+/* END */
+ 
     /* buttons*/
 #page_links {
   text-decoration: none;
@@ -125,6 +131,8 @@
     font-size: 14px;
   }
 }
+/* END */
+ 
 /* header style */
 #header {
       background-color: rgba(213, 235, 241, 0.582);
@@ -132,7 +140,8 @@
       border-color: cornflowerblue;
       border-width: 2px;
 }
-
+/* END */
+ 
 /* basic webpage requirements */
   p, 
   li {
@@ -158,5 +167,5 @@
     max-width: unjust;
     text-align: justify;
   }
-
+/* END */
  
