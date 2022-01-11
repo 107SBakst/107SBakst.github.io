@@ -385,7 +385,7 @@ background-color: rgba(219, 164, 248, 0.568)
 
     .grid_items {
         grid-template-columns: 100%;
-        max-width: 420px;
+        max-width: 360px;
         padding: 0 5 0 5; 
         grid-column-gap: 10px;
         grid-row-gap: 40px;
@@ -523,7 +523,7 @@ background-color: rgba(219, 164, 248, 0.568)
         display: grid;
         grid-template-columns: 100%;
         align-items: center;
-        max-width: 400px; 
+        max-width: 360px; 
         padding: 0 5 0 5; 
         grid-column-gap: 1px;
         grid-row-gap: 40px;
