@@ -261,6 +261,119 @@
     max-width: 360px;
 }
 /* END */
+/*Colours for different week grids*/
+#head_plus_chart1 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+  #head_plus_chart2 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+  #head_plus_chart3 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+  #head_plus_chart4 {
+background-color: rgba(126, 170, 175, 0.432)
+  }
+  #head_plus_chart5 {
+background-color: rgba(126, 170, 175, 0.432)
+  }
+  #head_plus_chart6 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+  #head_plus_chart7 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+  #head_plus_chart8 {
+    background-color: rgba(126, 170, 175, 0.432)
+  }
+  #head_plus_chart9 {
+    background-color: rgba(126, 170, 175, 0.432)
+  }
+
+  #head_plus_chart10 {
+    grid-column:1;
+    grid-row: 10;
+    background-color: rgb(198, 198, 199);
+    padding: 5px;
+    border-radius: 10px;
+    margin:auto;
+    width: 350px;
+    border: rgb(111, 169, 236);
+    border-style: solid;
+    border-width: 2px
+    }
+
+  
+
+  #grid10 {
+    padding: 2px;
+    padding: 0 5 0 5;
+    margin: 0 auto 0 auto;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px
+
+  }
+  
+  #chart10a {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #chart10b {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #chart10c {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #chart10d {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  #head_plus_chart11 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+  #monetary_policy_story {
+    grid-column: 1;
+    grid-row: 12;
+  }
+  #head_plus_chart13 {
+background-color: rgba(126, 170, 175, 0.432)
+  }
+  #head_plus_chart14 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+  #head_plus_chart15 {
+background-color: rgba(219, 164, 248, 0.568)
+  }
+
+  #monetary_policy_story {
+    background-color: #e4dad1;
+    max-width: 400px;
+    border: rgb(111, 169, 236);
+    border-style: solid;
+    border-width: 2px;
+    }
+
+  #chart12head {
+    margin-left: 4px;
+    max-width: 330px;
+  }
+
+  #chart12 {
+    margin-left: 4px;
+  }
+
+  #chart12_para {
+    max-width: 350px;
+    margin-left: 3px;
+    margin-right: 1px;
+    text-align: justify
+  
+  } 
+/* END */
 /*Chart positions*/
 @media only screen and (min-width: 809px) {
 
@@ -273,7 +386,10 @@
         text-align: center
       }
       .grid_items > div {
-        padding: 10px
+        padding: 10px;
+        border-style: dashed;
+        border-width: 1.5px;
+        border-radius: 5px
       }
       #head_plus_chart1 {
         grid-column: 1;
