@@ -267,14 +267,16 @@
     text-align: justify
   }
   .head_plus_chart {
-    border-style: dashed;
+    border-style: solid;
     border-width: 1.5px;
+    border-color: rgb(180, 181, 181)
   }
   .writeup {
-    border-style: dashed;
+    border-style: solid;
     border-width: 1.5px;
     text-align: justify;
-    font-size: 14px
+    font-size: 14px;
+    border-color: rgb(180, 181, 181)
   }
   .chartbutton {
     background-color: rgb (188, 220, 219);
