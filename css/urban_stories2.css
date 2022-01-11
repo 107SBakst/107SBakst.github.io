@@ -251,15 +251,60 @@
       text-align: justify;
     }
   /* END */
-
-/*Chart head*/
-  .chart_head {
-    font-weight: bold;
-    color: rgb(44, 44, 44);
-    font-size: 16px;
+/*Urban stories*/
+.chart_head_project {
     font-family: Cambria, Georgia;
-    max-width: 360px;
-}
+    font-size: 20px;
+    color: rgb(53, 90, 84);
+    max-width: 330px;
+    text-align: justify;
+    font-weight: bold;
+
+  }
+
+  .bodytext {
+    font-size: 15px;
+    text-align: justify
+  }
+  .head_plus_chart {
+    border-style: dashed;
+    border-width: 1.5px;
+  }
+  .writeup {
+    border-style: dashed;
+    border-width: 1.5px;
+  }
+  .chartbutton {
+    background-color: rgb (188, 220, 219);
+    margin-left: 5px;
+    margin-right: 2px
+  }
+  .sub_instruction {
+    font-family: Cambria, Georgia;
+    font-size: 12px;
+    color: rgb(53, 90, 84);
+    max-width: 330px;
+    text-align: justify;
+    font-style: oblique;
+    font-weight: unset;
+
+  }
+  .buttonlist {
+    margin-left: 5px;
+    text-align: left
+  }
+  .topictitle {
+    background-color: rgb(165, 191, 211);
+    font-size: 70px;
+    color: rgba(93, 51, 167, 0.425);
+    text-align: center;
+    border-style: dashed;
+    border-radius: 10px;
+    font-family: Cambria, Georgia;
+  }
+  .brk {
+    display: inline-block;
+  }
 /* END */
 
 @media only screen and  (max-width: 809px){
