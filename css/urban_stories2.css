@@ -622,7 +622,7 @@
         grid-row-gap: 20px;
         align-items: center;
         grid-column-gap: 1px;
-        margin-left: 0px
+        margin-left: 20%
       }
       .grid_items > div {
         padding: 5px;
