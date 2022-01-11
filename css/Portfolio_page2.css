@@ -385,12 +385,17 @@ background-color: rgba(219, 164, 248, 0.568)
 
     .grid_items {
         grid-template-columns: 100%;
-        max-width: 360px;
+        max-width: 395px;
         padding: 0 5 0 5; 
         grid-column-gap: 10px;
         grid-row-gap: 40px;
         text-align: center
       }
+    .grid_items > div {
+       padding: 1%
+     }
+
+
       #head_plus_chart1 {
         grid-column: 1;
         grid-row: 1
