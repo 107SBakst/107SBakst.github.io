@@ -273,7 +273,8 @@
   .writeup {
     border-style: dashed;
     border-width: 1.5px;
-    text-align: justify
+    text-align: justify;
+    font-size: 18px
   }
   .chartbutton {
     background-color: rgb (188, 220, 219);
