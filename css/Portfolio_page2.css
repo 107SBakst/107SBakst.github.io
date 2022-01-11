@@ -449,8 +449,8 @@ background-color: rgba(219, 164, 248, 0.568)
         margin: 0 auto 0 auto;
         display: grid;
         grid-template-rows: 100%;
-        grid-row-gap: 20px;
-        grid-column-gap: 30px
+        grid-row-gap: 0px;
+        grid-column-gap: 3px
     
       }
       
