@@ -375,7 +375,7 @@ background-color: rgba(219, 164, 248, 0.568)
   } 
 /* END */
 /*Chart positions*/
-@media only screen and (min-width: 809px) {
+@media only screen and (max-width: 809px) {
 
     .grid_items {
         grid-template-columns: 100%;
