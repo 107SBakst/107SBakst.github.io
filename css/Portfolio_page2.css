@@ -373,6 +373,12 @@ background-color: rgba(219, 164, 248, 0.568)
     text-align: justify
   
   } 
+  .grid_items > div {
+    padding: 10px;
+    border-style: dashed;
+    border-width: 1.5px;
+    border-radius: 5px
+  }
 /* END */
 /*Chart positions*/
 @media only screen and (max-width: 809px) {
@@ -384,12 +390,6 @@ background-color: rgba(219, 164, 248, 0.568)
         grid-column-gap: 10px;
         grid-row-gap: 40px;
         text-align: center
-      }
-      .grid_items > div {
-        padding: 10px;
-        border-style: dashed;
-        border-width: 1.5px;
-        border-radius: 5px
       }
       #head_plus_chart1 {
         grid-column: 1;
