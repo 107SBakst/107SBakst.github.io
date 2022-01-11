@@ -530,11 +530,10 @@ background-color: rgba(219, 164, 248, 0.568)
         align-items: start;
         max-width: 395px; 
         padding: 0 5 0 5; 
-        grid-column-gap: 1px;
+        grid-column-gap: 5px;
         grid-row-gap: 40px;
         text-align: left;
-        margin-left: 0px;
-  
+        margin-left: 0px
       }
       .grid_items > div {
         padding: 10px;
@@ -620,6 +619,7 @@ background-color: rgba(219, 164, 248, 0.568)
       #head_plus_chart11 {
         grid-column: 1;
         grid-row: 10;
+        width: 400px
       }
       #monetary_policy_story {
         grid-column: 2;
@@ -799,20 +799,21 @@ background-color: rgba(219, 164, 248, 0.568)
         border: rgb(111, 169, 236);
         border-style: solid;
         border-width: 2px;
+        margin-left: 5%
         }
       
       #chart12head {
-        margin-left: 20px;
-        max-width: 330px;
+        margin-left: 5%;
+        max-width: 330px
       }
       
       #chart12 {
-        margin-left: 20px;
+        margin-left: 5%
       }
       
       #chart12_para {
         max-width: 370px;
-        margin-left: 20px;
+        margin-left: 5%;
         margin-right: 1px;
       }
 }
