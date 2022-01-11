@@ -254,10 +254,10 @@
 /*Urban stories*/
 .chart_head_project {
     font-family: Cambria, Georgia;
-    font-size: 20px;
+    font-size: 28px;
     color: rgb(53, 90, 84);
     max-width: 330px;
-    text-align: justify;
+    text-align: start;
     font-weight: bold;
 
   }
@@ -274,7 +274,7 @@
     border-style: dashed;
     border-width: 1.5px;
     text-align: justify;
-    font-size: 18px
+    font-size: 14px
   }
   .chartbutton {
     background-color: rgb (188, 220, 219);
@@ -306,6 +306,12 @@
   }
   .brk {
     display: inline-block;
+  }
+  canvas {
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(165, 191, 211)
   }
 /* END */
 
