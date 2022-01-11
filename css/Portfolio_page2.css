@@ -456,39 +456,39 @@ background-color: rgba(219, 164, 248, 0.568)
       
       #chart10a {
         grid-column: 1;
-        grid-row: 10;
+        grid-row: 1;
       }
       #chart10b {
         grid-column: 1;
-        grid-row: 11;
+        grid-row: 2;
       }
       #chart10c {
         grid-column: 1;
-        grid-row: 12;
+        grid-row: 3;
       }
       #chart10d {
         grid-column: 1;
-        grid-row: 13;
+        grid-row: 4;
       }
       #head_plus_chart11 {
         grid-column: 1;
-        grid-row: 15;
+        grid-row: 14;
       }
       #monetary_policy_story {
         grid-column: 1;
-        grid-row: 16;
+        grid-row: 15;
       }
       #head_plus_chart13 {
         grid-column: 1;
-        grid-row: 17;
+        grid-row: 16;
       }
       #head_plus_chart14 {
         grid-column: 1;
-        grid-row: 18;
+        grid-row: 17;
       }
       #head_plus_chart15 {
         grid-column: 1;
-        grid-row: 19;
+        grid-row: 18;
       }
   
       #monetary_policy_story {
