@@ -9,7 +9,7 @@
   },
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/Olympic.csv"},
   "height": 375,
-  "width": 330,
+  "width": 310,
   "mark": "bar",
   "transform": [{"filter": "datum.Combined_total > 600"}],
   "encoding": {
