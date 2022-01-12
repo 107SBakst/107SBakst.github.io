@@ -324,6 +324,7 @@
   .brk {
     display: inline-block;
   }
+  /*To design the Vegalite charts.*/
   canvas {
     border-radius: 10px;
     border-width: 1px;
@@ -331,7 +332,7 @@
     border-color: rgb(165, 191, 211)
   }
 /* END */
-
+/*This is for smartphones.*/
 @media only screen and  (max-width: 809px){
 
     .topictitle {
@@ -478,7 +479,7 @@
       }
 
 }
-
+/*This is for ipads and tablets in vertical mode..*/
 @media only screen and  (min-width: 810px){
 
     .grid_items{
@@ -624,7 +625,7 @@
       }
 }
 
-
+/*This is for iapds and tablets in landscape mode.*/
 @media only screen and  (min-width: 875px){
     #head_plus_chartp1 {
         grid-column: 1;
@@ -752,7 +753,7 @@
       }
 
 }
-
+/*This is for laptop screens such as 14".*/
 @media only screen and (min-width: 1259px){
 
       .grid_items {
@@ -902,7 +903,7 @@
         grid-row: 15
       }
   }
-
+/*This is for larger desktop screens such as 24" monitors.*/
   @media only screen and (min-width: 1600px){
 
     .grid_items {
