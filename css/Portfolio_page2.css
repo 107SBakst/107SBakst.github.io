@@ -736,57 +736,49 @@ background-color: rgba(219, 164, 248, 0.568)
         border-radius: 10px;
         margin:auto;
         width: 799px;
-        margin-left: 0px;
+        margin-left: 5px;
         border: rgb(111, 169, 236);
         border-style: solid;
         border-width: 2px
         }
       
     
-      #grid10 {
-        padding: 2px;
-        padding: 0 5 0 5;
-        margin: 0 auto 0 auto;
-        display: grid;
-        grid-template-rows: 100%;
-        grid-row-gap: 20px;
-        grid-column-gap: 30px
-      }
       #chart10a {
         grid-column: 1;
-        grid-row: 1;
+        grid-row: 4;
       }
       #chart10b {
         grid-column: 2;
-        grid-row: 1;
+        grid-row: 4;
       }
       #chart10c {
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 5;
       }
       #chart10d {
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 5;
       }
       #head_plus_chart11 {
         grid-column: 1;
-        grid-row: 5;
+        grid-row: 6;
       }
       #monetary_policy_story {
-        grid-column: 2;
-        grid-row: 5;
+        grid-column: 3;
+        grid-row: 6
+        
       }
       #head_plus_chart13 {
-        grid-column: 3;
-        grid-row: 5;
+        grid-column: 2;
+        grid-row: 7;
       }
       #head_plus_chart14 {
         grid-column: 1;
-        grid-row: 6;
+        grid-row: 8;
       }
       #head_plus_chart15 {
-        grid-column: 2;
-        grid-row: 6;
+        grid-column: 3;
+        grid-row: 8;
       }
       
       
@@ -824,7 +816,8 @@ background-color: rgba(219, 164, 248, 0.568)
         border: rgb(111, 169, 236);
         border-style: solid;
         border-width: 2px;
-        margin-left: 5%
+        margin-left: 0%;
+        margin-right: 5px
         }
       
       #chart12head {
