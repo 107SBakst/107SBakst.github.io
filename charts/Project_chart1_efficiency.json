@@ -5,10 +5,10 @@
   },
   "description": "Chart showing the a key benefit of urban density. The greater a cities population density means the lower the carbon footprint per person of the city.",
   "title": {
-    "text": "Unrestricted regression of emissions per capita on density.",
-    "subtitle": "This polynomial regression is statistically different from the restricted case.",
+    "text": "Restricted regression of emissions per capita on density.",
+    "subtitle": "The restricted regression is rejected at the 10% significance level.",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 9,
+    "subtitleFontSize": 10,
     "anchor": "start",
     "color": "black",
     "font": "Cambria",
