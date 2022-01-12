@@ -1,3 +1,9 @@
+  /*The grid items have been set as I want to set the position of each item in the grid.*/
+  /* This applies for smaller screens.*/
+  /*For example in an Ipad sized screen I want to mix up the order of items in the column such as text, chart text or chart, text, text to keep it interesting.*/
+  /*This improves the aesthetic of the website.*/
+  /*This design is website first as the website will read the spec based on the screen size.*/
+  /* Chart sizes are fixed so that they fill a smartphone screen.*/
   /* basic webpage requirements */
   #overlayer {
     width:100%;
