@@ -259,6 +259,12 @@
       max-width: unjust;
       text-align: justify;
     }
+    canvas {
+        border-radius: 10px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(165, 191, 211)
+      }
   /* END */
 
 /*Chart head*/
