@@ -738,7 +738,7 @@
 
 }
 
-@media only screen and (min-width: 1260px){
+@media only screen and (min-width: 1259px){
 
       .grid_items {
         padding: 2px;
@@ -899,7 +899,7 @@
       grid-template-columns: 100%;
       grid-row-gap: 20px;
       align-items: center;
-      grid-column-gap: 1px;
+      grid-column-gap: 10px;
       margin-left: 25%
     }
   }
