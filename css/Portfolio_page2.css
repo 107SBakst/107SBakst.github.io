@@ -108,7 +108,7 @@
       margin-left: 5px;
       }
   }
-  @media only screen and (max-width: 1028px){
+  @media only screen and (max-width: 1128px){
     .page_name {
       font-size: 45px;
       margin-left: 5px;
@@ -174,7 +174,7 @@
       width: fit-content;
     }
   }
-  @media only screen and (max-width: 1028px){
+  @media only screen and (max-width: 1128px){
     #page_links {
       font-size: 30px;
       margin-left: 10px;
@@ -204,7 +204,7 @@
       width: fit-content;
     }
   }
-  @media only screen and (max-width: 450px){
+  @media only screen and (max-width: 809px){
     #page_links {
       display: flex;
       font-size: 20px;
@@ -396,6 +396,7 @@ background-color: rgba(219, 164, 248, 0.568)
   }
 /* END */
 /*Chart positions*/
+/*Screens smaller than an Ipad. All grid items in a single column.*/
 @media only screen and (max-width: 809px) {
 
     .grid_items {
@@ -536,7 +537,7 @@ background-color: rgba(219, 164, 248, 0.568)
       
       } 
 }
-
+/*Ipad or tablet sized screens. All grid items in 2 columns.*/
 @media only screen and (min-width: 810px) {
 
     .grid_items {
@@ -678,11 +679,11 @@ background-color: rgba(219, 164, 248, 0.568)
       
       }  
 }
-
+/*Laptops or screens around 14". All grid items in 3 columns. There is minimal gaps between the columns.*/
 @media only screen and (min-width: 1128px) {
 
     .grid_items {
-        column-gap: 1px
+        column-gap: 1px /*Smaller gap between grid items to fit to screen.*/
     }
     #head_plus_chart1 {
         grid-column: 1;
@@ -835,12 +836,12 @@ background-color: rgba(219, 164, 248, 0.568)
         margin-right: 1px;
       }
 }
-
-@media only screen and (min-width: 1650px) {
+/*Larger desktop screens of 24" or larger. Grid items are in 3 columns. There is a larger gap between columns and the grid items are in the center of screen. */
+@media only screen and (min-width: 1600px) {
 
     .grid_items {
         margin-left: 100px;
-        grid-column-gap: 20px
+        grid-column-gap: 20px /*Increase gap between grid items.*/
       }
       .grid_items > div {
         padding: 5px;
