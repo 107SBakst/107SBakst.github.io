@@ -445,8 +445,9 @@ background-color: rgba(219, 164, 248, 0.568)
         display: grid;
         grid-row-gap: 2px;
         grid-column-gap: 30px;
-        border: rgb(111, 169, 236);
-        border-style: solid;
+        border: rgb(68, 99, 136);
+        border-radius: 10px;
+        border-style: dashed;
         border-width: 2px;
         background-color: rgb(198, 198, 199);
       }
@@ -589,8 +590,9 @@ background-color: rgba(219, 164, 248, 0.568)
         display: grid;
         grid-row-gap: 2px;
         grid-column-gap: 30px;
-        border: rgb(111, 169, 236);
-        border-style: solid;
+        border: rgb(68, 99, 136);
+        border-radius: 10px;
+        border-style: dashed;
         border-width: 2px;
         background-color: rgb(198, 198, 199);
       }
