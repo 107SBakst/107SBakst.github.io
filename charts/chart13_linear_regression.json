@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/chart13_linear_regression.csv"},
-  "width": 325,
+  "width": 300,
   "height": 375,
   "description": "The medical doctor per 10,000 population dataset comes from the WHO. Based on the data from the Global Health Workforce Statistics database, Global Health Observatory, WHO . URL: https://apps.who.int/gho/athena/api/GHO/HWF_0001.csv?filter=YEAR:2019&filter=text. Life expectancy data comes from the Github repository of the OWID covid19 data. URL: https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/latest/owid-covid-latest.json. POLYNOMIAL REGRESSION IN VEGALITE WAS NOT WORKING FOR ME. THEREFORE XFIT AND YFIT WERE CALCULATED IN PYTHON. THEN I SAVED THIS IS A NEW DF WITH THE X AND Y COLUMNS AND MADE THIS TWO LAYERED CHART IN VEGALITE.",
   "title": {
