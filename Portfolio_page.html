@@ -62,8 +62,8 @@
   </div>
 <!-- ///////////////////  START BODY //////////////////////////////////// -->
 <!--Grid of divs that house the chart + head. In some cases text as well.-->
-<div class="grid_items">
-
+<div class="grid_items"> <!--There is 1 grid div and all the grid items go inside this div.-->
+<!--All items go inside this div. I set the order of the grid in CSS and change it for different screen sizes. This is to make the website 'smartphone first'-->
 <!--Chart 1 -->
 
 <!--This div groups the chart heading with the chart-->
@@ -179,7 +179,7 @@
   <!--Heading to explain chart-->
   <h3 class="chart_head" id="chart9head"> CHART 9 | Week 4: Embed 2 charts from seperate APIs that you sign up for & gain access to. Expected inflation in the US 1980-2021 API</h3>
       <div class="chart" id="chart9">
-      <!--// This api comes from https://api.v2.emissions-api.org/ui/#/default/emissionsapi.web.get_average:-->
+      
       <script>
         var myChart9 = "charts/chart9_Expectedinflation_api.json";
         vegaEmbed('#chart9', myChart9);
@@ -196,7 +196,7 @@
     <h3 class="chart_head">Levels of gases between Febuary 2019 and November 2020</h3>  
     <div class="chart10" id="grid10">
 
-      <!--// This api comes from https://api.v2.emissions-api.org/ui/#/default/emissionsapi.web.get_average:-->
+      
     <div class="chart10" id="chart10a">    
       <script>
         var myChart10a = "charts/chart10a_ozone_UK.json";
@@ -229,7 +229,7 @@
   <!--Heading to explain chart-->
   <h3 class="chart_head" id="chart11head"> CHART 11 | Week 7: Scraped Olympic medal data over time from <a href="https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table">Wikipedia</a></h3>
       <div class="chart" id="chart11">
-      <!--// This api comes from https://api.v2.emissions-api.org/ui/#/default/emissionsapi.web.get_average:-->
+      
       <script>
         var myChart11 = "charts/chart11_webscarpe_olympics.json";
         vegaEmbed('#chart11', myChart11);
