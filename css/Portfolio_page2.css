@@ -729,8 +729,8 @@ background-color: rgba(219, 164, 248, 0.568)
       }
     
       #head_plus_chart10 {
-        grid-column:1 / span 2;
-        grid-row: 4;
+        grid-column:1 / 3;
+        grid-row: 4 / 6;
         background-color: rgb(198, 198, 199);
         padding: 5px;
         border-radius: 10px;
@@ -745,19 +745,19 @@ background-color: rgba(219, 164, 248, 0.568)
     
       #chart10a {
         grid-column: 1;
-        grid-row: 4;
+        grid-row: 1;
       }
       #chart10b {
         grid-column: 2;
-        grid-row: 4;
+        grid-row: 1;
       }
       #chart10c {
         grid-column: 1;
-        grid-row: 5;
+        grid-row: 2;
       }
       #chart10d {
         grid-column: 2;
-        grid-row: 5;
+        grid-row: 2;
       }
       #head_plus_chart11 {
         grid-column: 1;
@@ -890,8 +890,8 @@ background-color: rgba(219, 164, 248, 0.568)
       }
     
       #head_plus_chart10 {
-        grid-column:1 / span 2;
-        grid-row: 4;
+        grid-column:1 / 3;
+        grid-row: 4 / 7;
         background-color: rgb(198, 198, 199);
         padding: 5px;
         border-radius: 10px;
@@ -931,23 +931,23 @@ background-color: rgba(219, 164, 248, 0.568)
       }
       #head_plus_chart11 {
         grid-column: 3;
-        grid-row: 4;
+        grid-row: 6;
       }
       #monetary_policy_story {
         grid-column: 1;
-        grid-row: 5;
+        grid-row: 7;
       }
       #head_plus_chart13 {
         grid-column: 3;
-        grid-row: 5;
+        grid-row: 7;
       }
       #head_plus_chart14 {
         grid-column: 1;
-        grid-row: 6;
+        grid-row: 8;
       }
       #head_plus_chart15 {
         grid-column: 3;
-        grid-row: 6;
+        grid-row: 8;
       }
       
       
