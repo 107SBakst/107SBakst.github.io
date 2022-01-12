@@ -1,4 +1,10 @@
-  /* basic webpage requirements */
+  /*The grid items have been set as I want to set the position of each item in the grid.*/
+  /* This applies for smaller screens.*/
+  /*For example in an Ipad sized screen I want to mix up the order of items in the column such as text, chart text or chart, text, text to keep it interesting.*/
+  /*This improves the aesthetic of the website.*/
+  /*This design is website first as the website will read the spec based on the screen size.*/
+  /* Chart sizes are fixed so that they fill a smartphone screen.*/
+ /* basic webpage requirements */
   #overlayer {
     width:100%;
     height:100%;  
@@ -108,7 +114,7 @@
       margin-left: 5px;
       }
   }
-  @media only screen and (max-width: 1028px){
+  @media only screen and (max-width: 1128px){
     .page_name {
       font-size: 45px;
       margin-left: 5px;
@@ -174,7 +180,7 @@
       width: fit-content;
     }
   }
-  @media only screen and (max-width: 1028px){
+  @media only screen and (max-width: 1128px){
     #page_links {
       font-size: 30px;
       margin-left: 10px;
@@ -473,7 +479,7 @@
 
 }
 
-@media only screen and  (min-width: 802px){
+@media only screen and  (min-width: 810px){
 
     .grid_items{
         grid-template-columns: 100%;
@@ -897,7 +903,7 @@
       }
   }
 
-  @media only screen and (min-width: 1650px){
+  @media only screen and (min-width: 1600px){
 
     .grid_items {
       padding: 2px;
