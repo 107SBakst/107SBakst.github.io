@@ -141,7 +141,16 @@
       border-width: 2px;
 }
 /* END */
- 
+  /*Student number*/
+  .st_number {
+    font-size: 14px;
+    font-family: Georgia;
+    font-weight: normal;
+    color: rgba(33, 37, 37, 0.801);
+    text-align: right;
+    margin-right: 5px
+}
+/* END */
 /* basic webpage requirements */
   p, 
   li {
