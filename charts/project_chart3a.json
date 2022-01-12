@@ -3,16 +3,19 @@
   "data": {
     "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/ml_bea_data.csv"
   },
-  "width": 310,
+  "width": 300,
   "height": 375,
   "description": "Chart showing the models predicted values to the test values of average wages in cities.",
   "title": {
     "text": "City characteristics to predict wages.",
     "subtitle": "A multiple linear regression model to predict average wages in US cities.",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
+    "subtitleFontSize": 11,
     "anchor": "start",
-    "color": "black"
+    "color": "black",
+    "fontSize": 18,
+    "font": "Cambria",
+    "subtitleFont": "Cambria"
   },
   "background": "rgba(213, 235, 241, 0.582)",
   "config": {"axis":{"titleFontWeight":"normal"}},
