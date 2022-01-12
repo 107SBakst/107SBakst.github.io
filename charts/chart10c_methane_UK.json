@@ -12,7 +12,7 @@
     "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/data_UK_methane.json"
   },
   "height": 300,
-  "width": 304,
+  "width": 290,
   "mark": {"type": "line", "point": false},
   "encoding": {
     "x": {
