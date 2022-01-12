@@ -14,7 +14,7 @@
       "property": "data"
         }},
     "height": 375,
-    "width": 340,
+    "width": 300,
     "mark": {"type": "point"},
     "encoding": {
       "x": {
