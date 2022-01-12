@@ -8,7 +8,7 @@
     "text": "Unrestricted regression of emissions per capita on density.",
     "subtitle": "This polynomial regression is statistically different from the restricted case.",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 12,
+    "subtitleFontSize": 9,
     "anchor": "start",
     "color": "black",
     "font": "Cambria",
