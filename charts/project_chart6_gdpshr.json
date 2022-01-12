@@ -3,16 +3,19 @@
     "description": "Chart showing how GDP as a share of countries is higher in larger countries than the pop as a share of countries.",
     "title": {
       "text": "Larger cities contribute more to a countries GDP.",
-      "subtitle": "The largest cities contribute more to a countries GDP than share of population.",
+      "subtitle": "The largest city's in countries are always to the left of the 1:1 curve.",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
-      "color": "black"
+      "color": "black",
+      "font": "Cambria",
+      "subtitleFont": "Cambria",
+      "fontSize": 14
     },
     "background": "rgba(213, 235, 241, 0.582)",
   
     "data": {"url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/main/data/project_chart6_oecd.csv"},
-    "width": 310,
+    "width": 300,
     "height": 375,
     "transform": [{"calculate": "datum.year*1","as": "year"},
           {"calculate": "datum.population_of_the_metropolitan_area_as_a_share_of_the_national_population *1","as": "population_of_the_metropolitan_area_as_a_share_of_the_national_population"},
@@ -26,12 +29,12 @@
       "encoding": {
         "x": {"value": 0},
         "y": {"value": 375},
-        "x2":{"value":310},
+        "x2":{"value":300},
         "y2":{"value":0},
         "color": {"value":"grey"}}},
       {"mark": {"type":"text","fontWeight":"normal","fontStyle":"italic","size":10,"color":"dimgrey"},
       "encoding": {
-        "x": {"value": 248},
+        "x": {"value": 238},
         "y": {"value": 365},
         "text": {"value":"GDP (%) < Population (%)"}
       }},
