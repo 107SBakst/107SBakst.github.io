@@ -603,11 +603,11 @@ background-color: rgba(219, 164, 248, 0.568)
       }
       #chart10c {
         grid-column: 1;
-        grid-row: 2;
+        grid-row: 1;
       }
       #chart10d {
         grid-column: 2;
-        grid-row: 2;
+        grid-row: 1;
       }
       #head_plus_chart11 {
         grid-column: 1;
