@@ -23,7 +23,7 @@
     "color": "darkslategray"
   },
   "height": 375,
-  "width": 330,
+  "width": 300,
   "transform": [{"filter": "datum.Time == 2017"}],
   "encoding": {
     "x": {
