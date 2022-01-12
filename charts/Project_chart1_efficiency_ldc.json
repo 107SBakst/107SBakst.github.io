@@ -5,15 +5,18 @@
     },
     "description": "Chart showing the a key benefit of urban density. The greater a cities population density means the lower the carbon footprint per person of the city.",
     "title": {
-      "text": "No relationship between density and emissions in LDC",
-      "subtitle": "A polynomial regression of Carbon footprint per capita on density.",
+      "text": "LDC: No relationship between density & efficiency",
+      "subtitle": "The benefits of efficiency in denser cities do not occur in LDC countries.",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
-      "color": "black"
+      "color": "black",
+      "font": "Cambria",
+      "subtitleFont": "Cambria",
+      "fontSize": 14
     },
     "height": 375,
-    "width": 310,
+    "width": 300,
     "background": "rgba(213, 235, 241, 0.582)",
       "transform":[
       {"filter": {"field": "DEV_CMI","equal": "LDC"}},
@@ -33,13 +36,13 @@
             "field": "pop_dens",
             "type": "quantitative",
             "axis": {"grid": false,"titleFontWeight":"lighter"},
-            "title": "Population density (km2)"
+            "title": "Population density (km2) | 2013"
           },
           "y": {
             "field": "footprint",
             "type": "quantitative",
             "axis": {"grid": false,"titleFontWeight":"lighter"},
-            "title": "Carbon footprint per capita (t CO2)"
+            "title": "Carbon footprint per capita (t CO2) | 2013"
           },
           "color": {"field":"DEV_CMI","title":"Development status","legend":null},
           "size": {"value": 60},
