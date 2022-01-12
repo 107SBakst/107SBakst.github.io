@@ -35,13 +35,13 @@
           "field": "pop_dens",
           "type": "quantitative",
           "axis": {"grid": false,"titleFontWeight":"lighter"},
-          "title": "Population density (km2)"
+          "title": "Population density (km2) | 2013"
         },
         "y": {
           "field": "footprint",
           "type": "quantitative",
           "axis": {"grid": false,"titleFontWeight":"lighter"},
-          "title": "Carbon footprint per capita (t CO2)"
+          "title": "Carbon footprint per capita (t CO2) | 2013"
         },
         "color": {"field":"DEV_CMI","title":"Development status","legend":{"orient": "top","titleFontWeight":"lighter"}},
         "size": {"value": 60},
