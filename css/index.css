@@ -185,18 +185,6 @@
 /* END */
 
 /*Animation*/
-
-.background {
-  background: linear-gradient(100deg, rgba(62, 22, 99, 0.377), rgba(209, 224, 247, 0.774) 0%, rgba(145, 185, 245, 0.774) rgb(85, 79, 167) opacity 0%);
-  background-size: 450% 450%;
-  animation: Gradient 20s ease infinite;
-  position: relative;
-  height: 1000px;
-  width: 100%;
-  overflow: hidden;
-  padding: 0;
-  margin: 0px
-}
 .cube {
   position: absolute;
   top: 80vh;
