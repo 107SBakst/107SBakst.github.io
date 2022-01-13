@@ -25,7 +25,7 @@
   "width": 300,
   "background": "rgba(213, 235, 241, 0.582)",
   "data": {
-    "url": "https://github.com/107SBakst/107SBakst.github.io/blob/193bd3c14a1eb79fef5be9191832b0702fc520ca/data/uk_google_mobility.csv"},
+    "url": "https://raw.githubusercontent.com/107SBakst/107SBakst.github.io/193bd3c14a1eb79fef5be9191832b0702fc520ca/data/uk_google_mobility.csv"},
     "transform":[{"filter": {"field": "subreg1","oneOf":["Bristol_City","UK","Greater_Manchester","Greater_London"]}}],
   "encoding": {
     "x": {
