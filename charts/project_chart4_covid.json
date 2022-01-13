@@ -57,7 +57,12 @@
         "type": "quantitative",
         "title": "% of population living in urban areas"
       },
-      {"field": "value_tot_pop", "type": "quantitative", "title": "Total population"}      
+      {"field": "value_tot_pop", "type": "quantitative", "title": "Total population"},
+      {
+        "field": "last_updated_date",
+        "type": "temporal",
+        "title": "Last update"
+      }    
     ]
       }
     },
