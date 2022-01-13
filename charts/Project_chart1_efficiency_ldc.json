@@ -6,7 +6,7 @@
     "description": "Chart showing the a key benefit of urban density. The greater a cities population density means the lower the carbon footprint per person of the city.",
     "title": {
       "text": "LDC: No relationship between density & efficiency",
-      "subtitle": "The benefits of efficiency in denser cities do not occur in LDC countries.",
+      "subtitle": "The benefits of efficiency in denser cities do not occur in cities in LDC.",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
