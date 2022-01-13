@@ -5,10 +5,10 @@
     },
     "description": "Chart showing the a key benefit of urban density. The greater a cities population density means the lower the carbon footprint per person of the city.",
     "title": {
-      "text": "MDR: Density provides more efficient consumption.",
-      "subtitle": "A polynomial regression of Carbon footprint per capita on density.",
+      "text": "MDR: Density provides efficient consumption.",
+      "subtitle": "Cities in MDR have a negative relationship between density & efficiency.",
       "subtitleFontStyle": "italic",
-      "subtitleFontSize": 12,
+      "subtitleFontSize": 11,
       "anchor": "start",
       "color": "black",
       "font": "Cambria",

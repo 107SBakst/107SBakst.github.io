@@ -8,7 +8,7 @@
     "text": "Restricted regression of emissions per capita on density.",
     "subtitle": "The restricted regression is rejected at the 10% significance level.",
     "subtitleFontStyle": "italic",
-    "subtitleFontSize": 10,
+    "subtitleFontSize": 12,
     "anchor": "start",
     "color": "black",
     "font": "Cambria",
