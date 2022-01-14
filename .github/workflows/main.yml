@@ -10,14 +10,6 @@ jobs:
     name: Hello world
     runs-on: ubuntu-latest
     steps:
-    - name: Check-out devops repository
-      uses: actions/checkout@v2
-      with:
-        repository:  107SBakst/107SBakst.github.io
-
-        token: ${{ secrets.GITHUB_TOKEN }}
-        path: ${{ env.DEVOPS_DIR }}
-
     - name: Hello World
       run: python  107SBakst.github.io/Python/project_googlemobility_final.ipynb 
       shell: sh
