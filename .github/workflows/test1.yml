@@ -21,7 +21,7 @@ jobs:
       env:
         GH_TOKEN:  ${{ secrets.GITHUB_TOKEN }}
       run: |
-         jupyter nbconvert --to notebook --execute Python/project_googlemobility_final.ipynb.ipynb
+         jupyter nbconvert --to notebook --execute Python/project_googlemobility_final.ipynb
          jupyter nbconvert --to html --TemplateExporter.exclude_input=True --no-prompt project_googlemobility_final.nbconvert.ipynb --output project_googlemobility_final.html
          mv *.html docs/
     - name: Commit changes
