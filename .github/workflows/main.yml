@@ -19,5 +19,5 @@ jobs:
         path: ${{ env.DEVOPS_DIR }}
 
     - name: Hello World
-      run: python ${{ env.DEVOPS_DIR }}/project_googlemobility_final.ipynb
+      run: python Python/project_googlemobility_final.ipynb
       shell: sh
