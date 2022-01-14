@@ -2,7 +2,7 @@ name: auto-google-mobility-chart2
 
 on:
   schedule:
-    - cron: '08 13 * * 1-5' #Runs at 02:30 everyday
+    - cron: '14 13 * * 1-5' #Runs at 02:30 everyday
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -19,7 +19,7 @@ jobs:
         pip install git+https://github.com/Living-with-machines/gh_orgstats
     - name: Execute report notebook
       env:
-        GH_TOKEN:  ${{ secrets.GH_TOKEN }}
+        GH_TOKEN:  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
       run: |
          jupyter nbconvert --to notebook --execute Python/project_googlemobility_final.ipynb.ipynb
          jupyter nbconvert --to html --TemplateExporter.exclude_input=True --no-prompt project_googlemobility_final.nbconvert.ipynb --output project_googlemobility_final.html
@@ -31,4 +31,4 @@ jobs:
         message: "Update GitHub traffic report"
         add: "."
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        GITHUB_TOKEN: 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
