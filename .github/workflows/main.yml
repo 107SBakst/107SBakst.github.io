@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Hello World
-      run: python  107SBakst.github.io/Python/project_googlemobility_final.ipynb 
+      run:  107SBakst.github.io/Python/project_googlemobility_final.ipynb 
       shell: sh
