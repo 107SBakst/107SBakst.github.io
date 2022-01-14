@@ -1,18 +1,28 @@
-<head>
-    <!-- the title goes in the browser bar.-->
-        <title>google_mobility</title>
-    <!-- This links to the stylesheet in CSS.-->
-    <link href="css/urban_stories2.css" type="text/css" rel="stylesheet">
-    <!--The next three lines allow the Vega embed-->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
-    
+<html>  
+    <a href="https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv">url</a>
+    <head>
+        <meta charset="utf-8">
+        <title>CSV Downloader</title>
     </head>
-<body>
+    <body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/4.1.2/papaparse.js"></script>
+        <script>
+            Papa.parse("https://www.gstatic.com/covid19/mobility/Global_Mobility_Report.csv", {
+                download: true,
+                step: function(row) {
+                console.log("Row:", row.data);
+            },
+            complete: function() {
+                console.log("All done!");
+            }
+        });
+        </script>
+        
+    </body>	
+</html>
     
-</body>
-<p>TEST TEST</p>
 
-</body>
+
+        
+
