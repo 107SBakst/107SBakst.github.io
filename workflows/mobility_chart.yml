@@ -1,1 +1,19 @@
+name: auto-google-mobility-chart
+
+on:
+  schedule:
+    - cron: '30 02 * * *' #Runs at 02:30 everyday
+    
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
+
 
