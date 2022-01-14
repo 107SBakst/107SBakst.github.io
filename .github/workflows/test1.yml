@@ -2,7 +2,7 @@ name: auto-google-mobility-chart2
 
 on:
   schedule:
-    - cron: '30 02 * * 1-5' #Runs at 02:30 everyday
+    - cron: '08 13 * * 1-5' #Runs at 02:30 everyday
 jobs:
   build:
     runs-on: ubuntu-20.04
