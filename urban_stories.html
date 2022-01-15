@@ -87,7 +87,7 @@
 <div class="writeup" id="writeup1a">
   <!--Writeup-->
   <h3 class="chart_head_project"> Motivation for the project: </h3>
-  <p class="text"> Since the Pandemic, workplace mobility in the UK remains below pre-pandemic levels. This chart motivated this project as it showcases that cities are at a 'tipping point' if we maintain a form of WFH. This project explores the economic benefits and costs of cities as cities face a potential decline.     </p>
+  <p class="text"> Since the Pandemic, workplace mobility in the UK remains below pre-pandemic levels. This chart motivated this research as it showcases that cities are at a 'tipping point' if we maintain a form of WFH. This project explores the economic benefits and costs of cities as cities face a potential decline.</p>
 
 </div>
     <!--Writeup 1b -->
@@ -167,7 +167,7 @@
 <div class="writeup" id="writeup2a">
   <!--Writeup-->
   <h3 class="chart_head_project"> Unrestricted vs Restricted regressions. </h3>
-  <p class="text" id="text1">These charts use a restricted and unrestricted regression to show emissions per capita on population density. Cities in the most developed regions (MDR) show a negative relationship indicating that denser cities are more efficient. However, there is an insignificant relationship between density and emissions per capita for cities in less developed countries (LDC), suggesting there are no efficiency gains for cities in these countries. This could be due to other factors such as the share of consumption on services. As the restricted regressions are statistically different from the unrestricted regressions it is best to use the chart with cities from MDR.</p>
+  <p class="text" id="text1">These charts use a restricted and unrestricted regression to show emissions per capita on population density. Cities in the most developed regions (MDR) show a negative relationship indicating that denser cities are more efficient. However, there is an insignificant relationship between density and emissions per capita for cities in less developed countries (LDC), suggesting there are no efficiency gains for cities in these countries. This could be due to factors such as the share of consumption on services. As the restricted regressions is statistically insignificant it is best to use the chart with cities from MDR.</p>
 
 </div>
     <!--Writeup 2b -->
@@ -175,7 +175,7 @@
 <div class="writeup" id="writeup2b">
   <!--Writeup-->
   <h3 class="chart_head_project"> Polynomial regression. </h3>
-  <p class="text" id="text1">The regressions use a polynomial function as spillover effects may cause a non-linear relationship between the variables. This relationship holds in the regression on MDR cities although the R-Squared is only 49%. Population density is also preferred over total population because this accounts for differences in land area.</p>
+  <p class="text" id="text1">The regressions use a polynomial function as spillover effects may cause a non-linear relationship between the variables. This relationship holds in the regression on MDR cities although the R-Squared is only 49%. Population density is also preferred over total population because this accounts for differences in land area. </p>
 
 </div>
 
@@ -250,7 +250,7 @@
 <div class="writeup" id="writeup4a">
   <!--Writeup-->
   <h3 class="chart_head_project"> A model to predict wages. </h3>
-  <p class="text" id="text1">Average wages are statistically significant higher in MSAs than in micropolitan cities (MIC), indicating that wages are higher in larger cities. To investigate this, I used a multiple linear regression on all MSA's and split the sample 70:30 into a training and test sample. The outcome variable is the ln(avg. wages) and the independent variables are human capital, population size and per capita GDP. Surprisingly, only the population share with at least a bachelor's degree has a negative coefficient, -0.001 however the magnitude may make it economically insignificant. The chart shows the model's outcome with the predicted values of the outcome variable against the test values. The model predicts that cities with larger populations and higher GDP per capita lead to higher average wages.</p>
+  <p class="text" id="text1">In 2018 average wages were 16% higher in MSA’s than in micropolitan cities, indicating that wages are higher in larger cities. To investigate this, I used a multiple linear regression on all MSA's and split the sample 70:30 into a training and test sample. The outcome variable is the ln(avg. wages) and the independent variables are human capital, population size and per capita GDP. Surprisingly, only the population share with at least a bachelor's degree has a negative coefficient, -0.001 however the magnitude may make it economically insignificant. The chart shows the model's outcome with the predicted values of the outcome variable against the test values. The model predicts that cities with larger populations and higher GDP per capita lead to higher average wages.</p>
 
 </div>
     <!--Writeup 4b -->
@@ -290,15 +290,15 @@
 <div class="writeup" id="writeup5a">
   <!--Writeup-->
   <h3 class="chart_head_project"> External economies of scale. </h3>
-  <p class="text" id="text1">This chart shows that cities with a larger share of the national population contribute even more to a countries GDP then the population share. These gains to GDP can be attributed to external economies of scale such as knowledge spillover mentioned above.</p>
+  <p class="text" id="text1">This chart shows that cities with a larger share of the national population contribute even more to a countries GDP then the population share. These gains to GDP can be attributed to external economies of scale such as knowledge spill overs, as mentioned above.</p>
 
 </div>
     <!--Writeup 5b -->
 <!--This div groups the chart heading with the chart-->
 <div class="writeup" id="writeup5b">
   <!--Writeup-->
-  <h3 class="chart_head_project"> Dataset notes. </h3>
-  <p class="text" id="text1">The data comes from the OECD API, which limits large requests and reduces the sample size. The data covers 18 years to show changes in cities share of GDP and share of the country's population over time. Although these variables have slight variation over time, there is a noticeable dip in the share of GDP during the 2008-09 recession.</p>
+  <!--<h3 class="chart_head_project"> Dataset notes. </h3>-->
+  <p class="text" id="text1">The OECD API limits large requests, and this reduces the sample size. Although these variables have slight variation over time, there is a noticeable dip in the share of GDP during the 2008-09 recession.</p>
 
 </div>
 
@@ -332,7 +332,7 @@
 <div class="writeup" id="writeup6a">
   <!--Writeup-->
   <h3 class="chart_head_project"> Cities & Covid. </h3>
-  <p class="text" id="text1">Countries with a higher urban population also had higher Covid-19 cases. This simple regression is statistically significant even though factors like age are excluded. Countries in developed continents are urbanised and have the highest number of Covid-19 cases compared to African countries with smaller urban population and lower total cases. However, there could be inconsistency in testing for Covid-19. The Covid-19 data comes from the Our World in Data (OWID) <a class="intextlinks" href='https://github.com/owid/covid-19-data/tree/master/public/data/' target="_blank">GitHub repository</a> instead of through an API for simplicity.</p>
+  <p class="text" id="text1">Countries with a higher urban population also had higher Covid-19 cases. This simple regression is statistically significant at 1% even though factors like age are excluded. Countries in developed continents are urbanised and have the highest number of Covid-19 cases compared to African countries with smaller urban population and lower total cases. However, there could be inconsistency in testing for Covid-19. The Covid-19 data comes from the Our World in Data (OWID) GitHub repository instead of through an API for simplicity</p>
 
 </div>
 <!---->
@@ -367,7 +367,7 @@
   <div class="writeup" id="writeup7b">
     <!--Writeup-->
     <h3 class="chart_head_project"> Conclusions. </h3>
-    <p class="text" id="text1">Therefore, it is likely the tipping point of cities will be in developed rather than developing countries. However, cities are resilient and will survive the Pandemic even if WFH remains popular. Potential extensions to this project include studying the effects of WFH on migration out of cities and if there will be a post-pandemic decline in innovation in cities due to WFH.</p>
+    <p class="text" id="text1">Therefore, it is likely the tipping point of cities will be in developed rather than developing countries. However, cities are resilient and will survive the Pandemic even if WFH remains popular. Potential extensions to this project include studying the effects of WFH on domestic migration and if there will be a post-pandemic decline in innovation in cities due to WFH.</p>
   </div>
 </div>
 
