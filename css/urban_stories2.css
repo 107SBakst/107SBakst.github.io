@@ -763,7 +763,7 @@
         padding: 0 5 0 5;
         margin: 0 auto 0 auto;
         display: grid;
-        grid-template-rows: 100%;
+        grid-template-rows: none;
         grid-template-columns: 100%;
         grid-row-gap: 20px;
         align-items: center;
