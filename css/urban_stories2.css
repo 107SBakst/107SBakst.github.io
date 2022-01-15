@@ -280,6 +280,19 @@
 
   }
 
+#question {
+    font-family: Cambria, Georgia;
+    font-size: 48px;
+    color: rgba(20, 102, 88, 0.603);
+    text-align: start;
+    font-weight: bold;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(53, 90, 84);
+
+  }
   .bodytext {
     font-size: 15px;
     text-align: justify
