@@ -157,6 +157,22 @@
     margin-right: 5px
 }
 /* END */
+/*Empirical question*/
+#oneword {
+  font-size: 28px;
+  
+}
+
+#twoword {
+  font-size: 24px;
+  
+}
+
+#threeword {
+  font-size: 20px;
+  
+}
+/* END */
 /* basic webpage requirements */
   p, 
   li {
