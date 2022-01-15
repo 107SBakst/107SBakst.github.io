@@ -137,6 +137,7 @@
   /* END */
    
       /* buttons*/
+  
   #page_links {
     text-decoration: none;
     color: rgba(33, 63, 231, 0.705);
@@ -147,8 +148,7 @@
     border-style: double;
     border-width: 2px;
     border-color: rgba(77, 4, 77, 0.603);
-    text-align: start;
-    max-width: 300px
+    text-align: start
   }
   .button {
     background: rgb(136, 172, 224);
@@ -313,7 +313,8 @@
   }
   .buttonlist {
     margin-left: 5px;
-    text-align: left
+    text-align: left;
+    max-width: 310px;
   }
   .topictitle {
     background-color: rgb(165, 191, 211);
