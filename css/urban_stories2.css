@@ -163,7 +163,8 @@
     margin-left: 10px;
     margin-right: 0px;
     font-weight: bold;
-    width: fit-content
+    width: fit-content;
+    border-radius: 5px
   }
   @media only screen and (max-width: 1600px){
     #page_links {
