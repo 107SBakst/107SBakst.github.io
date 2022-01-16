@@ -3,7 +3,9 @@
   "description": "Chart showing how most of the population live in urban areas compared to rural areas..",
   "title":{
     "text": "The global historical trend is greater urbanisation",
-    "subtitle": "Unfilled: Share in urban areas. Filled: Share in rural areas.",
+    "subtitle": [
+      "In 2007 we reached a milestone, 50% of the global population lived in urban areas.",
+      "The upward sloping curves show that the urban populations are increasing.","The downward sloping curves show that rural populations are decreasing.","","","Unfilled: Share in urban areas. Filled: Share in rural areas."],
     "subtitleFontStyle": "italic",
     "subtitleFontSize": 10,
     "anchor": "start",
